@@ -13,11 +13,11 @@ plausible contributors to ranking disagreement, not established causes.
 
 \paragraph{Staged curricula combine ordering and reweighting.}
 Forward schedules expose the first group to about 60\% of all sampled
-transitions and the last to only 11--12\%, whereas Reverse Learner assigns
-60.1\% to Learner-Hard. The comparison therefore does not isolate ordering
-from cumulative exposure. The random-ranking control preserves this staged
-mechanism but changes membership: its 69.0\% development success lies below
-original Reverse Learner (84.7\%) and Uniform (75.7\%). One corruption per
+transitions and the last to approximately 10.6--12.1\%, whereas Reverse
+Learner assigns 60.1\% to Learner-Hard. The comparison therefore does not
+isolate ordering from cumulative exposure. The random-ranking control
+preserves this staged mechanism but changes membership: its 69.0\% development
+success lies below original Reverse Learner (84.7\%) and Uniform (75.7\%). One corruption per
 level, a non-monotonic response, and three seeds prevent interpreting this as
 a clean causal effect of ranking quality.
 
@@ -35,5 +35,7 @@ cross-task contrast cannot be attributed solely to task identity.
 Final validation losses occupy a narrow range while rollout success varies
 widely. One-step imitation metrics therefore remain diagnostics rather than
 surrogates for physical completion: errors in grasping, alignment, release, or
-retreat alter subsequent states. This gap directly addresses RQ2 and motivates
-evaluating curriculum schedules through autonomous closed-loop success.
+retreat alter subsequent states. This observation motivates autonomous
+closed-loop evaluation but is distinct from RQ2's failure-prediction test.
+For RQ2, none of the three difficulty scores is established as a reliable
+failure predictor because every AUROC confidence interval includes 0.5.

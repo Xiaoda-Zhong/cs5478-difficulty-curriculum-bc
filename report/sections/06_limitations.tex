@@ -9,10 +9,12 @@ exposure as well as order, so these factors are not independently controlled.
 
 \paragraph{Difficulty construction.}
 Task and Expert components are manually chosen, and Expert duration, path
-length, and cumulative action magnitude are redundant. Target radius enters
-Task difficulty but is absent from the policy observation. Learner difficulty
-depends on the MLP, its OOF training protocol, per-step averaging, trajectory
-length, and phase composition; alternative choices could change the ranking.
+length, and cumulative action magnitude are strongly correlated; path length
+and cumulative action magnitude are especially redundant. Target radius
+enters Task difficulty but is absent from the policy observation. Learner
+difficulty depends on the MLP, its OOF training protocol, per-step averaging,
+trajectory length, and phase composition; alternative choices could change
+the ranking.
 
 \paragraph{Task and model coverage.}
 Only pick-and-place and stacking are studied with small state-based MLPs.

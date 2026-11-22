@@ -10,6 +10,7 @@
 \def\@captype{table}
 \makeatother
 \caption{Shared curriculum-training settings.}
+\label{tab:shared-hyperparameters}
 \small
 \begin{tabular}{ll}
 \toprule
@@ -30,6 +31,10 @@ Early stopping & disabled \\
 \end{center}
 \end{samepage}
 
+The five checkpoints in Table~\ref{tab:shared-hyperparameters} are nonzero;
+Figure~\ref{fig:pnp-curves} additionally evaluates the shared update-zero
+initialization and includes it in the pick-and-place AUC.
+
 \begin{samepage}
 \subsection{Per-seed outcomes}
 \begin{center}
@@ -39,6 +44,7 @@ Early stopping & disabled \\
 \def\@captype{table}
 \makeatother
 \caption{Stacking Fresh-ID success by training seed (\%).}
+\label{tab:stack-seeds}
 \small
 \begin{tabular}{lrrr}
 \toprule
@@ -65,6 +71,7 @@ Reverse Learner & 4.5 & 2.5 & 0.5 \\
 \caption{Pick-and-place Fresh-ID success by training seed (\%). The final row
 is the seed-matched Reverse Learner minus Uniform difference in percentage
 points.}
+\label{tab:pnp-seeds}
 \small
 \begin{tabular}{lrrr}
 \toprule

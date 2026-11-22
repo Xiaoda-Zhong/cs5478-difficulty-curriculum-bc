@@ -64,10 +64,12 @@ related, but learner disagreement is weaker than in pick-and-place.
 \subsection{Curriculum results}
 All methods use the relative representation and phase emphasis, with emphasis
 restricted to the eligible trajectories at each stage. Table~\ref{tab:stack}
-reports 200 frozen Fresh-ID tasks (seed 65478). Uniform is strongest, although
-all methods are near the performance floor and seed variability remains
-material. This exploratory comparison cannot establish a robust reversal of
-the pick-and-place ordering.
+reports 200 frozen Fresh-ID tasks generated with evaluation-task seed 65478.
+Uniform is strongest, although all methods are near the performance floor and
+seed variability remains material. Stacking development AUC integrates the
+five nonzero checkpoints over normalized progress $[0.10,1.00]$; update zero
+is not included. This exploratory comparison cannot establish a robust
+reversal of the pick-and-place ordering.
 
 \begin{table}[!htbp]
 \centering

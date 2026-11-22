@@ -82,6 +82,9 @@ The policies solve 198/240 tasks. Failure AUROC is $0.540$ for Task
 largest point estimate, but every interval includes 0.5 and paired-difference
 intervals include zero; this does not establish a statistically reliable
 winner. Intervals use 1,000 stratified trajectory-level bootstrap resamples.
+Unlike the model-independent Task and Expert scores, Learner difficulty and
+the corresponding failure outcome are derived from the same out-of-fold BC
+model, so AUROC comparisons share model-specific information for that score.
 
 The Easy/Medium/Hard outcomes also resist a simple interpretation. Task-score
 failure rates are 17.5\%, 13.7\%, and 21.3\%; Expert-score rates are 16.2\%,
@@ -136,8 +139,8 @@ Uniform achieves 74.1\%, 72.6\%, and 61.1\% on Task-defined Easy, Medium, and
 Hard groups. Reverse Learner achieves 82.6\%, 78.6\%, and 83.3\%. Groups are
 fixed using training-set task-score normalization before observing outcomes.
 They represent task-defined strata, not calibrated probabilities of failure.
-Likewise, paired comparisons over 200 tasks describe task-level differences
-but do not replace independent training seeds.
+Appendix Table~\ref{tab:pnp-seeds} reports the verified per-seed Fresh-ID
+outcomes.
 
 \begin{figure}[t]
   \centering
@@ -200,7 +203,7 @@ non-monotonic result is exploratory.
 \end{figure}
 
 The 25\% condition is essentially unchanged, while 50\% corruption degrades
-final and hard-group success. A fully random ranking partially recovers. This
+final success. A fully random ranking partially recovers. This
 may reflect interactions among stage composition, optimization, and the finite
 trajectory set rather than one scalar notion of ranking quality. A reliable
 response curve would require multiple independent corruptions per level and
