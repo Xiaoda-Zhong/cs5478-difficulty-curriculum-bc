@@ -111,13 +111,12 @@ python scripts/run_stacking_s5.py --device cpu
 
 ### Curriculum training and evaluation
 
-These commands are computationally expensive and require the generated datasets. Evaluation also requires locally trained checkpoints, which are not stored in GitHub.
+These commands are computationally expensive and require the generated datasets. Evaluation also requires locally trained checkpoints, and the analysis entry points require detailed rollout records; neither is stored in GitHub. The frozen benchmark task definitions are included and should not be regenerated for normal evaluation.
 
 ```bash
 # Pick-and-Place
 python scripts/train_curricula.py --device cpu
 python scripts/evaluate_curricula.py --workers 4
-python scripts/generate_final_eval_tasks.py --include-spatial
 python scripts/evaluate_final.py --workers 2
 python scripts/analyze_final.py
 
@@ -127,6 +126,8 @@ python scripts/evaluate_stacking_curricula.py --workers 4
 python scripts/evaluate_stacking_curricula.py --final --workers 4
 python scripts/analyze_stacking_s5_s7.py
 ```
+
+`scripts/generate_final_eval_tasks.py --include-spatial` is retained for an intentional reconstruction of the Pick-and-Place benchmark definitions, but it also requires the expert feasibility-pilot artifact that is excluded from the public repository. Normal evaluation should use the published frozen task JSON files.
 
 Use `--smoke` where supported for implementation checks. Do not use smoke outputs as research results.
 
