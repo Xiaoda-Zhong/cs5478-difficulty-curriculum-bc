@@ -6,6 +6,12 @@
 \usepackage{xcolor}
 \usepackage{url}
 
+% This is an NUS course report, not a NeurIPS preprint; retain the template's
+% preprint layout while suppressing only its first-page notice text.
+\makeatletter
+\renewcommand{\@noticestring}{}
+\makeatother
+
 \title{Difficulty Matters: A Controlled Study of Difficulty Metrics for
 Curriculum Behavior Cloning in Robotic Manipulation}
 
