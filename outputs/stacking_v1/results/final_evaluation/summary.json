@@ -1,0 +1,1315 @@
+{
+  "development": [
+    {
+      "failures": {
+        "grasp_lift_failure": 4,
+        "placement_contact_failure": 48,
+        "post_release_instability": 45
+      },
+      "mean_rollout_length": 394.53,
+      "method": "uniform",
+      "seed": 5478,
+      "step": 2060,
+      "success_rate": 0.03,
+      "successes": 3
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 15,
+        "placement_contact_failure": 46,
+        "post_release_instability": 30,
+        "transport_alignment_failure": 8
+      },
+      "mean_rollout_length": 398.65,
+      "method": "uniform",
+      "seed": 5478,
+      "step": 5150,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 9,
+        "placement_contact_failure": 30,
+        "post_release_instability": 47,
+        "transport_alignment_failure": 5
+      },
+      "mean_rollout_length": 387.38,
+      "method": "uniform",
+      "seed": 5478,
+      "step": 10300,
+      "success_rate": 0.09,
+      "successes": 9
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 5,
+        "placement_contact_failure": 30,
+        "post_release_instability": 56
+      },
+      "mean_rollout_length": 384.1,
+      "method": "uniform",
+      "seed": 5478,
+      "step": 15450,
+      "success_rate": 0.09,
+      "successes": 9
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 4,
+        "placement_contact_failure": 33,
+        "post_release_instability": 52,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 383.63,
+      "method": "uniform",
+      "seed": 5478,
+      "step": 20600,
+      "success_rate": 0.09,
+      "successes": 9
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 6,
+        "placement_contact_failure": 87,
+        "post_release_instability": 3,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 398.75,
+      "method": "uniform",
+      "seed": 5479,
+      "step": 2060,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 13,
+        "placement_contact_failure": 60,
+        "post_release_instability": 23,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 397.98,
+      "method": "uniform",
+      "seed": 5479,
+      "step": 5150,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 13,
+        "placement_contact_failure": 56,
+        "post_release_instability": 29
+      },
+      "mean_rollout_length": 396.34,
+      "method": "uniform",
+      "seed": 5479,
+      "step": 10300,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 14,
+        "placement_contact_failure": 51,
+        "post_release_instability": 32,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 398.66,
+      "method": "uniform",
+      "seed": 5479,
+      "step": 15450,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 6,
+        "placement_contact_failure": 67,
+        "post_release_instability": 26
+      },
+      "mean_rollout_length": 398.53,
+      "method": "uniform",
+      "seed": 5479,
+      "step": 20600,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 8,
+        "placement_contact_failure": 31,
+        "post_release_instability": 56,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 397.23,
+      "method": "uniform",
+      "seed": 5480,
+      "step": 2060,
+      "success_rate": 0.03,
+      "successes": 3
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 5,
+        "placement_contact_failure": 84,
+        "post_release_instability": 8,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 400.0,
+      "method": "uniform",
+      "seed": 5480,
+      "step": 5150,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 15,
+        "placement_contact_failure": 48,
+        "post_release_instability": 31
+      },
+      "mean_rollout_length": 389.66,
+      "method": "uniform",
+      "seed": 5480,
+      "step": 10300,
+      "success_rate": 0.06,
+      "successes": 6
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 5,
+        "placement_contact_failure": 69,
+        "post_release_instability": 19,
+        "source_left_workspace": 1,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 393.12,
+      "method": "uniform",
+      "seed": 5480,
+      "step": 15450,
+      "success_rate": 0.04,
+      "successes": 4
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 14,
+        "placement_contact_failure": 55,
+        "post_release_instability": 19,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 383.73,
+      "method": "uniform",
+      "seed": 5480,
+      "step": 20600,
+      "success_rate": 0.1,
+      "successes": 10
+    },
+    {
+      "failures": {
+        "grasp_approach_failure": 2,
+        "grasp_lift_failure": 59,
+        "placement_contact_failure": 14,
+        "post_release_instability": 25
+      },
+      "mean_rollout_length": 400.0,
+      "method": "task",
+      "seed": 5478,
+      "step": 2060,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 13,
+        "placement_contact_failure": 24,
+        "post_release_instability": 56,
+        "transport_alignment_failure": 5
+      },
+      "mean_rollout_length": 396.39,
+      "method": "task",
+      "seed": 5478,
+      "step": 5150,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 19,
+        "placement_contact_failure": 37,
+        "post_release_instability": 41,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 398.25,
+      "method": "task",
+      "seed": 5478,
+      "step": 10300,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 13,
+        "placement_contact_failure": 52,
+        "post_release_instability": 26,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 390.37,
+      "method": "task",
+      "seed": 5478,
+      "step": 15450,
+      "success_rate": 0.06,
+      "successes": 6
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 28,
+        "placement_contact_failure": 32,
+        "post_release_instability": 33,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 392.51,
+      "method": "task",
+      "seed": 5478,
+      "step": 20600,
+      "success_rate": 0.04,
+      "successes": 4
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 2,
+        "placement_contact_failure": 68,
+        "post_release_instability": 26,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 399.22,
+      "method": "task",
+      "seed": 5479,
+      "step": 2060,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 13,
+        "placement_contact_failure": 58,
+        "post_release_instability": 22,
+        "transport_alignment_failure": 6
+      },
+      "mean_rollout_length": 398.95,
+      "method": "task",
+      "seed": 5479,
+      "step": 5150,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 18,
+        "placement_contact_failure": 43,
+        "post_release_instability": 36,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 397.63,
+      "method": "task",
+      "seed": 5479,
+      "step": 10300,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_approach_failure": 1,
+        "grasp_lift_failure": 41,
+        "placement_contact_failure": 44,
+        "post_release_instability": 13
+      },
+      "mean_rollout_length": 398.63,
+      "method": "task",
+      "seed": 5479,
+      "step": 15450,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 18,
+        "placement_contact_failure": 50,
+        "post_release_instability": 28,
+        "transport_alignment_failure": 4
+      },
+      "mean_rollout_length": 400.0,
+      "method": "task",
+      "seed": 5479,
+      "step": 20600,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 2,
+        "placement_contact_failure": 72,
+        "post_release_instability": 24
+      },
+      "mean_rollout_length": 399.06,
+      "method": "task",
+      "seed": 5480,
+      "step": 2060,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 4,
+        "placement_contact_failure": 86,
+        "post_release_instability": 7,
+        "source_left_workspace": 1
+      },
+      "mean_rollout_length": 398.09,
+      "method": "task",
+      "seed": 5480,
+      "step": 5150,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 8,
+        "placement_contact_failure": 82,
+        "post_release_instability": 8,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 397.87,
+      "method": "task",
+      "seed": 5480,
+      "step": 10300,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 6,
+        "placement_contact_failure": 44,
+        "post_release_instability": 45,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 396.3,
+      "method": "task",
+      "seed": 5480,
+      "step": 15450,
+      "success_rate": 0.03,
+      "successes": 3
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 13,
+        "placement_contact_failure": 44,
+        "post_release_instability": 34,
+        "transport_alignment_failure": 6
+      },
+      "mean_rollout_length": 397.44,
+      "method": "task",
+      "seed": 5480,
+      "step": 20600,
+      "success_rate": 0.03,
+      "successes": 3
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 10,
+        "placement_contact_failure": 35,
+        "post_release_instability": 51
+      },
+      "mean_rollout_length": 396.98,
+      "method": "expert",
+      "seed": 5478,
+      "step": 2060,
+      "success_rate": 0.04,
+      "successes": 4
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 1,
+        "placement_contact_failure": 56,
+        "post_release_instability": 36,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 394.5,
+      "method": "expert",
+      "seed": 5478,
+      "step": 5150,
+      "success_rate": 0.05,
+      "successes": 5
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 19,
+        "placement_contact_failure": 40,
+        "post_release_instability": 36,
+        "release_failure": 1,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 395.51,
+      "method": "expert",
+      "seed": 5478,
+      "step": 10300,
+      "success_rate": 0.03,
+      "successes": 3
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 22,
+        "placement_contact_failure": 35,
+        "post_release_instability": 36,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 389.43,
+      "method": "expert",
+      "seed": 5478,
+      "step": 15450,
+      "success_rate": 0.06,
+      "successes": 6
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 13,
+        "placement_contact_failure": 51,
+        "post_release_instability": 35
+      },
+      "mean_rollout_length": 398.36,
+      "method": "expert",
+      "seed": 5478,
+      "step": 20600,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 8,
+        "placement_contact_failure": 53,
+        "post_release_instability": 35,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 395.53,
+      "method": "expert",
+      "seed": 5479,
+      "step": 2060,
+      "success_rate": 0.03,
+      "successes": 3
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 23,
+        "placement_contact_failure": 47,
+        "post_release_instability": 28,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 398.42,
+      "method": "expert",
+      "seed": 5479,
+      "step": 5150,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 6,
+        "placement_contact_failure": 47,
+        "post_release_instability": 42,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 396.57,
+      "method": "expert",
+      "seed": 5479,
+      "step": 10300,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 14,
+        "placement_contact_failure": 44,
+        "post_release_instability": 32,
+        "source_left_workspace": 1,
+        "transport_alignment_failure": 8
+      },
+      "mean_rollout_length": 396.62,
+      "method": "expert",
+      "seed": 5479,
+      "step": 15450,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_approach_failure": 3,
+        "grasp_lift_failure": 17,
+        "placement_contact_failure": 44,
+        "post_release_instability": 29,
+        "release_failure": 1,
+        "transport_alignment_failure": 5
+      },
+      "mean_rollout_length": 399.12,
+      "method": "expert",
+      "seed": 5479,
+      "step": 20600,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 3,
+        "placement_contact_failure": 47,
+        "post_release_instability": 45,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 397.74,
+      "method": "expert",
+      "seed": 5480,
+      "step": 2060,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 10,
+        "placement_contact_failure": 49,
+        "post_release_instability": 34,
+        "transport_alignment_failure": 7
+      },
+      "mean_rollout_length": 400.0,
+      "method": "expert",
+      "seed": 5480,
+      "step": 5150,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 13,
+        "placement_contact_failure": 52,
+        "post_release_instability": 31
+      },
+      "mean_rollout_length": 395.3,
+      "method": "expert",
+      "seed": 5480,
+      "step": 10300,
+      "success_rate": 0.04,
+      "successes": 4
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 9,
+        "placement_contact_failure": 58,
+        "post_release_instability": 25,
+        "source_left_workspace": 1,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 393.84,
+      "method": "expert",
+      "seed": 5480,
+      "step": 15450,
+      "success_rate": 0.04,
+      "successes": 4
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 11,
+        "placement_contact_failure": 47,
+        "post_release_instability": 33,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 390.25,
+      "method": "expert",
+      "seed": 5480,
+      "step": 20600,
+      "success_rate": 0.07,
+      "successes": 7
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 20,
+        "placement_contact_failure": 58,
+        "post_release_instability": 19,
+        "release_failure": 1
+      },
+      "mean_rollout_length": 396.94,
+      "method": "learner",
+      "seed": 5478,
+      "step": 2060,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 9,
+        "placement_contact_failure": 71,
+        "post_release_instability": 18,
+        "release_failure": 2
+      },
+      "mean_rollout_length": 400.0,
+      "method": "learner",
+      "seed": 5478,
+      "step": 5150,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 2,
+        "placement_contact_failure": 96,
+        "post_release_instability": 2
+      },
+      "mean_rollout_length": 400.0,
+      "method": "learner",
+      "seed": 5478,
+      "step": 10300,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 4,
+        "placement_contact_failure": 68,
+        "post_release_instability": 26
+      },
+      "mean_rollout_length": 398.39,
+      "method": "learner",
+      "seed": 5478,
+      "step": 15450,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 5,
+        "placement_contact_failure": 69,
+        "post_release_instability": 22,
+        "source_left_workspace": 1,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 396.55,
+      "method": "learner",
+      "seed": 5478,
+      "step": 20600,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 6,
+        "placement_contact_failure": 81,
+        "post_release_instability": 12,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 400.0,
+      "method": "learner",
+      "seed": 5479,
+      "step": 2060,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 11,
+        "placement_contact_failure": 73,
+        "post_release_instability": 14,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 399.45,
+      "method": "learner",
+      "seed": 5479,
+      "step": 5150,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 8,
+        "placement_contact_failure": 46,
+        "post_release_instability": 14,
+        "transport_alignment_failure": 31
+      },
+      "mean_rollout_length": 398.98,
+      "method": "learner",
+      "seed": 5479,
+      "step": 10300,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 22,
+        "placement_contact_failure": 36,
+        "post_release_instability": 34,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 393.94,
+      "method": "learner",
+      "seed": 5479,
+      "step": 15450,
+      "success_rate": 0.05,
+      "successes": 5
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 58,
+        "placement_contact_failure": 32,
+        "post_release_instability": 6,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 395.33,
+      "method": "learner",
+      "seed": 5479,
+      "step": 20600,
+      "success_rate": 0.03,
+      "successes": 3
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 29,
+        "placement_contact_failure": 61,
+        "post_release_instability": 6,
+        "release_failure": 4
+      },
+      "mean_rollout_length": 400.0,
+      "method": "learner",
+      "seed": 5480,
+      "step": 2060,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 1,
+        "placement_contact_failure": 60,
+        "post_release_instability": 39
+      },
+      "mean_rollout_length": 400.0,
+      "method": "learner",
+      "seed": 5480,
+      "step": 5150,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 1,
+        "placement_contact_failure": 92,
+        "post_release_instability": 3,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 399.15,
+      "method": "learner",
+      "seed": 5480,
+      "step": 10300,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 10,
+        "placement_contact_failure": 54,
+        "post_release_instability": 31,
+        "transport_alignment_failure": 4
+      },
+      "mean_rollout_length": 399.28,
+      "method": "learner",
+      "seed": 5480,
+      "step": 15450,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 7,
+        "placement_contact_failure": 50,
+        "post_release_instability": 35,
+        "release_failure": 1,
+        "source_left_workspace": 1
+      },
+      "mean_rollout_length": 391.33,
+      "method": "learner",
+      "seed": 5480,
+      "step": 20600,
+      "success_rate": 0.06,
+      "successes": 6
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 63,
+        "placement_contact_failure": 16,
+        "post_release_instability": 21
+      },
+      "mean_rollout_length": 400.0,
+      "method": "reverse_learner",
+      "seed": 5478,
+      "step": 2060,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 22,
+        "placement_contact_failure": 36,
+        "post_release_instability": 40,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 400.0,
+      "method": "reverse_learner",
+      "seed": 5478,
+      "step": 5150,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 9,
+        "placement_contact_failure": 62,
+        "post_release_instability": 28
+      },
+      "mean_rollout_length": 399.37,
+      "method": "reverse_learner",
+      "seed": 5478,
+      "step": 10300,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 7,
+        "placement_contact_failure": 64,
+        "post_release_instability": 25
+      },
+      "mean_rollout_length": 394.09,
+      "method": "reverse_learner",
+      "seed": 5478,
+      "step": 15450,
+      "success_rate": 0.04,
+      "successes": 4
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 9,
+        "placement_contact_failure": 51,
+        "post_release_instability": 38,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 398.15,
+      "method": "reverse_learner",
+      "seed": 5478,
+      "step": 20600,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 20,
+        "placement_contact_failure": 44,
+        "post_release_instability": 32,
+        "transport_alignment_failure": 4
+      },
+      "mean_rollout_length": 400.0,
+      "method": "reverse_learner",
+      "seed": 5479,
+      "step": 2060,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 25,
+        "placement_contact_failure": 25,
+        "post_release_instability": 46,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 398.23,
+      "method": "reverse_learner",
+      "seed": 5479,
+      "step": 5150,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 16,
+        "placement_contact_failure": 50,
+        "post_release_instability": 33
+      },
+      "mean_rollout_length": 397.93,
+      "method": "reverse_learner",
+      "seed": 5479,
+      "step": 10300,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 11,
+        "placement_contact_failure": 58,
+        "post_release_instability": 28,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 400.0,
+      "method": "reverse_learner",
+      "seed": 5479,
+      "step": 15450,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 3,
+        "placement_contact_failure": 56,
+        "post_release_instability": 37,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 396.03,
+      "method": "reverse_learner",
+      "seed": 5479,
+      "step": 20600,
+      "success_rate": 0.03,
+      "successes": 3
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 2,
+        "placement_contact_failure": 67,
+        "post_release_instability": 31
+      },
+      "mean_rollout_length": 400.0,
+      "method": "reverse_learner",
+      "seed": 5480,
+      "step": 2060,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 1,
+        "placement_contact_failure": 73,
+        "post_release_instability": 21,
+        "transport_alignment_failure": 4
+      },
+      "mean_rollout_length": 398.34,
+      "method": "reverse_learner",
+      "seed": 5480,
+      "step": 5150,
+      "success_rate": 0.01,
+      "successes": 1
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 9,
+        "placement_contact_failure": 46,
+        "post_release_instability": 43
+      },
+      "mean_rollout_length": 396.21,
+      "method": "reverse_learner",
+      "seed": 5480,
+      "step": 10300,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 14,
+        "placement_contact_failure": 39,
+        "post_release_instability": 43,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 396.64,
+      "method": "reverse_learner",
+      "seed": 5480,
+      "step": 15450,
+      "success_rate": 0.02,
+      "successes": 2
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 8,
+        "placement_contact_failure": 26,
+        "post_release_instability": 61,
+        "release_failure": 2,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 398.12,
+      "method": "reverse_learner",
+      "seed": 5480,
+      "step": 20600,
+      "success_rate": 0.01,
+      "successes": 1
+    }
+  ],
+  "final": [
+    {
+      "failures": {
+        "grasp_lift_failure": 7,
+        "placement_contact_failure": 72,
+        "post_release_instability": 88,
+        "transport_alignment_failure": 5
+      },
+      "mean_rollout_length": 376.795,
+      "method": "uniform",
+      "seed": 5478,
+      "step": 20600,
+      "success_rate": 0.14,
+      "successes": 28
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 27,
+        "placement_contact_failure": 99,
+        "post_release_instability": 69
+      },
+      "mean_rollout_length": 396.145,
+      "method": "uniform",
+      "seed": 5479,
+      "step": 20600,
+      "success_rate": 0.025,
+      "successes": 5
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 15,
+        "placement_contact_failure": 126,
+        "post_release_instability": 38,
+        "transport_alignment_failure": 4
+      },
+      "mean_rollout_length": 388.005,
+      "method": "uniform",
+      "seed": 5480,
+      "step": 20600,
+      "success_rate": 0.085,
+      "successes": 17
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 62,
+        "placement_contact_failure": 65,
+        "post_release_instability": 61,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 393.475,
+      "method": "task",
+      "seed": 5478,
+      "step": 20600,
+      "success_rate": 0.045,
+      "successes": 9
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 50,
+        "placement_contact_failure": 88,
+        "post_release_instability": 50,
+        "source_left_workspace": 1,
+        "transport_alignment_failure": 7
+      },
+      "mean_rollout_length": 396.65,
+      "method": "task",
+      "seed": 5479,
+      "step": 20600,
+      "success_rate": 0.02,
+      "successes": 4
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 21,
+        "placement_contact_failure": 107,
+        "post_release_instability": 54,
+        "transport_alignment_failure": 10
+      },
+      "mean_rollout_length": 394.315,
+      "method": "task",
+      "seed": 5480,
+      "step": 20600,
+      "success_rate": 0.04,
+      "successes": 8
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 26,
+        "placement_contact_failure": 104,
+        "post_release_instability": 63
+      },
+      "mean_rollout_length": 394.795,
+      "method": "expert",
+      "seed": 5478,
+      "step": 20600,
+      "success_rate": 0.035,
+      "successes": 7
+    },
+    {
+      "failures": {
+        "grasp_approach_failure": 6,
+        "grasp_lift_failure": 36,
+        "placement_contact_failure": 76,
+        "post_release_instability": 68,
+        "transport_alignment_failure": 14
+      },
+      "mean_rollout_length": 400.0,
+      "method": "expert",
+      "seed": 5479,
+      "step": 20600,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 33,
+        "placement_contact_failure": 83,
+        "post_release_instability": 73,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 395.62,
+      "method": "expert",
+      "seed": 5480,
+      "step": 20600,
+      "success_rate": 0.04,
+      "successes": 8
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 6,
+        "placement_contact_failure": 131,
+        "post_release_instability": 61,
+        "source_left_workspace": 1,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 399.585,
+      "method": "learner",
+      "seed": 5478,
+      "step": 20600,
+      "success_rate": 0.0,
+      "successes": 0
+    },
+    {
+      "failures": {
+        "grasp_approach_failure": 1,
+        "grasp_lift_failure": 109,
+        "placement_contact_failure": 70,
+        "post_release_instability": 12,
+        "source_left_workspace": 2,
+        "transport_alignment_failure": 3
+      },
+      "mean_rollout_length": 398.475,
+      "method": "learner",
+      "seed": 5479,
+      "step": 20600,
+      "success_rate": 0.015,
+      "successes": 3
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 13,
+        "placement_contact_failure": 100,
+        "post_release_instability": 74,
+        "source_left_workspace": 1,
+        "transport_alignment_failure": 6
+      },
+      "mean_rollout_length": 395.18,
+      "method": "learner",
+      "seed": 5480,
+      "step": 20600,
+      "success_rate": 0.03,
+      "successes": 6
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 16,
+        "placement_contact_failure": 111,
+        "post_release_instability": 62,
+        "transport_alignment_failure": 2
+      },
+      "mean_rollout_length": 394.425,
+      "method": "reverse_learner",
+      "seed": 5478,
+      "step": 20600,
+      "success_rate": 0.045,
+      "successes": 9
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 17,
+        "placement_contact_failure": 105,
+        "post_release_instability": 68,
+        "transport_alignment_failure": 5
+      },
+      "mean_rollout_length": 396.495,
+      "method": "reverse_learner",
+      "seed": 5479,
+      "step": 20600,
+      "success_rate": 0.025,
+      "successes": 5
+    },
+    {
+      "failures": {
+        "grasp_lift_failure": 20,
+        "placement_contact_failure": 63,
+        "post_release_instability": 115,
+        "transport_alignment_failure": 1
+      },
+      "mean_rollout_length": 399.045,
+      "method": "reverse_learner",
+      "seed": 5480,
+      "step": 20600,
+      "success_rate": 0.005,
+      "successes": 1
+    }
+  ],
+  "learning_curve_auc": {
+    "expert": 0.026666666666666665,
+    "learner": 0.014083333333333333,
+    "reverse_learner": 0.01175,
+    "task": 0.018083333333333333,
+    "uniform": 0.03791666666666667
+  },
+  "summary": [
+    {
+      "mean_rollout_length": 386.98166666666674,
+      "mean_success": 0.08333333333333333,
+      "method": "uniform",
+      "sample_sd": 0.05751811308912466,
+      "seed_5478": 0.14,
+      "seed_5479": 0.025,
+      "seed_5480": 0.085
+    },
+    {
+      "mean_rollout_length": 394.81333333333333,
+      "mean_success": 0.035,
+      "method": "task",
+      "sample_sd": 0.013228756555322952,
+      "seed_5478": 0.045,
+      "seed_5479": 0.02,
+      "seed_5480": 0.04
+    },
+    {
+      "mean_rollout_length": 396.805,
+      "mean_success": 0.025000000000000005,
+      "method": "expert",
+      "sample_sd": 0.02179449471770337,
+      "seed_5478": 0.035,
+      "seed_5479": 0.0,
+      "seed_5480": 0.04
+    },
+    {
+      "mean_rollout_length": 397.74666666666667,
+      "mean_success": 0.015,
+      "method": "learner",
+      "sample_sd": 0.015,
+      "seed_5478": 0.0,
+      "seed_5479": 0.015,
+      "seed_5480": 0.03
+    },
+    {
+      "mean_rollout_length": 396.65500000000003,
+      "mean_success": 0.025000000000000005,
+      "method": "reverse_learner",
+      "sample_sd": 0.02,
+      "seed_5478": 0.045,
+      "seed_5479": 0.025,
+      "seed_5480": 0.005
+    }
+  ]
+}

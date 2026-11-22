@@ -1,0 +1,58 @@
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Imitation learning and robotic demonstrations.}
+Behavior cloning directly regresses expert actions and has a long history in
+autonomous control \citep{pomerleau1989alvinn}. Surveys of learning from
+demonstration emphasize the importance of representation, demonstration
+quality, and correspondence between teacher and learner
+\citep{argall2009survey,osa2018survey}. Offline BC avoids environment
+interaction during training but suffers covariate shift. DAgger addresses this
+by collecting expert labels on learner-induced states
+\citep{ross2011dagger}; our study deliberately retains a fixed offline dataset
+without interactive data collection. Offline manipulation studies show
+sensitivity to demonstration quality, algorithm design, and stopping criteria
+\citep{mandlekar2022what}; data-quality work formalizes curation through
+distribution shift \citep{belkhale2023data}. We instead vary staged sampling
+over one fixed scripted-expert dataset.
+
+\paragraph{Curriculum learning for sequential decision-making.}
+Curriculum learning orders training examples from easier to harder and can
+improve optimization or generalization in some settings
+\citep{bengio2009curriculum}. Automated curriculum research broadens this
+view to task selection and teacher--student formulations
+\citep{portelas2020survey}. Reverse curriculum generation has also shown that
+starting near successful states and expanding outward can aid sparse-reward
+control \citep{florensa2017reverse}. Our Reverse Learner condition is more
+limited: it reverses a fixed demonstration ranking and does not generate new
+tasks or states. Cross-Episodic Curriculum (CEC) instead structures sequences
+of online learning trials and mixed-quality demonstrations within a
+Transformer's context to improve agent learning across episodes
+\citep{shi2023cross}. CurriBuffer applies difficulty-aware demonstration
+selection, curriculum sampling, and retrieval to Vision-Language-Action policy
+specialization \citep{hosseini2026curribuffer}. These approaches establish the
+relevance of organizing experience for sequential and robotic policies. Our
+setting is deliberately narrower: it uses fixed offline BC data and compares
+difficulty definitions without cross-episodic context or retrieval.
+Classification studies further show that scoring and pacing are distinct
+design choices \citep{hacohen2019power}, and that curriculum,
+anti-curriculum, and random schedules depend on training budget and data noise
+\citep{wu2021when}.
+
+\paragraph{Difficulty estimation and curriculum design.}
+Example difficulty may be based on task metadata, teacher effort, uncertainty,
+loss, or forgetting. These signals describe different phenomena, and
+loss-based signals risk in-sample bias. Rampp et al. systematically study the
+similarity and robustness of difficulty scoring functions and their effects on
+curriculum learning in image and acoustic-scene classification
+\citep{rampp2024difficulty}. We extend this question to trajectory-level BC and
+closed-loop robotic manipulation. Specifically, we compare Task difficulty
+(initial geometry), Expert difficulty (demonstration effort), and Learner
+difficulty (five-fold out-of-fold prediction error). These are descriptive
+signals rather than ground-truth measures of complexity.
+
+Taken together, CEC and CurriBuffer motivate curriculum organization for
+sequential and robotic learning, while Rampp et al. motivate comparing how
+difficulty is defined. We hold the demonstrations, policy family, and training
+budget fixed while comparing three trajectory rankings and five staged
+sampling schedules under physical closed-loop evaluation.

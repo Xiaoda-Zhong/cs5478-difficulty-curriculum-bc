@@ -1,0 +1,577 @@
+{
+  "checkpoint": "outputs/stacking_v1/checkpoints/s4_5/relative_phase_balanced_v1/best.pt",
+  "episodes": [
+    {
+      "failure_reason": "transport_alignment_failure",
+      "final_alignment_error": 0.6801013281549995,
+      "final_source_position": [
+        0.29760145793518783,
+        -0.45575769684714823,
+        0.14085293766909285
+      ],
+      "final_support_position": [
+        0.5529556488197535,
+        0.1745851096921848,
+        0.02498934293715391
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": false
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0000"
+    },
+    {
+      "failure_reason": "grasp_lift_failure",
+      "final_alignment_error": 0.35927519025440874,
+      "final_source_position": [
+        0.5753897662774509,
+        -0.24369598699035736,
+        0.02498743726527019
+      ],
+      "final_support_position": [
+        0.469575089594723,
+        0.09964337360040179,
+        0.02498934293715391
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": false,
+        "source_support_contact": false,
+        "transported_toward_support": false
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0001"
+    },
+    {
+      "failure_reason": "transport_alignment_failure",
+      "final_alignment_error": 0.3207976177456246,
+      "final_source_position": [
+        0.6197565575466275,
+        -0.1486538413131297,
+        0.024989443873764585
+      ],
+      "final_support_position": [
+        0.463696984087033,
+        0.13162552125728377,
+        0.024989342937153988
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": false
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0002"
+    },
+    {
+      "failure_reason": "placement_contact_failure",
+      "final_alignment_error": 0.09211333956308755,
+      "final_source_position": [
+        0.6451406863447143,
+        0.054549451295367424,
+        0.5617912443825054
+      ],
+      "final_support_position": [
+        0.5699249088270425,
+        0.10772326193441004,
+        0.024989342937153977
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": false,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0003"
+    },
+    {
+      "failure_reason": "success",
+      "final_alignment_error": 0.0036775415063201905,
+      "final_source_position": [
+        0.5060543808206922,
+        0.20605187886250498,
+        0.07497605943006712
+      ],
+      "final_support_position": [
+        0.5024360277500879,
+        0.20670901856390497,
+        0.024988332914608013
+      ],
+      "max_stable_steps": 20,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": true,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": true,
+        "source_support_contact": true,
+        "transported_toward_support": true
+      },
+      "steps": 166,
+      "success": true,
+      "task_id": "stack_dev_0004"
+    },
+    {
+      "failure_reason": "placement_contact_failure",
+      "final_alignment_error": 0.19703512625341177,
+      "final_source_position": [
+        0.5484273522049574,
+        -0.037554933953125015,
+        0.02498931025392881
+      ],
+      "final_support_position": [
+        0.5746135804406813,
+        0.15773234783574236,
+        0.024989342937153915
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0005"
+    },
+    {
+      "failure_reason": "placement_contact_failure",
+      "final_alignment_error": 0.09881248432959701,
+      "final_source_position": [
+        0.675895381865332,
+        0.2194851637423509,
+        0.4858225397353773
+      ],
+      "final_support_position": [
+        0.5774610467845603,
+        0.21084868664846532,
+        0.02498934293715391
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0006"
+    },
+    {
+      "failure_reason": "grasp_lift_failure",
+      "final_alignment_error": 0.09734605051622441,
+      "final_source_position": [
+        0.5701806755433269,
+        0.09328759456977578,
+        0.03292502121616798
+      ],
+      "final_support_position": [
+        0.5350751154069925,
+        0.184083261859694,
+        0.024989346117690135
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": false,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0007"
+    },
+    {
+      "failure_reason": "placement_contact_failure",
+      "final_alignment_error": 0.06903599192997242,
+      "final_source_position": [
+        0.6303601968905238,
+        0.1040699726827171,
+        0.5917639902538862
+      ],
+      "final_support_position": [
+        0.5613380393564745,
+        0.1054519824873506,
+        0.024989342937153977
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": false,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0008"
+    },
+    {
+      "failure_reason": "placement_contact_failure",
+      "final_alignment_error": 0.18494786380906816,
+      "final_source_position": [
+        0.4980319901757832,
+        0.025180812259653178,
+        0.6922295327216192
+      ],
+      "final_support_position": [
+        0.5359498695620338,
+        0.20620000116068482,
+        0.02498934293715391
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": false,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0009"
+    },
+    {
+      "failure_reason": "success",
+      "final_alignment_error": 0.010571749063737946,
+      "final_source_position": [
+        0.6107518021768128,
+        0.13566252689020122,
+        0.07497789037690791
+      ],
+      "final_support_position": [
+        0.6201791111613232,
+        0.1308784153136163,
+        0.024988937337464708
+      ],
+      "max_stable_steps": 20,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": true,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": true,
+        "source_support_contact": true,
+        "transported_toward_support": true
+      },
+      "steps": 216,
+      "success": true,
+      "task_id": "stack_dev_0010"
+    },
+    {
+      "failure_reason": "placement_contact_failure",
+      "final_alignment_error": 0.13985470998804003,
+      "final_source_position": [
+        0.6497646854525342,
+        0.20487186994046222,
+        0.5126954862581439
+      ],
+      "final_support_position": [
+        0.5114398577170254,
+        0.22550150730471547,
+        0.024989342937153915
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": false,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0011"
+    },
+    {
+      "failure_reason": "transport_alignment_failure",
+      "final_alignment_error": 0.399496028174754,
+      "final_source_position": [
+        0.4799524669126492,
+        -0.15437293518866982,
+        0.024994740168688398
+      ],
+      "final_support_position": [
+        0.5673394053754729,
+        0.23544830527097788,
+        0.024989342937153915
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": false
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0012"
+    },
+    {
+      "failure_reason": "grasp_lift_failure",
+      "final_alignment_error": 0.23650309967038521,
+      "final_source_position": [
+        0.5271580278025868,
+        -0.06585405776731469,
+        0.024978622181917213
+      ],
+      "final_support_position": [
+        0.6135416965862992,
+        0.1543085592255936,
+        0.024989342937153915
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": false,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0013"
+    },
+    {
+      "failure_reason": "placement_contact_failure",
+      "final_alignment_error": 0.08549332833429055,
+      "final_source_position": [
+        0.5339914766868324,
+        0.23228969101350103,
+        0.6482124988343076
+      ],
+      "final_support_position": [
+        0.4649436486307915,
+        0.18187633335485848,
+        0.024989342937153915
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0014"
+    },
+    {
+      "failure_reason": "post_release_instability",
+      "final_alignment_error": 0.031217617705326335,
+      "final_source_position": [
+        0.6648210666020765,
+        0.08463690143917836,
+        0.07496552717810373
+      ],
+      "final_support_position": [
+        0.6388504342329485,
+        0.10195931205501083,
+        0.024989940199035405
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": true,
+        "source_support_contact": true,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0015"
+    },
+    {
+      "failure_reason": "placement_contact_failure",
+      "final_alignment_error": 0.08141085820202197,
+      "final_source_position": [
+        0.6503742532887211,
+        0.1570586328929535,
+        0.5331588462633651
+      ],
+      "final_support_position": [
+        0.5690234552711488,
+        0.15393205407675725,
+        0.024989342937153915
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0016"
+    },
+    {
+      "failure_reason": "placement_contact_failure",
+      "final_alignment_error": 0.12112064758400261,
+      "final_source_position": [
+        0.3732780774013292,
+        0.30333661884523755,
+        0.7133047237311927
+      ],
+      "final_support_position": [
+        0.47129308932976943,
+        0.23217996976845856,
+        0.024989342937153915
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": false,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0017"
+    },
+    {
+      "failure_reason": "post_release_instability",
+      "final_alignment_error": 0.07341508334103153,
+      "final_source_position": [
+        0.5405813327995512,
+        0.09001927676564885,
+        0.02498946753487156
+      ],
+      "final_support_position": [
+        0.613521075152185,
+        0.08167850656727958,
+        0.024989359512378715
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": true,
+        "source_lifted": true,
+        "source_support_contact": true,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0018"
+    },
+    {
+      "failure_reason": "placement_contact_failure",
+      "final_alignment_error": 0.2451514052463247,
+      "final_source_position": [
+        0.4617154856075243,
+        -0.015101632143488267,
+        0.7242842275169297
+      ],
+      "final_support_position": [
+        0.4731636609427883,
+        0.22978232154833855,
+        0.024989342937153915
+      ],
+      "max_stable_steps": 0,
+      "physical_events": {
+        "gripper_closed": true,
+        "gripper_retreated": true,
+        "instantaneous_stable": false,
+        "reached_source": true,
+        "released_after_close": false,
+        "source_lifted": true,
+        "source_support_contact": false,
+        "transported_toward_support": true
+      },
+      "steps": 400,
+      "success": false,
+      "task_id": "stack_dev_0019"
+    }
+  ],
+  "failure_reasons": {
+    "grasp_lift_failure": 3,
+    "placement_contact_failure": 10,
+    "post_release_instability": 2,
+    "transport_alignment_failure": 3
+  },
+  "gripper_debounce": 1,
+  "mean_steps": 379.1,
+  "normalization_clip": 10.0,
+  "success_rate": 0.1,
+  "successes": 2,
+  "task_count": 20
+}

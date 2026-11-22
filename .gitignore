@@ -1,0 +1,59 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Editor, operating-system, and local configuration files
+.DS_Store
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*~
+*.bak
+
+# Large generated datasets and model artifacts
+data/demonstrations/
+data/stacking_v1/demonstrations/
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+
+# Detailed rollout records, smoke outputs, and bulky diagnostics. Compact
+# summaries, training histories, and figures elsewhere under outputs/ remain
+# publishable.
+outputs/**/evaluations/
+outputs/**/rollouts/
+outputs/**/smoke/
+outputs/**/*_smoke/
+outputs/checkpoints/curriculum_v1_smoke/
+outputs/checkpoints/ranking_robustness_v1_smoke/
+outputs/results/curriculum_v1_smoke/
+outputs/results/ranking_robustness_v1_smoke/
+outputs/stacking_v1/checkpoints/curriculum_smoke/
+outputs/**/rollout_evaluation.json
+outputs/stacking_v1/results/s4_5/baseline_diagnostics.json
+outputs/stacking_v1/results/s4_5/**/diagnostics.json
+outputs/results/final_evaluation_v1/task_level_results_v1.csv
+outputs/results/final_evaluation_v1/smoke_manifest.json
+outputs/results/final_evaluation_v1/spatial_feasibility_pilot.json
+*.jsonl
+
+# Temporary logs and LaTeX build products
+*.log
+report/build/
+
+# Historical local submission documents; the final report is published from
+# report/CS5478_Final_Report.pdf.
+/CS5478_Final_Presentation_XiaodaZhong.pdf
+/CS5478_Milestone_zxd.pdf
+/CS5478_Proposal.pdf

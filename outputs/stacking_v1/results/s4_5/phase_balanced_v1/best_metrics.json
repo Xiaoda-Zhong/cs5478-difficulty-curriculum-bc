@@ -1,0 +1,8 @@
+{
+  "epoch": 98,
+  "gripper_accuracy": 0.9999294632150667,
+  "max_motion_norm": 0.008000001311302185,
+  "motion_mse": 0.004344591938370166,
+  "parameter_count": 20868,
+  "total_loss": 0.004522122255597234
+}

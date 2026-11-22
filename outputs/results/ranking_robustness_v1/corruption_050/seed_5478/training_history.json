@@ -1,0 +1,129 @@
+{
+  "batch_size": 256,
+  "corruption_percentage": 50,
+  "evaluation_steps": [
+    2060,
+    5150,
+    10300,
+    15450,
+    20600
+  ],
+  "experiment": "ranking_robustness_v1",
+  "initial_state_fingerprint": "9b4809c0fde0a35d00d32b0cfafdf3158cb45e0b19f40bb64b7cb4f21f792694",
+  "lambda_gripper": 1.0,
+  "learning_rate": 0.001,
+  "method": "reverse_learner",
+  "ranking_fingerprint": "24c0b66f7fa30abc85cbdeb1d22fb5c2b91f18be33d9981622bb4ba6a8b20225",
+  "ranking_reference": "data/metadata/ranking_robustness_v1/learner_ranking_corruption_050.json",
+  "ranking_seed": 85478,
+  "records": [
+    {
+      "curriculum_stage": 1,
+      "eligible_trajectory_count": 80,
+      "eligible_transition_count": 17108,
+      "normalized_progress": 0.1,
+      "optimizer_step": 2060,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 0,
+          "hard": 527360,
+          "medium": 0
+        }
+      },
+      "training_gripper_loss": 0.025511736278557805,
+      "training_motion_mse": 0.04218295044672576,
+      "training_total_loss": 0.0676946867980714,
+      "validation_gripper_accuracy": 0.9953196950252887,
+      "validation_motion_mse": 0.023572188223247224,
+      "validation_total_loss": 0.0347365165155879
+    },
+    {
+      "curriculum_stage": 1,
+      "eligible_trajectory_count": 80,
+      "eligible_transition_count": 17108,
+      "normalized_progress": 0.25,
+      "optimizer_step": 5150,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 0,
+          "hard": 791040,
+          "medium": 0
+        }
+      },
+      "training_gripper_loss": 0.006753495874375647,
+      "training_motion_mse": 0.018384942901546804,
+      "training_total_loss": 0.025138438757943006,
+      "validation_gripper_accuracy": 0.9997735336302559,
+      "validation_motion_mse": 0.016381394187390756,
+      "validation_total_loss": 0.019577360039389455
+    },
+    {
+      "curriculum_stage": 2,
+      "eligible_trajectory_count": 160,
+      "eligible_transition_count": 34706,
+      "normalized_progress": 0.5,
+      "optimizer_step": 10300,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 0,
+          "hard": 872799,
+          "medium": 445601
+        }
+      },
+      "training_gripper_loss": 0.0019143162003992366,
+      "training_motion_mse": 0.012156163267610431,
+      "training_total_loss": 0.01407047945906598,
+      "validation_gripper_accuracy": 0.9999245112100853,
+      "validation_motion_mse": 0.010054732176380386,
+      "validation_total_loss": 0.010511639212239389
+    },
+    {
+      "curriculum_stage": 3,
+      "eligible_trajectory_count": 240,
+      "eligible_transition_count": 52491,
+      "normalized_progress": 0.75,
+      "optimizer_step": 15450,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 149419,
+          "hard": 576546,
+          "medium": 592435
+        }
+      },
+      "training_gripper_loss": 0.0004952332293295238,
+      "training_motion_mse": 0.008748350597701026,
+      "training_total_loss": 0.009243583827397053,
+      "validation_gripper_accuracy": 0.9999245112100853,
+      "validation_motion_mse": 0.00832569448826713,
+      "validation_total_loss": 0.008646496222117194
+    },
+    {
+      "curriculum_stage": 3,
+      "eligible_trajectory_count": 240,
+      "eligible_transition_count": 52491,
+      "normalized_progress": 1.0,
+      "optimizer_step": 20600,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 447051,
+          "hard": 428942,
+          "medium": 442407
+        }
+      },
+      "training_gripper_loss": 0.0002781873208949855,
+      "training_motion_mse": 0.007048596046566601,
+      "training_total_loss": 0.007326783364711022,
+      "validation_gripper_accuracy": 1.0,
+      "validation_motion_mse": 0.0069118284247309415,
+      "validation_total_loss": 0.006953999911498011
+    }
+  ],
+  "source_initial_checkpoint": "outputs/checkpoints/curriculum_v1/initial_seed_5478.pt",
+  "stage_boundaries": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "total_optimizer_updates": 20600,
+  "training_seed": 5478,
+  "weight_decay": 1e-06
+}

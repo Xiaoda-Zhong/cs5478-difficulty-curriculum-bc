@@ -1,0 +1,114 @@
+# Object Stacking environment configuration (S1).
+# Robot/control values intentionally match configs/default.yaml.
+seed: 0
+
+physics:
+  timestep: 0.004166666666666667
+  sim_steps_per_action: 24
+  reset_settle_steps: 60
+  solver_iterations: 100
+
+robot:
+  initial_joint_positions: [0.0, -0.4, 0.0, -2.4, 0.0, 2.0, 0.8]
+  fixed_ee_orientation: [1.0, 0.0, 0.0, 0.0]
+
+table:
+  base_position: [0.5, 0.0, -0.625]
+  surface_height: 0.0
+  x_bounds: [0.30, 0.75]
+  y_bounds: [-0.40, 0.40]
+
+cubes:
+  edge_length: 0.05
+  source_mass: 0.05
+  support_mass: 0.05
+  lateral_friction: 0.8
+  rolling_friction: 0.001
+  spinning_friction: 0.001
+  source_color: [0.85, 0.15, 0.10, 1.0]
+  support_color: [0.15, 0.35, 0.85, 1.0]
+
+task:
+  source_position: [0.55, -0.15, 0.025]
+  support_position: [0.55, 0.15, 0.025]
+  placement_tolerance: 0.015
+  min_initial_xy_separation: 0.08
+
+task_randomization:
+  source_x_range: [0.46, 0.64]
+  source_y_range: [-0.24, -0.08]
+  support_x_range: [0.46, 0.64]
+  support_y_range: [0.08, 0.24]
+  placement_tolerance_range: [0.012, 0.015]
+  cube_center_z: 0.025
+
+dataset:
+  version: 1
+  seed: 5478
+  num_trajectories: 300
+  split_seed: 5478
+  train_fraction: 0.8
+
+bc:
+  hidden_dims: [128, 128]
+  batch_size: 256
+  learning_rate: 0.001
+  weight_decay: 0.000001
+  lambda_gripper: 1.0
+  # A 1e-4 floor term prevents nearly constant cube-up/velocity dimensions
+  # (some training std values are <1e-6) from exploding under rollout drift.
+  normalization_epsilon: 0.0001
+  seed: 5478
+  max_epochs: 100
+  early_stopping_patience: 15
+  device: cpu
+  max_rollout_steps: 400
+  evaluation_seed: 35478
+  evaluation_tasks: 100
+
+control:
+  max_cartesian_delta: 0.03
+  workspace_bounds:
+    - [0.25, 0.75]
+    - [-0.45, 0.45]
+    - [0.03, 0.75]
+  gripper_open_position: 0.04
+  gripper_closed_position: 0.0
+
+success:
+  vertical_tolerance: 0.006
+  upright_min_cosine: 0.984807753  # cos(10 degrees)
+  source_max_linear_speed: 0.015
+  source_max_angular_speed: 0.15
+  support_max_linear_speed: 0.015
+  support_max_angular_speed: 0.15
+  gripper_open_threshold: 0.03
+  gripper_retreat_clearance: 0.10
+  settling_control_steps: 20
+  require_source_support_contact: true
+  require_no_source_table_contact: true
+  # Conservative S1 thresholds validated with controlled fixtures. They remain
+  # provisional until S2 supplies real pick, transport, and release rollouts.
+
+expert:
+  safe_height: 0.30
+  grasp_height_offset: 0.01
+  transport_clearance: 0.16
+  precontact_clearance: 0.015
+  contact_descent_margin: 0.008
+  position_tolerance: 0.004
+  alignment_tolerance: 0.004
+  step_size: 0.008
+  near_contact_step_size: 0.002
+  grasp_settle_steps: 10
+  release_settle_steps: 12
+  min_lift_height: 0.05
+  max_grasp_distance: 0.08
+  max_support_displacement: 0.04
+  min_allowed_uprightness: 0.94
+  max_episode_steps: 500
+  movement_phase_timeout: 100
+  grasp_phase_timeout: 20
+  contact_phase_timeout: 30
+  release_phase_timeout: 30
+  verify_phase_timeout: 60

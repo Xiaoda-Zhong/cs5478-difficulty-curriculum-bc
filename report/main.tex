@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage[preprint]{neurips_2026}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,booktabs,graphicx,microtype}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{url}
+
+\title{Difficulty Matters: A Controlled Study of Difficulty Metrics for
+Curriculum Behavior Cloning in Robotic Manipulation}
+
+\author{Xiaoda Zhong\\
+  \textit{National University of Singapore}\\
+  \texttt{Repository URL: TODO}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Behavior cloning (BC) learns manipulation from demonstrations, yet small
+prediction errors can compound during closed-loop execution. Difficulty-based
+curricula may help by staging which demonstrations are sampled, but Task,
+Expert, and Learner notions of difficulty need not agree. We compare these
+three scores and five schedules under matched
+architectures, initializations, and optimizer-update budgets on simulated
+Franka Panda manipulation. In pick-and-place, Task and Expert scores correlate
+strongly, while Learner error induces a substantially different ranking. None
+of the three easy-to-hard schedules consistently improves over uniform
+sampling. Reverse Learner has the highest observed mean Fresh-ID success
+(81.5\% versus 69.3\% for Uniform), but its advantage is seed-sensitive and
+its development learning AUC is nearly identical to Uniform; this is not
+evidence of statistically established superiority. In an exploratory
+object-stacking evaluation, all methods achieve low success rates, with no
+curriculum outperforming uniform sampling. The results show that curriculum
+conclusions depend on both the difficulty definition and the staged exposure
+schedule, and require closed-loop evaluation.
+\end{abstract}
+
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_method}
+\input{sections/04_experiments}
+\input{sections/05_discussion}
+\input{sections/06_limitations}
+\input{sections/07_conclusion}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\clearpage
+\appendix
+\section*{Appendix}
+\suppressfloats[t]
+\input{appendix/stacking}
+\input{appendix/additional_results}
+\end{document}

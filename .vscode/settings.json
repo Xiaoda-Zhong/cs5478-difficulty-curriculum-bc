@@ -1,0 +1,35 @@
+
+{
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "tectonic-cs5478",
+            "command": "conda",
+            "args": [
+                "run",
+                "-n",
+                "cs5478",
+                "tectonic",
+                "-X",
+                "compile",
+                "%DOC_EXT%",
+                "--outdir",
+                "%OUTDIR%",
+                "--keep-logs",
+                "--keep-intermediates"
+            ],
+            "cwd": "%DIR%"
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "Tectonic (cs5478)",
+            "tools": [
+                "tectonic-cs5478"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipe.default": "first",
+    "latex-workshop.latex.outDir": "%DIR%/build"
+}

@@ -1,0 +1,39 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{Difficulty definitions are not interchangeable.}
+Task and Expert difficulty are strongly related ($\rho=0.842$) because the
+deterministic expert converts longer approach and transport geometry into
+longer executions. Learner difficulty instead measures normalized motion error
+of a particular fitted MLP family. It correlates negatively with duration
+($\rho=-0.542$), and 43 of 80 Learner-Hard trajectories are Task-Easy. Grasp
+and release have the largest phasewise errors, but the score is a per-step
+average; these facts make trajectory length and manipulation-phase composition
+plausible contributors to ranking disagreement, not established causes.
+
+\paragraph{Staged curricula combine ordering and reweighting.}
+Forward schedules expose the first group to about 60\% of all sampled
+transitions and the last to only 11--12\%, whereas Reverse Learner assigns
+60.1\% to Learner-Hard. The comparison therefore does not isolate ordering
+from cumulative exposure. The random-ranking control preserves this staged
+mechanism but changes membership: its 69.0\% development success lies below
+original Reverse Learner (84.7\%) and Uniform (75.7\%). One corruption per
+level, a non-monotonic response, and three seeds prevent interpreting this as
+a clean causal effect of ranking quality.
+
+\paragraph{Reverse Learner is uncertain and setting-dependent.}
+Its pick-and-place Fresh-ID mean is highest (81.5\% versus 69.3\% for
+Uniform), but paired seed differences are $+9.5$, $+28.0$, and $-1.0$
+percentage points. Development AUCs are nearly equal (0.787 versus 0.784), and
+some intermediate Uniform checkpoints perform strongly; the final mean does
+not imply faster convergence. In exploratory stacking, every method is near
+the floor and no curriculum exceeds Uniform. Stacking also changes
+representation and applies precision-phase emphasis to every schedule, so the
+cross-task contrast cannot be attributed solely to task identity.
+
+\paragraph{Closed-loop outcomes matter.}
+Final validation losses occupy a narrow range while rollout success varies
+widely. One-step imitation metrics therefore remain diagnostics rather than
+surrogates for physical completion: errors in grasping, alignment, release, or
+retreat alter subsequent states. This gap directly addresses RQ2 and motivates
+evaluating curriculum schedules through autonomous closed-loop success.

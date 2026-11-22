@@ -1,0 +1,2249 @@
+{
+  "cumulative_action_magnitude": {
+    "max": 1.8376681275458333,
+    "mean": 1.6141838950357599,
+    "min": 1.3600000000000003,
+    "std": 0.10114876164623111
+  },
+  "distribution": {
+    "cube_z": 0.025,
+    "note": "disjoint y bands ensure safe initial separation; no task is filtered by outcome",
+    "source_x_range": [
+      0.46,
+      0.64
+    ],
+    "source_y_range": [
+      -0.24,
+      -0.08
+    ],
+    "support_x_range": [
+      0.46,
+      0.64
+    ],
+    "support_y_range": [
+      0.08,
+      0.24
+    ]
+  },
+  "ee_path_length": {
+    "max": 1.836492630106639,
+    "mean": 1.6137406083128847,
+    "min": 1.3598251987461771,
+    "std": 0.1010593953195688
+  },
+  "evaluation_seed": 25478,
+  "failure_reasons": {},
+  "records": [
+    {
+      "cumulative_action_magnitude": 1.5812963699963962,
+      "ee_path_length": 1.580567692489299,
+      "failure_reason": null,
+      "final_alignment_error": 0.0054784418148300755,
+      "maximum_support_displacement": 0.00019711354238133527,
+      "seed": 1335569101,
+      "source_position": [
+        0.5458590229692973,
+        -0.12971710675048476,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 232,
+      "success": true,
+      "support_position": [
+        0.6258272568636776,
+        0.16911271509218095,
+        0.025
+      ],
+      "task_id": "stacking_eval_0000"
+    },
+    {
+      "cumulative_action_magnitude": 1.7539774135789685,
+      "ee_path_length": 1.7531708501047285,
+      "failure_reason": null,
+      "final_alignment_error": 0.005924569388171702,
+      "maximum_support_displacement": 0.0004992261963245769,
+      "seed": 906464000,
+      "source_position": [
+        0.5053000535665563,
+        -0.19213459738856892,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 254,
+      "success": true,
+      "support_position": [
+        0.5992003179211386,
+        0.2219846551650062,
+        0.025
+      ],
+      "task_id": "stacking_eval_0001"
+    },
+    {
+      "cumulative_action_magnitude": 1.4301377262829178,
+      "ee_path_length": 1.429834252831781,
+      "failure_reason": null,
+      "final_alignment_error": 0.002964801490438986,
+      "maximum_support_displacement": 0.000439440166557989,
+      "seed": 1059502928,
+      "source_position": [
+        0.5067724181654865,
+        -0.0963994425266748,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 213,
+      "success": true,
+      "support_position": [
+        0.5175385393989103,
+        0.15434853813458047,
+        0.025
+      ],
+      "task_id": "stacking_eval_0002"
+    },
+    {
+      "cumulative_action_magnitude": 1.5024810928411685,
+      "ee_path_length": 1.5020455038969707,
+      "failure_reason": null,
+      "final_alignment_error": 0.0049866023242654675,
+      "maximum_support_displacement": 0.00010129128562274658,
+      "seed": 964215130,
+      "source_position": [
+        0.4638338251306435,
+        -0.15968585469426747,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 222,
+      "success": true,
+      "support_position": [
+        0.55893126895876,
+        0.09287160996254981,
+        0.025
+      ],
+      "task_id": "stacking_eval_0003"
+    },
+    {
+      "cumulative_action_magnitude": 1.6955829531374529,
+      "ee_path_length": 1.695199963001742,
+      "failure_reason": null,
+      "final_alignment_error": 0.0009145867929309958,
+      "maximum_support_displacement": 0.0004778271082290237,
+      "seed": 740320913,
+      "source_position": [
+        0.5042456740228219,
+        -0.21495848541951634,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 248,
+      "success": true,
+      "support_position": [
+        0.5897966244052111,
+        0.1711264932325335,
+        0.025
+      ],
+      "task_id": "stacking_eval_0004"
+    },
+    {
+      "cumulative_action_magnitude": 1.557269261330274,
+      "ee_path_length": 1.5569059994572338,
+      "failure_reason": null,
+      "final_alignment_error": 0.009078609031542131,
+      "maximum_support_displacement": 0.00041291015112257366,
+      "seed": 1250246666,
+      "source_position": [
+        0.5296339128261283,
+        -0.14459314420792968,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 229,
+      "success": true,
+      "support_position": [
+        0.6202451032253948,
+        0.18355354470040416,
+        0.025
+      ],
+      "task_id": "stacking_eval_0005"
+    },
+    {
+      "cumulative_action_magnitude": 1.7107657873746376,
+      "ee_path_length": 1.7100231160815689,
+      "failure_reason": null,
+      "final_alignment_error": 0.005143351094775247,
+      "maximum_support_displacement": 0.00021843073628993815,
+      "seed": 1010951234,
+      "source_position": [
+        0.50364761581531,
+        -0.18568479588842476,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 248,
+      "success": true,
+      "support_position": [
+        0.5658378645423844,
+        0.2015461265668151,
+        0.025
+      ],
+      "task_id": "stacking_eval_0006"
+    },
+    {
+      "cumulative_action_magnitude": 1.4567159946654251,
+      "ee_path_length": 1.4562378707923598,
+      "failure_reason": null,
+      "final_alignment_error": 0.006670189020805446,
+      "maximum_support_displacement": 0.0003953011723094313,
+      "seed": 1067194051,
+      "source_position": [
+        0.5139918735943282,
+        -0.09023438507935548,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 217,
+      "success": true,
+      "support_position": [
+        0.6132643672660174,
+        0.14655360883195884,
+        0.025
+      ],
+      "task_id": "stacking_eval_0007"
+    },
+    {
+      "cumulative_action_magnitude": 1.5635521830996495,
+      "ee_path_length": 1.5633773274413143,
+      "failure_reason": null,
+      "final_alignment_error": 0.00047344774544476185,
+      "maximum_support_displacement": 0.0009041280064950435,
+      "seed": 731845592,
+      "source_position": [
+        0.5157489232652633,
+        -0.1470215999643094,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 229,
+      "success": true,
+      "support_position": [
+        0.6257677273104268,
+        0.21078316754989784,
+        0.025
+      ],
+      "task_id": "stacking_eval_0008"
+    },
+    {
+      "cumulative_action_magnitude": 1.4576167337304362,
+      "ee_path_length": 1.4571942978256343,
+      "failure_reason": null,
+      "final_alignment_error": 0.007947097436156927,
+      "maximum_support_displacement": 0.0005831444749831724,
+      "seed": 1320297312,
+      "source_position": [
+        0.4710820078814407,
+        -0.0816208020426092,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 217,
+      "success": true,
+      "support_position": [
+        0.466601093185583,
+        0.22183185344842996,
+        0.025
+      ],
+      "task_id": "stacking_eval_0009"
+    },
+    {
+      "cumulative_action_magnitude": 1.4548176556753254,
+      "ee_path_length": 1.4544081418913195,
+      "failure_reason": null,
+      "final_alignment_error": 0.0036193915402813535,
+      "maximum_support_displacement": 0.0006330384152991262,
+      "seed": 654475091,
+      "source_position": [
+        0.526466822055065,
+        -0.11830581602887899,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 217,
+      "success": true,
+      "support_position": [
+        0.5262016113312008,
+        0.10782714761578246,
+        0.025
+      ],
+      "task_id": "stacking_eval_0010"
+    },
+    {
+      "cumulative_action_magnitude": 1.4836184894390394,
+      "ee_path_length": 1.4831361842513044,
+      "failure_reason": null,
+      "final_alignment_error": 0.008617132370973894,
+      "maximum_support_displacement": 0.0007271597992425467,
+      "seed": 1248652465,
+      "source_position": [
+        0.6330099895184816,
+        -0.090604167902659,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 220,
+      "success": true,
+      "support_position": [
+        0.5921158497736654,
+        0.10265396577476987,
+        0.025
+      ],
+      "task_id": "stacking_eval_0011"
+    },
+    {
+      "cumulative_action_magnitude": 1.7039610788927178,
+      "ee_path_length": 1.703674267924499,
+      "failure_reason": null,
+      "final_alignment_error": 0.004370206959755771,
+      "maximum_support_displacement": 0.0006655827964117658,
+      "seed": 581678109,
+      "source_position": [
+        0.4650706244019162,
+        -0.20587257159701514,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 248,
+      "success": true,
+      "support_position": [
+        0.5986487646516319,
+        0.23341090659034447,
+        0.025
+      ],
+      "task_id": "stacking_eval_0012"
+    },
+    {
+      "cumulative_action_magnitude": 1.647144686645221,
+      "ee_path_length": 1.6469495498907043,
+      "failure_reason": null,
+      "final_alignment_error": 0.0005490375123954609,
+      "maximum_support_displacement": 7.339778419889967e-05,
+      "seed": 1825279659,
+      "source_position": [
+        0.5834512922188543,
+        -0.20172394377903588,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 241,
+      "success": true,
+      "support_position": [
+        0.617774145633122,
+        0.161580311529579,
+        0.025
+      ],
+      "task_id": "stacking_eval_0013"
+    },
+    {
+      "cumulative_action_magnitude": 1.6099826140729552,
+      "ee_path_length": 1.6091442300245968,
+      "failure_reason": null,
+      "final_alignment_error": 0.0013155191875439992,
+      "maximum_support_displacement": 0.0009024838734023703,
+      "seed": 1082478609,
+      "source_position": [
+        0.474600876143512,
+        -0.18001254887946078,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 236,
+      "success": true,
+      "support_position": [
+        0.5146541920693749,
+        0.1225020346045533,
+        0.025
+      ],
+      "task_id": "stacking_eval_0014"
+    },
+    {
+      "cumulative_action_magnitude": 1.6734448562719855,
+      "ee_path_length": 1.6728444267653206,
+      "failure_reason": null,
+      "final_alignment_error": 0.004724971022737619,
+      "maximum_support_displacement": 0.0006241651976563534,
+      "seed": 1387044679,
+      "source_position": [
+        0.568656305470961,
+        -0.17868992743644782,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 245,
+      "success": true,
+      "support_position": [
+        0.5431573131524011,
+        0.18005348239702787,
+        0.025
+      ],
+      "task_id": "stacking_eval_0015"
+    },
+    {
+      "cumulative_action_magnitude": 1.4777340230301317,
+      "ee_path_length": 1.4772604993270873,
+      "failure_reason": null,
+      "final_alignment_error": 0.007956092425346803,
+      "maximum_support_displacement": 0.0003002623751733732,
+      "seed": 1129755382,
+      "source_position": [
+        0.523763484956748,
+        -0.1013281709218288,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 219,
+      "success": true,
+      "support_position": [
+        0.5639500428659182,
+        0.1747451808074351,
+        0.025
+      ],
+      "task_id": "stacking_eval_0016"
+    },
+    {
+      "cumulative_action_magnitude": 1.6612209603625296,
+      "ee_path_length": 1.6606404967891928,
+      "failure_reason": null,
+      "final_alignment_error": 0.0007262266829301145,
+      "maximum_support_displacement": 0.0008890978620365046,
+      "seed": 1483362478,
+      "source_position": [
+        0.5338491155925486,
+        -0.2327038908568437,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 242,
+      "success": true,
+      "support_position": [
+        0.5491061553481908,
+        0.09451474075438904,
+        0.025
+      ],
+      "task_id": "stacking_eval_0017"
+    },
+    {
+      "cumulative_action_magnitude": 1.6369150074333865,
+      "ee_path_length": 1.6366040477051769,
+      "failure_reason": null,
+      "final_alignment_error": 0.007915968742408365,
+      "maximum_support_displacement": 0.0002516806391663781,
+      "seed": 614455941,
+      "source_position": [
+        0.5490468677707826,
+        -0.1911919465781691,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 239,
+      "success": true,
+      "support_position": [
+        0.5984497778482966,
+        0.18543774752419168,
+        0.025
+      ],
+      "task_id": "stacking_eval_0018"
+    },
+    {
+      "cumulative_action_magnitude": 1.541847626886723,
+      "ee_path_length": 1.5413351436662002,
+      "failure_reason": null,
+      "final_alignment_error": 0.006363461021383068,
+      "maximum_support_displacement": 0.0006220945155775326,
+      "seed": 1811228805,
+      "source_position": [
+        0.5415249314975814,
+        -0.1620830247999204,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 227,
+      "success": true,
+      "support_position": [
+        0.4891355535390482,
+        0.09334079329505546,
+        0.025
+      ],
+      "task_id": "stacking_eval_0019"
+    },
+    {
+      "cumulative_action_magnitude": 1.5495646783960941,
+      "ee_path_length": 1.549334330001173,
+      "failure_reason": null,
+      "final_alignment_error": 0.00016652390027307087,
+      "maximum_support_displacement": 0.0008523644745048594,
+      "seed": 1821421425,
+      "source_position": [
+        0.5473066387956583,
+        -0.1600082686276982,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 229,
+      "success": true,
+      "support_position": [
+        0.6239839135191673,
+        0.14756015420123664,
+        0.025
+      ],
+      "task_id": "stacking_eval_0020"
+    },
+    {
+      "cumulative_action_magnitude": 1.5116109461934344,
+      "ee_path_length": 1.5113464567130919,
+      "failure_reason": null,
+      "final_alignment_error": 0.004352987585648162,
+      "maximum_support_displacement": 0.00011470249753409757,
+      "seed": 1929977306,
+      "source_position": [
+        0.6223304605276916,
+        -0.08670106506290397,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 223,
+      "success": true,
+      "support_position": [
+        0.49567662184274774,
+        0.1530689567315313,
+        0.025
+      ],
+      "task_id": "stacking_eval_0021"
+    },
+    {
+      "cumulative_action_magnitude": 1.5063683689559495,
+      "ee_path_length": 1.5059376884374809,
+      "failure_reason": null,
+      "final_alignment_error": 0.004652128277087602,
+      "maximum_support_displacement": 0.0007774751853726722,
+      "seed": 239891368,
+      "source_position": [
+        0.5055047184845278,
+        -0.12984949632328738,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 224,
+      "success": true,
+      "support_position": [
+        0.6110167548098769,
+        0.11808695456262296,
+        0.025
+      ],
+      "task_id": "stacking_eval_0022"
+    },
+    {
+      "cumulative_action_magnitude": 1.531890476584441,
+      "ee_path_length": 1.5314006825856368,
+      "failure_reason": null,
+      "final_alignment_error": 0.004815464360395407,
+      "maximum_support_displacement": 0.00010559474987991235,
+      "seed": 40021466,
+      "source_position": [
+        0.5983252723834597,
+        -0.14598899296546344,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 225,
+      "success": true,
+      "support_position": [
+        0.6300591408094979,
+        0.09755198288834306,
+        0.025
+      ],
+      "task_id": "stacking_eval_0023"
+    },
+    {
+      "cumulative_action_magnitude": 1.6458035963198716,
+      "ee_path_length": 1.6453629197835262,
+      "failure_reason": null,
+      "final_alignment_error": 0.007814110308635002,
+      "maximum_support_displacement": 0.0003974749605639448,
+      "seed": 1744258118,
+      "source_position": [
+        0.5259402635528104,
+        -0.2052959261903965,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true,
+      "support_position": [
+        0.5460580535096594,
+        0.1379084822177249,
+        0.025
+      ],
+      "task_id": "stacking_eval_0024"
+    },
+    {
+      "cumulative_action_magnitude": 1.7169958378164343,
+      "ee_path_length": 1.7166985344703256,
+      "failure_reason": null,
+      "final_alignment_error": 0.007428165219535217,
+      "maximum_support_displacement": 0.00046836429592249964,
+      "seed": 1633606379,
+      "source_position": [
+        0.4915014647487109,
+        -0.23467746565526068,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 249,
+      "success": true,
+      "support_position": [
+        0.5843702127784617,
+        0.18955802978312788,
+        0.025
+      ],
+      "task_id": "stacking_eval_0025"
+    },
+    {
+      "cumulative_action_magnitude": 1.6958831633551312,
+      "ee_path_length": 1.6952761397250178,
+      "failure_reason": null,
+      "final_alignment_error": 0.005366534668535334,
+      "maximum_support_displacement": 2.7469503171257072e-05,
+      "seed": 2144437668,
+      "source_position": [
+        0.49075269898704993,
+        -0.23473049869255203,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 246,
+      "success": true,
+      "support_position": [
+        0.4752454913107574,
+        0.1358652968935563,
+        0.025
+      ],
+      "task_id": "stacking_eval_0026"
+    },
+    {
+      "cumulative_action_magnitude": 1.6372729427918147,
+      "ee_path_length": 1.6369706301716405,
+      "failure_reason": null,
+      "final_alignment_error": 0.007522053086175182,
+      "maximum_support_displacement": 0.000467953139525221,
+      "seed": 78103734,
+      "source_position": [
+        0.5339075899153042,
+        -0.20334216814456463,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 239,
+      "success": true,
+      "support_position": [
+        0.6093930283934412,
+        0.16263045828976413,
+        0.025
+      ],
+      "task_id": "stacking_eval_0027"
+    },
+    {
+      "cumulative_action_magnitude": 1.5048228508477237,
+      "ee_path_length": 1.5046652636110591,
+      "failure_reason": null,
+      "final_alignment_error": 0.010069571250746822,
+      "maximum_support_displacement": 3.937027838607857e-05,
+      "seed": 1174938666,
+      "source_position": [
+        0.4862869847230505,
+        -0.17058247688490755,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 222,
+      "success": true,
+      "support_position": [
+        0.6089080252214036,
+        0.11304870446033798,
+        0.025
+      ],
+      "task_id": "stacking_eval_0028"
+    },
+    {
+      "cumulative_action_magnitude": 1.5609023303014107,
+      "ee_path_length": 1.5602344414692784,
+      "failure_reason": null,
+      "final_alignment_error": 0.004317089794586813,
+      "maximum_support_displacement": 0.0005875423795690875,
+      "seed": 568363552,
+      "source_position": [
+        0.5643468195166501,
+        -0.09191687222040734,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 230,
+      "success": true,
+      "support_position": [
+        0.5740456255687314,
+        0.20669635591443933,
+        0.025
+      ],
+      "task_id": "stacking_eval_0029"
+    },
+    {
+      "cumulative_action_magnitude": 1.6804786597067642,
+      "ee_path_length": 1.6801590555725658,
+      "failure_reason": null,
+      "final_alignment_error": 0.00585808552990063,
+      "maximum_support_displacement": 0.00041023768877581805,
+      "seed": 1843074979,
+      "source_position": [
+        0.5685782191188599,
+        -0.1692942961167903,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 244,
+      "success": true,
+      "support_position": [
+        0.497995722420204,
+        0.2240848340311859,
+        0.025
+      ],
+      "task_id": "stacking_eval_0030"
+    },
+    {
+      "cumulative_action_magnitude": 1.8288804970877424,
+      "ee_path_length": 1.8277242751254061,
+      "failure_reason": null,
+      "final_alignment_error": 0.007565354052966476,
+      "maximum_support_displacement": 0.000486254611165462,
+      "seed": 142347782,
+      "source_position": [
+        0.4605537922090958,
+        -0.2366977375463469,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 264,
+      "success": true,
+      "support_position": [
+        0.5737241149204068,
+        0.1420418762050373,
+        0.025
+      ],
+      "task_id": "stacking_eval_0031"
+    },
+    {
+      "cumulative_action_magnitude": 1.5943609890372201,
+      "ee_path_length": 1.5936182380822266,
+      "failure_reason": null,
+      "final_alignment_error": 0.008267867261166488,
+      "maximum_support_displacement": 0.0006295579242103052,
+      "seed": 1536895552,
+      "source_position": [
+        0.47393594032254627,
+        -0.1783072916314692,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 234,
+      "success": true,
+      "support_position": [
+        0.49848931004780955,
+        0.13563060369083568,
+        0.025
+      ],
+      "task_id": "stacking_eval_0032"
+    },
+    {
+      "cumulative_action_magnitude": 1.5229027316981463,
+      "ee_path_length": 1.522645251755486,
+      "failure_reason": null,
+      "final_alignment_error": 0.01074777924213778,
+      "maximum_support_displacement": 0.00038116480055596524,
+      "seed": 1274011714,
+      "source_position": [
+        0.5082588715962938,
+        -0.15137064864064195,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 225,
+      "success": true,
+      "support_position": [
+        0.5507630454395162,
+        0.16273961013208876,
+        0.025
+      ],
+      "task_id": "stacking_eval_0033"
+    },
+    {
+      "cumulative_action_magnitude": 1.642788639236733,
+      "ee_path_length": 1.6422575890295195,
+      "failure_reason": null,
+      "final_alignment_error": 0.008872727386994484,
+      "maximum_support_displacement": 0.0003618043751449214,
+      "seed": 172263759,
+      "source_position": [
+        0.623131529452374,
+        -0.19663475160040692,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true,
+      "support_position": [
+        0.5759831524137562,
+        0.09444739096216194,
+        0.025
+      ],
+      "task_id": "stacking_eval_0034"
+    },
+    {
+      "cumulative_action_magnitude": 1.7403756818330784,
+      "ee_path_length": 1.7401805601785112,
+      "failure_reason": null,
+      "final_alignment_error": 0.0009141507607921597,
+      "maximum_support_displacement": 0.0007690052063222683,
+      "seed": 1326492084,
+      "source_position": [
+        0.5959961250004878,
+        -0.23234101361248735,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 251,
+      "success": true,
+      "support_position": [
+        0.46649499805814004,
+        0.18448060172795608,
+        0.025
+      ],
+      "task_id": "stacking_eval_0035"
+    },
+    {
+      "cumulative_action_magnitude": 1.7760507907234389,
+      "ee_path_length": 1.7751507474963408,
+      "failure_reason": null,
+      "final_alignment_error": 0.009418636264316313,
+      "maximum_support_displacement": 0.0002550010034958914,
+      "seed": 440900856,
+      "source_position": [
+        0.5340984170889895,
+        -0.21440388882805397,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 257,
+      "success": true,
+      "support_position": [
+        0.5789764087151666,
+        0.18986108316191844,
+        0.025
+      ],
+      "task_id": "stacking_eval_0036"
+    },
+    {
+      "cumulative_action_magnitude": 1.570632405831159,
+      "ee_path_length": 1.5704084608951985,
+      "failure_reason": null,
+      "final_alignment_error": 0.0017877813730403068,
+      "maximum_support_displacement": 0.0002792309245155093,
+      "seed": 527150108,
+      "source_position": [
+        0.6352833499163066,
+        -0.09676093374687131,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 231,
+      "success": true,
+      "support_position": [
+        0.579383855159251,
+        0.219253987408342,
+        0.025
+      ],
+      "task_id": "stacking_eval_0037"
+    },
+    {
+      "cumulative_action_magnitude": 1.6505686020587995,
+      "ee_path_length": 1.6501116669163147,
+      "failure_reason": null,
+      "final_alignment_error": 0.006965053265881049,
+      "maximum_support_displacement": 0.00044107760228059904,
+      "seed": 1074748880,
+      "source_position": [
+        0.4926480323383007,
+        -0.20018719975194776,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 243,
+      "success": true,
+      "support_position": [
+        0.5302373773901448,
+        0.16238515630280662,
+        0.025
+      ],
+      "task_id": "stacking_eval_0038"
+    },
+    {
+      "cumulative_action_magnitude": 1.7009550161072058,
+      "ee_path_length": 1.700196702595465,
+      "failure_reason": null,
+      "final_alignment_error": 0.00382878175931543,
+      "maximum_support_displacement": 0.0006359971558686888,
+      "seed": 809218985,
+      "source_position": [
+        0.46131636037771867,
+        -0.17322881727881895,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 247,
+      "success": true,
+      "support_position": [
+        0.6224297703174745,
+        0.23127760536363987,
+        0.025
+      ],
+      "task_id": "stacking_eval_0039"
+    },
+    {
+      "cumulative_action_magnitude": 1.6981581116250086,
+      "ee_path_length": 1.6976100891842814,
+      "failure_reason": null,
+      "final_alignment_error": 0.002342190282952471,
+      "maximum_support_displacement": 0.0005068471124051538,
+      "seed": 1230552235,
+      "source_position": [
+        0.6120016790396373,
+        -0.1614653227567334,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 247,
+      "success": true,
+      "support_position": [
+        0.5523877757264877,
+        0.19670115057856155,
+        0.025
+      ],
+      "task_id": "stacking_eval_0040"
+    },
+    {
+      "cumulative_action_magnitude": 1.5502940187387262,
+      "ee_path_length": 1.549869267358932,
+      "failure_reason": null,
+      "final_alignment_error": 0.008305199705652825,
+      "maximum_support_displacement": 0.0003773997852216026,
+      "seed": 2068049178,
+      "source_position": [
+        0.49126544084272505,
+        -0.1974946168086308,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 228,
+      "success": true,
+      "support_position": [
+        0.4604781443126748,
+        0.09426164190107424,
+        0.025
+      ],
+      "task_id": "stacking_eval_0041"
+    },
+    {
+      "cumulative_action_magnitude": 1.6367643428870158,
+      "ee_path_length": 1.636349068717135,
+      "failure_reason": null,
+      "final_alignment_error": 0.008506652387545442,
+      "maximum_support_displacement": 0.0006243755252704814,
+      "seed": 1496093486,
+      "source_position": [
+        0.5582293071533421,
+        -0.13033898721581214,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 239,
+      "success": true,
+      "support_position": [
+        0.4646238265417568,
+        0.23880596089072803,
+        0.025
+      ],
+      "task_id": "stacking_eval_0042"
+    },
+    {
+      "cumulative_action_magnitude": 1.7179246385733582,
+      "ee_path_length": 1.7175533565786014,
+      "failure_reason": null,
+      "final_alignment_error": 0.0038044217527816375,
+      "maximum_support_displacement": 0.0007919262342008985,
+      "seed": 1809925575,
+      "source_position": [
+        0.5384654722482398,
+        -0.2013755012419001,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 249,
+      "success": true,
+      "support_position": [
+        0.5300574569070697,
+        0.22718167949243082,
+        0.025
+      ],
+      "task_id": "stacking_eval_0043"
+    },
+    {
+      "cumulative_action_magnitude": 1.610038733317523,
+      "ee_path_length": 1.608997756770409,
+      "failure_reason": null,
+      "final_alignment_error": 0.008118589744364241,
+      "maximum_support_displacement": 7.754417982598428e-05,
+      "seed": 1390734782,
+      "source_position": [
+        0.5450432533526419,
+        -0.09180599564513821,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 236,
+      "success": true,
+      "support_position": [
+        0.5934608909208251,
+        0.200412994683727,
+        0.025
+      ],
+      "task_id": "stacking_eval_0044"
+    },
+    {
+      "cumulative_action_magnitude": 1.6279921166696338,
+      "ee_path_length": 1.6275241712530948,
+      "failure_reason": null,
+      "final_alignment_error": 0.006307637039003484,
+      "maximum_support_displacement": 0.0004414828326209857,
+      "seed": 1863387022,
+      "source_position": [
+        0.6129566902660091,
+        -0.17670559203562572,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 238,
+      "success": true,
+      "support_position": [
+        0.5570064060904037,
+        0.11472053859611915,
+        0.025
+      ],
+      "task_id": "stacking_eval_0045"
+    },
+    {
+      "cumulative_action_magnitude": 1.7970123274721668,
+      "ee_path_length": 1.796522993748314,
+      "failure_reason": null,
+      "final_alignment_error": 0.004993088743724481,
+      "maximum_support_displacement": 0.0007383253228753311,
+      "seed": 1823826991,
+      "source_position": [
+        0.5610458986760483,
+        -0.23924556054440982,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 259,
+      "success": true,
+      "support_position": [
+        0.5691028515275148,
+        0.2104043161234234,
+        0.025
+      ],
+      "task_id": "stacking_eval_0046"
+    },
+    {
+      "cumulative_action_magnitude": 1.3600000000000003,
+      "ee_path_length": 1.3598251987461771,
+      "failure_reason": null,
+      "final_alignment_error": 0.0003033875953331981,
+      "maximum_support_displacement": 0.0009148657624125283,
+      "seed": 1882185070,
+      "source_position": [
+        0.5337315714729647,
+        -0.0811685097471166,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 203,
+      "success": true,
+      "support_position": [
+        0.4710308429660968,
+        0.11713328389556402,
+        0.025
+      ],
+      "task_id": "stacking_eval_0047"
+    },
+    {
+      "cumulative_action_magnitude": 1.5518868303012805,
+      "ee_path_length": 1.551475774040671,
+      "failure_reason": null,
+      "final_alignment_error": 0.010680454738759672,
+      "maximum_support_displacement": 0.000615408552498077,
+      "seed": 191203483,
+      "source_position": [
+        0.5824689261189835,
+        -0.12021344616266955,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 229,
+      "success": true,
+      "support_position": [
+        0.5703493231336797,
+        0.17188714627826554,
+        0.025
+      ],
+      "task_id": "stacking_eval_0048"
+    },
+    {
+      "cumulative_action_magnitude": 1.7279525730953886,
+      "ee_path_length": 1.7276066583672616,
+      "failure_reason": null,
+      "final_alignment_error": 0.002334124927225988,
+      "maximum_support_displacement": 0.00013293111788610328,
+      "seed": 2098065379,
+      "source_position": [
+        0.6152972959084855,
+        -0.18867217391381993,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 250,
+      "success": true,
+      "support_position": [
+        0.5347175769022174,
+        0.2032382021413219,
+        0.025
+      ],
+      "task_id": "stacking_eval_0049"
+    },
+    {
+      "cumulative_action_magnitude": 1.8376681275458333,
+      "ee_path_length": 1.836492630106639,
+      "failure_reason": null,
+      "final_alignment_error": 0.009370491022174417,
+      "maximum_support_displacement": 0.0006239179408237419,
+      "seed": 292615533,
+      "source_position": [
+        0.631225123669368,
+        -0.21122358672710922,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 264,
+      "success": true,
+      "support_position": [
+        0.5363782723526537,
+        0.1367499859718922,
+        0.025
+      ],
+      "task_id": "stacking_eval_0050"
+    },
+    {
+      "cumulative_action_magnitude": 1.5935532328485027,
+      "ee_path_length": 1.5929314095011589,
+      "failure_reason": null,
+      "final_alignment_error": 0.0004276655832737955,
+      "maximum_support_displacement": 0.0008509258689232552,
+      "seed": 2024913179,
+      "source_position": [
+        0.5719088007222801,
+        -0.16322741937316382,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 234,
+      "success": true,
+      "support_position": [
+        0.5561449835254243,
+        0.10535584403737579,
+        0.025
+      ],
+      "task_id": "stacking_eval_0051"
+    },
+    {
+      "cumulative_action_magnitude": 1.5866742593211909,
+      "ee_path_length": 1.586177127081767,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008421310536790371,
+      "maximum_support_displacement": 0.000880221035713953,
+      "seed": 263057821,
+      "source_position": [
+        0.47275450722967416,
+        -0.17745489967825956,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 233,
+      "success": true,
+      "support_position": [
+        0.5808130596377489,
+        0.1366079623613227,
+        0.025
+      ],
+      "task_id": "stacking_eval_0052"
+    },
+    {
+      "cumulative_action_magnitude": 1.502700490708983,
+      "ee_path_length": 1.5024038338441417,
+      "failure_reason": null,
+      "final_alignment_error": 0.009911041909635055,
+      "maximum_support_displacement": 0.00019032654214724555,
+      "seed": 891559028,
+      "source_position": [
+        0.47856779088531237,
+        -0.13846517512984635,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 223,
+      "success": true,
+      "support_position": [
+        0.4609513453652741,
+        0.17250221083380982,
+        0.025
+      ],
+      "task_id": "stacking_eval_0053"
+    },
+    {
+      "cumulative_action_magnitude": 1.5766601894564127,
+      "ee_path_length": 1.5764610515069837,
+      "failure_reason": null,
+      "final_alignment_error": 0.012950927286766362,
+      "maximum_support_displacement": 0.00035369906208050227,
+      "seed": 743148250,
+      "source_position": [
+        0.6019814555386372,
+        -0.17544112323982525,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 231,
+      "success": true,
+      "support_position": [
+        0.5017015430568847,
+        0.11172315185381855,
+        0.025
+      ],
+      "task_id": "stacking_eval_0054"
+    },
+    {
+      "cumulative_action_magnitude": 1.5743077507211019,
+      "ee_path_length": 1.5740204058131315,
+      "failure_reason": null,
+      "final_alignment_error": 0.002226908994297807,
+      "maximum_support_displacement": 0.0005297308603558461,
+      "seed": 187613209,
+      "source_position": [
+        0.5543782558073683,
+        -0.20088815265954005,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 231,
+      "success": true,
+      "support_position": [
+        0.46729478394098267,
+        0.0890036312553292,
+        0.025
+      ],
+      "task_id": "stacking_eval_0055"
+    },
+    {
+      "cumulative_action_magnitude": 1.5101794169484237,
+      "ee_path_length": 1.509696414920099,
+      "failure_reason": null,
+      "final_alignment_error": 0.006199209940073799,
+      "maximum_support_displacement": 0.0002890389672582159,
+      "seed": 1126617647,
+      "source_position": [
+        0.6096007994131801,
+        -0.09437249746704722,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 222,
+      "success": true,
+      "support_position": [
+        0.5333893313439636,
+        0.12738085272597355,
+        0.025
+      ],
+      "task_id": "stacking_eval_0056"
+    },
+    {
+      "cumulative_action_magnitude": 1.8033436252666415,
+      "ee_path_length": 1.8025622651833935,
+      "failure_reason": null,
+      "final_alignment_error": 0.0031236567525704524,
+      "maximum_support_displacement": 0.0006144714118606323,
+      "seed": 688144568,
+      "source_position": [
+        0.6048181710798234,
+        -0.1944767541903429,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 260,
+      "success": true,
+      "support_position": [
+        0.47957877949222283,
+        0.19541329122545115,
+        0.025
+      ],
+      "task_id": "stacking_eval_0057"
+    },
+    {
+      "cumulative_action_magnitude": 1.4184935425155827,
+      "ee_path_length": 1.4182531359943962,
+      "failure_reason": null,
+      "final_alignment_error": 0.0005593794436682591,
+      "maximum_support_displacement": 0.00033376566021217635,
+      "seed": 912275545,
+      "source_position": [
+        0.5325056778264198,
+        -0.08752089544828402,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 212,
+      "success": true,
+      "support_position": [
+        0.5486342459023525,
+        0.16571187965131123,
+        0.025
+      ],
+      "task_id": "stacking_eval_0058"
+    },
+    {
+      "cumulative_action_magnitude": 1.6833803466878092,
+      "ee_path_length": 1.6830661059120924,
+      "failure_reason": null,
+      "final_alignment_error": 0.004903723396246568,
+      "maximum_support_displacement": 0.0006283943596714995,
+      "seed": 1666310538,
+      "source_position": [
+        0.6286918313225945,
+        -0.2056064821974534,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 246,
+      "success": true,
+      "support_position": [
+        0.49442830031419666,
+        0.13957108435293009,
+        0.025
+      ],
+      "task_id": "stacking_eval_0059"
+    },
+    {
+      "cumulative_action_magnitude": 1.5954804527225102,
+      "ee_path_length": 1.5951268689876108,
+      "failure_reason": null,
+      "final_alignment_error": 0.008858550628902718,
+      "maximum_support_displacement": 0.0006355199665238605,
+      "seed": 1405357980,
+      "source_position": [
+        0.5233180381361634,
+        -0.14945782298168742,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 234,
+      "success": true,
+      "support_position": [
+        0.5609034550365586,
+        0.20337850946466302,
+        0.025
+      ],
+      "task_id": "stacking_eval_0060"
+    },
+    {
+      "cumulative_action_magnitude": 1.654297162918875,
+      "ee_path_length": 1.6539014431721482,
+      "failure_reason": null,
+      "final_alignment_error": 0.012374229508962411,
+      "maximum_support_displacement": 0.00016762221056748215,
+      "seed": 2081271034,
+      "source_position": [
+        0.4957732761514877,
+        -0.20494394519174045,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 241,
+      "success": true,
+      "support_position": [
+        0.5919760780025335,
+        0.14460940857788185,
+        0.025
+      ],
+      "task_id": "stacking_eval_0061"
+    },
+    {
+      "cumulative_action_magnitude": 1.5231030599143927,
+      "ee_path_length": 1.5226975648637047,
+      "failure_reason": null,
+      "final_alignment_error": 0.003869540626645207,
+      "maximum_support_displacement": 0.0008337887355868468,
+      "seed": 1444106915,
+      "source_position": [
+        0.5130458153729548,
+        -0.154932554562742,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 226,
+      "success": true,
+      "support_position": [
+        0.6036533808336842,
+        0.10794244734054233,
+        0.025
+      ],
+      "task_id": "stacking_eval_0062"
+    },
+    {
+      "cumulative_action_magnitude": 1.6294285696346078,
+      "ee_path_length": 1.6290765730796153,
+      "failure_reason": null,
+      "final_alignment_error": 0.0036199220309484238,
+      "maximum_support_displacement": 0.0006181778037623817,
+      "seed": 1771439371,
+      "source_position": [
+        0.6051951154867765,
+        -0.21434354785120133,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 238,
+      "success": true,
+      "support_position": [
+        0.5736873547440401,
+        0.08150409049704006,
+        0.025
+      ],
+      "task_id": "stacking_eval_0063"
+    },
+    {
+      "cumulative_action_magnitude": 1.4698606451492702,
+      "ee_path_length": 1.46955252611359,
+      "failure_reason": null,
+      "final_alignment_error": 0.007277608383733912,
+      "maximum_support_displacement": 0.0004608976070196449,
+      "seed": 301848000,
+      "source_position": [
+        0.5809266800538141,
+        -0.12624714567613585,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 218,
+      "success": true,
+      "support_position": [
+        0.561689979722036,
+        0.08589261820507568,
+        0.025
+      ],
+      "task_id": "stacking_eval_0064"
+    },
+    {
+      "cumulative_action_magnitude": 1.7750724894656584,
+      "ee_path_length": 1.7746257782575392,
+      "failure_reason": null,
+      "final_alignment_error": 0.008195667660229397,
+      "maximum_support_displacement": 0.0006810076942635616,
+      "seed": 851740502,
+      "source_position": [
+        0.6346608814354046,
+        -0.23875362593340219,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 257,
+      "success": true,
+      "support_position": [
+        0.4636269140384568,
+        0.11950483875466748,
+        0.025
+      ],
+      "task_id": "stacking_eval_0065"
+    },
+    {
+      "cumulative_action_magnitude": 1.7974336861456415,
+      "ee_path_length": 1.7967788025286593,
+      "failure_reason": null,
+      "final_alignment_error": 0.0063139619168703,
+      "maximum_support_displacement": 0.0006272436182485722,
+      "seed": 1968036384,
+      "source_position": [
+        0.6288882963619575,
+        -0.22991398826504927,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 259,
+      "success": true,
+      "support_position": [
+        0.49872269035244066,
+        0.14887689434414492,
+        0.025
+      ],
+      "task_id": "stacking_eval_0066"
+    },
+    {
+      "cumulative_action_magnitude": 1.5050232308459153,
+      "ee_path_length": 1.5047710377308525,
+      "failure_reason": null,
+      "final_alignment_error": 0.006608886245107806,
+      "maximum_support_displacement": 0.0004056748468610601,
+      "seed": 856438079,
+      "source_position": [
+        0.5035621214889549,
+        -0.16571405929629043,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 223,
+      "success": true,
+      "support_position": [
+        0.5082809445143873,
+        0.11426614420533454,
+        0.025
+      ],
+      "task_id": "stacking_eval_0067"
+    },
+    {
+      "cumulative_action_magnitude": 1.6555651563378126,
+      "ee_path_length": 1.6553170889662299,
+      "failure_reason": null,
+      "final_alignment_error": 0.0007673761072724318,
+      "maximum_support_displacement": 0.0002586067546026977,
+      "seed": 1991932746,
+      "source_position": [
+        0.6017363818024207,
+        -0.14788898439568995,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 241,
+      "success": true,
+      "support_position": [
+        0.5160795619451004,
+        0.2377064828209004,
+        0.025
+      ],
+      "task_id": "stacking_eval_0068"
+    },
+    {
+      "cumulative_action_magnitude": 1.665960358633126,
+      "ee_path_length": 1.6650896906451127,
+      "failure_reason": null,
+      "final_alignment_error": 0.007939364702218345,
+      "maximum_support_displacement": 0.0006672034576640954,
+      "seed": 378976337,
+      "source_position": [
+        0.5191761247723069,
+        -0.16174030373602347,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 243,
+      "success": true,
+      "support_position": [
+        0.5956856472918706,
+        0.16598752331876895,
+        0.025
+      ],
+      "task_id": "stacking_eval_0069"
+    },
+    {
+      "cumulative_action_magnitude": 1.645824324086913,
+      "ee_path_length": 1.645656624268998,
+      "failure_reason": null,
+      "final_alignment_error": 0.0072440888601174825,
+      "maximum_support_displacement": 0.0004055569076839062,
+      "seed": 671318170,
+      "source_position": [
+        0.4694077744485725,
+        -0.20080521709778965,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 241,
+      "success": true,
+      "support_position": [
+        0.5869228220550091,
+        0.20352621521059666,
+        0.025
+      ],
+      "task_id": "stacking_eval_0070"
+    },
+    {
+      "cumulative_action_magnitude": 1.4466610013993533,
+      "ee_path_length": 1.446304391781101,
+      "failure_reason": null,
+      "final_alignment_error": 0.0031047040789817554,
+      "maximum_support_displacement": 0.0006194102125001616,
+      "seed": 650947175,
+      "source_position": [
+        0.52280208867017,
+        -0.12126697616808872,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 216,
+      "success": true,
+      "support_position": [
+        0.5669346370846977,
+        0.10923280851746733,
+        0.025
+      ],
+      "task_id": "stacking_eval_0071"
+    },
+    {
+      "cumulative_action_magnitude": 1.7745937249441213,
+      "ee_path_length": 1.7742152435003762,
+      "failure_reason": null,
+      "final_alignment_error": 0.007522939580623836,
+      "maximum_support_displacement": 0.0001580217979248939,
+      "seed": 1047531651,
+      "source_position": [
+        0.4963933046059423,
+        -0.23525351760867996,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 258,
+      "success": true,
+      "support_position": [
+        0.46911388641276686,
+        0.2266544069871787,
+        0.025
+      ],
+      "task_id": "stacking_eval_0072"
+    },
+    {
+      "cumulative_action_magnitude": 1.522204723316415,
+      "ee_path_length": 1.5219212849354844,
+      "failure_reason": null,
+      "final_alignment_error": 0.007444320578092008,
+      "maximum_support_displacement": 0.000466750777573431,
+      "seed": 697096551,
+      "source_position": [
+        0.5099841517285221,
+        -0.12859843952254363,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 225,
+      "success": true,
+      "support_position": [
+        0.5071071373098958,
+        0.20663034412988907,
+        0.025
+      ],
+      "task_id": "stacking_eval_0073"
+    },
+    {
+      "cumulative_action_magnitude": 1.716732114597601,
+      "ee_path_length": 1.7162901872713694,
+      "failure_reason": null,
+      "final_alignment_error": 0.008418405630328163,
+      "maximum_support_displacement": 0.0005646539627410723,
+      "seed": 99057493,
+      "source_position": [
+        0.6255029567668025,
+        -0.21368584206247315,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 249,
+      "success": true,
+      "support_position": [
+        0.46457043721109265,
+        0.12403440504238168,
+        0.025
+      ],
+      "task_id": "stacking_eval_0074"
+    },
+    {
+      "cumulative_action_magnitude": 1.4600417844957727,
+      "ee_path_length": 1.459876493532259,
+      "failure_reason": null,
+      "final_alignment_error": 6.250996626559041e-06,
+      "maximum_support_displacement": 0.0004937797203914618,
+      "seed": 419509216,
+      "source_position": [
+        0.5125820553420108,
+        -0.1523973078706208,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 216,
+      "success": true,
+      "support_position": [
+        0.586277461030643,
+        0.10579195139896731,
+        0.025
+      ],
+      "task_id": "stacking_eval_0075"
+    },
+    {
+      "cumulative_action_magnitude": 1.5937049702835555,
+      "ee_path_length": 1.593446602868353,
+      "failure_reason": null,
+      "final_alignment_error": 0.008806365536557269,
+      "maximum_support_displacement": 0.0006269577033574011,
+      "seed": 1434010743,
+      "source_position": [
+        0.546066662393634,
+        -0.13611679812184851,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 234,
+      "success": true,
+      "support_position": [
+        0.5250456337780713,
+        0.2372148302122079,
+        0.025
+      ],
+      "task_id": "stacking_eval_0076"
+    },
+    {
+      "cumulative_action_magnitude": 1.6991509238131683,
+      "ee_path_length": 1.6985339187885469,
+      "failure_reason": null,
+      "final_alignment_error": 0.006507063611434678,
+      "maximum_support_displacement": 0.0007535959315045248,
+      "seed": 1156582502,
+      "source_position": [
+        0.4880139053940041,
+        -0.2000596101412534,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 248,
+      "success": true,
+      "support_position": [
+        0.48692983659765887,
+        0.20136339590929558,
+        0.025
+      ],
+      "task_id": "stacking_eval_0077"
+    },
+    {
+      "cumulative_action_magnitude": 1.538168427150981,
+      "ee_path_length": 1.537814081037804,
+      "failure_reason": null,
+      "final_alignment_error": 0.009410788814534922,
+      "maximum_support_displacement": 5.942932421780395e-05,
+      "seed": 1688314798,
+      "source_position": [
+        0.5487819334687715,
+        -0.12905696823230164,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 226,
+      "success": true,
+      "support_position": [
+        0.5867756403612702,
+        0.19136464765107253,
+        0.025
+      ],
+      "task_id": "stacking_eval_0078"
+    },
+    {
+      "cumulative_action_magnitude": 1.6780919197760535,
+      "ee_path_length": 1.6777254613580346,
+      "failure_reason": null,
+      "final_alignment_error": 0.001724548158249036,
+      "maximum_support_displacement": 0.00024034959096977377,
+      "seed": 1364087865,
+      "source_position": [
+        0.6306899736158393,
+        -0.22926208922197353,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 245,
+      "success": true,
+      "support_position": [
+        0.5461499037395344,
+        0.09088392250190093,
+        0.025
+      ],
+      "task_id": "stacking_eval_0079"
+    },
+    {
+      "cumulative_action_magnitude": 1.6773115832647334,
+      "ee_path_length": 1.6770529574821174,
+      "failure_reason": null,
+      "final_alignment_error": 0.001516656919535704,
+      "maximum_support_displacement": 3.473479960692239e-05,
+      "seed": 2039193137,
+      "source_position": [
+        0.5365543120776739,
+        -0.23247819416714244,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 244,
+      "success": true,
+      "support_position": [
+        0.5553003786683776,
+        0.1549300358477837,
+        0.025
+      ],
+      "task_id": "stacking_eval_0080"
+    },
+    {
+      "cumulative_action_magnitude": 1.618505117442489,
+      "ee_path_length": 1.6179405680828758,
+      "failure_reason": null,
+      "final_alignment_error": 0.0076900373166746494,
+      "maximum_support_displacement": 8.727912771537066e-05,
+      "seed": 578694333,
+      "source_position": [
+        0.4963964592660549,
+        -0.20272551608037495,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 236,
+      "success": true,
+      "support_position": [
+        0.5913147771515633,
+        0.11117839396629305,
+        0.025
+      ],
+      "task_id": "stacking_eval_0081"
+    },
+    {
+      "cumulative_action_magnitude": 1.6051583107135508,
+      "ee_path_length": 1.604645297757687,
+      "failure_reason": null,
+      "final_alignment_error": 0.0025511740324163823,
+      "maximum_support_displacement": 0.0005844747470947614,
+      "seed": 1982399887,
+      "source_position": [
+        0.5712132039780426,
+        -0.16186005793638178,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 235,
+      "success": true,
+      "support_position": [
+        0.567387587202954,
+        0.15288910212973628,
+        0.025
+      ],
+      "task_id": "stacking_eval_0082"
+    },
+    {
+      "cumulative_action_magnitude": 1.7078033503674006,
+      "ee_path_length": 1.7073483458668914,
+      "failure_reason": null,
+      "final_alignment_error": 0.003493779535710706,
+      "maximum_support_displacement": 0.0006220215177391949,
+      "seed": 996882118,
+      "source_position": [
+        0.4784338274872587,
+        -0.22379176983757962,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 249,
+      "success": true,
+      "support_position": [
+        0.5750805459976513,
+        0.15317975083971802,
+        0.025
+      ],
+      "task_id": "stacking_eval_0083"
+    },
+    {
+      "cumulative_action_magnitude": 1.604149643643853,
+      "ee_path_length": 1.603957355391572,
+      "failure_reason": null,
+      "final_alignment_error": 0.007763191637117077,
+      "maximum_support_displacement": 6.0943301365450555e-05,
+      "seed": 1563299509,
+      "source_position": [
+        0.5856632661709139,
+        -0.1572024035237449,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 236,
+      "success": true,
+      "support_position": [
+        0.5309178776652205,
+        0.19998028425055978,
+        0.025
+      ],
+      "task_id": "stacking_eval_0084"
+    },
+    {
+      "cumulative_action_magnitude": 1.7056975090996873,
+      "ee_path_length": 1.7051141628836164,
+      "failure_reason": null,
+      "final_alignment_error": 0.008236566884374567,
+      "maximum_support_displacement": 0.0005056794728210637,
+      "seed": 853988986,
+      "source_position": [
+        0.6204381344764027,
+        -0.19474534173979843,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 248,
+      "success": true,
+      "support_position": [
+        0.6240902145376456,
+        0.13518012649716127,
+        0.025
+      ],
+      "task_id": "stacking_eval_0085"
+    },
+    {
+      "cumulative_action_magnitude": 1.5807856406650034,
+      "ee_path_length": 1.5801355180957166,
+      "failure_reason": null,
+      "final_alignment_error": 0.007883599749879632,
+      "maximum_support_displacement": 0.000588898492442854,
+      "seed": 1280481352,
+      "source_position": [
+        0.48703320309763704,
+        -0.10907895797864449,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 233,
+      "success": true,
+      "support_position": [
+        0.5667870476555767,
+        0.2266443853248774,
+        0.025
+      ],
+      "task_id": "stacking_eval_0086"
+    },
+    {
+      "cumulative_action_magnitude": 1.7002989405219302,
+      "ee_path_length": 1.7000699580849545,
+      "failure_reason": null,
+      "final_alignment_error": 0.009303391524441368,
+      "maximum_support_displacement": 6.446575608377046e-05,
+      "seed": 103596577,
+      "source_position": [
+        0.6264205494180272,
+        -0.18574672178818372,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 246,
+      "success": true,
+      "support_position": [
+        0.5288708668090194,
+        0.2088662026916494,
+        0.025
+      ],
+      "task_id": "stacking_eval_0087"
+    },
+    {
+      "cumulative_action_magnitude": 1.7532973803105478,
+      "ee_path_length": 1.7529669187925379,
+      "failure_reason": null,
+      "final_alignment_error": 0.011914037479543862,
+      "maximum_support_displacement": 0.00018062412295582908,
+      "seed": 1866988548,
+      "source_position": [
+        0.6254267203766569,
+        -0.21927200002235414,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 253,
+      "success": true,
+      "support_position": [
+        0.5001543122007526,
+        0.17932137025241773,
+        0.025
+      ],
+      "task_id": "stacking_eval_0088"
+    },
+    {
+      "cumulative_action_magnitude": 1.6384495883023122,
+      "ee_path_length": 1.6380778850278,
+      "failure_reason": null,
+      "final_alignment_error": 0.005324273072618143,
+      "maximum_support_displacement": 0.0006201574193602155,
+      "seed": 1048741921,
+      "source_position": [
+        0.48840954025519634,
+        -0.21571292253764807,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 239,
+      "success": true,
+      "support_position": [
+        0.5021200906298279,
+        0.1528125720800735,
+        0.025
+      ],
+      "task_id": "stacking_eval_0089"
+    },
+    {
+      "cumulative_action_magnitude": 1.6068493297607298,
+      "ee_path_length": 1.6064683132622384,
+      "failure_reason": null,
+      "final_alignment_error": 0.0019455337235240182,
+      "maximum_support_displacement": 0.00012746095139646652,
+      "seed": 489286340,
+      "source_position": [
+        0.5694000861161659,
+        -0.13949227056590485,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 235,
+      "success": true,
+      "support_position": [
+        0.5503873756313208,
+        0.20853938934601124,
+        0.025
+      ],
+      "task_id": "stacking_eval_0090"
+    },
+    {
+      "cumulative_action_magnitude": 1.6788792912899404,
+      "ee_path_length": 1.6781880078666562,
+      "failure_reason": null,
+      "final_alignment_error": 0.0012771658532729864,
+      "maximum_support_displacement": 0.0008928704539743918,
+      "seed": 196709646,
+      "source_position": [
+        0.5782994423944109,
+        -0.18626485543754692,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 244,
+      "success": true,
+      "support_position": [
+        0.4993820296551818,
+        0.15177022085644554,
+        0.025
+      ],
+      "task_id": "stacking_eval_0091"
+    },
+    {
+      "cumulative_action_magnitude": 1.507908304320627,
+      "ee_path_length": 1.507652090807722,
+      "failure_reason": null,
+      "final_alignment_error": 0.005396521237460237,
+      "maximum_support_displacement": 0.0003563408118952635,
+      "seed": 1621328775,
+      "source_position": [
+        0.6383401270587867,
+        -0.12196024359664247,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 223,
+      "success": true,
+      "support_position": [
+        0.6003463701659963,
+        0.1095851426935526,
+        0.025
+      ],
+      "task_id": "stacking_eval_0092"
+    },
+    {
+      "cumulative_action_magnitude": 1.5761021134283135,
+      "ee_path_length": 1.5752331794451828,
+      "failure_reason": null,
+      "final_alignment_error": 0.005993139361863113,
+      "maximum_support_displacement": 0.0006728975597493316,
+      "seed": 445235212,
+      "source_position": [
+        0.49824450313973345,
+        -0.142814620362053,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 232,
+      "success": true,
+      "support_position": [
+        0.5058704926801917,
+        0.15288692658657255,
+        0.025
+      ],
+      "task_id": "stacking_eval_0093"
+    },
+    {
+      "cumulative_action_magnitude": 1.6476178775148824,
+      "ee_path_length": 1.647192814500848,
+      "failure_reason": null,
+      "final_alignment_error": 0.007470921862544979,
+      "maximum_support_displacement": 0.00045175471889044106,
+      "seed": 2062609681,
+      "source_position": [
+        0.636967133462405,
+        -0.17220572775256454,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 241,
+      "success": true,
+      "support_position": [
+        0.4784406586371372,
+        0.12065585912574606,
+        0.025
+      ],
+      "task_id": "stacking_eval_0094"
+    },
+    {
+      "cumulative_action_magnitude": 1.692765052132252,
+      "ee_path_length": 1.6925616862741677,
+      "failure_reason": null,
+      "final_alignment_error": 0.0020924138050290642,
+      "maximum_support_displacement": 0.0008352614327928502,
+      "seed": 1514432226,
+      "source_position": [
+        0.6145548153741556,
+        -0.23395140985956953,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 245,
+      "success": true,
+      "support_position": [
+        0.5213902757765114,
+        0.12961499768405763,
+        0.025
+      ],
+      "task_id": "stacking_eval_0095"
+    },
+    {
+      "cumulative_action_magnitude": 1.6000834855528474,
+      "ee_path_length": 1.599559962291631,
+      "failure_reason": null,
+      "final_alignment_error": 0.005640530343385639,
+      "maximum_support_displacement": 0.0005531141716387055,
+      "seed": 710064964,
+      "source_position": [
+        0.49807482087719335,
+        -0.21949186600016682,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 234,
+      "success": true,
+      "support_position": [
+        0.46163636946704967,
+        0.08958847517019246,
+        0.025
+      ],
+      "task_id": "stacking_eval_0096"
+    },
+    {
+      "cumulative_action_magnitude": 1.473259811543767,
+      "ee_path_length": 1.473082773220444,
+      "failure_reason": null,
+      "final_alignment_error": 0.00668672699312117,
+      "maximum_support_displacement": 0.000606107903635345,
+      "seed": 815608223,
+      "source_position": [
+        0.5899225426976243,
+        -0.10764056416556073,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 220,
+      "success": true,
+      "support_position": [
+        0.5091098015653008,
+        0.12518238401525564,
+        0.025
+      ],
+      "task_id": "stacking_eval_0097"
+    },
+    {
+      "cumulative_action_magnitude": 1.6578563384415361,
+      "ee_path_length": 1.657607928255873,
+      "failure_reason": null,
+      "final_alignment_error": 0.008524271409712748,
+      "maximum_support_displacement": 0.00039438804223695874,
+      "seed": 75642788,
+      "source_position": [
+        0.4956683265113039,
+        -0.20821060483574869,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 242,
+      "success": true,
+      "support_position": [
+        0.6104378342663098,
+        0.17991568599227648,
+        0.025
+      ],
+      "task_id": "stacking_eval_0098"
+    },
+    {
+      "cumulative_action_magnitude": 1.5050357152973146,
+      "ee_path_length": 1.5048512328085697,
+      "failure_reason": null,
+      "final_alignment_error": 0.0106843090015568,
+      "maximum_support_displacement": 0.0005140019614623954,
+      "seed": 1463581186,
+      "source_position": [
+        0.5946502041122314,
+        -0.09491440780514426,
+        0.025
+      ],
+      "stable_steps": 21,
+      "steps": 222,
+      "success": true,
+      "support_position": [
+        0.5243307943300635,
+        0.19554961878758023,
+        0.025
+      ],
+      "task_id": "stacking_eval_0099"
+    }
+  ],
+  "steps": {
+    "max": 264.0,
+    "mean": 236.35,
+    "min": 203.0,
+    "std": 12.738426119423075
+  },
+  "success_rate": 1.0,
+  "successes": 100,
+  "task": "object_stacking",
+  "tasks": 100,
+  "version": 1
+}

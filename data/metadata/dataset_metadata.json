@@ -1,0 +1,5810 @@
+{
+  "action_dimension": 4,
+  "attempted_episodes": 300,
+  "creation_timestamp_utc": "2026-10-08T03:33:22.734605+00:00",
+  "dataset_fingerprint": "1b6cec9dda067778630268c307241c62cccbd49cfe849a031877ee00ea938bc0",
+  "dataset_version": 1,
+  "environment_configuration_summary": {
+    "control": {
+      "gripper_closed_position": 0.0,
+      "gripper_open_position": 0.04,
+      "max_cartesian_delta": 0.03,
+      "workspace_bounds": [
+        [
+          0.25,
+          0.75
+        ],
+        [
+          -0.45,
+          0.45
+        ],
+        [
+          0.03,
+          0.75
+        ]
+      ]
+    },
+    "physics": {
+      "reset_settle_steps": 60,
+      "sim_steps_per_action": 24,
+      "timestep": 0.004166666666666667
+    },
+    "robot": {
+      "fixed_ee_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_joint_positions": [
+        0.0,
+        -0.4,
+        0.0,
+        -2.4,
+        0.0,
+        2.0,
+        0.8
+      ]
+    },
+    "task": {
+      "cube_position": [
+        0.55,
+        -0.15,
+        0.025
+      ],
+      "goal_position": [
+        0.55,
+        0.15,
+        0.025
+      ],
+      "target_height_tolerance": 0.025,
+      "target_radius": 0.06
+    }
+  },
+  "expert_configuration": {
+    "grasp_height_offset": 0.01,
+    "grasp_settle_steps": 8,
+    "max_episode_steps": 400,
+    "max_grasp_distance": 0.08,
+    "min_lift_height": 0.05,
+    "place_height_offset": 0.01,
+    "position_tolerance": 0.004,
+    "release_settle_steps": 10,
+    "safe_height": 0.3,
+    "step_size": 0.008
+  },
+  "failed_episodes": 0,
+  "failure_reasons": {},
+  "fingerprint_basis": "SHA256 of ordered successful task configurations",
+  "global_dataset_seed": 5478,
+  "number_of_total_state_action_pairs": 65738,
+  "number_of_trajectories": 300,
+  "observation_dimension": 10,
+  "success_filtering_rule": "Only rollouts with expert success=True and env.is_success()=True are saved",
+  "task_randomization": {
+    "enabled": true,
+    "goal_x_range": [
+      0.42,
+      0.63
+    ],
+    "goal_y_range": [
+      -0.12,
+      0.28
+    ],
+    "min_object_goal_distance": 0.18,
+    "object_x_range": [
+      0.42,
+      0.63
+    ],
+    "object_y_range": [
+      -0.28,
+      0.12
+    ],
+    "target_radius_range": [
+      0.045,
+      0.075
+    ]
+  },
+  "trajectory_summaries": [
+    {
+      "cumulative_action_magnitude": 1.4880001544952393,
+      "ee_path_length": 1.4878068569354244,
+      "goal_position": [
+        0.4556300494457324,
+        0.17289416365937374,
+        0.025
+      ],
+      "object_position": [
+        0.5920595934711457,
+        0.015602484925070452,
+        0.025
+      ],
+      "target_radius": 0.07452466287597974,
+      "task_id": "task_000000",
+      "task_seed": 1332420927,
+      "trajectory_id": "traj_0000",
+      "trajectory_length": 205
+    },
+    {
+      "cumulative_action_magnitude": 1.55926513671875,
+      "ee_path_length": 1.5590743960136992,
+      "goal_position": [
+        0.5620842769484105,
+        0.23811796988555417,
+        0.025
+      ],
+      "object_position": [
+        0.5284896525277915,
+        -0.07937596510406969,
+        0.025
+      ],
+      "target_radius": 0.0528865164872163,
+      "task_id": "task_000001",
+      "task_seed": 719408618,
+      "trajectory_id": "traj_0001",
+      "trajectory_length": 214
+    },
+    {
+      "cumulative_action_magnitude": 1.6160001754760742,
+      "ee_path_length": 1.6158090913173728,
+      "goal_position": [
+        0.4973214753268437,
+        0.12674749989271764,
+        0.025
+      ],
+      "object_position": [
+        0.47736861035846007,
+        -0.18588389589601917,
+        0.025
+      ],
+      "target_radius": 0.07455313055829194,
+      "task_id": "task_000002",
+      "task_seed": 481571987,
+      "trajectory_id": "traj_0002",
+      "trajectory_length": 221
+    },
+    {
+      "cumulative_action_magnitude": 1.8548681735992432,
+      "ee_path_length": 1.8546586906989782,
+      "goal_position": [
+        0.6162948914740006,
+        0.24674396437854665,
+        0.025
+      ],
+      "object_position": [
+        0.5316192927669124,
+        -0.23263387917208062,
+        0.025
+      ],
+      "target_radius": 0.07160587804079267,
+      "task_id": "task_000003",
+      "task_seed": 119649703,
+      "trajectory_id": "traj_0003",
+      "trajectory_length": 251
+    },
+    {
+      "cumulative_action_magnitude": 1.5109913349151611,
+      "ee_path_length": 1.5108018264890606,
+      "goal_position": [
+        0.5765870622659601,
+        0.1388369581094881,
+        0.025
+      ],
+      "object_position": [
+        0.5225445197556483,
+        -0.1103881839375592,
+        0.025
+      ],
+      "target_radius": 0.05672832834073689,
+      "task_id": "task_000004",
+      "task_seed": 1990843816,
+      "trajectory_id": "traj_0004",
+      "trajectory_length": 208
+    },
+    {
+      "cumulative_action_magnitude": 1.7567644119262695,
+      "ee_path_length": 1.7565881282538995,
+      "goal_position": [
+        0.5475369201244352,
+        0.2457864972372808,
+        0.025
+      ],
+      "object_position": [
+        0.5171666162723693,
+        -0.18991197855497047,
+        0.025
+      ],
+      "target_radius": 0.05941882178687189,
+      "task_id": "task_000005",
+      "task_seed": 2135368036,
+      "trajectory_id": "traj_0005",
+      "trajectory_length": 239
+    },
+    {
+      "cumulative_action_magnitude": 1.6719956398010254,
+      "ee_path_length": 1.671809858547916,
+      "goal_position": [
+        0.4639266909208894,
+        0.1896760500293254,
+        0.025
+      ],
+      "object_position": [
+        0.5043991216054908,
+        -0.17684019708608284,
+        0.025
+      ],
+      "target_radius": 0.062350241125299355,
+      "task_id": "task_000006",
+      "task_seed": 34852271,
+      "trajectory_id": "traj_0006",
+      "trajectory_length": 228
+    },
+    {
+      "cumulative_action_magnitude": 1.752000331878662,
+      "ee_path_length": 1.7518135089913596,
+      "goal_position": [
+        0.5212515241586074,
+        0.21853191911361208,
+        0.025
+      ],
+      "object_position": [
+        0.5882909584798014,
+        -0.17663671351551205,
+        0.025
+      ],
+      "target_radius": 0.060011950176007516,
+      "task_id": "task_000007",
+      "task_seed": 1823730699,
+      "trajectory_id": "traj_0007",
+      "trajectory_length": 238
+    },
+    {
+      "cumulative_action_magnitude": 1.9270477294921875,
+      "ee_path_length": 1.9267835587504734,
+      "goal_position": [
+        0.451391852765642,
+        0.23482663538833423,
+        0.025
+      ],
+      "object_position": [
+        0.6193237148607957,
+        -0.2422800855815297,
+        0.025
+      ],
+      "target_radius": 0.059410312245619934,
+      "task_id": "task_000008",
+      "task_seed": 224521376,
+      "trajectory_id": "traj_0008",
+      "trajectory_length": 260
+    },
+    {
+      "cumulative_action_magnitude": 1.510970115661621,
+      "ee_path_length": 1.5107818231270105,
+      "goal_position": [
+        0.5029530793176761,
+        0.24708965478737838,
+        0.025
+      ],
+      "object_position": [
+        0.5891043193530129,
+        0.03283133865859999,
+        0.025
+      ],
+      "target_radius": 0.07275964245583406,
+      "task_id": "task_000009",
+      "task_seed": 989578945,
+      "trajectory_id": "traj_0009",
+      "trajectory_length": 208
+    },
+    {
+      "cumulative_action_magnitude": 1.7081351280212402,
+      "ee_path_length": 1.707959159650945,
+      "goal_position": [
+        0.4453662180798431,
+        0.2622798493829409,
+        0.025
+      ],
+      "object_position": [
+        0.5583235324799608,
+        -0.13205603807339625,
+        0.025
+      ],
+      "target_radius": 0.06095704583114984,
+      "task_id": "task_000010",
+      "task_seed": 80177553,
+      "trajectory_id": "traj_0010",
+      "trajectory_length": 233
+    },
+    {
+      "cumulative_action_magnitude": 1.644327163696289,
+      "ee_path_length": 1.644121373638618,
+      "goal_position": [
+        0.5272885938506328,
+        0.08133986314042224,
+        0.025
+      ],
+      "object_position": [
+        0.6234401200224609,
+        -0.17085176464450108,
+        0.025
+      ],
+      "target_radius": 0.06472881608494974,
+      "task_id": "task_000011",
+      "task_seed": 485104150,
+      "trajectory_id": "traj_0011",
+      "trajectory_length": 225
+    },
+    {
+      "cumulative_action_magnitude": 1.6160001754760742,
+      "ee_path_length": 1.615801876341853,
+      "goal_position": [
+        0.5928329832719655,
+        0.26456183517642734,
+        0.025
+      ],
+      "object_position": [
+        0.5760828993688647,
+        -0.07489988435690588,
+        0.025
+      ],
+      "target_radius": 0.07329179744522633,
+      "task_id": "task_000012",
+      "task_seed": 927238029,
+      "trajectory_id": "traj_0012",
+      "trajectory_length": 221
+    },
+    {
+      "cumulative_action_magnitude": 1.407879114151001,
+      "ee_path_length": 1.4076918419377338,
+      "goal_position": [
+        0.47351374709728833,
+        0.10462385324129422,
+        0.025
+      ],
+      "object_position": [
+        0.48257088085313143,
+        -0.08700374114997217,
+        0.025
+      ],
+      "target_radius": 0.04776837493548571,
+      "task_id": "task_000013",
+      "task_seed": 649837048,
+      "trajectory_id": "traj_0013",
+      "trajectory_length": 195
+    },
+    {
+      "cumulative_action_magnitude": 1.5400573015213013,
+      "ee_path_length": 1.5398973775061677,
+      "goal_position": [
+        0.517555350928292,
+        0.17812234331993163,
+        0.025
+      ],
+      "object_position": [
+        0.5292640600763093,
+        -0.10443200174872656,
+        0.025
+      ],
+      "target_radius": 0.062202829401263336,
+      "task_id": "task_000014",
+      "task_seed": 1296822395,
+      "trajectory_id": "traj_0014",
+      "trajectory_length": 212
+    },
+    {
+      "cumulative_action_magnitude": 1.5196397304534912,
+      "ee_path_length": 1.5194397107696833,
+      "goal_position": [
+        0.46057042884555444,
+        0.15378681869374322,
+        0.025
+      ],
+      "object_position": [
+        0.6185973086441539,
+        0.007103220131136083,
+        0.025
+      ],
+      "target_radius": 0.0748789988076581,
+      "task_id": "task_000015",
+      "task_seed": 1081824877,
+      "trajectory_id": "traj_0015",
+      "trajectory_length": 209
+    },
+    {
+      "cumulative_action_magnitude": 1.591933012008667,
+      "ee_path_length": 1.5917103946680586,
+      "goal_position": [
+        0.6195671316176101,
+        0.20654833015501797,
+        0.025
+      ],
+      "object_position": [
+        0.4612674072013698,
+        -0.11753343071762344,
+        0.025
+      ],
+      "target_radius": 0.05120090355929196,
+      "task_id": "task_000016",
+      "task_seed": 1747917314,
+      "trajectory_id": "traj_0016",
+      "trajectory_length": 218
+    },
+    {
+      "cumulative_action_magnitude": 1.8281309604644775,
+      "ee_path_length": 1.8278767338142283,
+      "goal_position": [
+        0.4618519632359939,
+        0.09602272336017091,
+        0.025
+      ],
+      "object_position": [
+        0.6159184902822875,
+        -0.2629667785313877,
+        0.025
+      ],
+      "target_radius": 0.07396016017029958,
+      "task_id": "task_000017",
+      "task_seed": 574688368,
+      "trajectory_id": "traj_0017",
+      "trajectory_length": 248
+    },
+    {
+      "cumulative_action_magnitude": 1.719956874847412,
+      "ee_path_length": 1.7197568926824336,
+      "goal_position": [
+        0.5268543765652661,
+        0.2443641803238737,
+        0.025
+      ],
+      "object_position": [
+        0.5917599140865291,
+        -0.1424289473470098,
+        0.025
+      ],
+      "target_radius": 0.05619018380583051,
+      "task_id": "task_000018",
+      "task_seed": 81044359,
+      "trajectory_id": "traj_0018",
+      "trajectory_length": 234
+    },
+    {
+      "cumulative_action_magnitude": 1.7435600757598877,
+      "ee_path_length": 1.7433750046855119,
+      "goal_position": [
+        0.43885017164062834,
+        0.27710430988391055,
+        0.025
+      ],
+      "object_position": [
+        0.5753389060117993,
+        -0.13226778506902617,
+        0.025
+      ],
+      "target_radius": 0.04950169268366266,
+      "task_id": "task_000019",
+      "task_seed": 477370151,
+      "trajectory_id": "traj_0019",
+      "trajectory_length": 237
+    },
+    {
+      "cumulative_action_magnitude": 1.511888861656189,
+      "ee_path_length": 1.511693227199892,
+      "goal_position": [
+        0.5178048062846257,
+        0.1578970350910529,
+        0.025
+      ],
+      "object_position": [
+        0.5484003589364081,
+        -0.08807160678025004,
+        0.025
+      ],
+      "target_radius": 0.06291035296411268,
+      "task_id": "task_000020",
+      "task_seed": 1712631550,
+      "trajectory_id": "traj_0020",
+      "trajectory_length": 208
+    },
+    {
+      "cumulative_action_magnitude": 1.5360002517700195,
+      "ee_path_length": 1.5358047192775142,
+      "goal_position": [
+        0.6263331445300616,
+        -0.10123956273336351,
+        0.025
+      ],
+      "object_position": [
+        0.5971191764218992,
+        0.11614694648506381,
+        0.025
+      ],
+      "target_radius": 0.051792784234703765,
+      "task_id": "task_000021",
+      "task_seed": 1436160654,
+      "trajectory_id": "traj_0021",
+      "trajectory_length": 211
+    },
+    {
+      "cumulative_action_magnitude": 1.4960002899169922,
+      "ee_path_length": 1.4958141491323975,
+      "goal_position": [
+        0.4862266744625746,
+        0.23169531745610317,
+        0.025
+      ],
+      "object_position": [
+        0.5009648111128578,
+        -0.05805042137775759,
+        0.025
+      ],
+      "target_radius": 0.05964105281740371,
+      "task_id": "task_000022",
+      "task_seed": 446535291,
+      "trajectory_id": "traj_0022",
+      "trajectory_length": 206
+    },
+    {
+      "cumulative_action_magnitude": 1.3415522575378418,
+      "ee_path_length": 1.3413823837149024,
+      "goal_position": [
+        0.625593667097684,
+        0.057276264952901175,
+        0.025
+      ],
+      "object_position": [
+        0.4224380864910192,
+        0.025284484563822367,
+        0.025
+      ],
+      "target_radius": 0.04605029951593811,
+      "task_id": "task_000023",
+      "task_seed": 877253916,
+      "trajectory_id": "traj_0023",
+      "trajectory_length": 187
+    },
+    {
+      "cumulative_action_magnitude": 1.6193726062774658,
+      "ee_path_length": 1.6191943482081161,
+      "goal_position": [
+        0.5929379690963682,
+        0.13594367180990455,
+        0.025
+      ],
+      "object_position": [
+        0.5046489670356842,
+        -0.17045057956673157,
+        0.025
+      ],
+      "target_radius": 0.05553151911620976,
+      "task_id": "task_000024",
+      "task_seed": 390776317,
+      "trajectory_id": "traj_0024",
+      "trajectory_length": 222
+    },
+    {
+      "cumulative_action_magnitude": 1.8654463291168213,
+      "ee_path_length": 1.8652368710489,
+      "goal_position": [
+        0.4793929900778124,
+        0.20368087868421983,
+        0.025
+      ],
+      "object_position": [
+        0.6213052337685587,
+        -0.22661717975628795,
+        0.025
+      ],
+      "target_radius": 0.06246030860762701,
+      "task_id": "task_000025",
+      "task_seed": 283482814,
+      "trajectory_id": "traj_0025",
+      "trajectory_length": 253
+    },
+    {
+      "cumulative_action_magnitude": 1.4142926931381226,
+      "ee_path_length": 1.4141091109766855,
+      "goal_position": [
+        0.605270405178521,
+        0.12193574622886198,
+        0.025
+      ],
+      "object_position": [
+        0.4450290681763603,
+        -0.05864392458658715,
+        0.025
+      ],
+      "target_radius": 0.06160634172740191,
+      "task_id": "task_000026",
+      "task_seed": 1668673107,
+      "trajectory_id": "traj_0026",
+      "trajectory_length": 196
+    },
+    {
+      "cumulative_action_magnitude": 1.6019648313522339,
+      "ee_path_length": 1.6018056508716767,
+      "goal_position": [
+        0.6169611755972289,
+        -0.11981959395460315,
+        0.025
+      ],
+      "object_position": [
+        0.422125925334354,
+        -0.2535359641779914,
+        0.025
+      ],
+      "target_radius": 0.054666450074403905,
+      "task_id": "task_000027",
+      "task_seed": 1043621463,
+      "trajectory_id": "traj_0027",
+      "trajectory_length": 220
+    },
+    {
+      "cumulative_action_magnitude": 1.5184215307235718,
+      "ee_path_length": 1.5182295017427778,
+      "goal_position": [
+        0.47905981069224984,
+        0.22149703194967074,
+        0.025
+      ],
+      "object_position": [
+        0.5565407454039953,
+        -0.03754462898486811,
+        0.025
+      ],
+      "target_radius": 0.0586538130850216,
+      "task_id": "task_000028",
+      "task_seed": 424195473,
+      "trajectory_id": "traj_0028",
+      "trajectory_length": 209
+    },
+    {
+      "cumulative_action_magnitude": 1.5279756784439087,
+      "ee_path_length": 1.5277661130283935,
+      "goal_position": [
+        0.6255255650623688,
+        0.18358410600077235,
+        0.025
+      ],
+      "object_position": [
+        0.47709958835946387,
+        -0.09172773461062209,
+        0.025
+      ],
+      "target_radius": 0.060588290184659374,
+      "task_id": "task_000029",
+      "task_seed": 1910423067,
+      "trajectory_id": "traj_0029",
+      "trajectory_length": 210
+    },
+    {
+      "cumulative_action_magnitude": 1.7146722078323364,
+      "ee_path_length": 1.7144697709467518,
+      "goal_position": [
+        0.5131112514267623,
+        0.010730186478567102,
+        0.025
+      ],
+      "object_position": [
+        0.6037275782655871,
+        -0.2606802692644496,
+        0.025
+      ],
+      "target_radius": 0.05761297762932018,
+      "task_id": "task_000030",
+      "task_seed": 1619290349,
+      "trajectory_id": "traj_0030",
+      "trajectory_length": 234
+    },
+    {
+      "cumulative_action_magnitude": 1.824000358581543,
+      "ee_path_length": 1.8238070373263127,
+      "goal_position": [
+        0.5155991663268189,
+        0.18360049402087356,
+        0.025
+      ],
+      "object_position": [
+        0.5117754672490441,
+        -0.25970524372368087,
+        0.025
+      ],
+      "target_radius": 0.0581942255002774,
+      "task_id": "task_000031",
+      "task_seed": 1832359953,
+      "trajectory_id": "traj_0031",
+      "trajectory_length": 247
+    },
+    {
+      "cumulative_action_magnitude": 1.5200002193450928,
+      "ee_path_length": 1.5197949526395163,
+      "goal_position": [
+        0.4856211211578576,
+        0.1282925975141321,
+        0.025
+      ],
+      "object_position": [
+        0.6223480392162891,
+        -0.03199601583224528,
+        0.025
+      ],
+      "target_radius": 0.05333497534415675,
+      "task_id": "task_000032",
+      "task_seed": 178521067,
+      "trajectory_id": "traj_0032",
+      "trajectory_length": 209
+    },
+    {
+      "cumulative_action_magnitude": 1.4612865447998047,
+      "ee_path_length": 1.4611113682816828,
+      "goal_position": [
+        0.5019580974125477,
+        0.12784409148509152,
+        0.025
+      ],
+      "object_position": [
+        0.5718489663970955,
+        -0.05458958581593539,
+        0.025
+      ],
+      "target_radius": 0.06094523104271628,
+      "task_id": "task_000033",
+      "task_seed": 942865240,
+      "trajectory_id": "traj_0033",
+      "trajectory_length": 202
+    },
+    {
+      "cumulative_action_magnitude": 1.8080003261566162,
+      "ee_path_length": 1.807777239656819,
+      "goal_position": [
+        0.6199471467609597,
+        0.2517704779737783,
+        0.025
+      ],
+      "object_position": [
+        0.5337367689880084,
+        -0.2050150045260207,
+        0.025
+      ],
+      "target_radius": 0.047208461906404466,
+      "task_id": "task_000034",
+      "task_seed": 1625066292,
+      "trajectory_id": "traj_0034",
+      "trajectory_length": 245
+    },
+    {
+      "cumulative_action_magnitude": 1.59177565574646,
+      "ee_path_length": 1.5915862527095972,
+      "goal_position": [
+        0.47190845067839376,
+        0.11176536579697961,
+        0.025
+      ],
+      "object_position": [
+        0.5417931844878443,
+        -0.1615773208532209,
+        0.025
+      ],
+      "target_radius": 0.04734883702835914,
+      "task_id": "task_000035",
+      "task_seed": 1620375835,
+      "trajectory_id": "traj_0035",
+      "trajectory_length": 218
+    },
+    {
+      "cumulative_action_magnitude": 1.547974705696106,
+      "ee_path_length": 1.5477942367955926,
+      "goal_position": [
+        0.4499475879855086,
+        0.0948391841981727,
+        0.025
+      ],
+      "object_position": [
+        0.5799139541501523,
+        -0.11196311463047438,
+        0.025
+      ],
+      "target_radius": 0.04560435014111986,
+      "task_id": "task_000036",
+      "task_seed": 1258019915,
+      "trajectory_id": "traj_0036",
+      "trajectory_length": 213
+    },
+    {
+      "cumulative_action_magnitude": 1.5590463876724243,
+      "ee_path_length": 1.558854610728576,
+      "goal_position": [
+        0.45899585741658394,
+        0.21555814109135815,
+        0.025
+      ],
+      "object_position": [
+        0.6214653480580236,
+        0.027615661515207997,
+        0.025
+      ],
+      "target_radius": 0.057908921834129136,
+      "task_id": "task_000037",
+      "task_seed": 1525815329,
+      "trajectory_id": "traj_0037",
+      "trajectory_length": 214
+    },
+    {
+      "cumulative_action_magnitude": 1.3668832778930664,
+      "ee_path_length": 1.3666956821891154,
+      "goal_position": [
+        0.6086008601297607,
+        0.11861223971585798,
+        0.025
+      ],
+      "object_position": [
+        0.44852697386975066,
+        -0.03026769990480161,
+        0.025
+      ],
+      "target_radius": 0.05311965632973258,
+      "task_id": "task_000038",
+      "task_seed": 817209083,
+      "trajectory_id": "traj_0038",
+      "trajectory_length": 190
+    },
+    {
+      "cumulative_action_magnitude": 1.468947172164917,
+      "ee_path_length": 1.468770210680292,
+      "goal_position": [
+        0.6200811001551416,
+        -0.10809583178237261,
+        0.025
+      ],
+      "object_position": [
+        0.5057540117641212,
+        0.09474203302081075,
+        0.025
+      ],
+      "target_radius": 0.06253385663430941,
+      "task_id": "task_000039",
+      "task_seed": 1291813500,
+      "trajectory_id": "traj_0039",
+      "trajectory_length": 203
+    },
+    {
+      "cumulative_action_magnitude": 1.66471529006958,
+      "ee_path_length": 1.664552261394884,
+      "goal_position": [
+        0.5795822421742843,
+        0.27376438791734814,
+        0.025
+      ],
+      "object_position": [
+        0.5757508154366499,
+        -0.09833564044892572,
+        0.025
+      ],
+      "target_radius": 0.07468439999793398,
+      "task_id": "task_000040",
+      "task_seed": 240675344,
+      "trajectory_id": "traj_0040",
+      "trajectory_length": 228
+    },
+    {
+      "cumulative_action_magnitude": 1.5896447896957397,
+      "ee_path_length": 1.5894590322334323,
+      "goal_position": [
+        0.4313758709978507,
+        0.16593771611603042,
+        0.025
+      ],
+      "object_position": [
+        0.445960591809183,
+        -0.15608827032791045,
+        0.025
+      ],
+      "target_radius": 0.0648342388668442,
+      "task_id": "task_000041",
+      "task_seed": 1029542860,
+      "trajectory_id": "traj_0041",
+      "trajectory_length": 218
+    },
+    {
+      "cumulative_action_magnitude": 1.613099455833435,
+      "ee_path_length": 1.612886867924332,
+      "goal_position": [
+        0.5693946179402336,
+        0.010311665560569313,
+        0.025
+      ],
+      "object_position": [
+        0.6116127933226445,
+        -0.20729385874505404,
+        0.025
+      ],
+      "target_radius": 0.04651822754965758,
+      "task_id": "task_000042",
+      "task_seed": 540445805,
+      "trajectory_id": "traj_0042",
+      "trajectory_length": 221
+    },
+    {
+      "cumulative_action_magnitude": 1.6934216022491455,
+      "ee_path_length": 1.6932507811008424,
+      "goal_position": [
+        0.5964890133173801,
+        0.1895923506457545,
+        0.025
+      ],
+      "object_position": [
+        0.5306252045011205,
+        -0.1783190252199917,
+        0.025
+      ],
+      "target_radius": 0.049861873877306145,
+      "task_id": "task_000043",
+      "task_seed": 174893676,
+      "trajectory_id": "traj_0043",
+      "trajectory_length": 231
+    },
+    {
+      "cumulative_action_magnitude": 1.4452825784683228,
+      "ee_path_length": 1.4451032377119257,
+      "goal_position": [
+        0.5511689125689108,
+        0.042228030740867326,
+        0.025
+      ],
+      "object_position": [
+        0.4228137586937225,
+        -0.12518520762614121,
+        0.025
+      ],
+      "target_radius": 0.06244028007208205,
+      "task_id": "task_000044",
+      "task_seed": 1852673577,
+      "trajectory_id": "traj_0044",
+      "trajectory_length": 200
+    },
+    {
+      "cumulative_action_magnitude": 1.5279885530471802,
+      "ee_path_length": 1.5278023279915804,
+      "goal_position": [
+        0.5169514231910998,
+        0.14475168440340078,
+        0.025
+      ],
+      "object_position": [
+        0.4205910991891616,
+        -0.1298396011384467,
+        0.025
+      ],
+      "target_radius": 0.07334937800443832,
+      "task_id": "task_000045",
+      "task_seed": 1360412273,
+      "trajectory_id": "traj_0045",
+      "trajectory_length": 210
+    },
+    {
+      "cumulative_action_magnitude": 1.562530279159546,
+      "ee_path_length": 1.5623476920766906,
+      "goal_position": [
+        0.4440821582397913,
+        -0.09280429985473863,
+        0.025
+      ],
+      "object_position": [
+        0.5482595921877552,
+        -0.24000814679627766,
+        0.025
+      ],
+      "target_radius": 0.04676958569616094,
+      "task_id": "task_000046",
+      "task_seed": 685059077,
+      "trajectory_id": "traj_0046",
+      "trajectory_length": 215
+    },
+    {
+      "cumulative_action_magnitude": 1.5217691659927368,
+      "ee_path_length": 1.5215940617148271,
+      "goal_position": [
+        0.6222717105009923,
+        0.25940886722947704,
+        0.025
+      ],
+      "object_position": [
+        0.6154448606370404,
+        0.04647823769004475,
+        0.025
+      ],
+      "target_radius": 0.058944985238355986,
+      "task_id": "task_000047",
+      "task_seed": 1591140579,
+      "trajectory_id": "traj_0047",
+      "trajectory_length": 210
+    },
+    {
+      "cumulative_action_magnitude": 1.7727837562561035,
+      "ee_path_length": 1.7725916744724848,
+      "goal_position": [
+        0.499215563414123,
+        0.2575518965882816,
+        0.025
+      ],
+      "object_position": [
+        0.6012500235660034,
+        -0.1573667230889544,
+        0.025
+      ],
+      "target_radius": 0.06426441356066163,
+      "task_id": "task_000048",
+      "task_seed": 200060866,
+      "trajectory_id": "traj_0048",
+      "trajectory_length": 241
+    },
+    {
+      "cumulative_action_magnitude": 1.447577714920044,
+      "ee_path_length": 1.4473876712579483,
+      "goal_position": [
+        0.5899634106926217,
+        0.18328756021108322,
+        0.025
+      ],
+      "object_position": [
+        0.45806560610170904,
+        -0.054170974324714856,
+        0.025
+      ],
+      "target_radius": 0.056030636745089804,
+      "task_id": "task_000049",
+      "task_seed": 867526757,
+      "trajectory_id": "traj_0049",
+      "trajectory_length": 200
+    },
+    {
+      "cumulative_action_magnitude": 1.5920002460479736,
+      "ee_path_length": 1.5917982322210205,
+      "goal_position": [
+        0.571232198681817,
+        0.1301047878124999,
+        0.025
+      ],
+      "object_position": [
+        0.55528987113273,
+        -0.1520777064220788,
+        0.025
+      ],
+      "target_radius": 0.07062446245407812,
+      "task_id": "task_000050",
+      "task_seed": 1833847813,
+      "trajectory_id": "traj_0050",
+      "trajectory_length": 218
+    },
+    {
+      "cumulative_action_magnitude": 1.8720000982284546,
+      "ee_path_length": 1.871797768074103,
+      "goal_position": [
+        0.5328037880596098,
+        0.24768234746470025,
+        0.025
+      ],
+      "object_position": [
+        0.5843503225268023,
+        -0.23106090374723204,
+        0.025
+      ],
+      "target_radius": 0.050837373228702416,
+      "task_id": "task_000051",
+      "task_seed": 2129498751,
+      "trajectory_id": "traj_0051",
+      "trajectory_length": 253
+    },
+    {
+      "cumulative_action_magnitude": 1.7194290161132812,
+      "ee_path_length": 1.719233580969259,
+      "goal_position": [
+        0.5731321947980136,
+        0.15672123181096012,
+        0.025
+      ],
+      "object_position": [
+        0.5638446965115614,
+        -0.20432964404799292,
+        0.025
+      ],
+      "target_radius": 0.06700263889609084,
+      "task_id": "task_000052",
+      "task_seed": 700299030,
+      "trajectory_id": "traj_0052",
+      "trajectory_length": 234
+    },
+    {
+      "cumulative_action_magnitude": 1.7260754108428955,
+      "ee_path_length": 1.7258709507281813,
+      "goal_position": [
+        0.5727121877767918,
+        0.27543623150817526,
+        0.025
+      ],
+      "object_position": [
+        0.6159424752654661,
+        -0.11350200836966837,
+        0.025
+      ],
+      "target_radius": 0.059397419247821555,
+      "task_id": "task_000053",
+      "task_seed": 433129649,
+      "trajectory_id": "traj_0053",
+      "trajectory_length": 235
+    },
+    {
+      "cumulative_action_magnitude": 1.3895283937454224,
+      "ee_path_length": 1.3893558065660032,
+      "goal_position": [
+        0.5204622647419674,
+        0.1063318569004492,
+        0.025
+      ],
+      "object_position": [
+        0.4573197613385483,
+        -0.07883125810095021,
+        0.025
+      ],
+      "target_radius": 0.055690833257529715,
+      "task_id": "task_000054",
+      "task_seed": 1771649707,
+      "trajectory_id": "traj_0054",
+      "trajectory_length": 193
+    },
+    {
+      "cumulative_action_magnitude": 1.6235876083374023,
+      "ee_path_length": 1.6233674371586528,
+      "goal_position": [
+        0.4545805292951373,
+        -0.10891806369216564,
+        0.025
+      ],
+      "object_position": [
+        0.5638199213802318,
+        -0.27858633823095336,
+        0.025
+      ],
+      "target_radius": 0.050528476149200405,
+      "task_id": "task_000055",
+      "task_seed": 920161910,
+      "trajectory_id": "traj_0055",
+      "trajectory_length": 222
+    },
+    {
+      "cumulative_action_magnitude": 1.4719774723052979,
+      "ee_path_length": 1.4717884840874136,
+      "goal_position": [
+        0.44695806505393787,
+        0.22386612387273996,
+        0.025
+      ],
+      "object_position": [
+        0.5380212273728796,
+        -0.007681452817395836,
+        0.025
+      ],
+      "target_radius": 0.06828891441030013,
+      "task_id": "task_000056",
+      "task_seed": 341509470,
+      "trajectory_id": "traj_0056",
+      "trajectory_length": 203
+    },
+    {
+      "cumulative_action_magnitude": 1.7599632740020752,
+      "ee_path_length": 1.759726536873666,
+      "goal_position": [
+        0.5890253106848851,
+        0.16853603907593903,
+        0.025
+      ],
+      "object_position": [
+        0.62614408472519,
+        -0.19964686114126318,
+        0.025
+      ],
+      "target_radius": 0.0470765056566041,
+      "task_id": "task_000057",
+      "task_seed": 1280767319,
+      "trajectory_id": "traj_0057",
+      "trajectory_length": 239
+    },
+    {
+      "cumulative_action_magnitude": 1.546416997909546,
+      "ee_path_length": 1.5462580600438707,
+      "goal_position": [
+        0.6185958190094658,
+        0.0022963249516492934,
+        0.025
+      ],
+      "object_position": [
+        0.6015406975822591,
+        -0.17922980719945736,
+        0.025
+      ],
+      "target_radius": 0.07200053440609754,
+      "task_id": "task_000058",
+      "task_seed": 1416443540,
+      "trajectory_id": "traj_0058",
+      "trajectory_length": 213
+    },
+    {
+      "cumulative_action_magnitude": 1.7480528354644775,
+      "ee_path_length": 1.7478687883063695,
+      "goal_position": [
+        0.47717457013915227,
+        0.11803264353319393,
+        0.025
+      ],
+      "object_position": [
+        0.5102265630874268,
+        -0.2525088549123756,
+        0.025
+      ],
+      "target_radius": 0.060879266491797826,
+      "task_id": "task_000059",
+      "task_seed": 214535499,
+      "trajectory_id": "traj_0059",
+      "trajectory_length": 238
+    },
+    {
+      "cumulative_action_magnitude": 1.9279993772506714,
+      "ee_path_length": 1.9277583587308296,
+      "goal_position": [
+        0.5328353349247659,
+        0.2215455968140127,
+        0.025
+      ],
+      "object_position": [
+        0.5946716586601032,
+        -0.273801267802946,
+        0.025
+      ],
+      "target_radius": 0.05604340893202072,
+      "task_id": "task_000060",
+      "task_seed": 339868457,
+      "trajectory_id": "traj_0060",
+      "trajectory_length": 260
+    },
+    {
+      "cumulative_action_magnitude": 1.6075810194015503,
+      "ee_path_length": 1.607388154140578,
+      "goal_position": [
+        0.46520189034144216,
+        0.24963802050171546,
+        0.025
+      ],
+      "object_position": [
+        0.6252955594055414,
+        0.0011999840348917146,
+        0.025
+      ],
+      "target_radius": 0.048198665504018814,
+      "task_id": "task_000061",
+      "task_seed": 19039244,
+      "trajectory_id": "traj_0061",
+      "trajectory_length": 220
+    },
+    {
+      "cumulative_action_magnitude": 1.6050809621810913,
+      "ee_path_length": 1.6048917508133242,
+      "goal_position": [
+        0.42711786667477125,
+        0.061697195869820774,
+        0.025
+      ],
+      "object_position": [
+        0.5536600689723044,
+        -0.1792906734522992,
+        0.025
+      ],
+      "target_radius": 0.07312616369626805,
+      "task_id": "task_000062",
+      "task_seed": 863044205,
+      "trajectory_id": "traj_0062",
+      "trajectory_length": 220
+    },
+    {
+      "cumulative_action_magnitude": 1.4525833129882812,
+      "ee_path_length": 1.4524026663036569,
+      "goal_position": [
+        0.5818378836606652,
+        0.24432832785002004,
+        0.025
+      ],
+      "object_position": [
+        0.5211860838101481,
+        0.0074358731512652095,
+        0.025
+      ],
+      "target_radius": 0.05060233521738804,
+      "task_id": "task_000063",
+      "task_seed": 1016376158,
+      "trajectory_id": "traj_0063",
+      "trajectory_length": 201
+    },
+    {
+      "cumulative_action_magnitude": 1.4159619808197021,
+      "ee_path_length": 1.4157540142249463,
+      "goal_position": [
+        0.5653360118446201,
+        0.26436536004798195,
+        0.025
+      ],
+      "object_position": [
+        0.504542306504166,
+        0.08147255144685943,
+        0.025
+      ],
+      "target_radius": 0.060655989103538206,
+      "task_id": "task_000064",
+      "task_seed": 111248357,
+      "trajectory_id": "traj_0064",
+      "trajectory_length": 196
+    },
+    {
+      "cumulative_action_magnitude": 1.5759508609771729,
+      "ee_path_length": 1.575725269826747,
+      "goal_position": [
+        0.42182452677549775,
+        0.019562405044216854,
+        0.025
+      ],
+      "object_position": [
+        0.6231308855939892,
+        -0.11099625755970183,
+        0.025
+      ],
+      "target_radius": 0.050322556430114324,
+      "task_id": "task_000065",
+      "task_seed": 147442705,
+      "trajectory_id": "traj_0065",
+      "trajectory_length": 216
+    },
+    {
+      "cumulative_action_magnitude": 1.407219409942627,
+      "ee_path_length": 1.407032969690822,
+      "goal_position": [
+        0.5553291514725015,
+        0.23936368804078464,
+        0.025
+      ],
+      "object_position": [
+        0.4221624627796159,
+        0.11358239900357041,
+        0.025
+      ],
+      "target_radius": 0.06421780126396154,
+      "task_id": "task_000066",
+      "task_seed": 352562391,
+      "trajectory_id": "traj_0066",
+      "trajectory_length": 195
+    },
+    {
+      "cumulative_action_magnitude": 1.4857516288757324,
+      "ee_path_length": 1.485568491519519,
+      "goal_position": [
+        0.5504123688354458,
+        0.11544281508682523,
+        0.025
+      ],
+      "object_position": [
+        0.5747099810062809,
+        -0.08704966223823116,
+        0.025
+      ],
+      "target_radius": 0.04994784193040446,
+      "task_id": "task_000067",
+      "task_seed": 735329229,
+      "trajectory_id": "traj_0067",
+      "trajectory_length": 205
+    },
+    {
+      "cumulative_action_magnitude": 1.6284087896347046,
+      "ee_path_length": 1.6282116263727606,
+      "goal_position": [
+        0.625300390358657,
+        -0.022199576683010997,
+        0.025
+      ],
+      "object_position": [
+        0.5778181945884818,
+        -0.24556698615156675,
+        0.025
+      ],
+      "target_radius": 0.06050554861172835,
+      "task_id": "task_000068",
+      "task_seed": 1387655224,
+      "trajectory_id": "traj_0068",
+      "trajectory_length": 223
+    },
+    {
+      "cumulative_action_magnitude": 1.6176024675369263,
+      "ee_path_length": 1.617416488974015,
+      "goal_position": [
+        0.6188070704505861,
+        0.24127996413931463,
+        0.025
+      ],
+      "object_position": [
+        0.5584408457204879,
+        -0.09470070158175997,
+        0.025
+      ],
+      "target_radius": 0.06862833939245261,
+      "task_id": "task_000069",
+      "task_seed": 1678270593,
+      "trajectory_id": "traj_0069",
+      "trajectory_length": 222
+    },
+    {
+      "cumulative_action_magnitude": 1.6929653882980347,
+      "ee_path_length": 1.6927910126614465,
+      "goal_position": [
+        0.5637815478276529,
+        0.04211895993157405,
+        0.025
+      ],
+      "object_position": [
+        0.44054621299219693,
+        -0.2585438745810011,
+        0.025
+      ],
+      "target_radius": 0.05071078597489548,
+      "task_id": "task_000070",
+      "task_seed": 1837298942,
+      "trajectory_id": "traj_0070",
+      "trajectory_length": 231
+    },
+    {
+      "cumulative_action_magnitude": 1.5840001106262207,
+      "ee_path_length": 1.5838023655569948,
+      "goal_position": [
+        0.5154736192345407,
+        -0.03888977347798181,
+        0.025
+      ],
+      "object_position": [
+        0.5694473700188714,
+        -0.23228988053377542,
+        0.025
+      ],
+      "target_radius": 0.06948617627418346,
+      "task_id": "task_000071",
+      "task_seed": 1482624449,
+      "trajectory_id": "traj_0071",
+      "trajectory_length": 217
+    },
+    {
+      "cumulative_action_magnitude": 1.5335034132003784,
+      "ee_path_length": 1.5333230211555389,
+      "goal_position": [
+        0.43339585626415145,
+        0.23921932244021207,
+        0.025
+      ],
+      "object_position": [
+        0.5953565540138706,
+        0.06081184833889448,
+        0.025
+      ],
+      "target_radius": 0.06477531197757333,
+      "task_id": "task_000072",
+      "task_seed": 562439379,
+      "trajectory_id": "traj_0072",
+      "trajectory_length": 211
+    },
+    {
+      "cumulative_action_magnitude": 1.7120001316070557,
+      "ee_path_length": 1.711787178011933,
+      "goal_position": [
+        0.4671618840836484,
+        0.2345046852107294,
+        0.025
+      ],
+      "object_position": [
+        0.6169208619970086,
+        -0.11463181644690187,
+        0.025
+      ],
+      "target_radius": 0.05394958653147948,
+      "task_id": "task_000073",
+      "task_seed": 1914656681,
+      "trajectory_id": "traj_0073",
+      "trajectory_length": 233
+    },
+    {
+      "cumulative_action_magnitude": 1.7999610900878906,
+      "ee_path_length": 1.7997764115854675,
+      "goal_position": [
+        0.47427980765657923,
+        0.20176031308508174,
+        0.025
+      ],
+      "object_position": [
+        0.5079022112237762,
+        -0.23760753730608988,
+        0.025
+      ],
+      "target_radius": 0.05181819526111571,
+      "task_id": "task_000074",
+      "task_seed": 1213810798,
+      "trajectory_id": "traj_0074",
+      "trajectory_length": 244
+    },
+    {
+      "cumulative_action_magnitude": 1.533988356590271,
+      "ee_path_length": 1.5337705292225827,
+      "goal_position": [
+        0.43118852542995495,
+        -0.029196655064362947,
+        0.025
+      ],
+      "object_position": [
+        0.6225889925977744,
+        0.06637152654234198,
+        0.025
+      ],
+      "target_radius": 0.060385588038224344,
+      "task_id": "task_000075",
+      "task_seed": 845435755,
+      "trajectory_id": "traj_0075",
+      "trajectory_length": 211
+    },
+    {
+      "cumulative_action_magnitude": 1.5557560920715332,
+      "ee_path_length": 1.5555722856896,
+      "goal_position": [
+        0.6131411229772092,
+        0.1578141208310901,
+        0.025
+      ],
+      "object_position": [
+        0.4603172340412229,
+        -0.12069879244613939,
+        0.025
+      ],
+      "target_radius": 0.061572402562164036,
+      "task_id": "task_000076",
+      "task_seed": 1429904575,
+      "trajectory_id": "traj_0076",
+      "trajectory_length": 214
+    },
+    {
+      "cumulative_action_magnitude": 1.5919992923736572,
+      "ee_path_length": 1.5918093402433036,
+      "goal_position": [
+        0.5706564592704094,
+        -0.05132690125799091,
+        0.025
+      ],
+      "object_position": [
+        0.5824684987573612,
+        -0.24366932798262209,
+        0.025
+      ],
+      "target_radius": 0.07062971277162587,
+      "task_id": "task_000077",
+      "task_seed": 1128671947,
+      "trajectory_id": "traj_0077",
+      "trajectory_length": 218
+    },
+    {
+      "cumulative_action_magnitude": 1.6400001049041748,
+      "ee_path_length": 1.6398027186100474,
+      "goal_position": [
+        0.42729461452221223,
+        0.2262720050811086,
+        0.025
+      ],
+      "object_position": [
+        0.591754781995885,
+        -0.07886642558206994,
+        0.025
+      ],
+      "target_radius": 0.05236946210336544,
+      "task_id": "task_000078",
+      "task_seed": 962158505,
+      "trajectory_id": "traj_0078",
+      "trajectory_length": 224
+    },
+    {
+      "cumulative_action_magnitude": 1.6320003271102905,
+      "ee_path_length": 1.6318130308615766,
+      "goal_position": [
+        0.569172935240364,
+        0.1802302897450843,
+        0.025
+      ],
+      "object_position": [
+        0.4431621988215265,
+        -0.1597134104214916,
+        0.025
+      ],
+      "target_radius": 0.06780475035681979,
+      "task_id": "task_000079",
+      "task_seed": 1286714515,
+      "trajectory_id": "traj_0079",
+      "trajectory_length": 223
+    },
+    {
+      "cumulative_action_magnitude": 1.5471696853637695,
+      "ee_path_length": 1.546981904663999,
+      "goal_position": [
+        0.603997519698063,
+        0.24935685377516842,
+        0.025
+      ],
+      "object_position": [
+        0.5590422290600329,
+        -0.04137972857608808,
+        0.025
+      ],
+      "target_radius": 0.0684724808011242,
+      "task_id": "task_000080",
+      "task_seed": 311573333,
+      "trajectory_id": "traj_0080",
+      "trajectory_length": 213
+    },
+    {
+      "cumulative_action_magnitude": 1.564150094985962,
+      "ee_path_length": 1.5639798436307375,
+      "goal_position": [
+        0.47138023961253744,
+        0.220605061115293,
+        0.025
+      ],
+      "object_position": [
+        0.5116140540062615,
+        -0.09919280935995099,
+        0.025
+      ],
+      "target_radius": 0.058919461947588056,
+      "task_id": "task_000081",
+      "task_seed": 2118273835,
+      "trajectory_id": "traj_0081",
+      "trajectory_length": 215
+    },
+    {
+      "cumulative_action_magnitude": 1.6613343954086304,
+      "ee_path_length": 1.6611404363201476,
+      "goal_position": [
+        0.48448050762136835,
+        0.012154551186696668,
+        0.025
+      ],
+      "object_position": [
+        0.5922782220587938,
+        -0.23064351796198226,
+        0.025
+      ],
+      "target_radius": 0.05621369346279218,
+      "task_id": "task_000082",
+      "task_seed": 1428599330,
+      "trajectory_id": "traj_0082",
+      "trajectory_length": 227
+    },
+    {
+      "cumulative_action_magnitude": 1.6457229852676392,
+      "ee_path_length": 1.6455374739600608,
+      "goal_position": [
+        0.47139652311858277,
+        0.04335004509188297,
+        0.025
+      ],
+      "object_position": [
+        0.5619244896436892,
+        -0.21916477376416968,
+        0.025
+      ],
+      "target_radius": 0.05196023366996221,
+      "task_id": "task_000083",
+      "task_seed": 968513223,
+      "trajectory_id": "traj_0083",
+      "trajectory_length": 225
+    },
+    {
+      "cumulative_action_magnitude": 1.7116081714630127,
+      "ee_path_length": 1.7113990563143817,
+      "goal_position": [
+        0.532560104144603,
+        0.25501198129650393,
+        0.025
+      ],
+      "object_position": [
+        0.6199974158719707,
+        -0.11022947189078333,
+        0.025
+      ],
+      "target_radius": 0.06798978596436374,
+      "task_id": "task_000084",
+      "task_seed": 1497140932,
+      "trajectory_id": "traj_0084",
+      "trajectory_length": 233
+    },
+    {
+      "cumulative_action_magnitude": 1.642568588256836,
+      "ee_path_length": 1.6424005659224141,
+      "goal_position": [
+        0.624420888024438,
+        0.10660007779701139,
+        0.025
+      ],
+      "object_position": [
+        0.44955649561964084,
+        -0.187020572254408,
+        0.025
+      ],
+      "target_radius": 0.062272650240048695,
+      "task_id": "task_000085",
+      "task_seed": 1988227328,
+      "trajectory_id": "traj_0085",
+      "trajectory_length": 225
+    },
+    {
+      "cumulative_action_magnitude": 1.5735902786254883,
+      "ee_path_length": 1.5734211163431644,
+      "goal_position": [
+        0.5759072039543104,
+        0.010367997006856674,
+        0.025
+      ],
+      "object_position": [
+        0.4218723921666414,
+        -0.20102424704759309,
+        0.025
+      ],
+      "target_radius": 0.05287188231206114,
+      "task_id": "task_000086",
+      "task_seed": 1964727981,
+      "trajectory_id": "traj_0086",
+      "trajectory_length": 216
+    },
+    {
+      "cumulative_action_magnitude": 1.6399730443954468,
+      "ee_path_length": 1.6397800161125797,
+      "goal_position": [
+        0.5698745900919561,
+        0.056953585221243976,
+        0.025
+      ],
+      "object_position": [
+        0.5898045669862305,
+        -0.21021231397129325,
+        0.025
+      ],
+      "target_radius": 0.04954571913535008,
+      "task_id": "task_000087",
+      "task_seed": 257277835,
+      "trajectory_id": "traj_0087",
+      "trajectory_length": 224
+    },
+    {
+      "cumulative_action_magnitude": 1.700176477432251,
+      "ee_path_length": 1.6999757001481597,
+      "goal_position": [
+        0.4260315567306234,
+        0.11796441360124205,
+        0.025
+      ],
+      "object_position": [
+        0.608795883149103,
+        -0.16888748046743535,
+        0.025
+      ],
+      "target_radius": 0.0700341645291523,
+      "task_id": "task_000088",
+      "task_seed": 2033313468,
+      "trajectory_id": "traj_0088",
+      "trajectory_length": 232
+    },
+    {
+      "cumulative_action_magnitude": 1.916353702545166,
+      "ee_path_length": 1.9161705194954333,
+      "goal_position": [
+        0.47409716012237485,
+        0.26173903270074905,
+        0.025
+      ],
+      "object_position": [
+        0.4699531397186258,
+        -0.27054399467342927,
+        0.025
+      ],
+      "target_radius": 0.06180534527007662,
+      "task_id": "task_000089",
+      "task_seed": 574509654,
+      "trajectory_id": "traj_0089",
+      "trajectory_length": 259
+    },
+    {
+      "cumulative_action_magnitude": 1.3482484817504883,
+      "ee_path_length": 1.3480699801230536,
+      "goal_position": [
+        0.6267329408930556,
+        -0.026706513618281864,
+        0.025
+      ],
+      "object_position": [
+        0.44749436043750607,
+        0.03884685522940498,
+        0.025
+      ],
+      "target_radius": 0.04550747143851065,
+      "task_id": "task_000090",
+      "task_seed": 1331081859,
+      "trajectory_id": "traj_0090",
+      "trajectory_length": 188
+    },
+    {
+      "cumulative_action_magnitude": 1.7270545959472656,
+      "ee_path_length": 1.726858158046487,
+      "goal_position": [
+        0.5878598277806687,
+        0.1733120407257899,
+        0.025
+      ],
+      "object_position": [
+        0.5814327449505016,
+        -0.19364423578308823,
+        0.025
+      ],
+      "target_radius": 0.05072313389105269,
+      "task_id": "task_000091",
+      "task_seed": 1385042631,
+      "trajectory_id": "traj_0091",
+      "trajectory_length": 235
+    },
+    {
+      "cumulative_action_magnitude": 1.534388542175293,
+      "ee_path_length": 1.5342187928579993,
+      "goal_position": [
+        0.5492156518551554,
+        0.11524064036020047,
+        0.025
+      ],
+      "object_position": [
+        0.5786291735367947,
+        -0.11362098652856609,
+        0.025
+      ],
+      "target_radius": 0.05364608703825181,
+      "task_id": "task_000092",
+      "task_seed": 343107118,
+      "trajectory_id": "traj_0092",
+      "trajectory_length": 211
+    },
+    {
+      "cumulative_action_magnitude": 1.6476140022277832,
+      "ee_path_length": 1.6474150936284488,
+      "goal_position": [
+        0.5356938328680845,
+        0.03545755012061064,
+        0.025
+      ],
+      "object_position": [
+        0.5685350675949161,
+        -0.2301509656779419,
+        0.025
+      ],
+      "target_radius": 0.07392442563150282,
+      "task_id": "task_000093",
+      "task_seed": 1297313016,
+      "trajectory_id": "traj_0093",
+      "trajectory_length": 225
+    },
+    {
+      "cumulative_action_magnitude": 1.5087289810180664,
+      "ee_path_length": 1.50853789326584,
+      "goal_position": [
+        0.6010188633251635,
+        0.20651630604928764,
+        0.025
+      ],
+      "object_position": [
+        0.5277325473550722,
+        -0.06047877179590298,
+        0.025
+      ],
+      "target_radius": 0.0723900742924292,
+      "task_id": "task_000094",
+      "task_seed": 1543337572,
+      "trajectory_id": "traj_0094",
+      "trajectory_length": 208
+    },
+    {
+      "cumulative_action_magnitude": 1.6132971048355103,
+      "ee_path_length": 1.6131153490054846,
+      "goal_position": [
+        0.45448933665097857,
+        0.19014616472905235,
+        0.025
+      ],
+      "object_position": [
+        0.6075707762860193,
+        -0.0731696033624618,
+        0.025
+      ],
+      "target_radius": 0.06421836247111798,
+      "task_id": "task_000095",
+      "task_seed": 312502001,
+      "trajectory_id": "traj_0095",
+      "trajectory_length": 221
+    },
+    {
+      "cumulative_action_magnitude": 1.7651598453521729,
+      "ee_path_length": 1.7648576190787852,
+      "goal_position": [
+        0.5028014949039464,
+        0.03782255098482724,
+        0.025
+      ],
+      "object_position": [
+        0.6237942415238893,
+        -0.2639351435702586,
+        0.025
+      ],
+      "target_radius": 0.07259960650195259,
+      "task_id": "task_000096",
+      "task_seed": 1475753201,
+      "trajectory_id": "traj_0096",
+      "trajectory_length": 240
+    },
+    {
+      "cumulative_action_magnitude": 1.3585870265960693,
+      "ee_path_length": 1.3584041751808513,
+      "goal_position": [
+        0.4847056818878513,
+        0.21981000232129472,
+        0.025
+      ],
+      "object_position": [
+        0.4700886971382463,
+        0.02164739628978258,
+        0.025
+      ],
+      "target_radius": 0.0599222961791513,
+      "task_id": "task_000097",
+      "task_seed": 1185360211,
+      "trajectory_id": "traj_0097",
+      "trajectory_length": 189
+    },
+    {
+      "cumulative_action_magnitude": 1.3272016048431396,
+      "ee_path_length": 1.3270348234048863,
+      "goal_position": [
+        0.6292828874460122,
+        -0.04121693729258295,
+        0.025
+      ],
+      "object_position": [
+        0.4267824149544365,
+        0.009890974199125829,
+        0.025
+      ],
+      "target_radius": 0.0558953986207713,
+      "task_id": "task_000098",
+      "task_seed": 876148499,
+      "trajectory_id": "traj_0098",
+      "trajectory_length": 185
+    },
+    {
+      "cumulative_action_magnitude": 1.6283153295516968,
+      "ee_path_length": 1.6281266191461783,
+      "goal_position": [
+        0.4334175476377183,
+        -0.04853822265942253,
+        0.025
+      ],
+      "object_position": [
+        0.5175827673679047,
+        -0.2685534211059308,
+        0.025
+      ],
+      "target_radius": 0.05279336967198884,
+      "task_id": "task_000099",
+      "task_seed": 1202966500,
+      "trajectory_id": "traj_0099",
+      "trajectory_length": 223
+    },
+    {
+      "cumulative_action_magnitude": 1.8219404220581055,
+      "ee_path_length": 1.8217632176676282,
+      "goal_position": [
+        0.5156033472836951,
+        0.2688382039546256,
+        0.025
+      ],
+      "object_position": [
+        0.48571240633285995,
+        -0.2161349508375905,
+        0.025
+      ],
+      "target_radius": 0.06322837553630303,
+      "task_id": "task_000100",
+      "task_seed": 311765213,
+      "trajectory_id": "traj_0100",
+      "trajectory_length": 247
+    },
+    {
+      "cumulative_action_magnitude": 1.448000192642212,
+      "ee_path_length": 1.4478208079081512,
+      "goal_position": [
+        0.47027517779530653,
+        0.22254060884124585,
+        0.025
+      ],
+      "object_position": [
+        0.5651990446317258,
+        0.06091610309478661,
+        0.025
+      ],
+      "target_radius": 0.0729129531725311,
+      "task_id": "task_000101",
+      "task_seed": 1239790672,
+      "trajectory_id": "traj_0101",
+      "trajectory_length": 200
+    },
+    {
+      "cumulative_action_magnitude": 1.7721786499023438,
+      "ee_path_length": 1.771992420165394,
+      "goal_position": [
+        0.6185228894011873,
+        0.222511950485364,
+        0.025
+      ],
+      "object_position": [
+        0.5470267168486775,
+        -0.19959136024580082,
+        0.025
+      ],
+      "target_radius": 0.04547979069520809,
+      "task_id": "task_000102",
+      "task_seed": 398614485,
+      "trajectory_id": "traj_0102",
+      "trajectory_length": 241
+    },
+    {
+      "cumulative_action_magnitude": 1.944000005722046,
+      "ee_path_length": 1.9437789073307812,
+      "goal_position": [
+        0.5257132634594732,
+        0.2561438117084252,
+        0.025
+      ],
+      "object_position": [
+        0.5609771158784246,
+        -0.2724718732859538,
+        0.025
+      ],
+      "target_radius": 0.0681517133230868,
+      "task_id": "task_000103",
+      "task_seed": 1514253560,
+      "trajectory_id": "traj_0103",
+      "trajectory_length": 262
+    },
+    {
+      "cumulative_action_magnitude": 1.5355093479156494,
+      "ee_path_length": 1.5353161565956617,
+      "goal_position": [
+        0.5005042044720255,
+        -0.006659463085075295,
+        0.025
+      ],
+      "object_position": [
+        0.5681501922144637,
+        -0.1857861607273288,
+        0.025
+      ],
+      "target_radius": 0.05422940129132382,
+      "task_id": "task_000104",
+      "task_seed": 78212983,
+      "trajectory_id": "traj_0104",
+      "trajectory_length": 211
+    },
+    {
+      "cumulative_action_magnitude": 1.3839638233184814,
+      "ee_path_length": 1.383777012438199,
+      "goal_position": [
+        0.6252009734227805,
+        -0.06382153270391074,
+        0.025
+      ],
+      "object_position": [
+        0.47669361556298917,
+        0.06272566963006947,
+        0.025
+      ],
+      "target_radius": 0.06308637549208475,
+      "task_id": "task_000105",
+      "task_seed": 1024412506,
+      "trajectory_id": "traj_0105",
+      "trajectory_length": 192
+    },
+    {
+      "cumulative_action_magnitude": 1.6158275604248047,
+      "ee_path_length": 1.6156369205754015,
+      "goal_position": [
+        0.6020997342647945,
+        0.04049407441318039,
+        0.025
+      ],
+      "object_position": [
+        0.537173200954948,
+        -0.21518338239075824,
+        0.025
+      ],
+      "target_radius": 0.04925816168052323,
+      "task_id": "task_000106",
+      "task_seed": 2000105817,
+      "trajectory_id": "traj_0106",
+      "trajectory_length": 221
+    },
+    {
+      "cumulative_action_magnitude": 1.632000207901001,
+      "ee_path_length": 1.6317785633733433,
+      "goal_position": [
+        0.5515799586012797,
+        0.029566516685291897,
+        0.025
+      ],
+      "object_position": [
+        0.6185197271853267,
+        -0.20433582073646187,
+        0.025
+      ],
+      "target_radius": 0.05932570290106654,
+      "task_id": "task_000107",
+      "task_seed": 682894720,
+      "trajectory_id": "traj_0107",
+      "trajectory_length": 223
+    },
+    {
+      "cumulative_action_magnitude": 1.4427931308746338,
+      "ee_path_length": 1.442612880405699,
+      "goal_position": [
+        0.42599033152239707,
+        0.07826754781973667,
+        0.025
+      ],
+      "object_position": [
+        0.5486803524113343,
+        -0.06647231949490345,
+        0.025
+      ],
+      "target_radius": 0.06451595250626867,
+      "task_id": "task_000108",
+      "task_seed": 171357928,
+      "trajectory_id": "traj_0108",
+      "trajectory_length": 200
+    },
+    {
+      "cumulative_action_magnitude": 1.5831035375595093,
+      "ee_path_length": 1.5829229835556635,
+      "goal_position": [
+        0.5672454448772907,
+        0.20336349685146082,
+        0.025
+      ],
+      "object_position": [
+        0.5709411707339089,
+        -0.09574905918160773,
+        0.025
+      ],
+      "target_radius": 0.07406085284744449,
+      "task_id": "task_000109",
+      "task_seed": 248174525,
+      "trajectory_id": "traj_0109",
+      "trajectory_length": 217
+    },
+    {
+      "cumulative_action_magnitude": 1.6469985246658325,
+      "ee_path_length": 1.6467957036676397,
+      "goal_position": [
+        0.5466099861451964,
+        0.2646916665912787,
+        0.025
+      ],
+      "object_position": [
+        0.5615553808037713,
+        -0.10198746260423962,
+        0.025
+      ],
+      "target_radius": 0.06588959983022637,
+      "task_id": "task_000110",
+      "task_seed": 1846276171,
+      "trajectory_id": "traj_0110",
+      "trajectory_length": 225
+    },
+    {
+      "cumulative_action_magnitude": 1.847988486289978,
+      "ee_path_length": 1.8477856613559713,
+      "goal_position": [
+        0.5947371437255274,
+        0.22045718929131203,
+        0.025
+      ],
+      "object_position": [
+        0.5215626063605866,
+        -0.24858631173913492,
+        0.025
+      ],
+      "target_radius": 0.06162015310355869,
+      "task_id": "task_000111",
+      "task_seed": 482958804,
+      "trajectory_id": "traj_0111",
+      "trajectory_length": 250
+    },
+    {
+      "cumulative_action_magnitude": 1.4558392763137817,
+      "ee_path_length": 1.4556497133289952,
+      "goal_position": [
+        0.506220741721038,
+        0.09531291489245994,
+        0.025
+      ],
+      "object_position": [
+        0.4963108260097475,
+        -0.11516089920329574,
+        0.025
+      ],
+      "target_radius": 0.05068545554552521,
+      "task_id": "task_000112",
+      "task_seed": 880075426,
+      "trajectory_id": "traj_0112",
+      "trajectory_length": 201
+    },
+    {
+      "cumulative_action_magnitude": 1.5258450508117676,
+      "ee_path_length": 1.5256533140726614,
+      "goal_position": [
+        0.5250202908345469,
+        0.021465582169248862,
+        0.025
+      ],
+      "object_position": [
+        0.6065144028527917,
+        -0.14211380684714497,
+        0.025
+      ],
+      "target_radius": 0.05396869206970065,
+      "task_id": "task_000113",
+      "task_seed": 936095269,
+      "trajectory_id": "traj_0113",
+      "trajectory_length": 210
+    },
+    {
+      "cumulative_action_magnitude": 1.8362109661102295,
+      "ee_path_length": 1.8360231845916433,
+      "goal_position": [
+        0.4512174959748728,
+        0.19325834619572624,
+        0.025
+      ],
+      "object_position": [
+        0.599381974957683,
+        -0.22387396587006814,
+        0.025
+      ],
+      "target_radius": 0.0702289270412022,
+      "task_id": "task_000114",
+      "task_seed": 1895715410,
+      "trajectory_id": "traj_0114",
+      "trajectory_length": 249
+    },
+    {
+      "cumulative_action_magnitude": 1.758458137512207,
+      "ee_path_length": 1.7582545583508862,
+      "goal_position": [
+        0.598037348087648,
+        0.1842968321567721,
+        0.025
+      ],
+      "object_position": [
+        0.6025811097387967,
+        -0.1980968828500196,
+        0.025
+      ],
+      "target_radius": 0.072931532191321,
+      "task_id": "task_000115",
+      "task_seed": 706571905,
+      "trajectory_id": "traj_0115",
+      "trajectory_length": 239
+    },
+    {
+      "cumulative_action_magnitude": 1.598009467124939,
+      "ee_path_length": 1.5978354820455987,
+      "goal_position": [
+        0.6025273378907745,
+        0.0516351217152576,
+        0.025
+      ],
+      "object_position": [
+        0.5083237014812206,
+        -0.2013757326534654,
+        0.025
+      ],
+      "target_radius": 0.05152149469815413,
+      "task_id": "task_000116",
+      "task_seed": 1732433236,
+      "trajectory_id": "traj_0116",
+      "trajectory_length": 219
+    },
+    {
+      "cumulative_action_magnitude": 1.374113917350769,
+      "ee_path_length": 1.3739439612892783,
+      "goal_position": [
+        0.566223027782699,
+        0.1189980700913325,
+        0.025
+      ],
+      "object_position": [
+        0.4714135429391345,
+        -0.05186953322614166,
+        0.025
+      ],
+      "target_radius": 0.05214111207484006,
+      "task_id": "task_000117",
+      "task_seed": 287190328,
+      "trajectory_id": "traj_0117",
+      "trajectory_length": 191
+    },
+    {
+      "cumulative_action_magnitude": 1.5243699550628662,
+      "ee_path_length": 1.5241734671576601,
+      "goal_position": [
+        0.5121438111624063,
+        0.03244528725550902,
+        0.025
+      ],
+      "object_position": [
+        0.6275051426022716,
+        -0.10838347036257198,
+        0.025
+      ],
+      "target_radius": 0.07383875426159767,
+      "task_id": "task_000118",
+      "task_seed": 687791517,
+      "trajectory_id": "traj_0118",
+      "trajectory_length": 210
+    },
+    {
+      "cumulative_action_magnitude": 1.6946320533752441,
+      "ee_path_length": 1.694429748706197,
+      "goal_position": [
+        0.5648817597746558,
+        0.27514038910888955,
+        0.025
+      ],
+      "object_position": [
+        0.4440575988525416,
+        -0.14653526962318655,
+        0.025
+      ],
+      "target_radius": 0.05026104224312317,
+      "task_id": "task_000119",
+      "task_seed": 2040944687,
+      "trajectory_id": "traj_0119",
+      "trajectory_length": 231
+    },
+    {
+      "cumulative_action_magnitude": 1.4958354234695435,
+      "ee_path_length": 1.4955812113845324,
+      "goal_position": [
+        0.6205050660171755,
+        0.2583371409640483,
+        0.025
+      ],
+      "object_position": [
+        0.423353764963024,
+        -0.03391198178328921,
+        0.025
+      ],
+      "target_radius": 0.06536041342960251,
+      "task_id": "task_000120",
+      "task_seed": 354708739,
+      "trajectory_id": "traj_0120",
+      "trajectory_length": 206
+    },
+    {
+      "cumulative_action_magnitude": 1.601961612701416,
+      "ee_path_length": 1.6017999996497292,
+      "goal_position": [
+        0.5974112833870246,
+        0.026434919747975967,
+        0.025
+      ],
+      "object_position": [
+        0.45339265909431864,
+        -0.2105530260846109,
+        0.025
+      ],
+      "target_radius": 0.06265778431131892,
+      "task_id": "task_000121",
+      "task_seed": 635140197,
+      "trajectory_id": "traj_0121",
+      "trajectory_length": 220
+    },
+    {
+      "cumulative_action_magnitude": 1.4915467500686646,
+      "ee_path_length": 1.4913715311088027,
+      "goal_position": [
+        0.4767609434845611,
+        0.2686696963407567,
+        0.025
+      ],
+      "object_position": [
+        0.46146487755085375,
+        -0.0489494437298564,
+        0.025
+      ],
+      "target_radius": 0.05016758340430171,
+      "task_id": "task_000122",
+      "task_seed": 273389085,
+      "trajectory_id": "traj_0122",
+      "trajectory_length": 206
+    },
+    {
+      "cumulative_action_magnitude": 1.632000207901001,
+      "ee_path_length": 1.6317819926835675,
+      "goal_position": [
+        0.422252713938513,
+        0.1405135795797116,
+        0.025
+      ],
+      "object_position": [
+        0.6193842783137933,
+        -0.09529330138693613,
+        0.025
+      ],
+      "target_radius": 0.04504770642442087,
+      "task_id": "task_000123",
+      "task_seed": 1150315576,
+      "trajectory_id": "traj_0123",
+      "trajectory_length": 223
+    },
+    {
+      "cumulative_action_magnitude": 1.645060658454895,
+      "ee_path_length": 1.6448852953041266,
+      "goal_position": [
+        0.4700565219931932,
+        0.1552104985762657,
+        0.025
+      ],
+      "object_position": [
+        0.4411910473396901,
+        -0.18824398118342547,
+        0.025
+      ],
+      "target_radius": 0.061611702644484755,
+      "task_id": "task_000124",
+      "task_seed": 2138305801,
+      "trajectory_id": "traj_0124",
+      "trajectory_length": 225
+    },
+    {
+      "cumulative_action_magnitude": 1.693830966949463,
+      "ee_path_length": 1.693645430364354,
+      "goal_position": [
+        0.5529795709294221,
+        0.2500288380092036,
+        0.025
+      ],
+      "object_position": [
+        0.5753179856517183,
+        -0.131122838901969,
+        0.025
+      ],
+      "target_radius": 0.06894710181621284,
+      "task_id": "task_000125",
+      "task_seed": 669898780,
+      "trajectory_id": "traj_0125",
+      "trajectory_length": 231
+    },
+    {
+      "cumulative_action_magnitude": 1.6057710647583008,
+      "ee_path_length": 1.6055877633320759,
+      "goal_position": [
+        0.5287458064424435,
+        0.10682346897255822,
+        0.025
+      ],
+      "object_position": [
+        0.5639798346700291,
+        -0.16868085161958096,
+        0.025
+      ],
+      "target_radius": 0.054018184476550386,
+      "task_id": "task_000126",
+      "task_seed": 1947367820,
+      "trajectory_id": "traj_0126",
+      "trajectory_length": 220
+    },
+    {
+      "cumulative_action_magnitude": 1.5641295909881592,
+      "ee_path_length": 1.5639391011048887,
+      "goal_position": [
+        0.463721382104332,
+        -0.07979600991568271,
+        0.025
+      ],
+      "object_position": [
+        0.5722015430084368,
+        -0.22595576385927582,
+        0.025
+      ],
+      "target_radius": 0.04761482165152546,
+      "task_id": "task_000127",
+      "task_seed": 1389353196,
+      "trajectory_id": "traj_0127",
+      "trajectory_length": 215
+    },
+    {
+      "cumulative_action_magnitude": 1.440000295639038,
+      "ee_path_length": 1.4398133718490451,
+      "goal_position": [
+        0.5312687912109848,
+        0.04335221640487895,
+        0.025
+      ],
+      "object_position": [
+        0.4282971133850766,
+        -0.12823545525519692,
+        0.025
+      ],
+      "target_radius": 0.05701480575002979,
+      "task_id": "task_000128",
+      "task_seed": 848421317,
+      "trajectory_id": "traj_0128",
+      "trajectory_length": 199
+    },
+    {
+      "cumulative_action_magnitude": 1.5327413082122803,
+      "ee_path_length": 1.532576290515578,
+      "goal_position": [
+        0.5936522108374024,
+        0.11010466726903417,
+        0.025
+      ],
+      "object_position": [
+        0.5268985564090336,
+        -0.13362466892513147,
+        0.025
+      ],
+      "target_radius": 0.05902517485613004,
+      "task_id": "task_000129",
+      "task_seed": 1569604530,
+      "trajectory_id": "traj_0129",
+      "trajectory_length": 211
+    },
+    {
+      "cumulative_action_magnitude": 1.6212151050567627,
+      "ee_path_length": 1.621027372899158,
+      "goal_position": [
+        0.5084830470484542,
+        0.24297492953731553,
+        0.025
+      ],
+      "object_position": [
+        0.6093649224814884,
+        -0.05774450538098995,
+        0.025
+      ],
+      "target_radius": 0.07062658379608931,
+      "task_id": "task_000130",
+      "task_seed": 1304817155,
+      "trajectory_id": "traj_0130",
+      "trajectory_length": 222
+    },
+    {
+      "cumulative_action_magnitude": 1.4071213006973267,
+      "ee_path_length": 1.406945809585932,
+      "goal_position": [
+        0.5762067798107521,
+        -0.08112764807143329,
+        0.025
+      ],
+      "object_position": [
+        0.44849388460030903,
+        0.0836193711699021,
+        0.025
+      ],
+      "target_radius": 0.06910578671549318,
+      "task_id": "task_000131",
+      "task_seed": 86240768,
+      "trajectory_id": "traj_0131",
+      "trajectory_length": 195
+    },
+    {
+      "cumulative_action_magnitude": 1.692706823348999,
+      "ee_path_length": 1.6925211263278177,
+      "goal_position": [
+        0.5837588115991403,
+        0.2043874659623836,
+        0.025
+      ],
+      "object_position": [
+        0.5841597970812648,
+        -0.1541879457040254,
+        0.025
+      ],
+      "target_radius": 0.05572971693542263,
+      "task_id": "task_000132",
+      "task_seed": 1794830726,
+      "trajectory_id": "traj_0132",
+      "trajectory_length": 231
+    },
+    {
+      "cumulative_action_magnitude": 1.8859575986862183,
+      "ee_path_length": 1.8857741222820574,
+      "goal_position": [
+        0.5012419922082206,
+        0.25537853585070136,
+        0.025
+      ],
+      "object_position": [
+        0.5710044119911734,
+        -0.23608500245774708,
+        0.025
+      ],
+      "target_radius": 0.07381760698153313,
+      "task_id": "task_000133",
+      "task_seed": 605739489,
+      "trajectory_id": "traj_0133",
+      "trajectory_length": 255
+    },
+    {
+      "cumulative_action_magnitude": 1.535984992980957,
+      "ee_path_length": 1.5357620111095924,
+      "goal_position": [
+        0.6154420495883761,
+        0.2693373118642821,
+        0.025
+      ],
+      "object_position": [
+        0.5785080061380958,
+        -0.003845511209861903,
+        0.025
+      ],
+      "target_radius": 0.045981582042735926,
+      "task_id": "task_000134",
+      "task_seed": 1418198605,
+      "trajectory_id": "traj_0134",
+      "trajectory_length": 211
+    },
+    {
+      "cumulative_action_magnitude": 1.5574384927749634,
+      "ee_path_length": 1.5572662650277667,
+      "goal_position": [
+        0.5129547764555863,
+        -0.016935177661953578,
+        0.025
+      ],
+      "object_position": [
+        0.4969596295693807,
+        -0.22602102596324825,
+        0.025
+      ],
+      "target_radius": 0.07166230568011794,
+      "task_id": "task_000135",
+      "task_seed": 752113379,
+      "trajectory_id": "traj_0135",
+      "trajectory_length": 214
+    },
+    {
+      "cumulative_action_magnitude": 1.4960002899169922,
+      "ee_path_length": 1.495825876791577,
+      "goal_position": [
+        0.549322078036112,
+        0.031742499505043785,
+        0.025
+      ],
+      "object_position": [
+        0.5083118343564357,
+        -0.16464401901567144,
+        0.025
+      ],
+      "target_radius": 0.057226550905755194,
+      "task_id": "task_000136",
+      "task_seed": 2110950349,
+      "trajectory_id": "traj_0136",
+      "trajectory_length": 206
+    },
+    {
+      "cumulative_action_magnitude": 1.4926135540008545,
+      "ee_path_length": 1.4924400182837945,
+      "goal_position": [
+        0.484618913722688,
+        0.052205050860571624,
+        0.025
+      ],
+      "object_position": [
+        0.5597520935018795,
+        -0.1294842882196435,
+        0.025
+      ],
+      "target_radius": 0.05621057164778683,
+      "task_id": "task_000137",
+      "task_seed": 675500428,
+      "trajectory_id": "traj_0137",
+      "trajectory_length": 206
+    },
+    {
+      "cumulative_action_magnitude": 1.7892028093338013,
+      "ee_path_length": 1.7890177362804551,
+      "goal_position": [
+        0.435176203027163,
+        0.20713623207553913,
+        0.025
+      ],
+      "object_position": [
+        0.5247132479767093,
+        -0.220756282266874,
+        0.025
+      ],
+      "target_radius": 0.045643608846697485,
+      "task_id": "task_000138",
+      "task_seed": 652304288,
+      "trajectory_id": "traj_0138",
+      "trajectory_length": 243
+    },
+    {
+      "cumulative_action_magnitude": 1.6919949054718018,
+      "ee_path_length": 1.6918047505008165,
+      "goal_position": [
+        0.4795023661669966,
+        -0.0010562241832833652,
+        0.025
+      ],
+      "object_position": [
+        0.5670146974161232,
+        -0.26547415116416817,
+        0.025
+      ],
+      "target_radius": 0.05696295635004627,
+      "task_id": "task_000139",
+      "task_seed": 1119834130,
+      "trajectory_id": "traj_0139",
+      "trajectory_length": 231
+    },
+    {
+      "cumulative_action_magnitude": 1.37580144405365,
+      "ee_path_length": 1.3756168298160576,
+      "goal_position": [
+        0.5811261697300012,
+        0.1466556621138264,
+        0.025
+      ],
+      "object_position": [
+        0.4339678413744711,
+        -0.03284419996751583,
+        0.025
+      ],
+      "target_radius": 0.06002442943580561,
+      "task_id": "task_000140",
+      "task_seed": 1792601330,
+      "trajectory_id": "traj_0140",
+      "trajectory_length": 191
+    },
+    {
+      "cumulative_action_magnitude": 1.805908441543579,
+      "ee_path_length": 1.805727226153587,
+      "goal_position": [
+        0.503993082747237,
+        0.1926541481270016,
+        0.025
+      ],
+      "object_position": [
+        0.5541532193008571,
+        -0.2343123084991509,
+        0.025
+      ],
+      "target_radius": 0.07306466897190009,
+      "task_id": "task_000141",
+      "task_seed": 998072808,
+      "trajectory_id": "traj_0141",
+      "trajectory_length": 245
+    },
+    {
+      "cumulative_action_magnitude": 1.5968061685562134,
+      "ee_path_length": 1.5966379785711586,
+      "goal_position": [
+        0.565280330204491,
+        0.05049322551387218,
+        0.025
+      ],
+      "object_position": [
+        0.5335774519738693,
+        -0.20233107573440415,
+        0.025
+      ],
+      "target_radius": 0.0470688409857898,
+      "task_id": "task_000142",
+      "task_seed": 434747285,
+      "trajectory_id": "traj_0142",
+      "trajectory_length": 219
+    },
+    {
+      "cumulative_action_magnitude": 1.6619120836257935,
+      "ee_path_length": 1.6617221745887825,
+      "goal_position": [
+        0.5766202510355862,
+        0.18636171543808436,
+        0.025
+      ],
+      "object_position": [
+        0.47151994692079086,
+        -0.17244475477708,
+        0.025
+      ],
+      "target_radius": 0.0473300106059178,
+      "task_id": "task_000143",
+      "task_seed": 727252251,
+      "trajectory_id": "traj_0143",
+      "trajectory_length": 227
+    },
+    {
+      "cumulative_action_magnitude": 1.5106853246688843,
+      "ee_path_length": 1.510510861406867,
+      "goal_position": [
+        0.5245260222690358,
+        0.057574740626667016,
+        0.025
+      ],
+      "object_position": [
+        0.5113240993600378,
+        -0.16061244682907727,
+        0.025
+      ],
+      "target_radius": 0.046444652191846306,
+      "task_id": "task_000144",
+      "task_seed": 1175521576,
+      "trajectory_id": "traj_0144",
+      "trajectory_length": 208
+    },
+    {
+      "cumulative_action_magnitude": 1.6669762134552002,
+      "ee_path_length": 1.666811177948964,
+      "goal_position": [
+        0.5252311133996947,
+        0.22238663505166517,
+        0.025
+      ],
+      "object_position": [
+        0.605903069362481,
+        -0.11041561731845938,
+        0.025
+      ],
+      "target_radius": 0.04698233752252487,
+      "task_id": "task_000145",
+      "task_seed": 1892735621,
+      "trajectory_id": "traj_0145",
+      "trajectory_length": 228
+    },
+    {
+      "cumulative_action_magnitude": 1.9573698043823242,
+      "ee_path_length": 1.9571809782732337,
+      "goal_position": [
+        0.5180534248896821,
+        0.27440214486300957,
+        0.025
+      ],
+      "object_position": [
+        0.5314271160713572,
+        -0.27531568793596206,
+        0.025
+      ],
+      "target_radius": 0.06993356327911034,
+      "task_id": "task_000146",
+      "task_seed": 753280680,
+      "trajectory_id": "traj_0146",
+      "trajectory_length": 264
+    },
+    {
+      "cumulative_action_magnitude": 1.612095832824707,
+      "ee_path_length": 1.6119333811318413,
+      "goal_position": [
+        0.5686565654753578,
+        0.06726354536440046,
+        0.025
+      ],
+      "object_position": [
+        0.48560817581385546,
+        -0.20573895399202957,
+        0.025
+      ],
+      "target_radius": 0.048903868185944596,
+      "task_id": "task_000147",
+      "task_seed": 394106584,
+      "trajectory_id": "traj_0147",
+      "trajectory_length": 221
+    },
+    {
+      "cumulative_action_magnitude": 1.6480002403259277,
+      "ee_path_length": 1.6477444374099717,
+      "goal_position": [
+        0.426974170010224,
+        -0.09110639415588648,
+        0.025
+      ],
+      "object_position": [
+        0.6024758819573367,
+        -0.24706924070127964,
+        0.025
+      ],
+      "target_radius": 0.04932315504087611,
+      "task_id": "task_000148",
+      "task_seed": 217619258,
+      "trajectory_id": "traj_0148",
+      "trajectory_length": 225
+    },
+    {
+      "cumulative_action_magnitude": 1.5101301670074463,
+      "ee_path_length": 1.5099578583016204,
+      "goal_position": [
+        0.5418239219151071,
+        0.20112832956169127,
+        0.025
+      ],
+      "object_position": [
+        0.5786025059786468,
+        -0.03577963270876124,
+        0.025
+      ],
+      "target_radius": 0.049763757709390385,
+      "task_id": "task_000149",
+      "task_seed": 967749495,
+      "trajectory_id": "traj_0149",
+      "trajectory_length": 208
+    },
+    {
+      "cumulative_action_magnitude": 1.511234164237976,
+      "ee_path_length": 1.5110552980311387,
+      "goal_position": [
+        0.5609340743850386,
+        0.08532128788287795,
+        0.025
+      ],
+      "object_position": [
+        0.5196278433502565,
+        -0.14219043062008518,
+        0.025
+      ],
+      "target_radius": 0.061447543882553544,
+      "task_id": "task_000150",
+      "task_seed": 2044319314,
+      "trajectory_id": "traj_0150",
+      "trajectory_length": 208
+    },
+    {
+      "cumulative_action_magnitude": 1.4125096797943115,
+      "ee_path_length": 1.412342102815637,
+      "goal_position": [
+        0.5813745624278078,
+        -0.04366950513228256,
+        0.025
+      ],
+      "object_position": [
+        0.47436187360057747,
+        0.10554449190862936,
+        0.025
+      ],
+      "target_radius": 0.06383995785460324,
+      "task_id": "task_000151",
+      "task_seed": 1603129361,
+      "trajectory_id": "traj_0151",
+      "trajectory_length": 196
+    },
+    {
+      "cumulative_action_magnitude": 1.6041834354400635,
+      "ee_path_length": 1.60401972814057,
+      "goal_position": [
+        0.5980580497064131,
+        0.09214712622445988,
+        0.025
+      ],
+      "object_position": [
+        0.4589069135884388,
+        -0.18279603987204238,
+        0.025
+      ],
+      "target_radius": 0.051897418302822095,
+      "task_id": "task_000152",
+      "task_seed": 24735680,
+      "trajectory_id": "traj_0152",
+      "trajectory_length": 220
+    },
+    {
+      "cumulative_action_magnitude": 1.5356736183166504,
+      "ee_path_length": 1.5354619913092304,
+      "goal_position": [
+        0.4361802790822458,
+        0.19225836587153097,
+        0.025
+      ],
+      "object_position": [
+        0.6203858396818351,
+        0.09643340543318393,
+        0.025
+      ],
+      "target_radius": 0.06288773171186997,
+      "task_id": "task_000153",
+      "task_seed": 1324852446,
+      "trajectory_id": "traj_0153",
+      "trajectory_length": 211
+    },
+    {
+      "cumulative_action_magnitude": 1.5901565551757812,
+      "ee_path_length": 1.589955636154524,
+      "goal_position": [
+        0.6014077647616304,
+        0.24295367604138596,
+        0.025
+      ],
+      "object_position": [
+        0.49340514362910504,
+        -0.09846186195959813,
+        0.025
+      ],
+      "target_radius": 0.0639468008923609,
+      "task_id": "task_000154",
+      "task_seed": 1772735087,
+      "trajectory_id": "traj_0154",
+      "trajectory_length": 218
+    },
+    {
+      "cumulative_action_magnitude": 1.7662768363952637,
+      "ee_path_length": 1.7660917518654533,
+      "goal_position": [
+        0.532916283353542,
+        0.15053115500493716,
+        0.025
+      ],
+      "object_position": [
+        0.5023173591724978,
+        -0.24652967691916672,
+        0.025
+      ],
+      "target_radius": 0.06754044229316543,
+      "task_id": "task_000155",
+      "task_seed": 439847835,
+      "trajectory_id": "traj_0155",
+      "trajectory_length": 240
+    },
+    {
+      "cumulative_action_magnitude": 1.7713656425476074,
+      "ee_path_length": 1.771195232034512,
+      "goal_position": [
+        0.5000990758881793,
+        0.1568437322607981,
+        0.025
+      ],
+      "object_position": [
+        0.5384697789158216,
+        -0.23728737897349667,
+        0.025
+      ],
+      "target_radius": 0.04802608078209758,
+      "task_id": "task_000156",
+      "task_seed": 780128365,
+      "trajectory_id": "traj_0156",
+      "trajectory_length": 241
+    },
+    {
+      "cumulative_action_magnitude": 1.743985652923584,
+      "ee_path_length": 1.7437946429698963,
+      "goal_position": [
+        0.5625654219449603,
+        0.16960972628483764,
+        0.025
+      ],
+      "object_position": [
+        0.5191842742328449,
+        -0.2236032661989791,
+        0.025
+      ],
+      "target_radius": 0.04742802763035149,
+      "task_id": "task_000157",
+      "task_seed": 2070773157,
+      "trajectory_id": "traj_0157",
+      "trajectory_length": 237
+    },
+    {
+      "cumulative_action_magnitude": 1.5250499248504639,
+      "ee_path_length": 1.5248467977528346,
+      "goal_position": [
+        0.4246024238400435,
+        0.14404632645200932,
+        0.025
+      ],
+      "object_position": [
+        0.6136012401516178,
+        0.11584633298617011,
+        0.025
+      ],
+      "target_radius": 0.04723670581301974,
+      "task_id": "task_000158",
+      "task_seed": 202787771,
+      "trajectory_id": "traj_0158",
+      "trajectory_length": 210
+    },
+    {
+      "cumulative_action_magnitude": 1.636181354522705,
+      "ee_path_length": 1.636015335115703,
+      "goal_position": [
+        0.49843113844430936,
+        0.20706271044025798,
+        0.025
+      ],
+      "object_position": [
+        0.6222773820858034,
+        -0.07846392822951723,
+        0.025
+      ],
+      "target_radius": 0.06804200981432347,
+      "task_id": "task_000159",
+      "task_seed": 46509247,
+      "trajectory_id": "traj_0159",
+      "trajectory_length": 224
+    },
+    {
+      "cumulative_action_magnitude": 1.4774837493896484,
+      "ee_path_length": 1.477299195403662,
+      "goal_position": [
+        0.5703110816404323,
+        0.21483074426090334,
+        0.025
+      ],
+      "object_position": [
+        0.5407760998540027,
+        -0.028855261569508427,
+        0.025
+      ],
+      "target_radius": 0.06475471582140764,
+      "task_id": "task_000160",
+      "task_seed": 930275771,
+      "trajectory_id": "traj_0160",
+      "trajectory_length": 204
+    },
+    {
+      "cumulative_action_magnitude": 1.5167732238769531,
+      "ee_path_length": 1.516581380795968,
+      "goal_position": [
+        0.5109448899673743,
+        0.20505197701015473,
+        0.025
+      ],
+      "object_position": [
+        0.6270845637193134,
+        0.04617677243811615,
+        0.025
+      ],
+      "target_radius": 0.06136862514080691,
+      "task_id": "task_000161",
+      "task_seed": 2135215186,
+      "trajectory_id": "traj_0161",
+      "trajectory_length": 209
+    },
+    {
+      "cumulative_action_magnitude": 1.6130073070526123,
+      "ee_path_length": 1.6128392757474619,
+      "goal_position": [
+        0.626842569278196,
+        0.09003700646309348,
+        0.025
+      ],
+      "object_position": [
+        0.46025035117866747,
+        -0.18003929918312406,
+        0.025
+      ],
+      "target_radius": 0.0615117344700065,
+      "task_id": "task_000162",
+      "task_seed": 635386536,
+      "trajectory_id": "traj_0162",
+      "trajectory_length": 221
+    },
+    {
+      "cumulative_action_magnitude": 1.6470128297805786,
+      "ee_path_length": 1.6468337507133939,
+      "goal_position": [
+        0.5014109420547316,
+        0.20062348522589354,
+        0.025
+      ],
+      "object_position": [
+        0.4882277945217799,
+        -0.16289036681126867,
+        0.025
+      ],
+      "target_radius": 0.051770499641609485,
+      "task_id": "task_000163",
+      "task_seed": 1729508778,
+      "trajectory_id": "traj_0163",
+      "trajectory_length": 225
+    },
+    {
+      "cumulative_action_magnitude": 1.5140482187271118,
+      "ee_path_length": 1.5138646234848334,
+      "goal_position": [
+        0.6227320957492326,
+        0.20161265283546353,
+        0.025
+      ],
+      "object_position": [
+        0.5457553996883922,
+        -0.05556238944640527,
+        0.025
+      ],
+      "target_radius": 0.07189532656345712,
+      "task_id": "task_000164",
+      "task_seed": 1855604029,
+      "trajectory_id": "traj_0164",
+      "trajectory_length": 209
+    },
+    {
+      "cumulative_action_magnitude": 1.6125295162200928,
+      "ee_path_length": 1.612340315957142,
+      "goal_position": [
+        0.46347976459933754,
+        0.08193584236778294,
+        0.025
+      ],
+      "object_position": [
+        0.6186203572044235,
+        -0.134892902292189,
+        0.025
+      ],
+      "target_radius": 0.07273876510402046,
+      "task_id": "task_000165",
+      "task_seed": 434654908,
+      "trajectory_id": "traj_0165",
+      "trajectory_length": 221
+    },
+    {
+      "cumulative_action_magnitude": 1.647964358329773,
+      "ee_path_length": 1.647764703792512,
+      "goal_position": [
+        0.4708211313072988,
+        0.06734522258199636,
+        0.025
+      ],
+      "object_position": [
+        0.5671219411605909,
+        -0.20739310934311717,
+        0.025
+      ],
+      "target_radius": 0.0670267951716581,
+      "task_id": "task_000166",
+      "task_seed": 1549440628,
+      "trajectory_id": "traj_0166",
+      "trajectory_length": 225
+    },
+    {
+      "cumulative_action_magnitude": 1.6000001430511475,
+      "ee_path_length": 1.5998067937839473,
+      "goal_position": [
+        0.5072425328057328,
+        -0.08291063687031298,
+        0.025
+      ],
+      "object_position": [
+        0.5308320479417346,
+        -0.27684772322307827,
+        0.025
+      ],
+      "target_radius": 0.06932559261289035,
+      "task_id": "task_000167",
+      "task_seed": 1694748346,
+      "trajectory_id": "traj_0167",
+      "trajectory_length": 219
+    },
+    {
+      "cumulative_action_magnitude": 1.5733922719955444,
+      "ee_path_length": 1.5732080905122254,
+      "goal_position": [
+        0.4302552206608733,
+        0.2202162702841209,
+        0.025
+      ],
+      "object_position": [
+        0.503691314384969,
+        -0.10502347032564709,
+        0.025
+      ],
+      "target_radius": 0.0742684720636264,
+      "task_id": "task_000168",
+      "task_seed": 907000680,
+      "trajectory_id": "traj_0168",
+      "trajectory_length": 216
+    },
+    {
+      "cumulative_action_magnitude": 1.7391349077224731,
+      "ee_path_length": 1.7389665035575992,
+      "goal_position": [
+        0.6156684604414043,
+        0.04992932474528583,
+        0.025
+      ],
+      "object_position": [
+        0.44839042936679924,
+        -0.26731096870216353,
+        0.025
+      ],
+      "target_radius": 0.05602850504381111,
+      "task_id": "task_000169",
+      "task_seed": 1581179192,
+      "trajectory_id": "traj_0169",
+      "trajectory_length": 237
+    },
+    {
+      "cumulative_action_magnitude": 1.462708830833435,
+      "ee_path_length": 1.4625326668989747,
+      "goal_position": [
+        0.5167986000441486,
+        0.12712879110710817,
+        0.025
+      ],
+      "object_position": [
+        0.5251251140224892,
+        -0.08934897551750355,
+        0.025
+      ],
+      "target_radius": 0.05301303900130037,
+      "task_id": "task_000170",
+      "task_seed": 211215738,
+      "trajectory_id": "traj_0170",
+      "trajectory_length": 202
+    },
+    {
+      "cumulative_action_magnitude": 1.5439804792404175,
+      "ee_path_length": 1.5437845796033862,
+      "goal_position": [
+        0.5996796220397743,
+        0.09607412329889112,
+        0.025
+      ],
+      "object_position": [
+        0.5409335905324917,
+        -0.14576657857336078,
+        0.025
+      ],
+      "target_radius": 0.07313999019109889,
+      "task_id": "task_000171",
+      "task_seed": 19532019,
+      "trajectory_id": "traj_0171",
+      "trajectory_length": 212
+    },
+    {
+      "cumulative_action_magnitude": 1.5088512897491455,
+      "ee_path_length": 1.5086759111443064,
+      "goal_position": [
+        0.5180916627094444,
+        0.2537818717020658,
+        0.025
+      ],
+      "object_position": [
+        0.6030074810871756,
+        0.06553954351752711,
+        0.025
+      ],
+      "target_radius": 0.052743273875266464,
+      "task_id": "task_000172",
+      "task_seed": 1270304093,
+      "trajectory_id": "traj_0172",
+      "trajectory_length": 208
+    },
+    {
+      "cumulative_action_magnitude": 1.4206013679504395,
+      "ee_path_length": 1.4204293155506404,
+      "goal_position": [
+        0.5862453375670716,
+        0.11252494918903276,
+        0.025
+      ],
+      "object_position": [
+        0.4611574143288181,
+        -0.07608864670762026,
+        0.025
+      ],
+      "target_radius": 0.05803342092942675,
+      "task_id": "task_000173",
+      "task_seed": 1637230446,
+      "trajectory_id": "traj_0173",
+      "trajectory_length": 197
+    },
+    {
+      "cumulative_action_magnitude": 1.413388967514038,
+      "ee_path_length": 1.41320627847405,
+      "goal_position": [
+        0.4425810977259368,
+        0.11535554917343033,
+        0.025
+      ],
+      "object_position": [
+        0.470567585235406,
+        -0.0881812071214417,
+        0.025
+      ],
+      "target_radius": 0.07061618485634547,
+      "task_id": "task_000174",
+      "task_seed": 378704018,
+      "trajectory_id": "traj_0174",
+      "trajectory_length": 196
+    },
+    {
+      "cumulative_action_magnitude": 1.9188346862792969,
+      "ee_path_length": 1.9185915872819677,
+      "goal_position": [
+        0.5152765537773848,
+        0.23016683107371555,
+        0.025
+      ],
+      "object_position": [
+        0.6041911592664733,
+        -0.2565684041808416,
+        0.025
+      ],
+      "target_radius": 0.051091577201678826,
+      "task_id": "task_000175",
+      "task_seed": 977903568,
+      "trajectory_id": "traj_0175",
+      "trajectory_length": 259
+    },
+    {
+      "cumulative_action_magnitude": 1.5600001811981201,
+      "ee_path_length": 1.5598042100231053,
+      "goal_position": [
+        0.44431893168005543,
+        0.16401720060014363,
+        0.025
+      ],
+      "object_position": [
+        0.5418921184669406,
+        -0.1106024518298359,
+        0.025
+      ],
+      "target_radius": 0.07156716835719046,
+      "task_id": "task_000176",
+      "task_seed": 3985773,
+      "trajectory_id": "traj_0176",
+      "trajectory_length": 214
+    },
+    {
+      "cumulative_action_magnitude": 1.7732278108596802,
+      "ee_path_length": 1.7730291704027872,
+      "goal_position": [
+        0.4951321100461549,
+        0.18252491127807396,
+        0.025
+      ],
+      "object_position": [
+        0.6114381411324131,
+        -0.19355877968129706,
+        0.025
+      ],
+      "target_radius": 0.05955073489233058,
+      "task_id": "task_000177",
+      "task_seed": 1215820062,
+      "trajectory_id": "traj_0177",
+      "trajectory_length": 241
+    },
+    {
+      "cumulative_action_magnitude": 1.5120002031326294,
+      "ee_path_length": 1.5118250193857357,
+      "goal_position": [
+        0.496620035457566,
+        0.2253291162915503,
+        0.025
+      ],
+      "object_position": [
+        0.5993870352547692,
+        0.022614785404145292,
+        0.025
+      ],
+      "target_radius": 0.04857747528363346,
+      "task_id": "task_000178",
+      "task_seed": 1003154949,
+      "trajectory_id": "traj_0178",
+      "trajectory_length": 208
+    },
+    {
+      "cumulative_action_magnitude": 1.6930623054504395,
+      "ee_path_length": 1.6928691967582006,
+      "goal_position": [
+        0.5392044645095307,
+        0.22165742609050984,
+        0.025
+      ],
+      "object_position": [
+        0.6290971348917543,
+        -0.11562252718441134,
+        0.025
+      ],
+      "target_radius": 0.05958942048929705,
+      "task_id": "task_000179",
+      "task_seed": 1432027975,
+      "trajectory_id": "traj_0179",
+      "trajectory_length": 231
+    },
+    {
+      "cumulative_action_magnitude": 1.7440001964569092,
+      "ee_path_length": 1.7438021638796912,
+      "goal_position": [
+        0.5059775425637072,
+        0.05129663115839972,
+        0.025
+      ],
+      "object_position": [
+        0.5635556255652568,
+        -0.27277397060301406,
+        0.025
+      ],
+      "target_radius": 0.06164388907395013,
+      "task_id": "task_000180",
+      "task_seed": 1338629463,
+      "trajectory_id": "traj_0180",
+      "trajectory_length": 237
+    },
+    {
+      "cumulative_action_magnitude": 1.5840001106262207,
+      "ee_path_length": 1.5838037681612294,
+      "goal_position": [
+        0.5938753381930595,
+        0.048568949227086995,
+        0.025
+      ],
+      "object_position": [
+        0.5996289573799483,
+        -0.17674044643676917,
+        0.025
+      ],
+      "target_radius": 0.07267039017917593,
+      "task_id": "task_000181",
+      "task_seed": 1147686567,
+      "trajectory_id": "traj_0181",
+      "trajectory_length": 217
+    },
+    {
+      "cumulative_action_magnitude": 1.5894043445587158,
+      "ee_path_length": 1.5891825899600416,
+      "goal_position": [
+        0.48517988031098486,
+        -0.10172876477384507,
+        0.025
+      ],
+      "object_position": [
+        0.5938384127349281,
+        -0.24695117870888753,
+        0.025
+      ],
+      "target_radius": 0.059977252288232176,
+      "task_id": "task_000182",
+      "task_seed": 847931291,
+      "trajectory_id": "traj_0182",
+      "trajectory_length": 218
+    },
+    {
+      "cumulative_action_magnitude": 1.6687930822372437,
+      "ee_path_length": 1.6685725335937465,
+      "goal_position": [
+        0.5941350859343483,
+        -0.01918547982157019,
+        0.025
+      ],
+      "object_position": [
+        0.5939612196649814,
+        -0.263932922679261,
+        0.025
+      ],
+      "target_radius": 0.051461736339534166,
+      "task_id": "task_000183",
+      "task_seed": 1029591905,
+      "trajectory_id": "traj_0183",
+      "trajectory_length": 228
+    },
+    {
+      "cumulative_action_magnitude": 1.4079965353012085,
+      "ee_path_length": 1.4078033602483848,
+      "goal_position": [
+        0.43697903772679514,
+        -0.07217561313235994,
+        0.025
+      ],
+      "object_position": [
+        0.42524954343382865,
+        0.11343404522612655,
+        0.025
+      ],
+      "target_radius": 0.0478862767496437,
+      "task_id": "task_000184",
+      "task_seed": 750788969,
+      "trajectory_id": "traj_0184",
+      "trajectory_length": 195
+    },
+    {
+      "cumulative_action_magnitude": 1.5423452854156494,
+      "ee_path_length": 1.5421557799009284,
+      "goal_position": [
+        0.43779410750492903,
+        0.18058613160471595,
+        0.025
+      ],
+      "object_position": [
+        0.5149698348616867,
+        -0.10341434212378656,
+        0.025
+      ],
+      "target_radius": 0.07004705092801733,
+      "task_id": "task_000185",
+      "task_seed": 1919448666,
+      "trajectory_id": "traj_0185",
+      "trajectory_length": 212
+    },
+    {
+      "cumulative_action_magnitude": 1.655947208404541,
+      "ee_path_length": 1.6557512396460612,
+      "goal_position": [
+        0.5499875064492883,
+        0.2522512025873703,
+        0.025
+      ],
+      "object_position": [
+        0.49810147729321796,
+        -0.13670044198039366,
+        0.025
+      ],
+      "target_radius": 0.05160493565705527,
+      "task_id": "task_000186",
+      "task_seed": 1252668108,
+      "trajectory_id": "traj_0186",
+      "trajectory_length": 226
+    },
+    {
+      "cumulative_action_magnitude": 1.4069957733154297,
+      "ee_path_length": 1.4068225381058972,
+      "goal_position": [
+        0.5382892312458655,
+        0.08537041036362941,
+        0.025
+      ],
+      "object_position": [
+        0.48652491227968564,
+        -0.09188515653785076,
+        0.025
+      ],
+      "target_radius": 0.06300980095724609,
+      "task_id": "task_000187",
+      "task_seed": 784889560,
+      "trajectory_id": "traj_0187",
+      "trajectory_length": 195
+    },
+    {
+      "cumulative_action_magnitude": 1.847994089126587,
+      "ee_path_length": 1.847811672765932,
+      "goal_position": [
+        0.5746784272160497,
+        0.2037327484704931,
+        0.025
+      ],
+      "object_position": [
+        0.43259546630572443,
+        -0.25844489413126104,
+        0.025
+      ],
+      "target_radius": 0.04906110404605292,
+      "task_id": "task_000188",
+      "task_seed": 1272933153,
+      "trajectory_id": "traj_0188",
+      "trajectory_length": 250
+    },
+    {
+      "cumulative_action_magnitude": 1.4761989116668701,
+      "ee_path_length": 1.4760110940489164,
+      "goal_position": [
+        0.43154920173273137,
+        0.06703471912742497,
+        0.025
+      ],
+      "object_position": [
+        0.5885116560969958,
+        -0.05069585354203182,
+        0.025
+      ],
+      "target_radius": 0.06071821954586036,
+      "task_id": "task_000189",
+      "task_seed": 1516438083,
+      "trajectory_id": "traj_0189",
+      "trajectory_length": 204
+    },
+    {
+      "cumulative_action_magnitude": 1.5890159606933594,
+      "ee_path_length": 1.5888265818471108,
+      "goal_position": [
+        0.5447450971410112,
+        0.2168097792100486,
+        0.025
+      ],
+      "object_position": [
+        0.5811547667023194,
+        -0.08194717627252647,
+        0.025
+      ],
+      "target_radius": 0.06566955184415658,
+      "task_id": "task_000190",
+      "task_seed": 1718735926,
+      "trajectory_id": "traj_0190",
+      "trajectory_length": 218
+    },
+    {
+      "cumulative_action_magnitude": 1.4992294311523438,
+      "ee_path_length": 1.4990488982281645,
+      "goal_position": [
+        0.50441284949476,
+        0.22922257258009013,
+        0.025
+      ],
+      "object_position": [
+        0.5825717191582572,
+        0.01474166122734985,
+        0.025
+      ],
+      "target_radius": 0.06744391681862695,
+      "task_id": "task_000191",
+      "task_seed": 1351024286,
+      "trajectory_id": "traj_0191",
+      "trajectory_length": 207
+    },
+    {
+      "cumulative_action_magnitude": 1.3964718580245972,
+      "ee_path_length": 1.3962945157533038,
+      "goal_position": [
+        0.46613373481883047,
+        0.11081609931284107,
+        0.025
+      ],
+      "object_position": [
+        0.46762394774351923,
+        -0.08164299466010036,
+        0.025
+      ],
+      "target_radius": 0.04584721769464719,
+      "task_id": "task_000192",
+      "task_seed": 566510101,
+      "trajectory_id": "traj_0192",
+      "trajectory_length": 194
+    },
+    {
+      "cumulative_action_magnitude": 1.5486598014831543,
+      "ee_path_length": 1.5484830062044637,
+      "goal_position": [
+        0.4325916522754077,
+        0.27079170083914317,
+        0.025
+      ],
+      "object_position": [
+        0.5527598159200309,
+        -0.013477567936489207,
+        0.025
+      ],
+      "target_radius": 0.06877931710380888,
+      "task_id": "task_000193",
+      "task_seed": 360477118,
+      "trajectory_id": "traj_0193",
+      "trajectory_length": 213
+    },
+    {
+      "cumulative_action_magnitude": 1.6440423727035522,
+      "ee_path_length": 1.64387169556847,
+      "goal_position": [
+        0.5467847582112245,
+        0.09215493251393124,
+        0.025
+      ],
+      "object_position": [
+        0.44035197582318847,
+        -0.21137547257951672,
+        0.025
+      ],
+      "target_radius": 0.05516693151530978,
+      "task_id": "task_000194",
+      "task_seed": 1724539620,
+      "trajectory_id": "traj_0194",
+      "trajectory_length": 225
+    },
+    {
+      "cumulative_action_magnitude": 1.451593041419983,
+      "ee_path_length": 1.4514137136086398,
+      "goal_position": [
+        0.5258484780155549,
+        0.07795578630467923,
+        0.025
+      ],
+      "object_position": [
+        0.5217169243587673,
+        -0.11263552451714806,
+        0.025
+      ],
+      "target_radius": 0.04773936306105908,
+      "task_id": "task_000195",
+      "task_seed": 320255418,
+      "trajectory_id": "traj_0195",
+      "trajectory_length": 201
+    },
+    {
+      "cumulative_action_magnitude": 1.476808786392212,
+      "ee_path_length": 1.4766441558037249,
+      "goal_position": [
+        0.5249700021170335,
+        0.16576613377179394,
+        0.025
+      ],
+      "object_position": [
+        0.5118499332821388,
+        -0.08004087386519408,
+        0.025
+      ],
+      "target_radius": 0.06642191767376524,
+      "task_id": "task_000196",
+      "task_seed": 1924583152,
+      "trajectory_id": "traj_0196",
+      "trajectory_length": 204
+    },
+    {
+      "cumulative_action_magnitude": 1.4620425701141357,
+      "ee_path_length": 1.4618573792954357,
+      "goal_position": [
+        0.4409380821187261,
+        0.10255203399054785,
+        0.025
+      ],
+      "object_position": [
+        0.5075808927840155,
+        -0.1050231862603713,
+        0.025
+      ],
+      "target_radius": 0.04676960858798356,
+      "task_id": "task_000197",
+      "task_seed": 1982771101,
+      "trajectory_id": "traj_0197",
+      "trajectory_length": 202
+    },
+    {
+      "cumulative_action_magnitude": 1.725730299949646,
+      "ee_path_length": 1.725533473794842,
+      "goal_position": [
+        0.5869881436882417,
+        0.2699902618804103,
+        0.025
+      ],
+      "object_position": [
+        0.5957376188143069,
+        -0.1290440853038056,
+        0.025
+      ],
+      "target_radius": 0.046570827412777856,
+      "task_id": "task_000198",
+      "task_seed": 1568936507,
+      "trajectory_id": "traj_0198",
+      "trajectory_length": 235
+    },
+    {
+      "cumulative_action_magnitude": 1.5672998428344727,
+      "ee_path_length": 1.5671098351985189,
+      "goal_position": [
+        0.44720209505380054,
+        0.21280806858315773,
+        0.025
+      ],
+      "object_position": [
+        0.544391087212696,
+        -0.08289730679707617,
+        0.025
+      ],
+      "target_radius": 0.05515825396186916,
+      "task_id": "task_000199",
+      "task_seed": 1580937228,
+      "trajectory_id": "traj_0199",
+      "trajectory_length": 215
+    },
+    {
+      "cumulative_action_magnitude": 1.4213865995407104,
+      "ee_path_length": 1.421209516002667,
+      "goal_position": [
+        0.5166564073878156,
+        0.2735708928708735,
+        0.025
+      ],
+      "object_position": [
+        0.49851282135925695,
+        0.05668130012169678,
+        0.025
+      ],
+      "target_radius": 0.07338959145190019,
+      "task_id": "task_000200",
+      "task_seed": 129345854,
+      "trajectory_id": "traj_0200",
+      "trajectory_length": 197
+    },
+    {
+      "cumulative_action_magnitude": 1.4224086999893188,
+      "ee_path_length": 1.4222253438179184,
+      "goal_position": [
+        0.5862799641699971,
+        0.12740796752465217,
+        0.025
+      ],
+      "object_position": [
+        0.49320912361106,
+        -0.06619351005568362,
+        0.025
+      ],
+      "target_radius": 0.06387764933486312,
+      "task_id": "task_000201",
+      "task_seed": 2057945543,
+      "trajectory_id": "traj_0201",
+      "trajectory_length": 197
+    },
+    {
+      "cumulative_action_magnitude": 1.6720001697540283,
+      "ee_path_length": 1.671766864990521,
+      "goal_position": [
+        0.4650385819484265,
+        0.07614760057115676,
+        0.025
+      ],
+      "object_position": [
+        0.6191776543326659,
+        -0.17962349506561934,
+        0.025
+      ],
+      "target_radius": 0.07325163590556097,
+      "task_id": "task_000202",
+      "task_seed": 1116655762,
+      "trajectory_id": "traj_0202",
+      "trajectory_length": 228
+    },
+    {
+      "cumulative_action_magnitude": 1.525042176246643,
+      "ee_path_length": 1.524861269617951,
+      "goal_position": [
+        0.6156365442143158,
+        0.03372233832489687,
+        0.025
+      ],
+      "object_position": [
+        0.5187860852975511,
+        -0.16600573482420158,
+        0.025
+      ],
+      "target_radius": 0.05748298303804953,
+      "task_id": "task_000203",
+      "task_seed": 830691544,
+      "trajectory_id": "traj_0203",
+      "trajectory_length": 210
+    },
+    {
+      "cumulative_action_magnitude": 1.8436431884765625,
+      "ee_path_length": 1.8434535877724278,
+      "goal_position": [
+        0.4487715855618077,
+        0.24866417186505024,
+        0.025
+      ],
+      "object_position": [
+        0.6040717834978816,
+        -0.1928147637426813,
+        0.025
+      ],
+      "target_radius": 0.07041313019815182,
+      "task_id": "task_000204",
+      "task_seed": 1942796685,
+      "trajectory_id": "traj_0204",
+      "trajectory_length": 250
+    },
+    {
+      "cumulative_action_magnitude": 1.71160089969635,
+      "ee_path_length": 1.711409239436447,
+      "goal_position": [
+        0.4296153628775099,
+        0.08664905262723653,
+        0.025
+      ],
+      "object_position": [
+        0.45808024387248186,
+        -0.2557246702275733,
+        0.025
+      ],
+      "target_radius": 0.06845945941894364,
+      "task_id": "task_000205",
+      "task_seed": 1602152176,
+      "trajectory_id": "traj_0205",
+      "trajectory_length": 233
+    },
+    {
+      "cumulative_action_magnitude": 1.6043003797531128,
+      "ee_path_length": 1.604128537189971,
+      "goal_position": [
+        0.5227970114200609,
+        0.09472880553064894,
+        0.025
+      ],
+      "object_position": [
+        0.4934407857758237,
+        -0.19221834983211009,
+        0.025
+      ],
+      "target_radius": 0.050281944002390964,
+      "task_id": "task_000206",
+      "task_seed": 1296463447,
+      "trajectory_id": "traj_0206",
+      "trajectory_length": 220
+    },
+    {
+      "cumulative_action_magnitude": 1.5674232244491577,
+      "ee_path_length": 1.567229364888387,
+      "goal_position": [
+        0.5515363501491364,
+        0.11809967897006439,
+        0.025
+      ],
+      "object_position": [
+        0.6068988001923562,
+        -0.11502803939430266,
+        0.025
+      ],
+      "target_radius": 0.06990784697894552,
+      "task_id": "task_000207",
+      "task_seed": 1543933333,
+      "trajectory_id": "traj_0207",
+      "trajectory_length": 215
+    },
+    {
+      "cumulative_action_magnitude": 1.6219890117645264,
+      "ee_path_length": 1.6218023432020208,
+      "goal_position": [
+        0.5840388705498771,
+        0.25540851489143757,
+        0.025
+      ],
+      "object_position": [
+        0.5808382245048287,
+        -0.0791466711653463,
+        0.025
+      ],
+      "target_radius": 0.055093558058533415,
+      "task_id": "task_000208",
+      "task_seed": 1641352057,
+      "trajectory_id": "traj_0208",
+      "trajectory_length": 222
+    },
+    {
+      "cumulative_action_magnitude": 1.7011537551879883,
+      "ee_path_length": 1.7009727809905857,
+      "goal_position": [
+        0.4732109992588179,
+        0.17932534445202658,
+        0.025
+      ],
+      "object_position": [
+        0.48493780849102064,
+        -0.20161054385469704,
+        0.025
+      ],
+      "target_radius": 0.06489332742998007,
+      "task_id": "task_000209",
+      "task_seed": 1380286981,
+      "trajectory_id": "traj_0209",
+      "trajectory_length": 232
+    },
+    {
+      "cumulative_action_magnitude": 1.8135578632354736,
+      "ee_path_length": 1.8133482142634842,
+      "goal_position": [
+        0.43906984179375147,
+        0.1466045124829895,
+        0.025
+      ],
+      "object_position": [
+        0.5879291891351994,
+        -0.23918091910940203,
+        0.025
+      ],
+      "target_radius": 0.06232626894080077,
+      "task_id": "task_000210",
+      "task_seed": 1511434863,
+      "trajectory_id": "traj_0210",
+      "trajectory_length": 246
+    },
+    {
+      "cumulative_action_magnitude": 1.639991044998169,
+      "ee_path_length": 1.6397812841685195,
+      "goal_position": [
+        0.44382122128605545,
+        0.13213069394285584,
+        0.025
+      ],
+      "object_position": [
+        0.6171124612478155,
+        -0.1189813797143424,
+        0.025
+      ],
+      "target_radius": 0.060683136726077745,
+      "task_id": "task_000211",
+      "task_seed": 1274770171,
+      "trajectory_id": "traj_0211",
+      "trajectory_length": 224
+    },
+    {
+      "cumulative_action_magnitude": 1.7279632091522217,
+      "ee_path_length": 1.7277769150956046,
+      "goal_position": [
+        0.5030236538888064,
+        0.14793020717166522,
+        0.025
+      ],
+      "object_position": [
+        0.45180785844545335,
+        -0.23401995217145433,
+        0.025
+      ],
+      "target_radius": 0.07031271107284773,
+      "task_id": "task_000212",
+      "task_seed": 1475570404,
+      "trajectory_id": "traj_0212",
+      "trajectory_length": 235
+    },
+    {
+      "cumulative_action_magnitude": 1.4441744089126587,
+      "ee_path_length": 1.4440039071999067,
+      "goal_position": [
+        0.5245014815760521,
+        0.2673185861045121,
+        0.025
+      ],
+      "object_position": [
+        0.46448575741010784,
+        -0.018195052391234097,
+        0.025
+      ],
+      "target_radius": 0.05510388590003852,
+      "task_id": "task_000213",
+      "task_seed": 1061943078,
+      "trajectory_id": "traj_0213",
+      "trajectory_length": 200
+    },
+    {
+      "cumulative_action_magnitude": 1.9102598428726196,
+      "ee_path_length": 1.9099758497521344,
+      "goal_position": [
+        0.42064205008388067,
+        0.16784196430572548,
+        0.025
+      ],
+      "object_position": [
+        0.6195742858838895,
+        -0.26131274674533606,
+        0.025
+      ],
+      "target_radius": 0.06999744580238487,
+      "task_id": "task_000214",
+      "task_seed": 1436579977,
+      "trajectory_id": "traj_0214",
+      "trajectory_length": 258
+    },
+    {
+      "cumulative_action_magnitude": 1.621241807937622,
+      "ee_path_length": 1.6210133740616328,
+      "goal_position": [
+        0.4298959177886812,
+        -0.046544647945299306,
+        0.025
+      ],
+      "object_position": [
+        0.6120460514634908,
+        -0.19846110302089928,
+        0.025
+      ],
+      "target_radius": 0.07361709623318013,
+      "task_id": "task_000215",
+      "task_seed": 1654907622,
+      "trajectory_id": "traj_0215",
+      "trajectory_length": 222
+    },
+    {
+      "cumulative_action_magnitude": 1.5134096145629883,
+      "ee_path_length": 1.513254027797011,
+      "goal_position": [
+        0.45938617558887157,
+        -0.0020130044890298284,
+        0.025
+      ],
+      "object_position": [
+        0.47302663193091815,
+        -0.19848814113888827,
+        0.025
+      ],
+      "target_radius": 0.04953964402693818,
+      "task_id": "task_000216",
+      "task_seed": 1510383591,
+      "trajectory_id": "traj_0216",
+      "trajectory_length": 209
+    },
+    {
+      "cumulative_action_magnitude": 1.8077806234359741,
+      "ee_path_length": 1.8075913171798978,
+      "goal_position": [
+        0.5028994180090803,
+        0.1793832943724249,
+        0.025
+      ],
+      "object_position": [
+        0.4885598554512417,
+        -0.25580136973209905,
+        0.025
+      ],
+      "target_radius": 0.04634951664638396,
+      "task_id": "task_000217",
+      "task_seed": 383779837,
+      "trajectory_id": "traj_0217",
+      "trajectory_length": 245
+    },
+    {
+      "cumulative_action_magnitude": 1.548863410949707,
+      "ee_path_length": 1.5486983036808635,
+      "goal_position": [
+        0.49499842485065554,
+        0.14274836293762652,
+        0.025
+      ],
+      "object_position": [
+        0.5742823781170818,
+        -0.10113078454013705,
+        0.025
+      ],
+      "target_radius": 0.06637948488940577,
+      "task_id": "task_000218",
+      "task_seed": 273063914,
+      "trajectory_id": "traj_0218",
+      "trajectory_length": 213
+    },
+    {
+      "cumulative_action_magnitude": 1.3648842573165894,
+      "ee_path_length": 1.364709891891767,
+      "goal_position": [
+        0.4815181269749318,
+        0.204100316730519,
+        0.025
+      ],
+      "object_position": [
+        0.45912892709993436,
+        -0.011885604082545494,
+        0.025
+      ],
+      "target_radius": 0.06760572156044764,
+      "task_id": "task_000219",
+      "task_seed": 1346898426,
+      "trajectory_id": "traj_0219",
+      "trajectory_length": 190
+    },
+    {
+      "cumulative_action_magnitude": 1.695974349975586,
+      "ee_path_length": 1.695788136570109,
+      "goal_position": [
+        0.533784183645451,
+        0.13097042803692285,
+        0.025
+      ],
+      "object_position": [
+        0.5703061285741876,
+        -0.20470817350260234,
+        0.025
+      ],
+      "target_radius": 0.0721899155194325,
+      "task_id": "task_000220",
+      "task_seed": 1201607469,
+      "trajectory_id": "traj_0220",
+      "trajectory_length": 231
+    },
+    {
+      "cumulative_action_magnitude": 1.6528730392456055,
+      "ee_path_length": 1.6526909209110667,
+      "goal_position": [
+        0.5961042931379177,
+        0.14202321297329434,
+        0.025
+      ],
+      "object_position": [
+        0.5825464841524712,
+        -0.16784388065268002,
+        0.025
+      ],
+      "target_radius": 0.051968347859484995,
+      "task_id": "task_000221",
+      "task_seed": 852867796,
+      "trajectory_id": "traj_0221",
+      "trajectory_length": 226
+    },
+    {
+      "cumulative_action_magnitude": 1.6618032455444336,
+      "ee_path_length": 1.6616109871266187,
+      "goal_position": [
+        0.43540773956754,
+        0.2621478964735654,
+        0.025
+      ],
+      "object_position": [
+        0.6071667716833364,
+        -0.0534360451797735,
+        0.025
+      ],
+      "target_radius": 0.05464957225663026,
+      "task_id": "task_000222",
+      "task_seed": 2007489606,
+      "trajectory_id": "traj_0222",
+      "trajectory_length": 227
+    },
+    {
+      "cumulative_action_magnitude": 1.6597926616668701,
+      "ee_path_length": 1.659594108249582,
+      "goal_position": [
+        0.6168529857937899,
+        0.07904367244363758,
+        0.025
+      ],
+      "object_position": [
+        0.6258539334577536,
+        -0.19092930904785113,
+        0.025
+      ],
+      "target_radius": 0.06563852606308544,
+      "task_id": "task_000223",
+      "task_seed": 104073946,
+      "trajectory_id": "traj_0223",
+      "trajectory_length": 227
+    },
+    {
+      "cumulative_action_magnitude": 1.5978899002075195,
+      "ee_path_length": 1.5977058475894002,
+      "goal_position": [
+        0.4411431331899308,
+        -0.004490041778556291,
+        0.025
+      ],
+      "object_position": [
+        0.42505415107135314,
+        -0.24582478223042922,
+        0.025
+      ],
+      "target_radius": 0.052024112412868036,
+      "task_id": "task_000224",
+      "task_seed": 1066986520,
+      "trajectory_id": "traj_0224",
+      "trajectory_length": 219
+    },
+    {
+      "cumulative_action_magnitude": 1.5278849601745605,
+      "ee_path_length": 1.5276976561507665,
+      "goal_position": [
+        0.5454205294585489,
+        0.27634384012015867,
+        0.025
+      ],
+      "object_position": [
+        0.43715295267221377,
+        -0.06247004976315792,
+        0.025
+      ],
+      "target_radius": 0.06119538528709048,
+      "task_id": "task_000225",
+      "task_seed": 1209527296,
+      "trajectory_id": "traj_0225",
+      "trajectory_length": 210
+    },
+    {
+      "cumulative_action_magnitude": 1.4944727420806885,
+      "ee_path_length": 1.494281568747216,
+      "goal_position": [
+        0.6268798496627859,
+        0.21837126385692532,
+        0.025
+      ],
+      "object_position": [
+        0.6059630245290035,
+        0.01972823105466654,
+        0.025
+      ],
+      "target_radius": 0.07176804975235405,
+      "task_id": "task_000226",
+      "task_seed": 1726755569,
+      "trajectory_id": "traj_0226",
+      "trajectory_length": 206
+    },
+    {
+      "cumulative_action_magnitude": 1.3894518613815308,
+      "ee_path_length": 1.389273790963182,
+      "goal_position": [
+        0.5969205244938638,
+        0.09850685089706482,
+        0.025
+      ],
+      "object_position": [
+        0.43362938740625984,
+        -0.05342729398342006,
+        0.025
+      ],
+      "target_radius": 0.06227609759561457,
+      "task_id": "task_000227",
+      "task_seed": 134072284,
+      "trajectory_id": "traj_0227",
+      "trajectory_length": 193
+    },
+    {
+      "cumulative_action_magnitude": 1.6799840927124023,
+      "ee_path_length": 1.6797971028728664,
+      "goal_position": [
+        0.48660727822557237,
+        0.21841761232446824,
+        0.025
+      ],
+      "object_position": [
+        0.5415458977827786,
+        -0.15534571682175308,
+        0.025
+      ],
+      "target_radius": 0.06731119712626867,
+      "task_id": "task_000228",
+      "task_seed": 1266440428,
+      "trajectory_id": "traj_0228",
+      "trajectory_length": 229
+    },
+    {
+      "cumulative_action_magnitude": 1.5010967254638672,
+      "ee_path_length": 1.500902739919156,
+      "goal_position": [
+        0.42584889304602314,
+        0.026352518425415625,
+        0.025
+      ],
+      "object_position": [
+        0.5998333022979792,
+        -0.07142409213969722,
+        0.025
+      ],
+      "target_radius": 0.05013313956602322,
+      "task_id": "task_000229",
+      "task_seed": 1083213604,
+      "trajectory_id": "traj_0229",
+      "trajectory_length": 207
+    },
+    {
+      "cumulative_action_magnitude": 1.5007984638214111,
+      "ee_path_length": 1.5006191152166775,
+      "goal_position": [
+        0.5564844776182128,
+        0.044596162608730415,
+        0.025
+      ],
+      "object_position": [
+        0.47974908146513634,
+        -0.16245014409999747,
+        0.025
+      ],
+      "target_radius": 0.0726913605720838,
+      "task_id": "task_000230",
+      "task_seed": 1470541425,
+      "trajectory_id": "traj_0230",
+      "trajectory_length": 207
+    },
+    {
+      "cumulative_action_magnitude": 1.4918951988220215,
+      "ee_path_length": 1.4917268279815894,
+      "goal_position": [
+        0.4677428968746341,
+        0.19160257891191648,
+        0.025
+      ],
+      "object_position": [
+        0.5616511153215731,
+        -0.02878413422112945,
+        0.025
+      ],
+      "target_radius": 0.06310111059708924,
+      "task_id": "task_000231",
+      "task_seed": 496292451,
+      "trajectory_id": "traj_0231",
+      "trajectory_length": 206
+    },
+    {
+      "cumulative_action_magnitude": 1.6239861249923706,
+      "ee_path_length": 1.6237992673401185,
+      "goal_position": [
+        0.5581423197294495,
+        0.21453299613621013,
+        0.025
+      ],
+      "object_position": [
+        0.42182645923239115,
+        -0.13803503709495948,
+        0.025
+      ],
+      "target_radius": 0.05165435836170884,
+      "task_id": "task_000232",
+      "task_seed": 339004159,
+      "trajectory_id": "traj_0232",
+      "trajectory_length": 222
+    },
+    {
+      "cumulative_action_magnitude": 1.501475214958191,
+      "ee_path_length": 1.5012888783316036,
+      "goal_position": [
+        0.45313248163075504,
+        0.0064889705158737,
+        0.025
+      ],
+      "object_position": [
+        0.5235848103572892,
+        -0.1714040966187277,
+        0.025
+      ],
+      "target_radius": 0.05558334716535103,
+      "task_id": "task_000233",
+      "task_seed": 1538289405,
+      "trajectory_id": "traj_0233",
+      "trajectory_length": 207
+    },
+    {
+      "cumulative_action_magnitude": 1.788502812385559,
+      "ee_path_length": 1.7883231278767053,
+      "goal_position": [
+        0.44291609027545714,
+        0.2627086683896265,
+        0.025
+      ],
+      "object_position": [
+        0.6075069799934899,
+        -0.14959413627076593,
+        0.025
+      ],
+      "target_radius": 0.07285454738761725,
+      "task_id": "task_000234",
+      "task_seed": 855085041,
+      "trajectory_id": "traj_0234",
+      "trajectory_length": 243
+    },
+    {
+      "cumulative_action_magnitude": 1.5565181970596313,
+      "ee_path_length": 1.5563442603679583,
+      "goal_position": [
+        0.4731252480377132,
+        0.20678938734150476,
+        0.025
+      ],
+      "object_position": [
+        0.6125412807748509,
+        -0.01102924869580851,
+        0.025
+      ],
+      "target_radius": 0.06103479568539471,
+      "task_id": "task_000235",
+      "task_seed": 890451292,
+      "trajectory_id": "traj_0235",
+      "trajectory_length": 214
+    },
+    {
+      "cumulative_action_magnitude": 1.3801053762435913,
+      "ee_path_length": 1.3799385248814873,
+      "goal_position": [
+        0.4977558384130571,
+        0.2613324569576074,
+        0.025
+      ],
+      "object_position": [
+        0.43574887669581414,
+        0.050705279547502945,
+        0.025
+      ],
+      "target_radius": 0.0696296212045111,
+      "task_id": "task_000236",
+      "task_seed": 922868013,
+      "trajectory_id": "traj_0236",
+      "trajectory_length": 192
+    },
+    {
+      "cumulative_action_magnitude": 1.406777262687683,
+      "ee_path_length": 1.4065841891588244,
+      "goal_position": [
+        0.5335882265937413,
+        0.2668714986317845,
+        0.025
+      ],
+      "object_position": [
+        0.48861051729207394,
+        0.08067971858598685,
+        0.025
+      ],
+      "target_radius": 0.05102467930998521,
+      "task_id": "task_000237",
+      "task_seed": 1086474700,
+      "trajectory_id": "traj_0237",
+      "trajectory_length": 195
+    },
+    {
+      "cumulative_action_magnitude": 1.7259033918380737,
+      "ee_path_length": 1.7257175054318652,
+      "goal_position": [
+        0.45162480931884075,
+        0.21175098141232493,
+        0.025
+      ],
+      "object_position": [
+        0.4833708076530183,
+        -0.1972155619816244,
+        0.025
+      ],
+      "target_radius": 0.05609242192832679,
+      "task_id": "task_000238",
+      "task_seed": 1511910152,
+      "trajectory_id": "traj_0238",
+      "trajectory_length": 235
+    },
+    {
+      "cumulative_action_magnitude": 1.4841914176940918,
+      "ee_path_length": 1.4840144224205445,
+      "goal_position": [
+        0.4785693767937185,
+        0.21730110391502694,
+        0.025
+      ],
+      "object_position": [
+        0.5578967205865433,
+        -0.007499745783575514,
+        0.025
+      ],
+      "target_radius": 0.0634252802124165,
+      "task_id": "task_000239",
+      "task_seed": 710214840,
+      "trajectory_id": "traj_0239",
+      "trajectory_length": 205
+    },
+    {
+      "cumulative_action_magnitude": 1.8559736013412476,
+      "ee_path_length": 1.8557762900188357,
+      "goal_position": [
+        0.45456150593003264,
+        0.2781379113999804,
+        0.025
+      ],
+      "object_position": [
+        0.5712325093572589,
+        -0.204069573122486,
+        0.025
+      ],
+      "target_radius": 0.05853404909387622,
+      "task_id": "task_000240",
+      "task_seed": 1389909816,
+      "trajectory_id": "traj_0240",
+      "trajectory_length": 251
+    },
+    {
+      "cumulative_action_magnitude": 1.6545844078063965,
+      "ee_path_length": 1.6544097692272057,
+      "goal_position": [
+        0.5186437550050265,
+        0.14641920868965544,
+        0.025
+      ],
+      "object_position": [
+        0.57328547196602,
+        -0.16740812674444938,
+        0.025
+      ],
+      "target_radius": 0.05415712740157022,
+      "task_id": "task_000241",
+      "task_seed": 956458878,
+      "trajectory_id": "traj_0241",
+      "trajectory_length": 226
+    },
+    {
+      "cumulative_action_magnitude": 1.6640002727508545,
+      "ee_path_length": 1.6638021990354117,
+      "goal_position": [
+        0.4701636927408712,
+        0.19404385202808458,
+        0.025
+      ],
+      "object_position": [
+        0.6073295961916888,
+        -0.11559274821787063,
+        0.025
+      ],
+      "target_radius": 0.04533450416010967,
+      "task_id": "task_000242",
+      "task_seed": 1877644612,
+      "trajectory_id": "traj_0242",
+      "trajectory_length": 227
+    },
+    {
+      "cumulative_action_magnitude": 1.4036014080047607,
+      "ee_path_length": 1.4034432776663772,
+      "goal_position": [
+        0.5242083190878164,
+        0.27120164921913037,
+        0.025
+      ],
+      "object_position": [
+        0.4252790241113286,
+        0.038524807412587875,
+        0.025
+      ],
+      "target_radius": 0.04878009515360241,
+      "task_id": "task_000243",
+      "task_seed": 974862337,
+      "trajectory_id": "traj_0243",
+      "trajectory_length": 195
+    },
+    {
+      "cumulative_action_magnitude": 1.807300329208374,
+      "ee_path_length": 1.8071111070302268,
+      "goal_position": [
+        0.4843556366219265,
+        0.1827589287124493,
+        0.025
+      ],
+      "object_position": [
+        0.49736787432608465,
+        -0.252930219959842,
+        0.025
+      ],
+      "target_radius": 0.05117831029633153,
+      "task_id": "task_000244",
+      "task_seed": 1789475353,
+      "trajectory_id": "traj_0244",
+      "trajectory_length": 245
+    },
+    {
+      "cumulative_action_magnitude": 1.669959545135498,
+      "ee_path_length": 1.6697771858279433,
+      "goal_position": [
+        0.5105935604529783,
+        0.07316009677045456,
+        0.025
+      ],
+      "object_position": [
+        0.4963193172183611,
+        -0.2368452836214932,
+        0.025
+      ],
+      "target_radius": 0.05723422721592338,
+      "task_id": "task_000245",
+      "task_seed": 1579368507,
+      "trajectory_id": "traj_0245",
+      "trajectory_length": 228
+    },
+    {
+      "cumulative_action_magnitude": 1.591911792755127,
+      "ee_path_length": 1.5916675332801828,
+      "goal_position": [
+        0.5062421433266064,
+        -0.058424119570004346,
+        0.025
+      ],
+      "object_position": [
+        0.6166345736529529,
+        -0.21534700013883862,
+        0.025
+      ],
+      "target_radius": 0.052787566479157035,
+      "task_id": "task_000246",
+      "task_seed": 871642305,
+      "trajectory_id": "traj_0246",
+      "trajectory_length": 218
+    },
+    {
+      "cumulative_action_magnitude": 1.5010920763015747,
+      "ee_path_length": 1.5009199300513665,
+      "goal_position": [
+        0.5258065922661271,
+        0.13057225744342302,
+        0.025
+      ],
+      "object_position": [
+        0.5119253171106837,
+        -0.1141695570993427,
+        0.025
+      ],
+      "target_radius": 0.06756577740530104,
+      "task_id": "task_000247",
+      "task_seed": 1429554451,
+      "trajectory_id": "traj_0247",
+      "trajectory_length": 207
+    },
+    {
+      "cumulative_action_magnitude": 1.7967373132705688,
+      "ee_path_length": 1.7965413212073487,
+      "goal_position": [
+        0.6266870173907793,
+        0.19738229647935293,
+        0.025
+      ],
+      "object_position": [
+        0.5093940496088553,
+        -0.2294455983998438,
+        0.025
+      ],
+      "target_radius": 0.06620988265421869,
+      "task_id": "task_000248",
+      "task_seed": 1889510413,
+      "trajectory_id": "traj_0248",
+      "trajectory_length": 244
+    },
+    {
+      "cumulative_action_magnitude": 1.4506990909576416,
+      "ee_path_length": 1.4505346783245665,
+      "goal_position": [
+        0.6197222893331976,
+        0.07432397869989024,
+        0.025
+      ],
+      "object_position": [
+        0.4676226583111983,
+        -0.09896867781425558,
+        0.025
+      ],
+      "target_radius": 0.060861798221724966,
+      "task_id": "task_000249",
+      "task_seed": 2092884871,
+      "trajectory_id": "traj_0249",
+      "trajectory_length": 201
+    },
+    {
+      "cumulative_action_magnitude": 1.5120000839233398,
+      "ee_path_length": 1.511794280099382,
+      "goal_position": [
+        0.6044270318095308,
+        -0.1074712092494485,
+        0.025
+      ],
+      "object_position": [
+        0.6278481185622341,
+        0.07573316419136285,
+        0.025
+      ],
+      "target_radius": 0.07293386884617586,
+      "task_id": "task_000250",
+      "task_seed": 454587399,
+      "trajectory_id": "traj_0250",
+      "trajectory_length": 208
+    },
+    {
+      "cumulative_action_magnitude": 1.4551222324371338,
+      "ee_path_length": 1.4549491010587676,
+      "goal_position": [
+        0.5571687836397293,
+        0.04764891261713976,
+        0.025
+      ],
+      "object_position": [
+        0.4998018738092521,
+        -0.1346532178114023,
+        0.025
+      ],
+      "target_radius": 0.047856002791818085,
+      "task_id": "task_000251",
+      "task_seed": 1302303321,
+      "trajectory_id": "traj_0251",
+      "trajectory_length": 201
+    },
+    {
+      "cumulative_action_magnitude": 1.6079893112182617,
+      "ee_path_length": 1.607777681246377,
+      "goal_position": [
+        0.5976581057753222,
+        -0.06953181825616143,
+        0.025
+      ],
+      "object_position": [
+        0.5853393122040507,
+        -0.2613667988775129,
+        0.025
+      ],
+      "target_radius": 0.06679372646108282,
+      "task_id": "task_000252",
+      "task_seed": 1703385500,
+      "trajectory_id": "traj_0252",
+      "trajectory_length": 220
+    },
+    {
+      "cumulative_action_magnitude": 1.534850001335144,
+      "ee_path_length": 1.5346652231029208,
+      "goal_position": [
+        0.42596758647283206,
+        0.23677930770409317,
+        0.025
+      ],
+      "object_position": [
+        0.42019440650802686,
+        -0.0946543412404412,
+        0.025
+      ],
+      "target_radius": 0.0726451570989445,
+      "task_id": "task_000253",
+      "task_seed": 594723496,
+      "trajectory_id": "traj_0253",
+      "trajectory_length": 211
+    },
+    {
+      "cumulative_action_magnitude": 1.6213452816009521,
+      "ee_path_length": 1.6211425472704404,
+      "goal_position": [
+        0.5680890791356723,
+        0.05201782659970656,
+        0.025
+      ],
+      "object_position": [
+        0.623680525033232,
+        -0.18128025796601305,
+        0.025
+      ],
+      "target_radius": 0.0651499400511852,
+      "task_id": "task_000254",
+      "task_seed": 285514095,
+      "trajectory_id": "traj_0254",
+      "trajectory_length": 222
+    },
+    {
+      "cumulative_action_magnitude": 1.5490089654922485,
+      "ee_path_length": 1.5488285910998856,
+      "goal_position": [
+        0.5320407207604814,
+        0.07089513293733782,
+        0.025
+      ],
+      "object_position": [
+        0.46156047124912936,
+        -0.1770849244211016,
+        0.025
+      ],
+      "target_radius": 0.05864715640257311,
+      "task_id": "task_000255",
+      "task_seed": 2106705688,
+      "trajectory_id": "traj_0255",
+      "trajectory_length": 213
+    },
+    {
+      "cumulative_action_magnitude": 1.5119959115982056,
+      "ee_path_length": 1.511801917598528,
+      "goal_position": [
+        0.4216436557198283,
+        -0.11233701905891673,
+        0.025
+      ],
+      "object_position": [
+        0.5225306416275787,
+        0.11835968792089065,
+        0.025
+      ],
+      "target_radius": 0.04736126006258538,
+      "task_id": "task_000256",
+      "task_seed": 1997317607,
+      "trajectory_id": "traj_0256",
+      "trajectory_length": 208
+    },
+    {
+      "cumulative_action_magnitude": 1.4459130764007568,
+      "ee_path_length": 1.4457421062858211,
+      "goal_position": [
+        0.5334558164834945,
+        -0.08323682786828479,
+        0.025
+      ],
+      "object_position": [
+        0.4800592873879276,
+        0.11560032755027924,
+        0.025
+      ],
+      "target_radius": 0.045924222310744695,
+      "task_id": "task_000257",
+      "task_seed": 818588762,
+      "trajectory_id": "traj_0257",
+      "trajectory_length": 200
+    },
+    {
+      "cumulative_action_magnitude": 1.9029836654663086,
+      "ee_path_length": 1.9027839406416196,
+      "goal_position": [
+        0.4876755365452121,
+        0.21832428523805006,
+        0.025
+      ],
+      "object_position": [
+        0.5756378195537297,
+        -0.2624657426185156,
+        0.025
+      ],
+      "target_radius": 0.06641957446518205,
+      "task_id": "task_000258",
+      "task_seed": 144530802,
+      "trajectory_id": "traj_0258",
+      "trajectory_length": 257
+    },
+    {
+      "cumulative_action_magnitude": 1.6534903049468994,
+      "ee_path_length": 1.6532974675221526,
+      "goal_position": [
+        0.43471333726679423,
+        0.1484524335523231,
+        0.025
+      ],
+      "object_position": [
+        0.5963570727447179,
+        -0.1340104154111461,
+        0.025
+      ],
+      "target_radius": 0.052609893347168014,
+      "task_id": "task_000259",
+      "task_seed": 1344575919,
+      "trajectory_id": "traj_0259",
+      "trajectory_length": 226
+    },
+    {
+      "cumulative_action_magnitude": 1.4371623992919922,
+      "ee_path_length": 1.43699959167032,
+      "goal_position": [
+        0.5824623890556966,
+        0.09787021711193841,
+        0.025
+      ],
+      "object_position": [
+        0.46503691501603184,
+        -0.09268849991127784,
+        0.025
+      ],
+      "target_radius": 0.07198880842984165,
+      "task_id": "task_000260",
+      "task_seed": 711807314,
+      "trajectory_id": "traj_0260",
+      "trajectory_length": 199
+    },
+    {
+      "cumulative_action_magnitude": 1.4459846019744873,
+      "ee_path_length": 1.4457952417241788,
+      "goal_position": [
+        0.44451039673714876,
+        0.1391023571155621,
+        0.025
+      ],
+      "object_position": [
+        0.5775325801318697,
+        0.014964756057759281,
+        0.025
+      ],
+      "target_radius": 0.06386209866775669,
+      "task_id": "task_000261",
+      "task_seed": 1285666710,
+      "trajectory_id": "traj_0261",
+      "trajectory_length": 200
+    },
+    {
+      "cumulative_action_magnitude": 1.504000186920166,
+      "ee_path_length": 1.5038122582189581,
+      "goal_position": [
+        0.601327087921653,
+        0.16622341932912663,
+        0.025
+      ],
+      "object_position": [
+        0.6040163029452259,
+        -0.04379009521180305,
+        0.025
+      ],
+      "target_radius": 0.06974351410195123,
+      "task_id": "task_000262",
+      "task_seed": 388697857,
+      "trajectory_id": "traj_0262",
+      "trajectory_length": 207
+    },
+    {
+      "cumulative_action_magnitude": 1.4318771362304688,
+      "ee_path_length": 1.4316184111379333,
+      "goal_position": [
+        0.615899837723685,
+        0.2611635345231794,
+        0.025
+      ],
+      "object_position": [
+        0.4676527601214225,
+        0.07133209187708013,
+        0.025
+      ],
+      "target_radius": 0.0700755588614895,
+      "task_id": "task_000263",
+      "task_seed": 1387770734,
+      "trajectory_id": "traj_0263",
+      "trajectory_length": 198
+    },
+    {
+      "cumulative_action_magnitude": 1.8560001850128174,
+      "ee_path_length": 1.8557654668906711,
+      "goal_position": [
+        0.48213185032814593,
+        0.13729311802598487,
+        0.025
+      ],
+      "object_position": [
+        0.5888684136891618,
+        -0.2767322287266646,
+        0.025
+      ],
+      "target_radius": 0.06409618607759109,
+      "task_id": "task_000264",
+      "task_seed": 2016070514,
+      "trajectory_id": "traj_0264",
+      "trajectory_length": 251
+    },
+    {
+      "cumulative_action_magnitude": 1.4079431295394897,
+      "ee_path_length": 1.4077578732945288,
+      "goal_position": [
+        0.516655023655606,
+        0.27763818932742684,
+        0.025
+      ],
+      "object_position": [
+        0.43298890809762614,
+        0.10493546669533675,
+        0.025
+      ],
+      "target_radius": 0.06233015817498697,
+      "task_id": "task_000265",
+      "task_seed": 603729733,
+      "trajectory_id": "traj_0265",
+      "trajectory_length": 195
+    },
+    {
+      "cumulative_action_magnitude": 1.4926117658615112,
+      "ee_path_length": 1.4924484991753215,
+      "goal_position": [
+        0.5452374234543176,
+        -0.0002727915946098381,
+        0.025
+      ],
+      "object_position": [
+        0.43799829980745475,
+        -0.17498186944250776,
+        0.025
+      ],
+      "target_radius": 0.05966757019178362,
+      "task_id": "task_000266",
+      "task_seed": 1208207334,
+      "trajectory_id": "traj_0266",
+      "trajectory_length": 206
+    },
+    {
+      "cumulative_action_magnitude": 1.5440001487731934,
+      "ee_path_length": 1.5438236111845653,
+      "goal_position": [
+        0.5279986123783343,
+        -0.006003520161416114,
+        0.025
+      ],
+      "object_position": [
+        0.4971456243056077,
+        -0.21345451298726265,
+        0.025
+      ],
+      "target_radius": 0.058359310608112176,
+      "task_id": "task_000267",
+      "task_seed": 1872127040,
+      "trajectory_id": "traj_0267",
+      "trajectory_length": 212
+    },
+    {
+      "cumulative_action_magnitude": 1.3994250297546387,
+      "ee_path_length": 1.3992247804735565,
+      "goal_position": [
+        0.6185610045196791,
+        0.13300015122194936,
+        0.025
+      ],
+      "object_position": [
+        0.4525207618877264,
+        -0.03942073135877691,
+        0.025
+      ],
+      "target_radius": 0.07357372017321324,
+      "task_id": "task_000268",
+      "task_seed": 380573607,
+      "trajectory_id": "traj_0268",
+      "trajectory_length": 194
+    },
+    {
+      "cumulative_action_magnitude": 1.6999249458312988,
+      "ee_path_length": 1.699759619398543,
+      "goal_position": [
+        0.5312281968631243,
+        0.11714925918194101,
+        0.025
+      ],
+      "object_position": [
+        0.44280865548068865,
+        -0.22941654393770977,
+        0.025
+      ],
+      "target_radius": 0.06201221186571156,
+      "task_id": "task_000269",
+      "task_seed": 1622016651,
+      "trajectory_id": "traj_0269",
+      "trajectory_length": 232
+    },
+    {
+      "cumulative_action_magnitude": 1.7440001964569092,
+      "ee_path_length": 1.7438236425106153,
+      "goal_position": [
+        0.5738852857582528,
+        0.12142802718986187,
+        0.025
+      ],
+      "object_position": [
+        0.42055385516328375,
+        -0.23990837935137366,
+        0.025
+      ],
+      "target_radius": 0.04745215897080536,
+      "task_id": "task_000270",
+      "task_seed": 278869396,
+      "trajectory_id": "traj_0270",
+      "trajectory_length": 237
+    },
+    {
+      "cumulative_action_magnitude": 1.8880000114440918,
+      "ee_path_length": 1.8877097114866273,
+      "goal_position": [
+        0.47768034906346507,
+        0.16157065572491927,
+        0.025
+      ],
+      "object_position": [
+        0.6143479266937426,
+        -0.269099056615851,
+        0.025
+      ],
+      "target_radius": 0.05755880811403245,
+      "task_id": "task_000271",
+      "task_seed": 339673743,
+      "trajectory_id": "traj_0271",
+      "trajectory_length": 255
+    },
+    {
+      "cumulative_action_magnitude": 1.4785048961639404,
+      "ee_path_length": 1.4783162027077834,
+      "goal_position": [
+        0.5669740416171718,
+        -0.016192662199019086,
+        0.025
+      ],
+      "object_position": [
+        0.43025904938105103,
+        -0.166326269907855,
+        0.025
+      ],
+      "target_radius": 0.05497458411708159,
+      "task_id": "task_000272",
+      "task_seed": 1462397873,
+      "trajectory_id": "traj_0272",
+      "trajectory_length": 204
+    },
+    {
+      "cumulative_action_magnitude": 1.7888773679733276,
+      "ee_path_length": 1.7886796694833829,
+      "goal_position": [
+        0.4656217863594181,
+        0.06518545145303535,
+        0.025
+      ],
+      "object_position": [
+        0.5758230102892526,
+        -0.2782787400973353,
+        0.025
+      ],
+      "target_radius": 0.0522076122946257,
+      "task_id": "task_000273",
+      "task_seed": 2092834263,
+      "trajectory_id": "traj_0273",
+      "trajectory_length": 243
+    },
+    {
+      "cumulative_action_magnitude": 1.4375724792480469,
+      "ee_path_length": 1.4373891258199105,
+      "goal_position": [
+        0.4608576050721568,
+        0.27208111406991264,
+        0.025
+      ],
+      "object_position": [
+        0.46562098359919557,
+        -0.013666503992775499,
+        0.025
+      ],
+      "target_radius": 0.052403661898161286,
+      "task_id": "task_000274",
+      "task_seed": 2015680464,
+      "trajectory_id": "traj_0274",
+      "trajectory_length": 199
+    },
+    {
+      "cumulative_action_magnitude": 1.936000108718872,
+      "ee_path_length": 1.9357442635778712,
+      "goal_position": [
+        0.5290548849700178,
+        0.2539977641286298,
+        0.025
+      ],
+      "object_position": [
+        0.6087266993188323,
+        -0.25443150008335846,
+        0.025
+      ],
+      "target_radius": 0.05092161292726066,
+      "task_id": "task_000275",
+      "task_seed": 530869841,
+      "trajectory_id": "traj_0275",
+      "trajectory_length": 261
+    },
+    {
+      "cumulative_action_magnitude": 1.6958894729614258,
+      "ee_path_length": 1.6957058674087677,
+      "goal_position": [
+        0.5076234452386148,
+        0.19312127467318638,
+        0.025
+      ],
+      "object_position": [
+        0.48069465951459156,
+        -0.19173466773469952,
+        0.025
+      ],
+      "target_radius": 0.05270331842400353,
+      "task_id": "task_000276",
+      "task_seed": 131965530,
+      "trajectory_id": "traj_0276",
+      "trajectory_length": 231
+    },
+    {
+      "cumulative_action_magnitude": 1.5360002517700195,
+      "ee_path_length": 1.5358171294238472,
+      "goal_position": [
+        0.6105177785006253,
+        0.06834009114611067,
+        0.025
+      ],
+      "object_position": [
+        0.4655164948848656,
+        -0.15482533438411475,
+        0.025
+      ],
+      "target_radius": 0.05866654607567184,
+      "task_id": "task_000277",
+      "task_seed": 419044428,
+      "trajectory_id": "traj_0277",
+      "trajectory_length": 211
+    },
+    {
+      "cumulative_action_magnitude": 1.5813593864440918,
+      "ee_path_length": 1.5811475920330036,
+      "goal_position": [
+        0.44729416458815435,
+        -0.06744775705811164,
+        0.025
+      ],
+      "object_position": [
+        0.6186953580615836,
+        0.10939200515160256,
+        0.025
+      ],
+      "target_radius": 0.045605507733909666,
+      "task_id": "task_000278",
+      "task_seed": 824320158,
+      "trajectory_id": "traj_0278",
+      "trajectory_length": 217
+    },
+    {
+      "cumulative_action_magnitude": 1.4715204238891602,
+      "ee_path_length": 1.4713389413125206,
+      "goal_position": [
+        0.547254227182169,
+        -0.09440440099560854,
+        0.025
+      ],
+      "object_position": [
+        0.5817177258008482,
+        0.08585884290695238,
+        0.025
+      ],
+      "target_radius": 0.060495576425504086,
+      "task_id": "task_000279",
+      "task_seed": 483158790,
+      "trajectory_id": "traj_0279",
+      "trajectory_length": 203
+    },
+    {
+      "cumulative_action_magnitude": 1.3987674713134766,
+      "ee_path_length": 1.3985913284097362,
+      "goal_position": [
+        0.5669121700048464,
+        0.16578853262154034,
+        0.025
+      ],
+      "object_position": [
+        0.4587639222538153,
+        -0.04247426788069698,
+        0.025
+      ],
+      "target_radius": 0.04737442294703457,
+      "task_id": "task_000280",
+      "task_seed": 1316527419,
+      "trajectory_id": "traj_0280",
+      "trajectory_length": 194
+    },
+    {
+      "cumulative_action_magnitude": 1.7111461162567139,
+      "ee_path_length": 1.710959338342143,
+      "goal_position": [
+        0.5478146499960358,
+        0.22674744085461307,
+        0.025
+      ],
+      "object_position": [
+        0.5302404530985634,
+        -0.1719679355469974,
+        0.025
+      ],
+      "target_radius": 0.05696061370642742,
+      "task_id": "task_000281",
+      "task_seed": 1230779838,
+      "trajectory_id": "traj_0281",
+      "trajectory_length": 233
+    },
+    {
+      "cumulative_action_magnitude": 1.6689321994781494,
+      "ee_path_length": 1.6687558773682452,
+      "goal_position": [
+        0.461371174683102,
+        0.04522389243400852,
+        0.025
+      ],
+      "object_position": [
+        0.426721548806611,
+        -0.2547992811963091,
+        0.025
+      ],
+      "target_radius": 0.053607347766090656,
+      "task_id": "task_000282",
+      "task_seed": 1706291844,
+      "trajectory_id": "traj_0282",
+      "trajectory_length": 228
+    },
+    {
+      "cumulative_action_magnitude": 1.543186068534851,
+      "ee_path_length": 1.5429631369860366,
+      "goal_position": [
+        0.4345656144328989,
+        -0.10472796154281364,
+        0.025
+      ],
+      "object_position": [
+        0.6108428386253582,
+        -0.16220663997662052,
+        0.025
+      ],
+      "target_radius": 0.06201996244678319,
+      "task_id": "task_000283",
+      "task_seed": 2027301637,
+      "trajectory_id": "traj_0283",
+      "trajectory_length": 212
+    },
+    {
+      "cumulative_action_magnitude": 1.389448642730713,
+      "ee_path_length": 1.3892677372677986,
+      "goal_position": [
+        0.44956510112819775,
+        0.2567122913967746,
+        0.025
+      ],
+      "object_position": [
+        0.47518088063482317,
+        0.058345721924596305,
+        0.025
+      ],
+      "target_radius": 0.052144150777864405,
+      "task_id": "task_000284",
+      "task_seed": 544602180,
+      "trajectory_id": "traj_0284",
+      "trajectory_length": 193
+    },
+    {
+      "cumulative_action_magnitude": 1.476811170578003,
+      "ee_path_length": 1.476623926228902,
+      "goal_position": [
+        0.5930298184542632,
+        0.20370919737631685,
+        0.025
+      ],
+      "object_position": [
+        0.47430955362315463,
+        -0.05845824916576657,
+        0.025
+      ],
+      "target_radius": 0.06013548846114372,
+      "task_id": "task_000285",
+      "task_seed": 1930145349,
+      "trajectory_id": "traj_0285",
+      "trajectory_length": 204
+    },
+    {
+      "cumulative_action_magnitude": 1.5840001106262207,
+      "ee_path_length": 1.5838052786891108,
+      "goal_position": [
+        0.4941805225286561,
+        -0.0863427663309776,
+        0.025
+      ],
+      "object_position": [
+        0.5404078977854853,
+        -0.2661614631684784,
+        0.025
+      ],
+      "target_radius": 0.0498758161726394,
+      "task_id": "task_000286",
+      "task_seed": 807075790,
+      "trajectory_id": "traj_0286",
+      "trajectory_length": 217
+    },
+    {
+      "cumulative_action_magnitude": 1.5258923768997192,
+      "ee_path_length": 1.5257216761917762,
+      "goal_position": [
+        0.5722587432159276,
+        0.044522915739104704,
+        0.025
+      ],
+      "object_position": [
+        0.4972638051281416,
+        -0.1728067999554215,
+        0.025
+      ],
+      "target_radius": 0.06301738466094325,
+      "task_id": "task_000287",
+      "task_seed": 733460285,
+      "trajectory_id": "traj_0287",
+      "trajectory_length": 210
+    },
+    {
+      "cumulative_action_magnitude": 1.7176194190979004,
+      "ee_path_length": 1.7174223975655618,
+      "goal_position": [
+        0.425527072582142,
+        0.26140231728199664,
+        0.025
+      ],
+      "object_position": [
+        0.6137711690841782,
+        -0.08878577187863014,
+        0.025
+      ],
+      "target_radius": 0.0714782516870122,
+      "task_id": "task_000288",
+      "task_seed": 368404348,
+      "trajectory_id": "traj_0288",
+      "trajectory_length": 234
+    },
+    {
+      "cumulative_action_magnitude": 1.558377742767334,
+      "ee_path_length": 1.558180220974736,
+      "goal_position": [
+        0.6169764766539418,
+        0.026393859958191688,
+        0.025
+      ],
+      "object_position": [
+        0.6038230165696614,
+        -0.17151861117240505,
+        0.025
+      ],
+      "target_radius": 0.07109804433569712,
+      "task_id": "task_000289",
+      "task_seed": 983805945,
+      "trajectory_id": "traj_0289",
+      "trajectory_length": 214
+    },
+    {
+      "cumulative_action_magnitude": 1.582916498184204,
+      "ee_path_length": 1.5826936166710526,
+      "goal_position": [
+        0.4527865957661446,
+        -0.050256109849840254,
+        0.025
+      ],
+      "object_position": [
+        0.6109169203470336,
+        -0.18525399089022998,
+        0.025
+      ],
+      "target_radius": 0.07131906538854846,
+      "task_id": "task_000290",
+      "task_seed": 757439869,
+      "trajectory_id": "traj_0290",
+      "trajectory_length": 217
+    },
+    {
+      "cumulative_action_magnitude": 1.5275583267211914,
+      "ee_path_length": 1.5273803157821872,
+      "goal_position": [
+        0.6032710618338601,
+        0.04429719915830098,
+        0.025
+      ],
+      "object_position": [
+        0.5053151606165188,
+        -0.16547474168151435,
+        0.025
+      ],
+      "target_radius": 0.04872117319219966,
+      "task_id": "task_000291",
+      "task_seed": 121827188,
+      "trajectory_id": "traj_0291",
+      "trajectory_length": 210
+    },
+    {
+      "cumulative_action_magnitude": 1.6079998016357422,
+      "ee_path_length": 1.60781890618841,
+      "goal_position": [
+        0.6144231109304835,
+        0.06519834197605111,
+        0.025
+      ],
+      "object_position": [
+        0.5346208674559924,
+        -0.1974917568199177,
+        0.025
+      ],
+      "target_radius": 0.04546793702124652,
+      "task_id": "task_000292",
+      "task_seed": 1613356295,
+      "trajectory_id": "traj_0292",
+      "trajectory_length": 220
+    },
+    {
+      "cumulative_action_magnitude": 1.6763331890106201,
+      "ee_path_length": 1.6761656447832165,
+      "goal_position": [
+        0.6218372401154005,
+        -0.02147380644444847,
+        0.025
+      ],
+      "object_position": [
+        0.46810990074349296,
+        -0.2700705491620614,
+        0.025
+      ],
+      "target_radius": 0.06659805018497075,
+      "task_id": "task_000293",
+      "task_seed": 1868976858,
+      "trajectory_id": "traj_0293",
+      "trajectory_length": 229
+    },
+    {
+      "cumulative_action_magnitude": 1.4914162158966064,
+      "ee_path_length": 1.4912482051313911,
+      "goal_position": [
+        0.5462745922226608,
+        0.2636136101211176,
+        0.025
+      ],
+      "object_position": [
+        0.5076788618962176,
+        -0.02589889435632141,
+        0.025
+      ],
+      "target_radius": 0.06881799891959008,
+      "task_id": "task_000294",
+      "task_seed": 829900167,
+      "trajectory_id": "traj_0294",
+      "trajectory_length": 206
+    },
+    {
+      "cumulative_action_magnitude": 1.4777588844299316,
+      "ee_path_length": 1.477583958615392,
+      "goal_position": [
+        0.5359874427133741,
+        -0.017201104648927785,
+        0.025
+      ],
+      "object_position": [
+        0.437424405690843,
+        -0.1793873158762782,
+        0.025
+      ],
+      "target_radius": 0.0556464168814594,
+      "task_id": "task_000295",
+      "task_seed": 1223361994,
+      "trajectory_id": "traj_0295",
+      "trajectory_length": 204
+    },
+    {
+      "cumulative_action_magnitude": 1.8142569065093994,
+      "ee_path_length": 1.8140782733093297,
+      "goal_position": [
+        0.5686522349117298,
+        0.13605973546913952,
+        0.025
+      ],
+      "object_position": [
+        0.42646507551475604,
+        -0.2709806932438106,
+        0.025
+      ],
+      "target_radius": 0.05550190830696755,
+      "task_id": "task_000296",
+      "task_seed": 2133176615,
+      "trajectory_id": "traj_0296",
+      "trajectory_length": 246
+    },
+    {
+      "cumulative_action_magnitude": 1.6703054904937744,
+      "ee_path_length": 1.6701299100127454,
+      "goal_position": [
+        0.5773290547085003,
+        0.10436127913861583,
+        0.025
+      ],
+      "object_position": [
+        0.5144740388748231,
+        -0.21579096580942014,
+        0.025
+      ],
+      "target_radius": 0.0670578692574196,
+      "task_id": "task_000297",
+      "task_seed": 101777426,
+      "trajectory_id": "traj_0297",
+      "trajectory_length": 228
+    },
+    {
+      "cumulative_action_magnitude": 1.5195372104644775,
+      "ee_path_length": 1.5193427900110066,
+      "goal_position": [
+        0.5273259561454918,
+        0.2610275803105416,
+        0.025
+      ],
+      "object_position": [
+        0.4236480631566156,
+        -0.06655612382927843,
+        0.025
+      ],
+      "target_radius": 0.0744999005573492,
+      "task_id": "task_000298",
+      "task_seed": 630780050,
+      "trajectory_id": "traj_0298",
+      "trajectory_length": 209
+    },
+    {
+      "cumulative_action_magnitude": 1.5953097343444824,
+      "ee_path_length": 1.5951139509008172,
+      "goal_position": [
+        0.4611449004280746,
+        -0.06557625064127605,
+        0.025
+      ],
+      "object_position": [
+        0.5824798628350571,
+        -0.22985609012347705,
+        0.025
+      ],
+      "target_radius": 0.050491040840955584,
+      "task_id": "task_000299",
+      "task_seed": 330814546,
+      "trajectory_id": "traj_0299",
+      "trajectory_length": 219
+    }
+  ]
+}

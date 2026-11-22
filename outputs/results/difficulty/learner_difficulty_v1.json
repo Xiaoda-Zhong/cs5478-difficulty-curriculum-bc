@@ -1,0 +1,2190 @@
+{
+  "combined_normalization": {
+    "component_names": [
+      "learner_motion_error",
+      "learner_gripper_error"
+    ],
+    "epsilon": 1e-08,
+    "mean": [
+      0.026157245130381753,
+      0.00027153056213709335
+    ],
+    "std": [
+      0.03764037948836518,
+      0.0014035449817473157
+    ]
+  },
+  "dataset_fingerprint": "1b6cec9dda067778630268c307241c62cccbd49cfe849a031877ee00ea938bc0",
+  "definition": "OOF mean per-step squared error of motion normalized by fold training-only motion scale",
+  "fold_assignment_file": "data/metadata/learner_oof_folds_v1.json",
+  "fold_seed": 5478,
+  "gripper_definition": "OOF mean BCE-with-logits per trajectory",
+  "number_of_folds": 5,
+  "primary_score": "learner_motion_error",
+  "records": [
+    {
+      "learner_combined_difficulty": -0.15074083766843094,
+      "learner_difficulty": 0.020187383522120128,
+      "learner_gripper_error": 7.099184847956524e-05,
+      "learner_motion_error": 0.020187383522120128,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0000"
+    },
+    {
+      "learner_combined_difficulty": -0.21051086358160312,
+      "learner_difficulty": 0.016657866971400752,
+      "learner_gripper_error": 3.482131473903648e-05,
+      "learner_motion_error": 0.016657866971400752,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0001"
+    },
+    {
+      "learner_combined_difficulty": -0.2321863931131824,
+      "learner_difficulty": 0.014574442687339649,
+      "learner_gripper_error": 5.1663559212617934e-05,
+      "learner_motion_error": 0.014574442687339649,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0002"
+    },
+    {
+      "learner_combined_difficulty": -0.19509263366028462,
+      "learner_difficulty": 0.017203992610034087,
+      "learner_gripper_error": 5.7737756567032763e-05,
+      "learner_motion_error": 0.017203992610034087,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0003"
+    },
+    {
+      "learner_combined_difficulty": -0.19073033486505692,
+      "learner_difficulty": 0.018330216424253795,
+      "learner_gripper_error": 2.7987972837659878e-05,
+      "learner_motion_error": 0.018330216424253795,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0004"
+    },
+    {
+      "learner_combined_difficulty": -0.23193019973770723,
+      "learner_difficulty": 0.014709098793089334,
+      "learner_gripper_error": 4.7361593274076455e-05,
+      "learner_motion_error": 0.014709098793089334,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0007"
+    },
+    {
+      "learner_combined_difficulty": -0.23284013737229747,
+      "learner_difficulty": 0.01416885450091247,
+      "learner_gripper_error": 6.495221648411801e-05,
+      "learner_motion_error": 0.01416885450091247,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0008"
+    },
+    {
+      "learner_combined_difficulty": -0.1947514379767819,
+      "learner_difficulty": 0.017012022616583047,
+      "learner_gripper_error": 6.585381019401719e-05,
+      "learner_motion_error": 0.017012022616583047,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0009"
+    },
+    {
+      "learner_combined_difficulty": -0.19231134978401515,
+      "learner_difficulty": 0.017509440143238002,
+      "learner_gripper_error": 5.415543520760068e-05,
+      "learner_motion_error": 0.017509440143238002,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0010"
+    },
+    {
+      "learner_combined_difficulty": -0.22704928350957632,
+      "learner_difficulty": 0.015094514030875247,
+      "learner_gripper_error": 4.6691292256149644e-05,
+      "learner_motion_error": 0.015094514030875247,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0013"
+    },
+    {
+      "learner_combined_difficulty": -0.19918451362694886,
+      "learner_difficulty": 0.01744528085448685,
+      "learner_gripper_error": 3.725411438907149e-05,
+      "learner_motion_error": 0.01744528085448685,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0014"
+    },
+    {
+      "learner_combined_difficulty": -0.12025850819973072,
+      "learner_difficulty": 0.022268101289592578,
+      "learner_gripper_error": 7.897218189458849e-05,
+      "learner_motion_error": 0.022268101289592578,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0015"
+    },
+    {
+      "learner_combined_difficulty": -0.1819080279488966,
+      "learner_difficulty": 0.018179448233377884,
+      "learner_gripper_error": 5.837508344897625e-05,
+      "learner_motion_error": 0.018179448233377884,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0016"
+    },
+    {
+      "learner_combined_difficulty": -0.23183695666000642,
+      "learner_difficulty": 0.015138386936282855,
+      "learner_gripper_error": 3.161581088373299e-05,
+      "learner_motion_error": 0.015138386936282855,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0017"
+    },
+    {
+      "learner_combined_difficulty": -0.22542482456314789,
+      "learner_difficulty": 0.015859641634765758,
+      "learner_gripper_error": 2.2720839694590335e-05,
+      "learner_motion_error": 0.015859641634765758,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0018"
+    },
+    {
+      "learner_combined_difficulty": -0.24695881375187786,
+      "learner_difficulty": 0.013509773777029502,
+      "learner_gripper_error": 4.9895694003679465e-05,
+      "learner_motion_error": 0.013509773777029502,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0019"
+    },
+    {
+      "learner_combined_difficulty": -0.21761385050157506,
+      "learner_difficulty": 0.01598621377433683,
+      "learner_gripper_error": 3.9927413147993165e-05,
+      "learner_motion_error": 0.01598621377433683,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0020"
+    },
+    {
+      "learner_combined_difficulty": 1.0943857168665971,
+      "learner_difficulty": 0.04475152842790282,
+      "learner_gripper_error": 0.0026502380278769955,
+      "learner_motion_error": 0.04475152842790282,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0021"
+    },
+    {
+      "learner_combined_difficulty": -0.23354584207579615,
+      "learner_difficulty": 0.015278861610167517,
+      "learner_gripper_error": 2.158068680949046e-05,
+      "learner_motion_error": 0.015278861610167517,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0022"
+    },
+    {
+      "learner_combined_difficulty": 0.8537821499389084,
+      "learner_difficulty": 0.09107788891119285,
+      "learner_gripper_error": 0.0002473952424944362,
+      "learner_motion_error": 0.09107788891119285,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0023"
+    },
+    {
+      "learner_combined_difficulty": -0.2083710023285959,
+      "learner_difficulty": 0.01630906605178778,
+      "learner_gripper_error": 5.383441589017978e-05,
+      "learner_motion_error": 0.01630906605178778,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0024"
+    },
+    {
+      "learner_combined_difficulty": 0.663791508549047,
+      "learner_difficulty": 0.08094447437103362,
+      "learner_gripper_error": 9.19308030698844e-05,
+      "learner_motion_error": 0.08094447437103362,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0027"
+    },
+    {
+      "learner_combined_difficulty": -0.22038856415883962,
+      "learner_difficulty": 0.01593908611922592,
+      "learner_gripper_error": 3.3895808013035244e-05,
+      "learner_motion_error": 0.01593908611922592,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0028"
+    },
+    {
+      "learner_combined_difficulty": -0.1648827758869303,
+      "learner_difficulty": 0.01838537834489364,
+      "learner_gripper_error": 9.848800596741392e-05,
+      "learner_motion_error": 0.01838537834489364,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0029"
+    },
+    {
+      "learner_combined_difficulty": -0.24159321033238448,
+      "learner_difficulty": 0.014321433196461541,
+      "learner_gripper_error": 3.469194213379125e-05,
+      "learner_motion_error": 0.014321433196461541,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0030"
+    },
+    {
+      "learner_combined_difficulty": -0.2585941447032044,
+      "learner_difficulty": 0.012591330847063901,
+      "learner_gripper_error": 5.1481431923059985e-05,
+      "learner_motion_error": 0.012591330847063901,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0031"
+    },
+    {
+      "learner_combined_difficulty": -0.18483407089809076,
+      "learner_difficulty": 0.01787311849047362,
+      "learner_gripper_error": 6.158394647980497e-05,
+      "learner_motion_error": 0.01787311849047362,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0032"
+    },
+    {
+      "learner_combined_difficulty": -0.19993272330111247,
+      "learner_difficulty": 0.01685951695618949,
+      "learner_gripper_error": 5.6996085195296985e-05,
+      "learner_motion_error": 0.01685951695618949,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0034"
+    },
+    {
+      "learner_combined_difficulty": -0.25015697881899013,
+      "learner_difficulty": 0.01329247725240462,
+      "learner_gripper_error": 4.902076204791852e-05,
+      "learner_motion_error": 0.01329247725240462,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0035"
+    },
+    {
+      "learner_combined_difficulty": -0.1427181444186002,
+      "learner_difficulty": 0.02160756486771036,
+      "learner_gripper_error": 4.055594879000211e-05,
+      "learner_motion_error": 0.02160756486771036,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0038"
+    },
+    {
+      "learner_combined_difficulty": 0.6297340728505125,
+      "learner_difficulty": 0.07162871333600922,
+      "learner_gripper_error": 0.0003436989176175412,
+      "learner_motion_error": 0.07162871333600922,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0039"
+    },
+    {
+      "learner_combined_difficulty": -0.14240668034486578,
+      "learner_difficulty": 0.022022750314493408,
+      "learner_gripper_error": 2.5948605620900573e-05,
+      "learner_motion_error": 0.022022750314493408,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0041"
+    },
+    {
+      "learner_combined_difficulty": -0.23912212537172944,
+      "learner_difficulty": 0.014787252111332718,
+      "learner_gripper_error": 2.4258844425553834e-05,
+      "learner_motion_error": 0.014787252111332718,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0042"
+    },
+    {
+      "learner_combined_difficulty": -0.24469471722189995,
+      "learner_difficulty": 0.013840801215551372,
+      "learner_gripper_error": 4.3907733696124314e-05,
+      "learner_motion_error": 0.013840801215551372,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0043"
+    },
+    {
+      "learner_combined_difficulty": -0.08745158543032652,
+      "learner_difficulty": 0.025121247608633563,
+      "learner_gripper_error": 6.467517522652501e-05,
+      "learner_motion_error": 0.025121247608633563,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0044"
+    },
+    {
+      "learner_combined_difficulty": -0.13165265713071708,
+      "learner_difficulty": 0.02174980734198404,
+      "learner_gripper_error": 6.631397492291232e-05,
+      "learner_motion_error": 0.02174980734198404,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0046"
+    },
+    {
+      "learner_combined_difficulty": -0.11485549239319728,
+      "learner_difficulty": 0.021126543143738203,
+      "learner_gripper_error": 0.0001367060723014509,
+      "learner_motion_error": 0.021126543143738203,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0047"
+    },
+    {
+      "learner_combined_difficulty": -0.26409378696633584,
+      "learner_difficulty": 0.012348672124947552,
+      "learner_gripper_error": 4.509171958903956e-05,
+      "learner_motion_error": 0.012348672124947552,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0048"
+    },
+    {
+      "learner_combined_difficulty": -0.15115932726197684,
+      "learner_difficulty": 0.019613581168552694,
+      "learner_gripper_error": 9.121335132965616e-05,
+      "learner_motion_error": 0.019613581168552694,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0049"
+    },
+    {
+      "learner_combined_difficulty": -0.2613559465274045,
+      "learner_difficulty": 0.01257937774064395,
+      "learner_gripper_error": 4.417446433253413e-05,
+      "learner_motion_error": 0.01257937774064395,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0050"
+    },
+    {
+      "learner_combined_difficulty": -0.21628528785707868,
+      "learner_difficulty": 0.015964621811081384,
+      "learner_gripper_error": 4.446196726256954e-05,
+      "learner_motion_error": 0.015964621811081384,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0051"
+    },
+    {
+      "learner_combined_difficulty": -0.26243766866659063,
+      "learner_difficulty": 0.01319662010711454,
+      "learner_gripper_error": 1.81218877375648e-05,
+      "learner_motion_error": 0.01319662010711454,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0052"
+    },
+    {
+      "learner_combined_difficulty": -0.2611060260690323,
+      "learner_difficulty": 0.012685576782671976,
+      "learner_gripper_error": 4.0916011843153126e-05,
+      "learner_motion_error": 0.012685576782671976,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0053"
+    },
+    {
+      "learner_combined_difficulty": -0.11907429332575707,
+      "learner_difficulty": 0.022673687094480567,
+      "learner_gripper_error": 6.717270277550644e-05,
+      "learner_motion_error": 0.022673687094480567,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0054"
+    },
+    {
+      "learner_combined_difficulty": -0.19123752151671253,
+      "learner_difficulty": 0.017992044953635884,
+      "learner_gripper_error": 3.9174162860640265e-05,
+      "learner_motion_error": 0.017992044953635884,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0055"
+    },
+    {
+      "learner_combined_difficulty": -0.1803030036575453,
+      "learner_difficulty": 0.018151862890603405,
+      "learner_gripper_error": 6.390918014906973e-05,
+      "learner_motion_error": 0.018151862890603405,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0058"
+    },
+    {
+      "learner_combined_difficulty": -0.24662639208155035,
+      "learner_difficulty": 0.013935365106523136,
+      "learner_gripper_error": 3.495916099087789e-05,
+      "learner_motion_error": 0.013935365106523136,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0059"
+    },
+    {
+      "learner_combined_difficulty": -0.24052648701307033,
+      "learner_difficulty": 0.014791614865410946,
+      "learner_gripper_error": 2.0153966161549702e-05,
+      "learner_motion_error": 0.014791614865410946,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0060"
+    },
+    {
+      "learner_combined_difficulty": -0.16675617240116575,
+      "learner_difficulty": 0.01958793345648095,
+      "learner_gripper_error": 4.8387657550224396e-05,
+      "learner_motion_error": 0.01958793345648095,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0061"
+    },
+    {
+      "learner_combined_difficulty": -0.2238320645891253,
+      "learner_difficulty": 0.015906414533847515,
+      "learner_gripper_error": 2.5447799201548574e-05,
+      "learner_motion_error": 0.015906414533847515,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0062"
+    },
+    {
+      "learner_combined_difficulty": -0.13993970410992848,
+      "learner_difficulty": 0.021419234249671428,
+      "learner_gripper_error": 5.5377909110252934e-05,
+      "learner_motion_error": 0.021419234249671428,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0063"
+    },
+    {
+      "learner_combined_difficulty": -0.0723929086524986,
+      "learner_difficulty": 0.026479568520870345,
+      "learner_gripper_error": 5.6296739937075944e-05,
+      "learner_motion_error": 0.026479568520870345,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0064"
+    },
+    {
+      "learner_combined_difficulty": -0.06970551968442358,
+      "learner_difficulty": 0.02452559720142007,
+      "learner_gripper_error": 0.0001367012642660158,
+      "learner_motion_error": 0.02452559720142007,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0065"
+    },
+    {
+      "learner_combined_difficulty": 1.19635576270981,
+      "learner_difficulty": 0.10924331631865951,
+      "learner_gripper_error": 0.0005316748680279162,
+      "learner_motion_error": 0.10924331631865951,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0066"
+    },
+    {
+      "learner_combined_difficulty": -0.15873759882687524,
+      "learner_difficulty": 0.019732034399824124,
+      "learner_gripper_error": 6.552336225081187e-05,
+      "learner_motion_error": 0.019732034399824124,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0067"
+    },
+    {
+      "learner_combined_difficulty": -0.17075404282753134,
+      "learner_difficulty": 0.018893397371058274,
+      "learner_gripper_error": 6.306342879020669e-05,
+      "learner_motion_error": 0.018893397371058274,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0068"
+    },
+    {
+      "learner_combined_difficulty": -0.13922083354163758,
+      "learner_difficulty": 0.021590691324104412,
+      "learner_gripper_error": 5.100247471988847e-05,
+      "learner_motion_error": 0.021590691324104412,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0070"
+    },
+    {
+      "learner_combined_difficulty": -0.19959602457141778,
+      "learner_difficulty": 0.016603810084136122,
+      "learner_gripper_error": 6.747617020851374e-05,
+      "learner_motion_error": 0.016603810084136122,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0071"
+    },
+    {
+      "learner_combined_difficulty": -0.11735832844346733,
+      "learner_difficulty": 0.02254392875579953,
+      "learner_gripper_error": 7.68281032501301e-05,
+      "learner_motion_error": 0.02254392875579953,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0072"
+    },
+    {
+      "learner_combined_difficulty": -0.20384142019400842,
+      "learner_difficulty": 0.016417207768735863,
+      "learner_gripper_error": 6.251700483069243e-05,
+      "learner_motion_error": 0.016417207768735863,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0073"
+    },
+    {
+      "learner_combined_difficulty": -0.22100586778033177,
+      "learner_difficulty": 0.015425826450954772,
+      "learner_gripper_error": 5.130166998328863e-05,
+      "learner_motion_error": 0.015425826450954772,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0074"
+    },
+    {
+      "learner_combined_difficulty": 6.047921476541757,
+      "learner_difficulty": 0.47402644447585063,
+      "learner_gripper_error": 0.00054832487148469,
+      "learner_motion_error": 0.47402644447585063,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0075"
+    },
+    {
+      "learner_combined_difficulty": -0.14896214912601913,
+      "learner_difficulty": 0.02022006370803255,
+      "learner_gripper_error": 7.476622655194285e-05,
+      "learner_motion_error": 0.02022006370803255,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0076"
+    },
+    {
+      "learner_combined_difficulty": -0.1430987161007583,
+      "learner_difficulty": 0.02039875666320305,
+      "learner_gripper_error": 8.456232930004998e-05,
+      "learner_motion_error": 0.02039875666320305,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0077"
+    },
+    {
+      "learner_combined_difficulty": -0.21115339934065064,
+      "learner_difficulty": 0.016662586928289758,
+      "learner_gripper_error": 3.284164593014588e-05,
+      "learner_motion_error": 0.016662586928289758,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0078"
+    },
+    {
+      "learner_combined_difficulty": -0.19452715993975578,
+      "learner_difficulty": 0.017251914453940635,
+      "learner_gripper_error": 5.7538168127108065e-05,
+      "learner_motion_error": 0.017251914453940635,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0080"
+    },
+    {
+      "learner_combined_difficulty": -0.24180560721268213,
+      "learner_difficulty": 0.013594764888560483,
+      "learner_gripper_error": 6.119211738476484e-05,
+      "learner_motion_error": 0.013594764888560483,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0081"
+    },
+    {
+      "learner_combined_difficulty": -0.18066084266176136,
+      "learner_difficulty": 0.018275393308164165,
+      "learner_gripper_error": 5.829841841328568e-05,
+      "learner_motion_error": 0.018275393308164165,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0082"
+    },
+    {
+      "learner_combined_difficulty": -0.08886740582595179,
+      "learner_difficulty": 0.024527376251205418,
+      "learner_gripper_error": 8.284540459855228e-05,
+      "learner_motion_error": 0.024527376251205418,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0086"
+    },
+    {
+      "learner_combined_difficulty": -0.20558614248235035,
+      "learner_difficulty": 0.016658789406686768,
+      "learner_gripper_error": 4.861115214371131e-05,
+      "learner_motion_error": 0.016658789406686768,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0087"
+    },
+    {
+      "learner_combined_difficulty": -0.18143877185108057,
+      "learner_difficulty": 0.01789477053125415,
+      "learner_gripper_error": 7.030755138272908e-05,
+      "learner_motion_error": 0.01789477053125415,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0088"
+    },
+    {
+      "learner_combined_difficulty": -0.14031000900083884,
+      "learner_difficulty": 0.022215724703652247,
+      "learner_gripper_error": 2.4638460372041674e-05,
+      "learner_motion_error": 0.022215724703652247,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0089"
+    },
+    {
+      "learner_combined_difficulty": 0.9118237088440474,
+      "learner_difficulty": 0.09711870672014172,
+      "learner_gripper_error": 0.00018507103435227683,
+      "learner_motion_error": 0.09711870672014172,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0090"
+    },
+    {
+      "learner_combined_difficulty": -0.259191632510011,
+      "learner_difficulty": 0.013471153300389789,
+      "learner_gripper_error": 1.699692758191673e-05,
+      "learner_motion_error": 0.013471153300389789,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0091"
+    },
+    {
+      "learner_combined_difficulty": -0.2556042875193936,
+      "learner_difficulty": 0.013629880586777424,
+      "learner_gripper_error": 2.1148291469869282e-05,
+      "learner_motion_error": 0.013629880586777424,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0092"
+    },
+    {
+      "learner_combined_difficulty": -0.18784449958003688,
+      "learner_difficulty": 0.01812830965639934,
+      "learner_gripper_error": 4.361763740393214e-05,
+      "learner_motion_error": 0.01812830965639934,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0093"
+    },
+    {
+      "learner_combined_difficulty": -0.20162147547107326,
+      "learner_difficulty": 0.016057991787163193,
+      "learner_gripper_error": 8.214327149084119e-05,
+      "learner_motion_error": 0.016057991787163193,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0094"
+    },
+    {
+      "learner_combined_difficulty": -0.21659326462001308,
+      "learner_difficulty": 0.016543585816029393,
+      "learner_gripper_error": 2.2008723046773814e-05,
+      "learner_motion_error": 0.016543585816029393,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0095"
+    },
+    {
+      "learner_combined_difficulty": -0.23033241136835506,
+      "learner_difficulty": 0.015284672138861723,
+      "learner_gripper_error": 3.0384474062627033e-05,
+      "learner_motion_error": 0.015284672138861723,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0096"
+    },
+    {
+      "learner_combined_difficulty": -0.031111422382130993,
+      "learner_difficulty": 0.028382734299214125,
+      "learner_gripper_error": 0.0001012121475725747,
+      "learner_motion_error": 0.028382734299214125,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0097"
+    },
+    {
+      "learner_combined_difficulty": 0.3819806829272032,
+      "learner_difficulty": 0.05597472872690568,
+      "learner_gripper_error": 0.00023194206163322224,
+      "learner_motion_error": 0.05597472872690568,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0098"
+    },
+    {
+      "learner_combined_difficulty": -0.10088035889496955,
+      "learner_difficulty": 0.023736962988604806,
+      "learner_gripper_error": 7.859707697329772e-05,
+      "learner_motion_error": 0.023736962988604806,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0099"
+    },
+    {
+      "learner_combined_difficulty": -0.2093582260086589,
+      "learner_difficulty": 0.01648273216177897,
+      "learner_gripper_error": 4.4587415636819184e-05,
+      "learner_motion_error": 0.01648273216177897,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0100"
+    },
+    {
+      "learner_combined_difficulty": -0.11418282056630241,
+      "learner_difficulty": 0.02283181614216482,
+      "learner_gripper_error": 7.500720416187585e-05,
+      "learner_motion_error": 0.02283181614216482,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0101"
+    },
+    {
+      "learner_combined_difficulty": -0.21848368653568281,
+      "learner_difficulty": 0.01551331461423923,
+      "learner_gripper_error": 5.5119404644079364e-05,
+      "learner_motion_error": 0.01551331461423923,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0102"
+    },
+    {
+      "learner_combined_difficulty": -0.23855304801127428,
+      "learner_difficulty": 0.013507846515885689,
+      "learner_gripper_error": 7.356346750959084e-05,
+      "learner_motion_error": 0.013507846515885689,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0103"
+    },
+    {
+      "learner_combined_difficulty": -0.15678068070025336,
+      "learner_difficulty": 0.01977433557688209,
+      "learner_gripper_error": 6.943929769952036e-05,
+      "learner_motion_error": 0.01977433557688209,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0104"
+    },
+    {
+      "learner_combined_difficulty": 1.4276982005168715,
+      "learner_difficulty": 0.11129650756199622,
+      "learner_gripper_error": 0.0011045180365874844,
+      "learner_motion_error": 0.11129650756199622,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0105"
+    },
+    {
+      "learner_combined_difficulty": -0.2195430577927457,
+      "learner_difficulty": 0.016255048549616194,
+      "learner_gripper_error": 2.4487461205674893e-05,
+      "learner_motion_error": 0.016255048549616194,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0107"
+    },
+    {
+      "learner_combined_difficulty": -0.12238517264153521,
+      "learner_difficulty": 0.022613055383494594,
+      "learner_gripper_error": 6.0139568138912226e-05,
+      "learner_motion_error": 0.022613055383494594,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0108"
+    },
+    {
+      "learner_combined_difficulty": -0.19079376227624603,
+      "learner_difficulty": 0.018053331026293647,
+      "learner_gripper_error": 3.813457597917494e-05,
+      "learner_motion_error": 0.018053331026293647,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0109"
+    },
+    {
+      "learner_combined_difficulty": -0.2324412841870126,
+      "learner_difficulty": 0.015084986647715558,
+      "learner_gripper_error": 3.191061559198392e-05,
+      "learner_motion_error": 0.015084986647715558,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0110"
+    },
+    {
+      "learner_combined_difficulty": -0.19869266129909263,
+      "learner_difficulty": 0.017415393900567584,
+      "learner_gripper_error": 3.974923868713866e-05,
+      "learner_motion_error": 0.017415393900567584,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0111"
+    },
+    {
+      "learner_combined_difficulty": -0.2350030872404397,
+      "learner_difficulty": 0.014364127314076845,
+      "learner_gripper_error": 5.1599141225835976e-05,
+      "learner_motion_error": 0.014364127314076845,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0112"
+    },
+    {
+      "learner_combined_difficulty": -0.2047577006040083,
+      "learner_difficulty": 0.01653746002669296,
+      "learner_gripper_error": 5.54608744298995e-05,
+      "learner_motion_error": 0.01653746002669296,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0113"
+    },
+    {
+      "learner_combined_difficulty": -0.21989046600220047,
+      "learner_difficulty": 0.016046285171159285,
+      "learner_gripper_error": 3.12967287087971e-05,
+      "learner_motion_error": 0.016046285171159285,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0115"
+    },
+    {
+      "learner_combined_difficulty": -0.20429880849500304,
+      "learner_difficulty": 0.016699121546439374,
+      "learner_gripper_error": 5.072091380018845e-05,
+      "learner_motion_error": 0.016699121546439374,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0116"
+    },
+    {
+      "learner_combined_difficulty": -0.11450441575837095,
+      "learner_difficulty": 0.023263464368965606,
+      "learner_gripper_error": 5.800892107097533e-05,
+      "learner_motion_error": 0.023263464368965606,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0117"
+    },
+    {
+      "learner_combined_difficulty": -0.17982505973747953,
+      "learner_difficulty": 0.018987006768567682,
+      "learner_gripper_error": 3.4109529545674124e-05,
+      "learner_motion_error": 0.018987006768567682,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0118"
+    },
+    {
+      "learner_combined_difficulty": -0.18267830142809827,
+      "learner_difficulty": 0.018349989025223678,
+      "learner_gripper_error": 4.985362480116085e-05,
+      "learner_motion_error": 0.018349989025223678,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0119"
+    },
+    {
+      "learner_combined_difficulty": -0.03216970110357704,
+      "learner_difficulty": 0.029214950089099887,
+      "learner_gripper_error": 6.720933520091385e-05,
+      "learner_motion_error": 0.029214950089099887,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0120"
+    },
+    {
+      "learner_combined_difficulty": -0.1734165214991611,
+      "learner_difficulty": 0.0196672131941843,
+      "learner_gripper_error": 2.6735099960858117e-05,
+      "learner_motion_error": 0.0196672131941843,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0121"
+    },
+    {
+      "learner_combined_difficulty": -0.1873847208295708,
+      "learner_difficulty": 0.01821946881620406,
+      "learner_gripper_error": 4.1509095392247885e-05,
+      "learner_motion_error": 0.01821946881620406,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0122"
+    },
+    {
+      "learner_combined_difficulty": -0.14808324984338916,
+      "learner_difficulty": 0.02069957788351136,
+      "learner_gripper_error": 5.935301235835939e-05,
+      "learner_motion_error": 0.02069957788351136,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0123"
+    },
+    {
+      "learner_combined_difficulty": -0.17877886807011115,
+      "learner_difficulty": 0.01936970882765811,
+      "learner_gripper_error": 2.2775905464785633e-05,
+      "learner_motion_error": 0.01936970882765811,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0124"
+    },
+    {
+      "learner_combined_difficulty": -0.261790504041053,
+      "learner_difficulty": 0.013025263859774169,
+      "learner_gripper_error": 2.632817343643557e-05,
+      "learner_motion_error": 0.013025263859774169,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0125"
+    },
+    {
+      "learner_combined_difficulty": -0.2135549500069947,
+      "learner_difficulty": 0.01610671823886117,
+      "learner_gripper_error": 4.682775822121996e-05,
+      "learner_motion_error": 0.01610671823886117,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0126"
+    },
+    {
+      "learner_combined_difficulty": -0.19789601047842742,
+      "learner_difficulty": 0.017499490823416442,
+      "learner_gripper_error": 3.884967409020858e-05,
+      "learner_motion_error": 0.017499490823416442,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0127"
+    },
+    {
+      "learner_combined_difficulty": -0.09845451156214943,
+      "learner_difficulty": 0.025035583252028124,
+      "learner_gripper_error": 3.698305001586479e-05,
+      "learner_motion_error": 0.025035583252028124,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0128"
+    },
+    {
+      "learner_combined_difficulty": -0.22343713599039025,
+      "learner_difficulty": 0.01580771909959195,
+      "learner_gripper_error": 3.023661536285699e-05,
+      "learner_motion_error": 0.01580771909959195,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0130"
+    },
+    {
+      "learner_combined_difficulty": 0.868391441723304,
+      "learner_difficulty": 0.0900746169624129,
+      "learner_gripper_error": 0.0003258156722225155,
+      "learner_motion_error": 0.0900746169624129,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0131"
+    },
+    {
+      "learner_combined_difficulty": -0.22930706957319263,
+      "learner_difficulty": 0.015507379756273802,
+      "learner_gripper_error": 2.49582804398721e-05,
+      "learner_motion_error": 0.015507379756273802,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0133"
+    },
+    {
+      "learner_combined_difficulty": -0.13972893881878592,
+      "learner_difficulty": 0.021672345464055557,
+      "learner_gripper_error": 4.6531404076492575e-05,
+      "learner_motion_error": 0.021672345464055557,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0134"
+    },
+    {
+      "learner_combined_difficulty": -0.21151705517468955,
+      "learner_difficulty": 0.016717444360244763,
+      "learner_gripper_error": 2.9775270742361065e-05,
+      "learner_motion_error": 0.016717444360244763,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0135"
+    },
+    {
+      "learner_combined_difficulty": -0.20986674375905462,
+      "learner_difficulty": 0.016141290819719274,
+      "learner_gripper_error": 5.58917978350442e-05,
+      "learner_motion_error": 0.016141290819719274,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0136"
+    },
+    {
+      "learner_combined_difficulty": -0.19286950108549927,
+      "learner_difficulty": 0.0174996808950684,
+      "learner_gripper_error": 5.295255119524545e-05,
+      "learner_motion_error": 0.0174996808950684,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0137"
+    },
+    {
+      "learner_combined_difficulty": -0.2331912534357708,
+      "learner_difficulty": 0.015136054062120053,
+      "learner_gripper_error": 2.7901140370881984e-05,
+      "learner_motion_error": 0.015136054062120053,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0138"
+    },
+    {
+      "learner_combined_difficulty": -0.18461411651004667,
+      "learner_difficulty": 0.01769454652287368,
+      "learner_gripper_error": 6.886006970212165e-05,
+      "learner_motion_error": 0.01769454652287368,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0139"
+    },
+    {
+      "learner_combined_difficulty": -0.05806520213681847,
+      "learner_difficulty": 0.02670657448797565,
+      "learner_gripper_error": 8.805146769624526e-05,
+      "learner_motion_error": 0.02670657448797565,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0140"
+    },
+    {
+      "learner_combined_difficulty": -0.2270895634400953,
+      "learner_difficulty": 0.015431965241161324,
+      "learner_gripper_error": 3.399516078827654e-05,
+      "learner_motion_error": 0.015431965241161324,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0141"
+    },
+    {
+      "learner_combined_difficulty": -0.2340343571989919,
+      "learner_difficulty": 0.01482046232018583,
+      "learner_gripper_error": 3.7302409119228305e-05,
+      "learner_motion_error": 0.01482046232018583,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0142"
+    },
+    {
+      "learner_combined_difficulty": -0.18422573066392023,
+      "learner_difficulty": 0.018173822683043673,
+      "learner_gripper_error": 5.2078805595880374e-05,
+      "learner_motion_error": 0.018173822683043673,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0143"
+    },
+    {
+      "learner_combined_difficulty": -0.21677225099842617,
+      "learner_difficulty": 0.015577989607253408,
+      "learner_gripper_error": 5.751195665041647e-05,
+      "learner_motion_error": 0.015577989607253408,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0144"
+    },
+    {
+      "learner_combined_difficulty": -0.19166802449158785,
+      "learner_difficulty": 0.017382897216182813,
+      "learner_gripper_error": 6.067992041325622e-05,
+      "learner_motion_error": 0.017382897216182813,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0145"
+    },
+    {
+      "learner_combined_difficulty": -0.1828756677794186,
+      "learner_difficulty": 0.01828462029852796,
+      "learner_gripper_error": 5.173709980476697e-05,
+      "learner_motion_error": 0.01828462029852796,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0146"
+    },
+    {
+      "learner_combined_difficulty": -0.19737351956906835,
+      "learner_difficulty": 0.01692017626492659,
+      "learner_gripper_error": 6.19181547317664e-05,
+      "learner_motion_error": 0.01692017626492659,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0147"
+    },
+    {
+      "learner_combined_difficulty": -0.16692815725877658,
+      "learner_difficulty": 0.018684608238660323,
+      "learner_gripper_error": 8.158855116546358e-05,
+      "learner_motion_error": 0.018684608238660323,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0148"
+    },
+    {
+      "learner_combined_difficulty": -0.23167274792639392,
+      "learner_difficulty": 0.015383300782051298,
+      "learner_gripper_error": 2.294428434019328e-05,
+      "learner_motion_error": 0.015383300782051298,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0149"
+    },
+    {
+      "learner_combined_difficulty": -0.17657295647879695,
+      "learner_difficulty": 0.01856706891154639,
+      "learner_gripper_error": 5.889740849480381e-05,
+      "learner_motion_error": 0.01856706891154639,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0150"
+    },
+    {
+      "learner_combined_difficulty": -0.1650279713120925,
+      "learner_difficulty": 0.01970339974849597,
+      "learner_gripper_error": 4.8933339172410976e-05,
+      "learner_motion_error": 0.01970339974849597,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0152"
+    },
+    {
+      "learner_combined_difficulty": -0.1885287701871214,
+      "learner_difficulty": 0.017892175912375737,
+      "learner_gripper_error": 5.050189594938972e-05,
+      "learner_motion_error": 0.017892175912375737,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0154"
+    },
+    {
+      "learner_combined_difficulty": -0.2478778484899829,
+      "learner_difficulty": 0.01348078006833332,
+      "learner_gripper_error": 4.8396995355735356e-05,
+      "learner_motion_error": 0.01348078006833332,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0156"
+    },
+    {
+      "learner_combined_difficulty": -0.22092041611974056,
+      "learner_difficulty": 0.015495183720947691,
+      "learner_gripper_error": 4.895531119984362e-05,
+      "learner_motion_error": 0.015495183720947691,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0157"
+    },
+    {
+      "learner_combined_difficulty": 2.308301673917111,
+      "learner_difficulty": 0.1145595756688586,
+      "learner_gripper_error": 0.0034547937912694122,
+      "learner_motion_error": 0.1145595756688586,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0158"
+    },
+    {
+      "learner_combined_difficulty": -0.24270299180006039,
+      "learner_difficulty": 0.013809323974773283,
+      "learner_gripper_error": 5.067246616752292e-05,
+      "learner_motion_error": 0.013809323974773283,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0159"
+    },
+    {
+      "learner_combined_difficulty": -0.18662574189750367,
+      "learner_difficulty": 0.01816412756298972,
+      "learner_gripper_error": 4.5703226973281295e-05,
+      "learner_motion_error": 0.01816412756298972,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0160"
+    },
+    {
+      "learner_combined_difficulty": -0.1552795167950914,
+      "learner_difficulty": 0.020483943389627952,
+      "learner_gripper_error": 4.7192994075785255e-05,
+      "learner_motion_error": 0.020483943389627952,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0161"
+    },
+    {
+      "learner_combined_difficulty": -0.17196321107997165,
+      "learner_difficulty": 0.019317556261204002,
+      "learner_gripper_error": 4.38528969103744e-05,
+      "learner_motion_error": 0.019317556261204002,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0162"
+    },
+    {
+      "learner_combined_difficulty": -0.22019476583567604,
+      "learner_difficulty": 0.015479620953286697,
+      "learner_gripper_error": 5.157260414924837e-05,
+      "learner_motion_error": 0.015479620953286697,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0163"
+    },
+    {
+      "learner_combined_difficulty": -0.20246524353153134,
+      "learner_difficulty": 0.017129455750003797,
+      "learner_gripper_error": 3.982140025630263e-05,
+      "learner_motion_error": 0.017129455750003797,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0164"
+    },
+    {
+      "learner_combined_difficulty": -0.17844206551123287,
+      "learner_difficulty": 0.018181311872003926,
+      "learner_gripper_error": 6.803492878666123e-05,
+      "learner_motion_error": 0.018181311872003926,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0165"
+    },
+    {
+      "learner_combined_difficulty": -0.16113005598386487,
+      "learner_difficulty": 0.020111485904406385,
+      "learner_gripper_error": 4.465828120973348e-05,
+      "learner_motion_error": 0.020111485904406385,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0166"
+    },
+    {
+      "learner_combined_difficulty": -0.17797903283008337,
+      "learner_difficulty": 0.018719800136249427,
+      "learner_gripper_error": 4.9255273938102645e-05,
+      "learner_motion_error": 0.018719800136249427,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0168"
+    },
+    {
+      "learner_combined_difficulty": -0.22663706934818284,
+      "learner_difficulty": 0.014911911235918136,
+      "learner_gripper_error": 5.465741345089738e-05,
+      "learner_motion_error": 0.014911911235918136,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0170"
+    },
+    {
+      "learner_combined_difficulty": -0.18852653116989349,
+      "learner_difficulty": 0.017947584090047604,
+      "learner_gripper_error": 4.8442091343234864e-05,
+      "learner_motion_error": 0.017947584090047604,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0172"
+    },
+    {
+      "learner_combined_difficulty": -0.161488854326006,
+      "learner_difficulty": 0.018891257198798122,
+      "learner_gripper_error": 8.91516356347741e-05,
+      "learner_motion_error": 0.018891257198798122,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0173"
+    },
+    {
+      "learner_combined_difficulty": -0.113898928160425,
+      "learner_difficulty": 0.024093294724646233,
+      "learner_gripper_error": 2.8765433058311633e-05,
+      "learner_motion_error": 0.024093294724646233,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0174"
+    },
+    {
+      "learner_combined_difficulty": -0.20439445433366613,
+      "learner_difficulty": 0.01725316831549192,
+      "learner_gripper_error": 2.979283306085752e-05,
+      "learner_motion_error": 0.01725316831549192,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0178"
+    },
+    {
+      "learner_combined_difficulty": -0.18853193792169448,
+      "learner_difficulty": 0.018069875802984848,
+      "learner_gripper_error": 4.3866835175400094e-05,
+      "learner_motion_error": 0.018069875802984848,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0179"
+    },
+    {
+      "learner_combined_difficulty": -0.20696742663763829,
+      "learner_difficulty": 0.016036994730287586,
+      "learner_gripper_error": 6.791954819752401e-05,
+      "learner_motion_error": 0.016036994730287586,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0180"
+    },
+    {
+      "learner_combined_difficulty": -0.2268878626181366,
+      "learner_difficulty": 0.014967954422882852,
+      "learner_gripper_error": 5.18636408240523e-05,
+      "learner_motion_error": 0.014967954422882852,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0181"
+    },
+    {
+      "learner_combined_difficulty": -0.13638127185236293,
+      "learner_difficulty": 0.02151976863470051,
+      "learner_gripper_error": 6.161803981763029e-05,
+      "learner_motion_error": 0.02151976863470051,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0182"
+    },
+    {
+      "learner_combined_difficulty": -0.22586716357166756,
+      "learner_difficulty": 0.015788297341192067,
+      "learner_gripper_error": 2.4139469646204996e-05,
+      "learner_motion_error": 0.015788297341192067,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0183"
+    },
+    {
+      "learner_combined_difficulty": 5.4128852791058275,
+      "learner_difficulty": 0.15858270487082687,
+      "learner_gripper_error": 0.010528143366790777,
+      "learner_motion_error": 0.15858270487082687,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0184"
+    },
+    {
+      "learner_combined_difficulty": -0.21626549590609423,
+      "learner_difficulty": 0.015455081889718055,
+      "learner_gripper_error": 6.35175226491685e-05,
+      "learner_motion_error": 0.015455081889718055,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0185"
+    },
+    {
+      "learner_combined_difficulty": -0.21400377861133457,
+      "learner_difficulty": 0.015781147958120547,
+      "learner_gripper_error": 5.770788579018924e-05,
+      "learner_motion_error": 0.015781147958120547,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0186"
+    },
+    {
+      "learner_combined_difficulty": -0.21353686207637648,
+      "learner_difficulty": 0.01620079667645549,
+      "learner_gripper_error": 4.3370485916254844e-05,
+      "learner_motion_error": 0.01620079667645549,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0187"
+    },
+    {
+      "learner_combined_difficulty": -0.11421709519051615,
+      "learner_difficulty": 0.023439655185391886,
+      "learner_gripper_error": 5.2245564070529786e-05,
+      "learner_motion_error": 0.023439655185391886,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0188"
+    },
+    {
+      "learner_combined_difficulty": -0.23408893976560385,
+      "learner_difficulty": 0.01483745668777796,
+      "learner_gripper_error": 3.6515494781492e-05,
+      "learner_motion_error": 0.01483745668777796,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0190"
+    },
+    {
+      "learner_combined_difficulty": -0.16546404192310682,
+      "learner_difficulty": 0.0195253141841155,
+      "learner_gripper_error": 5.4349790820084233e-05,
+      "learner_motion_error": 0.0195253141841155,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0191"
+    },
+    {
+      "learner_combined_difficulty": -0.18658673793796252,
+      "learner_difficulty": 0.018292798430495597,
+      "learner_gripper_error": 4.1014767227186104e-05,
+      "learner_motion_error": 0.018292798430495597,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0192"
+    },
+    {
+      "learner_combined_difficulty": -0.13633519536239014,
+      "learner_difficulty": 0.021629766860798576,
+      "learner_gripper_error": 5.764570888529941e-05,
+      "learner_motion_error": 0.021629766860798576,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0193"
+    },
+    {
+      "learner_combined_difficulty": -0.18371912851180863,
+      "learner_difficulty": 0.018810602565217906,
+      "learner_gripper_error": 2.975630460567964e-05,
+      "learner_motion_error": 0.018810602565217906,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0194"
+    },
+    {
+      "learner_combined_difficulty": -0.2132500284012392,
+      "learner_difficulty": 0.016012091401616548,
+      "learner_gripper_error": 5.121220283361079e-05,
+      "learner_motion_error": 0.016012091401616548,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0195"
+    },
+    {
+      "learner_combined_difficulty": -0.20514583305052492,
+      "learner_difficulty": 0.016461202854921975,
+      "learner_gripper_error": 5.7214862192527475e-05,
+      "learner_motion_error": 0.016461202854921975,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0196"
+    },
+    {
+      "learner_combined_difficulty": -0.20984034841432894,
+      "learner_difficulty": 0.01608840632315917,
+      "learner_gripper_error": 5.793787787241236e-05,
+      "learner_motion_error": 0.01608840632315917,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0197"
+    },
+    {
+      "learner_combined_difficulty": -0.2550210827896172,
+      "learner_difficulty": 0.013386181755267,
+      "learner_gripper_error": 3.18725836916235e-05,
+      "learner_motion_error": 0.013386181755267,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0198"
+    },
+    {
+      "learner_combined_difficulty": -0.20774690462234435,
+      "learner_difficulty": 0.016263329231788873,
+      "learner_gripper_error": 5.729178579400028e-05,
+      "learner_motion_error": 0.016263329231788873,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0199"
+    },
+    {
+      "learner_combined_difficulty": -0.12147543445292959,
+      "learner_difficulty": 0.023336980915927348,
+      "learner_gripper_error": 3.5699180701558824e-05,
+      "learner_motion_error": 0.023336980915927348,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0200"
+    },
+    {
+      "learner_combined_difficulty": -0.20722969920599776,
+      "learner_difficulty": 0.016153191468270357,
+      "learner_gripper_error": 6.2850514123806e-05,
+      "learner_motion_error": 0.016153191468270357,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0201"
+    },
+    {
+      "learner_combined_difficulty": -0.2089599833121369,
+      "learner_difficulty": 0.015814103626629265,
+      "learner_gripper_error": 7.063750522897355e-05,
+      "learner_motion_error": 0.015814103626629265,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0202"
+    },
+    {
+      "learner_combined_difficulty": -0.1784845203387173,
+      "learner_difficulty": 0.018847592173699378,
+      "learner_gripper_error": 4.307113705197578e-05,
+      "learner_motion_error": 0.018847592173699378,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0205"
+    },
+    {
+      "learner_combined_difficulty": -0.226913981822356,
+      "learner_difficulty": 0.0152572900635204,
+      "learner_gripper_error": 4.1001419176095347e-05,
+      "learner_motion_error": 0.0152572900635204,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0206"
+    },
+    {
+      "learner_combined_difficulty": -0.2417898705822033,
+      "learner_difficulty": 0.014127974766216973,
+      "learner_gripper_error": 4.1353676638930326e-05,
+      "learner_motion_error": 0.014127974766216973,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0207"
+    },
+    {
+      "learner_combined_difficulty": -0.20273481348312372,
+      "learner_difficulty": 0.016239068006593915,
+      "learner_gripper_error": 7.226594231425267e-05,
+      "learner_motion_error": 0.016239068006593915,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0208"
+    },
+    {
+      "learner_combined_difficulty": -0.21012234464393229,
+      "learner_difficulty": 0.0161665872054189,
+      "learner_gripper_error": 5.4231032880289376e-05,
+      "learner_motion_error": 0.0161665872054189,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0209"
+    },
+    {
+      "learner_combined_difficulty": -0.23510371168395927,
+      "learner_difficulty": 0.01433368342561085,
+      "learner_gripper_error": 5.245188534918676e-05,
+      "learner_motion_error": 0.01433368342561085,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0210"
+    },
+    {
+      "learner_combined_difficulty": -0.21079930045510226,
+      "learner_difficulty": 0.0159411961376709,
+      "learner_gripper_error": 6.073524620168713e-05,
+      "learner_motion_error": 0.0159411961376709,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0211"
+    },
+    {
+      "learner_combined_difficulty": -0.20843517253582522,
+      "learner_difficulty": 0.016892503209091303,
+      "learner_gripper_error": 3.189876618779353e-05,
+      "learner_motion_error": 0.016892503209091303,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0212"
+    },
+    {
+      "learner_combined_difficulty": -0.14835966811018603,
+      "learner_difficulty": 0.02119896567702063,
+      "learner_gripper_error": 3.9955636658801e-05,
+      "learner_motion_error": 0.02119896567702063,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0213"
+    },
+    {
+      "learner_combined_difficulty": -0.15538736518798676,
+      "learner_difficulty": 0.020053824758781178,
+      "learner_gripper_error": 6.29287454082713e-05,
+      "learner_motion_error": 0.020053824758781178,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0214"
+    },
+    {
+      "learner_combined_difficulty": -0.16803649102856794,
+      "learner_difficulty": 0.019236237045665915,
+      "learner_gripper_error": 5.7907906307225855e-05,
+      "learner_motion_error": 0.019236237045665915,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0216"
+    },
+    {
+      "learner_combined_difficulty": -0.21728791832870495,
+      "learner_difficulty": 0.015855989849572167,
+      "learner_gripper_error": 4.5698199977407404e-05,
+      "learner_motion_error": 0.015855989849572167,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0217"
+    },
+    {
+      "learner_combined_difficulty": -0.13516443686533727,
+      "learner_difficulty": 0.020710177147613557,
+      "learner_gripper_error": 9.52223099548712e-05,
+      "learner_motion_error": 0.020710177147613557,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0219"
+    },
+    {
+      "learner_combined_difficulty": -0.21316084832478105,
+      "learner_difficulty": 0.01615670185420481,
+      "learner_gripper_error": 4.607022918863307e-05,
+      "learner_motion_error": 0.01615670185420481,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0223"
+    },
+    {
+      "learner_combined_difficulty": -0.08613903089690236,
+      "learner_difficulty": 0.02619293951595339,
+      "learner_gripper_error": 2.8397838914084982e-05,
+      "learner_motion_error": 0.02619293951595339,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0224"
+    },
+    {
+      "learner_combined_difficulty": -0.08457319457317708,
+      "learner_difficulty": 0.02486224206951593,
+      "learner_gripper_error": 8.241307199721358e-05,
+      "learner_motion_error": 0.02486224206951593,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0225"
+    },
+    {
+      "learner_combined_difficulty": -0.07135839811035317,
+      "learner_difficulty": 0.025863370900749205,
+      "learner_gripper_error": 8.217783132675733e-05,
+      "learner_motion_error": 0.025863370900749205,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0227"
+    },
+    {
+      "learner_combined_difficulty": -0.23791514879923661,
+      "learner_difficulty": 0.014116577184100155,
+      "learner_gripper_error": 5.2655445901615615e-05,
+      "learner_motion_error": 0.014116577184100155,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0228"
+    },
+    {
+      "learner_combined_difficulty": -0.15765586809493642,
+      "learner_difficulty": 0.019739632747286177,
+      "learner_gripper_error": 6.827656812079372e-05,
+      "learner_motion_error": 0.019739632747286177,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0230"
+    },
+    {
+      "learner_combined_difficulty": -0.1690058506377483,
+      "learner_difficulty": 0.01921380731922767,
+      "learner_gripper_error": 5.6023178929953674e-05,
+      "learner_motion_error": 0.01921380731922767,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0231"
+    },
+    {
+      "learner_combined_difficulty": -0.08829310479488844,
+      "learner_difficulty": 0.02497522938656441,
+      "learner_gripper_error": 6.775774342153182e-05,
+      "learner_motion_error": 0.02497522938656441,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0232"
+    },
+    {
+      "learner_combined_difficulty": -0.17976012916011375,
+      "learner_difficulty": 0.018137294123633633,
+      "learner_gripper_error": 6.597633653714323e-05,
+      "learner_motion_error": 0.018137294123633633,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0233"
+    },
+    {
+      "learner_combined_difficulty": -0.19052927771743208,
+      "learner_difficulty": 0.017921250345290428,
+      "learner_gripper_error": 4.38021083189712e-05,
+      "learner_motion_error": 0.017921250345290428,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0234"
+    },
+    {
+      "learner_combined_difficulty": -0.15485388257404575,
+      "learner_difficulty": 0.020497734667273938,
+      "learner_gripper_error": 4.7873539598961054e-05,
+      "learner_motion_error": 0.020497734667273938,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0235"
+    },
+    {
+      "learner_combined_difficulty": 0.10556933001335822,
+      "learner_difficulty": 0.038518247038217435,
+      "learner_gripper_error": 0.0001069516276871468,
+      "learner_motion_error": 0.038518247038217435,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0236"
+    },
+    {
+      "learner_combined_difficulty": 0.09341378911592162,
+      "learner_difficulty": 0.03891981563502281,
+      "learner_gripper_error": 5.7855783035840725e-05,
+      "learner_motion_error": 0.03891981563502281,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0237"
+    },
+    {
+      "learner_combined_difficulty": -0.17371972420311396,
+      "learner_difficulty": 0.01897814692885749,
+      "learner_gripper_error": 5.1578248198008586e-05,
+      "learner_motion_error": 0.01897814692885749,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0239"
+    },
+    {
+      "learner_combined_difficulty": -0.23415678897980874,
+      "learner_difficulty": 0.014311496221677275,
+      "learner_gripper_error": 5.593732983762487e-05,
+      "learner_motion_error": 0.014311496221677275,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0240"
+    },
+    {
+      "learner_combined_difficulty": -0.22946811716796872,
+      "learner_difficulty": 0.014870686620629034,
+      "learner_gripper_error": 4.8247556419898106e-05,
+      "learner_motion_error": 0.014870686620629034,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0241"
+    },
+    {
+      "learner_combined_difficulty": -0.24762178048807748,
+      "learner_difficulty": 0.0143030758523272,
+      "learner_gripper_error": 1.84536012538169e-05,
+      "learner_motion_error": 0.0143030758523272,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0242"
+    },
+    {
+      "learner_combined_difficulty": 0.1182435232449929,
+      "learner_difficulty": 0.040152869461001,
+      "learner_gripper_error": 8.157680632423022e-05,
+      "learner_motion_error": 0.040152869461001,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0243"
+    },
+    {
+      "learner_combined_difficulty": -0.21679787220232788,
+      "learner_difficulty": 0.016268152449873223,
+      "learner_gripper_error": 3.170487378449576e-05,
+      "learner_motion_error": 0.016268152449873223,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0244"
+    },
+    {
+      "learner_combined_difficulty": -0.22556380215938457,
+      "learner_difficulty": 0.015173982339733131,
+      "learner_gripper_error": 4.7897944936727056e-05,
+      "learner_motion_error": 0.015173982339733131,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0245"
+    },
+    {
+      "learner_combined_difficulty": -0.2190440651958024,
+      "learner_difficulty": 0.01592641119342991,
+      "learner_gripper_error": 3.8142593862553956e-05,
+      "learner_motion_error": 0.01592641119342991,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0246"
+    },
+    {
+      "learner_combined_difficulty": 5.445036683119968,
+      "learner_difficulty": 0.16647025565681,
+      "learner_gripper_error": 0.010324280679603884,
+      "learner_motion_error": 0.16647025565681,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0250"
+    },
+    {
+      "learner_combined_difficulty": -0.1104189248218648,
+      "learner_difficulty": 0.023030400403181023,
+      "learner_gripper_error": 7.816795723555868e-05,
+      "learner_motion_error": 0.023030400403181023,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0252"
+    },
+    {
+      "learner_combined_difficulty": 0.05378595519127724,
+      "learner_difficulty": 0.03653754447611119,
+      "learner_gripper_error": 3.544749713958472e-05,
+      "learner_motion_error": 0.03653754447611119,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0253"
+    },
+    {
+      "learner_combined_difficulty": -0.2201567265217864,
+      "learner_difficulty": 0.015758803066250788,
+      "learner_gripper_error": 4.126909268898563e-05,
+      "learner_motion_error": 0.015758803066250788,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0254"
+    },
+    {
+      "learner_combined_difficulty": -0.16360757380468116,
+      "learner_difficulty": 0.019007524442424772,
+      "learner_gripper_error": 7.886872189023898e-05,
+      "learner_motion_error": 0.019007524442424772,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0255"
+    },
+    {
+      "learner_combined_difficulty": 0.7749955653345939,
+      "learner_difficulty": 0.0818245666863133,
+      "learner_gripper_error": 0.00037127546573111064,
+      "learner_motion_error": 0.0818245666863133,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0257"
+    },
+    {
+      "learner_combined_difficulty": -0.19604928466432722,
+      "learner_difficulty": 0.017174298134697497,
+      "learner_gripper_error": 5.615959548560021e-05,
+      "learner_motion_error": 0.017174298134697497,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0258"
+    },
+    {
+      "learner_combined_difficulty": -0.2113053387741857,
+      "learner_difficulty": 0.01685085160815235,
+      "learner_gripper_error": 2.539502112361642e-05,
+      "learner_motion_error": 0.01685085160815235,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0259"
+    },
+    {
+      "learner_combined_difficulty": -0.14407814812790637,
+      "learner_difficulty": 0.02053596601620127,
+      "learner_gripper_error": 7.669662013320634e-05,
+      "learner_motion_error": 0.02053596601620127,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0260"
+    },
+    {
+      "learner_combined_difficulty": -0.007247302346514425,
+      "learner_difficulty": 0.03080681435036774,
+      "learner_gripper_error": 7.781096280658903e-05,
+      "learner_motion_error": 0.03080681435036774,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0261"
+    },
+    {
+      "learner_combined_difficulty": 0.3266601517968962,
+      "learner_difficulty": 0.05570362767097802,
+      "learner_gripper_error": 8.676020873047701e-05,
+      "learner_motion_error": 0.05570362767097802,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0263"
+    },
+    {
+      "learner_combined_difficulty": -0.2140506822956359,
+      "learner_difficulty": 0.015906954682142527,
+      "learner_gripper_error": 5.2885073555736154e-05,
+      "learner_motion_error": 0.015906954682142527,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0264"
+    },
+    {
+      "learner_combined_difficulty": 0.46132431661161477,
+      "learner_difficulty": 0.06063502004358697,
+      "learner_gripper_error": 0.0002808929303053047,
+      "learner_motion_error": 0.06063502004358697,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0265"
+    },
+    {
+      "learner_combined_difficulty": -0.10285147560894012,
+      "learner_difficulty": 0.02368852677511912,
+      "learner_gripper_error": 7.487005104928258e-05,
+      "learner_motion_error": 0.02368852677511912,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0266"
+    },
+    {
+      "learner_combined_difficulty": -0.14389804928104194,
+      "learner_difficulty": 0.02044438652504919,
+      "learner_gripper_error": 8.061704246394175e-05,
+      "learner_motion_error": 0.02044438652504919,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0268"
+    },
+    {
+      "learner_combined_difficulty": -0.19240738007334585,
+      "learner_difficulty": 0.018002115305730544,
+      "learner_gripper_error": 3.551473257365149e-05,
+      "learner_motion_error": 0.018002115305730544,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0269"
+    },
+    {
+      "learner_combined_difficulty": -0.17770342367073372,
+      "learner_difficulty": 0.018899236387968824,
+      "learner_gripper_error": 4.3338024198560836e-05,
+      "learner_motion_error": 0.018899236387968824,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0270"
+    },
+    {
+      "learner_combined_difficulty": -0.22412797118365368,
+      "learner_difficulty": 0.015747843675454246,
+      "learner_gripper_error": 3.053003185873968e-05,
+      "learner_motion_error": 0.015747843675454246,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0273"
+    },
+    {
+      "learner_combined_difficulty": -0.00593328106155519,
+      "learner_difficulty": 0.03212574408988196,
+      "learner_gripper_error": 3.231860726200185e-05,
+      "learner_motion_error": 0.03212574408988196,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0274"
+    },
+    {
+      "learner_combined_difficulty": -0.2153825929546872,
+      "learner_difficulty": 0.015840156453758514,
+      "learner_gripper_error": 5.1637061952855166e-05,
+      "learner_motion_error": 0.015840156453758514,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0275"
+    },
+    {
+      "learner_combined_difficulty": -0.1867503966779681,
+      "learner_difficulty": 0.01821448847010797,
+      "learner_gripper_error": 4.347542284813184e-05,
+      "learner_motion_error": 0.01821448847010797,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0277"
+    },
+    {
+      "learner_combined_difficulty": 4.541169111931914,
+      "learner_difficulty": 0.1302497772532787,
+      "learner_gripper_error": 0.009137633592371975,
+      "learner_motion_error": 0.1302497772532787,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0278"
+    },
+    {
+      "learner_combined_difficulty": 6.6948412323556665,
+      "learner_difficulty": 0.19040249277622942,
+      "learner_gripper_error": 0.012940221420158377,
+      "learner_motion_error": 0.19040249277622942,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0279"
+    },
+    {
+      "learner_combined_difficulty": -0.20880764820425046,
+      "learner_difficulty": 0.015930818759395105,
+      "learner_gripper_error": 6.671299031216221e-05,
+      "learner_motion_error": 0.015930818759395105,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0280"
+    },
+    {
+      "learner_combined_difficulty": -0.2452498412525264,
+      "learner_difficulty": 0.014137601758102202,
+      "learner_gripper_error": 3.128218207278057e-05,
+      "learner_motion_error": 0.014137601758102202,
+      "oof_fold": 0,
+      "trajectory_id": "traj_0281"
+    },
+    {
+      "learner_combined_difficulty": -0.0012573880234115833,
+      "learner_difficulty": 0.02882713719838549,
+      "learner_gripper_error": 0.00016844457180100622,
+      "learner_motion_error": 0.02882713719838549,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0283"
+    },
+    {
+      "learner_combined_difficulty": -0.1823527203151492,
+      "learner_difficulty": 0.017648794842209097,
+      "learner_gripper_error": 7.691407063908725e-05,
+      "learner_motion_error": 0.017648794842209097,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0285"
+    },
+    {
+      "learner_combined_difficulty": -0.19882340024990647,
+      "learner_difficulty": 0.017058257104535377,
+      "learner_gripper_error": 5.269934800283594e-05,
+      "learner_motion_error": 0.017058257104535377,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0287"
+    },
+    {
+      "learner_combined_difficulty": -0.146475631808026,
+      "learner_difficulty": 0.020771133369611113,
+      "learner_gripper_error": 6.119757371334364e-05,
+      "learner_motion_error": 0.020771133369611113,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0288"
+    },
+    {
+      "learner_combined_difficulty": -0.1903329410013524,
+      "learner_difficulty": 0.017243884409487827,
+      "learner_gripper_error": 6.961123049199956e-05,
+      "learner_motion_error": 0.017243884409487827,
+      "oof_fold": 2,
+      "trajectory_id": "traj_0289"
+    },
+    {
+      "learner_combined_difficulty": -0.15807157886153114,
+      "learner_difficulty": 0.019406491080245933,
+      "learner_gripper_error": 7.953198700527923e-05,
+      "learner_motion_error": 0.019406491080245933,
+      "oof_fold": 4,
+      "trajectory_id": "traj_0290"
+    },
+    {
+      "learner_combined_difficulty": -0.20278063456730835,
+      "learner_difficulty": 0.01748345346047048,
+      "learner_gripper_error": 2.5736006912285376e-05,
+      "learner_motion_error": 0.01748345346047048,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0292"
+    },
+    {
+      "learner_combined_difficulty": -0.15127091548370347,
+      "learner_difficulty": 0.02099270357827548,
+      "learner_gripper_error": 3.947465664354876e-05,
+      "learner_motion_error": 0.02099270357827548,
+      "oof_fold": 1,
+      "trajectory_id": "traj_0296"
+    },
+    {
+      "learner_combined_difficulty": -0.22335657820140353,
+      "learner_difficulty": 0.015296761304061452,
+      "learner_gripper_error": 4.951561758929413e-05,
+      "learner_motion_error": 0.015296761304061452,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0297"
+    },
+    {
+      "learner_combined_difficulty": -0.10852457057751536,
+      "learner_difficulty": 0.021245808830096302,
+      "learner_gripper_error": 0.0001500304232854527,
+      "learner_motion_error": 0.021245808830096302,
+      "oof_fold": 3,
+      "trajectory_id": "traj_0298"
+    }
+  ],
+  "training_device": "cpu",
+  "training_epochs": 95,
+  "trajectory_ids": [
+    "traj_0000",
+    "traj_0001",
+    "traj_0002",
+    "traj_0003",
+    "traj_0004",
+    "traj_0007",
+    "traj_0008",
+    "traj_0009",
+    "traj_0010",
+    "traj_0013",
+    "traj_0014",
+    "traj_0015",
+    "traj_0016",
+    "traj_0017",
+    "traj_0018",
+    "traj_0019",
+    "traj_0020",
+    "traj_0021",
+    "traj_0022",
+    "traj_0023",
+    "traj_0024",
+    "traj_0027",
+    "traj_0028",
+    "traj_0029",
+    "traj_0030",
+    "traj_0031",
+    "traj_0032",
+    "traj_0034",
+    "traj_0035",
+    "traj_0038",
+    "traj_0039",
+    "traj_0041",
+    "traj_0042",
+    "traj_0043",
+    "traj_0044",
+    "traj_0046",
+    "traj_0047",
+    "traj_0048",
+    "traj_0049",
+    "traj_0050",
+    "traj_0051",
+    "traj_0052",
+    "traj_0053",
+    "traj_0054",
+    "traj_0055",
+    "traj_0058",
+    "traj_0059",
+    "traj_0060",
+    "traj_0061",
+    "traj_0062",
+    "traj_0063",
+    "traj_0064",
+    "traj_0065",
+    "traj_0066",
+    "traj_0067",
+    "traj_0068",
+    "traj_0070",
+    "traj_0071",
+    "traj_0072",
+    "traj_0073",
+    "traj_0074",
+    "traj_0075",
+    "traj_0076",
+    "traj_0077",
+    "traj_0078",
+    "traj_0080",
+    "traj_0081",
+    "traj_0082",
+    "traj_0086",
+    "traj_0087",
+    "traj_0088",
+    "traj_0089",
+    "traj_0090",
+    "traj_0091",
+    "traj_0092",
+    "traj_0093",
+    "traj_0094",
+    "traj_0095",
+    "traj_0096",
+    "traj_0097",
+    "traj_0098",
+    "traj_0099",
+    "traj_0100",
+    "traj_0101",
+    "traj_0102",
+    "traj_0103",
+    "traj_0104",
+    "traj_0105",
+    "traj_0107",
+    "traj_0108",
+    "traj_0109",
+    "traj_0110",
+    "traj_0111",
+    "traj_0112",
+    "traj_0113",
+    "traj_0115",
+    "traj_0116",
+    "traj_0117",
+    "traj_0118",
+    "traj_0119",
+    "traj_0120",
+    "traj_0121",
+    "traj_0122",
+    "traj_0123",
+    "traj_0124",
+    "traj_0125",
+    "traj_0126",
+    "traj_0127",
+    "traj_0128",
+    "traj_0130",
+    "traj_0131",
+    "traj_0133",
+    "traj_0134",
+    "traj_0135",
+    "traj_0136",
+    "traj_0137",
+    "traj_0138",
+    "traj_0139",
+    "traj_0140",
+    "traj_0141",
+    "traj_0142",
+    "traj_0143",
+    "traj_0144",
+    "traj_0145",
+    "traj_0146",
+    "traj_0147",
+    "traj_0148",
+    "traj_0149",
+    "traj_0150",
+    "traj_0152",
+    "traj_0154",
+    "traj_0156",
+    "traj_0157",
+    "traj_0158",
+    "traj_0159",
+    "traj_0160",
+    "traj_0161",
+    "traj_0162",
+    "traj_0163",
+    "traj_0164",
+    "traj_0165",
+    "traj_0166",
+    "traj_0168",
+    "traj_0170",
+    "traj_0172",
+    "traj_0173",
+    "traj_0174",
+    "traj_0178",
+    "traj_0179",
+    "traj_0180",
+    "traj_0181",
+    "traj_0182",
+    "traj_0183",
+    "traj_0184",
+    "traj_0185",
+    "traj_0186",
+    "traj_0187",
+    "traj_0188",
+    "traj_0190",
+    "traj_0191",
+    "traj_0192",
+    "traj_0193",
+    "traj_0194",
+    "traj_0195",
+    "traj_0196",
+    "traj_0197",
+    "traj_0198",
+    "traj_0199",
+    "traj_0200",
+    "traj_0201",
+    "traj_0202",
+    "traj_0205",
+    "traj_0206",
+    "traj_0207",
+    "traj_0208",
+    "traj_0209",
+    "traj_0210",
+    "traj_0211",
+    "traj_0212",
+    "traj_0213",
+    "traj_0214",
+    "traj_0216",
+    "traj_0217",
+    "traj_0219",
+    "traj_0223",
+    "traj_0224",
+    "traj_0225",
+    "traj_0227",
+    "traj_0228",
+    "traj_0230",
+    "traj_0231",
+    "traj_0232",
+    "traj_0233",
+    "traj_0234",
+    "traj_0235",
+    "traj_0236",
+    "traj_0237",
+    "traj_0239",
+    "traj_0240",
+    "traj_0241",
+    "traj_0242",
+    "traj_0243",
+    "traj_0244",
+    "traj_0245",
+    "traj_0246",
+    "traj_0250",
+    "traj_0252",
+    "traj_0253",
+    "traj_0254",
+    "traj_0255",
+    "traj_0257",
+    "traj_0258",
+    "traj_0259",
+    "traj_0260",
+    "traj_0261",
+    "traj_0263",
+    "traj_0264",
+    "traj_0265",
+    "traj_0266",
+    "traj_0268",
+    "traj_0269",
+    "traj_0270",
+    "traj_0273",
+    "traj_0274",
+    "traj_0275",
+    "traj_0277",
+    "traj_0278",
+    "traj_0279",
+    "traj_0280",
+    "traj_0281",
+    "traj_0283",
+    "traj_0285",
+    "traj_0287",
+    "traj_0288",
+    "traj_0289",
+    "traj_0290",
+    "traj_0292",
+    "traj_0296",
+    "traj_0297",
+    "traj_0298"
+  ]
+}

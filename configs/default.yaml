@@ -1,0 +1,99 @@
+seed: 0
+
+physics:
+  timestep: 0.004166666666666667  # 1 / 240 s
+  sim_steps_per_action: 24
+  reset_settle_steps: 60
+
+robot:
+  initial_joint_positions: [0.0, -0.4, 0.0, -2.4, 0.0, 2.0, 0.8]
+  # Quaternion [x, y, z, w]; points the gripper down toward the table.
+  fixed_ee_orientation: [1.0, 0.0, 0.0, 0.0]
+
+task:
+  cube_position: [0.55, -0.15, 0.025]
+  goal_position: [0.55, 0.15, 0.025]
+  target_radius: 0.06
+  target_height_tolerance: 0.025
+
+task_randomization:
+  enabled: true
+  object_x_range: [0.42, 0.63]
+  object_y_range: [-0.28, 0.12]
+  goal_x_range: [0.42, 0.63]
+  goal_y_range: [-0.12, 0.28]
+  target_radius_range: [0.045, 0.075]
+  min_object_goal_distance: 0.18
+
+dataset:
+  version: 1
+  seed: 5478
+  num_trajectories: 300
+
+bc:
+  hidden_dims: [128, 128]
+  batch_size: 256
+  learning_rate: 0.001
+  epochs: 40
+  weight_decay: 0.000001
+  lambda_gripper: 1.0
+  normalization_epsilon: 0.000001
+  split_seed: 5478
+  train_fraction: 0.8
+  seed: 5478
+  device: auto
+  max_rollout_steps: 400
+  evaluation_seed: 15478
+  evaluation_tasks: 100
+  scaled_max_epochs: 100
+  early_stopping_patience: 15
+
+difficulty:
+  version: 1
+  normalization_epsilon: 0.00000001
+  oof_folds: 5
+  oof_fold_seed: 5478
+  oof_training_epochs: 95
+  oof_device: auto
+
+analysis:
+  bootstrap_samples: 1000
+  bootstrap_seed: 65478
+  rollout_horizon: 400
+
+curriculum:
+  version: 1
+  full_dataset_equivalent_epochs: 100
+  total_optimizer_updates: 20600
+  stage_boundaries: [0.3333333333333333, 0.6666666666666666]
+  batch_size: 256
+  learning_rate: 0.001
+  weight_decay: 0.000001
+  lambda_gripper: 1.0
+  seeds: [5478, 5479, 5480]
+  evaluation_checkpoint_fractions: [0.10, 0.25, 0.50, 0.75, 1.00]
+  resume_interval: 1000
+  evaluation_workers: 4
+  methods: [uniform, task, expert, learner, reverse_learner]
+
+control:
+  max_cartesian_delta: 0.03
+  # Per-axis bounds in metres: [[x_min, x_max], [y_min, y_max], [z_min, z_max]].
+  workspace_bounds:
+    - [0.25, 0.75]
+    - [-0.45, 0.45]
+    - [0.03, 0.75]
+  gripper_open_position: 0.04
+  gripper_closed_position: 0.0
+
+expert:
+  safe_height: 0.30
+  grasp_height_offset: 0.01
+  place_height_offset: 0.01
+  position_tolerance: 0.004
+  step_size: 0.008
+  grasp_settle_steps: 8
+  release_settle_steps: 10
+  min_lift_height: 0.05
+  max_grasp_distance: 0.08
+  max_episode_steps: 400

@@ -1,0 +1,129 @@
+{
+  "batch_size": 256,
+  "corruption_percentage": 25,
+  "evaluation_steps": [
+    2060,
+    5150,
+    10300,
+    15450,
+    20600
+  ],
+  "experiment": "ranking_robustness_v1",
+  "initial_state_fingerprint": "bfcc01dfaabd21ed45ae4f557bc758db311abd0ed029f575783be383ad8413ff",
+  "lambda_gripper": 1.0,
+  "learning_rate": 0.001,
+  "method": "reverse_learner",
+  "ranking_fingerprint": "e289339222141692a8a18a0dbc4937ca4d6651daf692e75d8d3b537ffb753562",
+  "ranking_reference": "data/metadata/ranking_robustness_v1/learner_ranking_corruption_025.json",
+  "ranking_seed": 85478,
+  "records": [
+    {
+      "curriculum_stage": 1,
+      "eligible_trajectory_count": 80,
+      "eligible_transition_count": 16772,
+      "normalized_progress": 0.1,
+      "optimizer_step": 2060,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 0,
+          "hard": 527360,
+          "medium": 0
+        }
+      },
+      "training_gripper_loss": 0.02564764976262983,
+      "training_motion_mse": 0.04220048638820214,
+      "training_total_loss": 0.06784813621000034,
+      "validation_gripper_accuracy": 0.9969049596134973,
+      "validation_motion_mse": 0.02249863460047489,
+      "validation_total_loss": 0.032195974757226
+    },
+    {
+      "curriculum_stage": 1,
+      "eligible_trajectory_count": 80,
+      "eligible_transition_count": 16772,
+      "normalized_progress": 0.25,
+      "optimizer_step": 5150,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 0,
+          "hard": 791040,
+          "medium": 0
+        }
+      },
+      "training_gripper_loss": 0.006848343807116216,
+      "training_motion_mse": 0.01885841415929804,
+      "training_total_loss": 0.025706757958918136,
+      "validation_gripper_accuracy": 0.9989431569411943,
+      "validation_motion_mse": 0.016058342352328395,
+      "validation_total_loss": 0.019787442767160913
+    },
+    {
+      "curriculum_stage": 2,
+      "eligible_trajectory_count": 160,
+      "eligible_transition_count": 34376,
+      "normalized_progress": 0.5,
+      "optimizer_step": 10300,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 0,
+          "hard": 868471,
+          "medium": 449929
+        }
+      },
+      "training_gripper_loss": 0.002160984026383524,
+      "training_motion_mse": 0.012644200686238779,
+      "training_total_loss": 0.014805184711421867,
+      "validation_gripper_accuracy": 0.9999245112100853,
+      "validation_motion_mse": 0.010634037694003935,
+      "validation_total_loss": 0.01156338621804091
+    },
+    {
+      "curriculum_stage": 3,
+      "eligible_trajectory_count": 240,
+      "eligible_transition_count": 52491,
+      "normalized_progress": 0.75,
+      "optimizer_step": 15450,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 151160,
+          "hard": 569202,
+          "medium": 598038
+        }
+      },
+      "training_gripper_loss": 0.0009051000605392697,
+      "training_motion_mse": 0.008432248961361287,
+      "training_total_loss": 0.009337349018823464,
+      "validation_gripper_accuracy": 0.9998490224201706,
+      "validation_motion_mse": 0.0075594479379966105,
+      "validation_total_loss": 0.008224735464892295
+    },
+    {
+      "curriculum_stage": 3,
+      "eligible_trajectory_count": 240,
+      "eligible_transition_count": 52491,
+      "normalized_progress": 1.0,
+      "optimizer_step": 20600,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 455028,
+          "hard": 421309,
+          "medium": 442063
+        }
+      },
+      "training_gripper_loss": 0.0005203079698529305,
+      "training_motion_mse": 0.006344709115428398,
+      "training_total_loss": 0.006865017080896543,
+      "validation_gripper_accuracy": 0.9999245112100853,
+      "validation_motion_mse": 0.006117271218088075,
+      "validation_total_loss": 0.0062754838514743755
+    }
+  ],
+  "source_initial_checkpoint": "outputs/checkpoints/curriculum_v1/initial_seed_5480.pt",
+  "stage_boundaries": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "total_optimizer_updates": 20600,
+  "training_seed": 5480,
+  "weight_decay": 1e-06
+}

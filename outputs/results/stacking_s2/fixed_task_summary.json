@@ -1,0 +1,711 @@
+{
+  "deterministic_reproduction": true,
+  "distribution": "fixed default task",
+  "episodes": 20,
+  "failure_reasons": {},
+  "records": [
+    {
+      "episode": 1,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 2,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 3,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 4,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 5,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 6,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 7,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 8,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 9,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 10,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 11,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 12,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 13,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 14,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 15,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 16,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 17,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 18,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 19,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    },
+    {
+      "episode": 20,
+      "failure_reason": null,
+      "final_alignment_error": 0.0008002563313987748,
+      "final_physical_contact": true,
+      "final_source_position": [
+        0.5500214623456673,
+        0.15078933587193394,
+        0.07497774481330315
+      ],
+      "final_support_position": [
+        0.55001588111617,
+        0.14998909900336244,
+        0.024989622979455707
+      ],
+      "maximum_support_displacement": 0.00048732530542771734,
+      "phase_history": [
+        "RAISE",
+        "APPROACH_SOURCE",
+        "DESCEND_SOURCE",
+        "GRASP",
+        "LIFT",
+        "TRANSPORT_ABOVE_SUPPORT",
+        "ALIGN",
+        "LOWER_TO_PRECONTACT",
+        "LOWER_TO_CONTACT",
+        "RELEASE",
+        "RETREAT",
+        "VERIFY_STACK",
+        "DONE"
+      ],
+      "stable_steps": 21,
+      "steps": 240,
+      "success": true
+    }
+  ],
+  "success_rate": 1.0,
+  "successes": 20,
+  "task": "object_stacking"
+}

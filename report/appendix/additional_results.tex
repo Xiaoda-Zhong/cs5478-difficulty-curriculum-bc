@@ -1,0 +1,92 @@
+\section{Additional Results}
+\label{app:additional}
+
+\begin{samepage}
+\subsection{Hyperparameters}
+\begin{center}
+\begin{minipage}{\linewidth}
+\centering
+\makeatletter
+\def\@captype{table}
+\makeatother
+\caption{Shared curriculum-training settings.}
+\small
+\begin{tabular}{ll}
+\toprule
+Parameter & Value \\
+\midrule
+Policy & two 128-unit ReLU layers, separate heads \\
+Optimizer & AdamW, learning rate $10^{-3}$ \\
+Batch size & 256 \\
+Updates & 20,600 \\
+Checkpoints & 2,060; 5,150; 10,300; 15,450; 20,600 \\
+Seeds & 5478, 5479, 5480 \\
+Motion objective & scaled MSE \\
+Gripper objective & binary cross entropy with logits \\
+Early stopping & disabled \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\end{center}
+\end{samepage}
+
+\begin{samepage}
+\subsection{Per-seed outcomes}
+\begin{center}
+\begin{minipage}{\linewidth}
+\centering
+\makeatletter
+\def\@captype{table}
+\makeatother
+\caption{Stacking Fresh-ID success by training seed (\%).}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Method & 5478 & 5479 & 5480 \\
+\midrule
+Uniform & 14.0 & 2.5 & 8.5 \\
+Task & 4.5 & 2.0 & 4.0 \\
+Expert & 3.5 & 0.0 & 4.0 \\
+Learner & 0.0 & 1.5 & 3.0 \\
+Reverse Learner & 4.5 & 2.5 & 0.5 \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\end{center}
+\end{samepage}
+
+\begin{samepage}
+\begin{center}
+\begin{minipage}{\linewidth}
+\centering
+\makeatletter
+\def\@captype{table}
+\makeatother
+\caption{Pick-and-place Fresh-ID success by training seed (\%). The final row
+is the seed-matched Reverse Learner minus Uniform difference in percentage
+points.}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Method & 5478 & 5479 & 5480 \\
+\midrule
+Uniform & 75.0 & 36.5 & 96.5 \\
+Task & 28.0 & 64.5 & 87.0 \\
+Expert & 63.5 & 61.5 & 44.5 \\
+Learner & 88.0 & 46.5 & 60.0 \\
+Reverse Learner & 84.5 & 64.5 & 95.5 \\
+Reverse $-$ Uniform & $+9.5$ & $+28.0$ & $-1.0$ \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\end{center}
+\end{samepage}
+
+\subsection{Ranking corruption}
+For Reverse Learner on pick-and-place, final development success is
+$84.7\!\pm\!13.0$\% with the original ranking, $84.3\!\pm\!10.8$\% at 25\%
+corruption, $63.7\!\pm\!4.2$\% at 50\%, and $69.0\!\pm\!16.6$\% for a random
+ranking. Each nonzero level uses one frozen permutation with the same three
+training seeds; 100\% permutes all 240 positions. The non-monotonic pattern is
+a sensitivity analysis, not a general law or a complete control for exposure.
+

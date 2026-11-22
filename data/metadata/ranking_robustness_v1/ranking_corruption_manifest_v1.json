@@ -1,0 +1,37 @@
+{
+  "dataset_fingerprint": "1b6cec9dda067778630268c307241c62cccbd49cfe849a031877ee00ea938bc0",
+  "date_frozen_utc": "2026-10-08T15:29:39.688622+00:00",
+  "policy_results_observed_before_freeze": false,
+  "ranking_seed": 85478,
+  "rankings": [
+    {
+      "corruption_percentage": 25,
+      "group_membership_change_fraction": 0.16666666666666666,
+      "group_membership_changes": 40,
+      "path": "data/metadata/ranking_robustness_v1/learner_ranking_corruption_025.json",
+      "rank_position_changes": 58,
+      "selected_trajectory_count": 60,
+      "sha256": "e289339222141692a8a18a0dbc4937ca4d6651daf692e75d8d3b537ffb753562"
+    },
+    {
+      "corruption_percentage": 50,
+      "group_membership_change_fraction": 0.35,
+      "group_membership_changes": 84,
+      "path": "data/metadata/ranking_robustness_v1/learner_ranking_corruption_050.json",
+      "rank_position_changes": 119,
+      "selected_trajectory_count": 120,
+      "sha256": "24c0b66f7fa30abc85cbdeb1d22fb5c2b91f18be33d9981622bb4ba6a8b20225"
+    },
+    {
+      "corruption_percentage": 100,
+      "group_membership_change_fraction": 0.6458333333333334,
+      "group_membership_changes": 155,
+      "path": "data/metadata/ranking_robustness_v1/learner_ranking_corruption_100.json",
+      "rank_position_changes": 239,
+      "selected_trajectory_count": 240,
+      "sha256": "2a06164c8b9a33ff1076967669785eb01b3db7a0f24d922cb26212d819757d05"
+    }
+  ],
+  "source_ranking_sha256": "5c5a70465cbf6b5b51578661cefe21d8baad1bbf3114f49c61fb3a504e4505af",
+  "version": 1
+}

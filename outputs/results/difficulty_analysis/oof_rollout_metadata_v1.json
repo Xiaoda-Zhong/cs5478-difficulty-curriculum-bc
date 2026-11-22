@@ -1,0 +1,234 @@
+{
+  "checkpoints": [
+    {
+      "epoch": 95,
+      "fold_id": 0,
+      "held_out_count": 48,
+      "path": "outputs/checkpoints/learner_oof/fold_0.pt",
+      "sha256": "65603985204106407cd0e0bd67034a206e705656de1cebad19314c21134c30c9"
+    },
+    {
+      "epoch": 95,
+      "fold_id": 1,
+      "held_out_count": 48,
+      "path": "outputs/checkpoints/learner_oof/fold_1.pt",
+      "sha256": "75b67380f8a208396eccc4d752e20c082db54301fcc0cd523d4e3def3871ecf8"
+    },
+    {
+      "epoch": 95,
+      "fold_id": 2,
+      "held_out_count": 48,
+      "path": "outputs/checkpoints/learner_oof/fold_2.pt",
+      "sha256": "8df3b5c00aa1a6e060bf1bdf6e71f70a3b7472d14d6c84f4ad31bf9664447269"
+    },
+    {
+      "epoch": 95,
+      "fold_id": 3,
+      "held_out_count": 48,
+      "path": "outputs/checkpoints/learner_oof/fold_3.pt",
+      "sha256": "19152e43fb512a609af515041b8bcecbbe65278b274256f65823056d09a1e100"
+    },
+    {
+      "epoch": 95,
+      "fold_id": 4,
+      "held_out_count": 48,
+      "path": "outputs/checkpoints/learner_oof/fold_4.pt",
+      "sha256": "28e47222a3102321a3c6593c0b941305260691ba4a8af69e71347468fbf994d2"
+    }
+  ],
+  "dataset_fingerprint": "1b6cec9dda067778630268c307241c62cccbd49cfe849a031877ee00ea938bc0",
+  "date_generated_utc": "2026-10-08T05:03:22.323935+00:00",
+  "device": "cpu",
+  "difficulty_scores_file": "outputs/results/difficulty/difficulty_scores_v1.csv",
+  "fold_configuration": {
+    "fold_seed": 5478,
+    "held_out_tasks_per_fold": [
+      48,
+      48,
+      48,
+      48,
+      48
+    ],
+    "number_of_folds": 5,
+    "training_split_fingerprint": "fcfdfbda719b47e7f8ce8841b95ccd534c1f5a6c3d9fbe2e1c7a770b38f8c086"
+  },
+  "environment_config": {
+    "analysis": {
+      "bootstrap_samples": 1000,
+      "bootstrap_seed": 65478,
+      "rollout_horizon": 400
+    },
+    "bc": {
+      "batch_size": 256,
+      "device": "auto",
+      "early_stopping_patience": 15,
+      "epochs": 40,
+      "evaluation_seed": 15478,
+      "evaluation_tasks": 100,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "lambda_gripper": 1.0,
+      "learning_rate": 0.001,
+      "max_rollout_steps": 400,
+      "normalization_epsilon": 1e-06,
+      "scaled_max_epochs": 100,
+      "seed": 5478,
+      "split_seed": 5478,
+      "train_fraction": 0.8,
+      "weight_decay": 1e-06
+    },
+    "control": {
+      "gripper_closed_position": 0.0,
+      "gripper_open_position": 0.04,
+      "max_cartesian_delta": 0.03,
+      "workspace_bounds": [
+        [
+          0.25,
+          0.75
+        ],
+        [
+          -0.45,
+          0.45
+        ],
+        [
+          0.03,
+          0.75
+        ]
+      ]
+    },
+    "dataset": {
+      "num_trajectories": 300,
+      "seed": 5478,
+      "version": 1
+    },
+    "difficulty": {
+      "normalization_epsilon": 1e-08,
+      "oof_device": "auto",
+      "oof_fold_seed": 5478,
+      "oof_folds": 5,
+      "oof_training_epochs": 95,
+      "version": 1
+    },
+    "expert": {
+      "grasp_height_offset": 0.01,
+      "grasp_settle_steps": 8,
+      "max_episode_steps": 400,
+      "max_grasp_distance": 0.08,
+      "min_lift_height": 0.05,
+      "place_height_offset": 0.01,
+      "position_tolerance": 0.004,
+      "release_settle_steps": 10,
+      "safe_height": 0.3,
+      "step_size": 0.008
+    },
+    "physics": {
+      "reset_settle_steps": 60,
+      "sim_steps_per_action": 24,
+      "timestep": 0.004166666666666667
+    },
+    "robot": {
+      "fixed_ee_orientation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_joint_positions": [
+        0.0,
+        -0.4,
+        0.0,
+        -2.4,
+        0.0,
+        2.0,
+        0.8
+      ]
+    },
+    "seed": 0,
+    "task": {
+      "cube_position": [
+        0.55,
+        -0.15,
+        0.025
+      ],
+      "goal_position": [
+        0.55,
+        0.15,
+        0.025
+      ],
+      "target_height_tolerance": 0.025,
+      "target_radius": 0.06
+    },
+    "task_randomization": {
+      "enabled": true,
+      "goal_x_range": [
+        0.42,
+        0.63
+      ],
+      "goal_y_range": [
+        -0.12,
+        0.28
+      ],
+      "min_object_goal_distance": 0.18,
+      "object_x_range": [
+        0.42,
+        0.63
+      ],
+      "object_y_range": [
+        -0.28,
+        0.12
+      ],
+      "target_radius_range": [
+        0.045,
+        0.075
+      ]
+    }
+  },
+  "fold_assignment_file": "data/metadata/learner_oof_folds_v1.json",
+  "rollout_horizon": 400,
+  "summary": {
+    "failure_reasons": {
+      "timeout": 42
+    },
+    "failures": 42,
+    "mean_final_object_goal_xy_error": 0.056458938122153544,
+    "mean_rollout_steps": 227.34166666666667,
+    "per_fold": {
+      "0": {
+        "failures": 13,
+        "success_rate": 0.7291666666666666,
+        "successes": 35,
+        "tasks": 48
+      },
+      "1": {
+        "failures": 11,
+        "success_rate": 0.7708333333333334,
+        "successes": 37,
+        "tasks": 48
+      },
+      "2": {
+        "failures": 2,
+        "success_rate": 0.9583333333333334,
+        "successes": 46,
+        "tasks": 48
+      },
+      "3": {
+        "failures": 7,
+        "success_rate": 0.8541666666666666,
+        "successes": 41,
+        "tasks": 48
+      },
+      "4": {
+        "failures": 9,
+        "success_rate": 0.8125,
+        "successes": 39,
+        "tasks": 48
+      }
+    },
+    "success_rate": 0.825,
+    "successes": 198,
+    "tasks": 240
+  },
+  "version": 1
+}

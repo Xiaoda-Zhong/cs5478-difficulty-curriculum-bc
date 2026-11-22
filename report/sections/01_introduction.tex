@@ -1,0 +1,43 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Behavior cloning (BC) turns robot learning into supervised learning from
+expert state--action pairs. Its simplicity is attractive for manipulation,
+where online exploration can be unsafe or expensive. Yet a policy trained on
+expert states is evaluated on states induced by its own actions. Small errors
+can therefore compound and move the robot outside the demonstration
+distribution, a classical limitation of offline imitation
+\citep{pomerleau1989alvinn,ross2011dagger}. How demonstrations are sampled
+during optimization may influence both learning speed and the final policy.
+
+Curriculum learning proposes to organize examples rather than sample them
+uniformly \citep{bengio2009curriculum}. In manipulation, however, ``easy'' is
+ambiguous. A task can be geometrically demanding; an expert can require a long
+or circuitous execution; or a learner can predict a demonstration poorly.
+These notions need not agree. Moreover, easy-to-hard is not the only plausible
+direction: difficult examples can expose useful decision boundaries early,
+motivating a reverse ordering related to hard-example and reverse-curriculum
+ideas \citep{florensa2017reverse}.
+
+We study three questions: \textbf{RQ1 (ranking agreement):} do Task-, Expert-,
+and Learner-based scores produce consistent trajectory rankings?
+\textbf{RQ2 (failure prediction):} do these scores predict closed-loop BC
+failures? \textbf{RQ3 (curriculum effectiveness):} under matched training
+budgets and initialization protocols, how do staged curricula based on these
+scores compare with uniform sampling? The stages change cumulative exposure as
+well as order, so RQ3 concerns demonstration-pool sampling schedules rather
+than pure permutations with equal exposure.
+
+We construct all scores on one frozen split, evaluate five schedules, analyze
+failure prediction and ranking corruption, and repeat the comparison on
+stacking as an exploratory secondary evaluation. We propose no new curriculum
+algorithm; the contribution is a controlled empirical analysis.
+
+The results are mixed in an informative way. On pick-and-place, task and
+expert difficulty correlate at $0.842$, while learner difficulty correlates
+negatively with each. Learner difficulty has the largest point-estimate
+failure AUROC, but its confidence interval includes chance. Reverse Learner
+has the highest observed pick-and-place Fresh-ID mean, although its seed-level
+advantage is inconsistent. Stacking is near the performance floor, where no
+curriculum outperforms Uniform. Thus the evidence cautions against treating
+either difficulty definitions or schedule effects as task-independent.

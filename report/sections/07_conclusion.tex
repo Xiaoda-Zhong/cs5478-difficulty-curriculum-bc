@@ -1,0 +1,18 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+This study asks how the definition of demonstration difficulty affects
+curriculum behavior cloning for robotic manipulation. We compare Task, Expert,
+and out-of-fold Learner difficulty under five sampling strategies while
+matching the policy, initialization protocol, optimizer, update budget,
+dataset, and evaluation tasks. The metrics induce substantially different
+rankings, and the three easy-to-hard schedules do not consistently outperform
+Uniform.
+
+Reverse Learner attains the highest observed mean pick-and-place success, but
+the result is seed-sensitive and is not accompanied by faster development AUC.
+The near-floor stacking study provides no decisive cross-task replication.
+Because staged eligibility couples ordering and exposure, the experiments
+support a cautious conclusion: difficulty definitions and sampling schedules
+must be evaluated with matched baselines and closed-loop outcomes rather than
+ranking intuition or offline loss alone.

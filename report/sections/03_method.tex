@@ -1,0 +1,78 @@
+\section{Method}
+\label{sec:method}
+
+\subsection{Problem formulation and behavior cloning}
+A demonstration $\tau_i=\{(s_{it},a_{it})\}_{t=1}^{T_i}$ contains observed
+robot/task state $s$ and expert action $a=(a^{\mathrm{mot}},a^{\mathrm{grip}})$.
+The motion component is a three-dimensional Cartesian displacement; the
+gripper component is binary. A shared MLP produces a motion vector and one
+gripper logit. With training-only observation statistics $\mu,\sigma$ and
+motion scale $s_a$, we optimize
+\begin{equation}
+\mathcal{L}=
+\left\|\hat a^{\mathrm{mot}}/s_a-a^{\mathrm{mot}}/s_a\right\|_2^2
++\operatorname{BCE}(\hat a^{\mathrm{grip}},a^{\mathrm{grip}}).
+\end{equation}
+At inference, motion is rescaled and norm-clipped to the largest training
+expert step. Evaluation is autonomous and closed loop; expert actions are
+never used during policy rollouts.
+
+\subsection{Difficulty definitions}
+All scores are trajectory-level and use only the 240 training trajectories.
+For a component $x$, $z(x)=(x-\mu_x)/(\sigma_x+\epsilon)$ uses statistics from
+that split.
+
+\paragraph{Task difficulty.}
+For pick-and-place, the components are initial end-effector--object distance,
+object--goal distance, and inverse target radius $1/r$:
+\begin{equation}
+d_{\mathrm{task}}(\tau)=\tfrac13[z(d_{\mathrm{EE,obj}})
++z(d_{\mathrm{obj,goal}})+z(1/r)].
+\end{equation}
+They represent approach distance, transport distance, and placement precision.
+
+\paragraph{Expert difficulty.}
+We average standardized duration $T$, executed end-effector path length $L$,
+and cumulative Cartesian action magnitude $A$:
+\begin{equation}
+d_{\mathrm{expert}}(\tau)=\tfrac13[z(T)+z(L)+z(A)].
+\end{equation}
+These measure execution effort, although $L$ and $A$ are nearly redundant in
+our deterministic controller.
+
+\paragraph{Learner difficulty.}
+We partition the training trajectories into five folds. For each fold, a new
+BC model with the same $128$--$128$ architecture trains for 95 fixed epochs on
+192 trajectories with fold-only normalization and motion scaling, then scores
+the unseen 48. This differs from the 20,600-update curriculum budget. Every
+trajectory is scored exactly once:
+\begin{equation}
+d_{\mathrm{learner}}(\tau)=\frac{1}{T}\sum_{t=1}^{T}
+\left\|\frac{\hat a_t^{\mathrm{mot}}-a_t^{\mathrm{mot}}}{s_a}\right\|_2^2.
+\end{equation}
+Gripper BCE is retained as a diagnostic but excluded from the primary score.
+Out-of-fold scoring avoids assigning low difficulty merely because a model
+memorized a training trajectory; it measures approximation error for this
+policy family, not intrinsic task complexity or failure probability.
+
+\subsection{Curriculum strategies}
+Each metric sorts trajectories by ascending score, breaking ties by ID, and
+forms 80 Easy, 80 Medium, and 80 Hard trajectories. Forward curricula use
+Easy, then Easy+Medium, then all data. Reverse Learner uses Hard, then
+Hard+Medium, then all data. Uniform uses all trajectories throughout.
+Curriculum boundaries are updates 6,866 and 13,733 of a 20,600-update run.
+Within a seed, all methods share the exact initial weights, architecture,
+optimizer settings, loss, validation split, and evaluation tasks; only the
+eligible trajectory pool differs.
+
+Sampling is uniform over \emph{transitions} in the eligible pool, not uniform
+over trajectories. Thus longer trajectories receive more aggregate sampling
+probability. The three stages contain 6,866, 6,867, and 6,867 updates. Using
+the actual transition counts, cumulative expected group exposures are
+59.9/28.1/12.0\% (Task), 59.5/28.3/12.1\% (Expert), and
+61.9/27.6/10.6\% (Learner) for Easy/Medium/Hard. Reverse Learner yields
+11.6/28.3/60.1\% in that order. Uniform exposure follows each ranking's
+transition composition (Task: 31.2/32.9/36.0\%; Expert: 30.6/33.1/36.3\%;
+Learner: 34.7/33.6/31.7\%). Consequently, the methods compare staged
+pool-sampling schedules that combine ordering with cumulative reweighting; they
+do not isolate order under equal per-trajectory exposure.

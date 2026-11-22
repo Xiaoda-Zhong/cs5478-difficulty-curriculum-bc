@@ -1,0 +1,123 @@
+{
+  "batch_size": 256,
+  "evaluation_steps": [
+    2060,
+    5150,
+    10300,
+    15450,
+    20600
+  ],
+  "initial_state_fingerprint": "bfcc01dfaabd21ed45ae4f557bc758db311abd0ed029f575783be383ad8413ff",
+  "lambda_gripper": 1.0,
+  "learning_rate": 0.001,
+  "method": "reverse_learner",
+  "records": [
+    {
+      "curriculum_stage": 1,
+      "eligible_trajectory_count": 80,
+      "eligible_transition_count": 17108,
+      "normalized_progress": 0.1,
+      "optimizer_step": 2060,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 0,
+          "hard": 527360,
+          "medium": 0
+        }
+      },
+      "training_gripper_loss": 0.024771539692273047,
+      "training_motion_mse": 0.03920219035104858,
+      "training_total_loss": 0.06397372996977087,
+      "validation_gripper_accuracy": 0.9953196950252887,
+      "validation_motion_mse": 0.022038954298659534,
+      "validation_total_loss": 0.03235809775179734
+    },
+    {
+      "curriculum_stage": 1,
+      "eligible_trajectory_count": 80,
+      "eligible_transition_count": 17108,
+      "normalized_progress": 0.25,
+      "optimizer_step": 5150,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 0,
+          "hard": 791040,
+          "medium": 0
+        }
+      },
+      "training_gripper_loss": 0.006377583302634884,
+      "training_motion_mse": 0.017381710732735478,
+      "training_total_loss": 0.023759294030012437,
+      "validation_gripper_accuracy": 0.9995470672605118,
+      "validation_motion_mse": 0.015415677425981742,
+      "validation_total_loss": 0.018431599966500012
+    },
+    {
+      "curriculum_stage": 2,
+      "eligible_trajectory_count": 160,
+      "eligible_transition_count": 34706,
+      "normalized_progress": 0.5,
+      "optimizer_step": 10300,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 0,
+          "hard": 872318,
+          "medium": 446082
+        }
+      },
+      "training_gripper_loss": 0.001898637166041145,
+      "training_motion_mse": 0.011662158103551246,
+      "training_total_loss": 0.013560795280359035,
+      "validation_gripper_accuracy": 0.9998490224201706,
+      "validation_motion_mse": 0.010444165732760205,
+      "validation_total_loss": 0.011215057224035263
+    },
+    {
+      "curriculum_stage": 3,
+      "eligible_trajectory_count": 240,
+      "eligible_transition_count": 52491,
+      "normalized_progress": 0.75,
+      "optimizer_step": 15450,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 148597,
+          "hard": 576149,
+          "medium": 593654
+        }
+      },
+      "training_gripper_loss": 0.0007099464738869547,
+      "training_motion_mse": 0.008083322052120511,
+      "training_total_loss": 0.008793268526171885,
+      "validation_gripper_accuracy": 0.9999245112100853,
+      "validation_motion_mse": 0.00855337567469948,
+      "validation_total_loss": 0.008935204139553702
+    },
+    {
+      "curriculum_stage": 3,
+      "eligible_trajectory_count": 240,
+      "eligible_transition_count": 52491,
+      "normalized_progress": 1.0,
+      "optimizer_step": 20600,
+      "sampled_group_composition": {
+        "learner": {
+          "easy": 445185,
+          "hard": 431050,
+          "medium": 442165
+        }
+      },
+      "training_gripper_loss": 0.000376421926283658,
+      "training_motion_mse": 0.006405799568752821,
+      "training_total_loss": 0.006782221494500245,
+      "validation_gripper_accuracy": 0.9999245112100853,
+      "validation_motion_mse": 0.00625674615280803,
+      "validation_total_loss": 0.006433546001847653
+    }
+  ],
+  "stage_boundaries": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "total_optimizer_updates": 20600,
+  "training_seed": 5480,
+  "weight_decay": 1e-06
+}

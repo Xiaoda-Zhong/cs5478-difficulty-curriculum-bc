@@ -1,0 +1,1946 @@
+{
+  "dataset_fingerprint": "1b6cec9dda067778630268c307241c62cccbd49cfe849a031877ee00ea938bc0",
+  "definition": "equal mean of training-standardized EE-object distance, object-goal distance, and inverse target radius",
+  "normalization": {
+    "component_names": [
+      "task_ee_object_distance",
+      "task_object_goal_distance",
+      "task_inverse_target_radius"
+    ],
+    "epsilon": 1e-08,
+    "mean": [
+      0.39108250524583643,
+      0.29393914206814126,
+      17.208316497334955
+    ],
+    "std": [
+      0.034791280443359725,
+      0.09067092013530353,
+      2.574572369661299
+    ]
+  },
+  "records": [
+    {
+      "task_difficulty": -0.9657159554504596,
+      "task_ee_object_distance": 0.37439513621703197,
+      "task_inverse_target_radius": 13.418376701202266,
+      "task_object_goal_distance": 0.2082152192205116,
+      "trajectory_id": "traj_0000"
+    },
+    {
+      "task_difficulty": 0.006874141135992717,
+      "task_ee_object_distance": 0.359107458135228,
+      "task_inverse_target_radius": 18.908411187220462,
+      "task_object_goal_distance": 0.3192667085298272,
+      "trajectory_id": "traj_0001"
+    },
+    {
+      "task_difficulty": -0.46664382701413554,
+      "task_ee_object_distance": 0.3862448009466876,
+      "task_inverse_target_radius": 13.413252971558526,
+      "task_object_goal_distance": 0.3132677978757009,
+      "trajectory_id": "traj_0002"
+    },
+    {
+      "task_difficulty": 0.5780091448686103,
+      "task_ee_object_distance": 0.4212331278631648,
+      "task_inverse_target_radius": 13.965333955269939,
+      "task_object_goal_distance": 0.4867992223385312,
+      "trajectory_id": "traj_0003"
+    },
+    {
+      "task_difficulty": -0.3332014363461218,
+      "task_ee_object_distance": 0.36556983222123723,
+      "task_inverse_target_radius": 17.62787709860816,
+      "task_object_goal_distance": 0.2550176287479679,
+      "trajectory_id": "traj_0004"
+    },
+    {
+      "task_difficulty": 0.5243364409369551,
+      "task_ee_object_distance": 0.4121646469196933,
+      "task_inverse_target_radius": 16.663347834341753,
+      "task_object_goal_distance": 0.4008150043462935,
+      "trajectory_id": "traj_0007"
+    },
+    {
+      "task_difficulty": 1.358162220017385,
+      "task_ee_object_distance": 0.456630829334908,
+      "task_inverse_target_radius": 16.83209466844244,
+      "task_object_goal_distance": 0.5057983378233536,
+      "trajectory_id": "traj_0008"
+    },
+    {
+      "task_difficulty": -0.8419546704421391,
+      "task_ee_object_distance": 0.37419800814366483,
+      "task_inverse_target_radius": 13.743882820851015,
+      "task_object_goal_distance": 0.2309299857950421,
+      "trajectory_id": "traj_0009"
+    },
+    {
+      "task_difficulty": 0.2522739117360802,
+      "task_ee_object_distance": 0.38366034834281143,
+      "task_inverse_target_radius": 16.404994473813346,
+      "task_object_goal_distance": 0.41019532616659504,
+      "trajectory_id": "traj_0010"
+    },
+    {
+      "task_difficulty": -0.2827093552865923,
+      "task_ee_object_distance": 0.350399253337721,
+      "task_inverse_target_radius": 20.934352515666795,
+      "task_object_goal_distance": 0.19184176509161568,
+      "trajectory_id": "traj_0013"
+    },
+    {
+      "task_difficulty": -0.4308400675356006,
+      "task_ee_object_distance": 0.3656849066455809,
+      "task_inverse_target_radius": 16.07643912062447,
+      "task_object_goal_distance": 0.282797098124209,
+      "trajectory_id": "traj_0014"
+    },
+    {
+      "task_difficulty": -0.8283218875100881,
+      "task_ee_object_distance": 0.38675544099102227,
+      "task_inverse_target_radius": 13.35487941777511,
+      "task_object_goal_distance": 0.21561173226189148,
+      "trajectory_id": "traj_0015"
+    },
+    {
+      "task_difficulty": 0.21349830026582697,
+      "task_ee_object_distance": 0.3563719021149669,
+      "task_inverse_target_radius": 19.530905325566653,
+      "task_object_goal_distance": 0.3606774496250954,
+      "trajectory_id": "traj_0016"
+    },
+    {
+      "task_difficulty": 0.6009555110380678,
+      "task_ee_object_distance": 0.4665275274764742,
+      "task_inverse_target_radius": 13.520792784891416,
+      "task_object_goal_distance": 0.39065322629739313,
+      "trajectory_id": "traj_0017"
+    },
+    {
+      "task_difficulty": 0.5242227010837248,
+      "task_ee_object_distance": 0.4001424703816243,
+      "task_inverse_target_radius": 17.7967027738435,
+      "task_object_goal_distance": 0.39220118995525455,
+      "trajectory_id": "traj_0018"
+    },
+    {
+      "task_difficulty": 0.8829125827598553,
+      "task_ee_object_distance": 0.3899962717840325,
+      "task_inverse_target_radius": 20.20132940484348,
+      "task_object_goal_distance": 0.4315260223578776,
+      "trajectory_id": "traj_0019"
+    },
+    {
+      "task_difficulty": -0.5666108061750137,
+      "task_ee_object_distance": 0.36736128059909123,
+      "task_inverse_target_radius": 15.895634865861453,
+      "task_object_goal_distance": 0.24786439650154538,
+      "trajectory_id": "traj_0020"
+    },
+    {
+      "task_difficulty": 0.024351376714866462,
+      "task_ee_object_distance": 0.393878363470713,
+      "task_inverse_target_radius": 19.30770887829486,
+      "task_object_goal_distance": 0.2193405261709896,
+      "trajectory_id": "traj_0021"
+    },
+    {
+      "task_difficulty": -0.4845991079494651,
+      "task_ee_object_distance": 0.3479322830634124,
+      "task_inverse_target_radius": 16.76697430311278,
+      "task_object_goal_distance": 0.29012058021865145,
+      "trajectory_id": "traj_0022"
+    },
+    {
+      "task_difficulty": -0.2747782572119501,
+      "task_ee_object_distance": 0.3353704834791598,
+      "task_inverse_target_radius": 21.715385361476265,
+      "task_object_goal_distance": 0.2056598791074153,
+      "trajectory_id": "traj_0023"
+    },
+    {
+      "task_difficulty": 0.12555176879455063,
+      "task_ee_object_distance": 0.3838202214788017,
+      "task_inverse_target_radius": 18.007791177246904,
+      "task_object_goal_distance": 0.3188615606577358,
+      "trajectory_id": "traj_0024"
+    },
+    {
+      "task_difficulty": 0.20234940817622862,
+      "task_ee_object_distance": 0.4196618302732917,
+      "task_inverse_target_radius": 18.292755403706433,
+      "task_object_goal_distance": 0.23630746506532602,
+      "trajectory_id": "traj_0027"
+    },
+    {
+      "task_difficulty": -0.39051061218945277,
+      "task_ee_object_distance": 0.36151320684040356,
+      "task_inverse_target_radius": 17.049189940139964,
+      "task_object_goal_distance": 0.2703810519491953,
+      "trajectory_id": "traj_0028"
+    },
+    {
+      "task_difficulty": -0.4083696354233033,
+      "task_ee_object_distance": 0.3507388466037277,
+      "task_inverse_target_radius": 16.50483941620116,
+      "task_object_goal_distance": 0.31277350755922184,
+      "trajectory_id": "traj_0029"
+    },
+    {
+      "task_difficulty": 0.6543317761868562,
+      "task_ee_object_distance": 0.46035907585995667,
+      "task_inverse_target_radius": 17.357200428590307,
+      "task_object_goal_distance": 0.2861380258416335,
+      "trajectory_id": "traj_0030"
+    },
+    {
+      "task_difficulty": 0.9411570229533472,
+      "task_ee_object_distance": 0.43232571341590076,
+      "task_inverse_target_radius": 17.183835533565667,
+      "task_object_goal_distance": 0.44332253432622454,
+      "trajectory_id": "traj_0031"
+    },
+    {
+      "task_difficulty": -0.11786101496766477,
+      "task_ee_object_distance": 0.38990211797600755,
+      "task_inverse_target_radius": 18.749422748342145,
+      "task_object_goal_distance": 0.210681227011377,
+      "trajectory_id": "traj_0032"
+    },
+    {
+      "task_difficulty": 1.2972607179380784,
+      "task_ee_object_distance": 0.40719572613875255,
+      "task_inverse_target_radius": 21.182643102895426,
+      "task_object_goal_distance": 0.4648500817321256,
+      "trajectory_id": "traj_0034"
+    },
+    {
+      "task_difficulty": 0.4478762295513052,
+      "task_ee_object_distance": 0.3895003239874993,
+      "task_inverse_target_radius": 21.119842909785923,
+      "task_object_goal_distance": 0.28213499855679935,
+      "trajectory_id": "traj_0035"
+    },
+    {
+      "task_difficulty": -0.5891804199962762,
+      "task_ee_object_distance": 0.3366402958713165,
+      "task_inverse_target_radius": 18.82542299958879,
+      "task_object_goal_distance": 0.2186074526572953,
+      "trajectory_id": "traj_0038"
+    },
+    {
+      "task_difficulty": -0.7091323038073548,
+      "task_ee_object_distance": 0.35695793165550577,
+      "task_inverse_target_radius": 15.991337394203617,
+      "task_object_goal_distance": 0.2328388587702474,
+      "trajectory_id": "traj_0039"
+    },
+    {
+      "task_difficulty": -0.3316908052872406,
+      "task_ee_object_distance": 0.3696716168314826,
+      "task_inverse_target_radius": 15.423949096615267,
+      "task_object_goal_distance": 0.3223563481663237,
+      "trajectory_id": "traj_0041"
+    },
+    {
+      "task_difficulty": 0.7170493342106731,
+      "task_ee_object_distance": 0.43570253408995524,
+      "task_inverse_target_radius": 21.496949747978114,
+      "task_object_goal_distance": 0.2216632599353618,
+      "trajectory_id": "traj_0042"
+    },
+    {
+      "task_difficulty": 0.6859822289719227,
+      "task_ee_object_distance": 0.3935789059178726,
+      "task_inverse_target_radius": 20.055403502497214,
+      "task_object_goal_distance": 0.3737608036984708,
+      "trajectory_id": "traj_0043"
+    },
+    {
+      "task_difficulty": -0.7853339093631089,
+      "task_ee_object_distance": 0.35707719260773263,
+      "task_inverse_target_radius": 16.015302923779075,
+      "task_object_goal_distance": 0.21095622215068494,
+      "trajectory_id": "traj_0044"
+    },
+    {
+      "task_difficulty": 0.49404790314250446,
+      "task_ee_object_distance": 0.4298451050984785,
+      "task_inverse_target_radius": 21.38141668597429,
+      "task_object_goal_distance": 0.18033811829320653,
+      "trajectory_id": "traj_0046"
+    },
+    {
+      "task_difficulty": -0.359295998618713,
+      "task_ee_object_distance": 0.3879114412272441,
+      "task_inverse_target_radius": 16.96497159098942,
+      "task_object_goal_distance": 0.21304035460651954,
+      "trajectory_id": "traj_0047"
+    },
+    {
+      "task_difficulty": 0.4553062293798488,
+      "task_ee_object_distance": 0.4097050523983403,
+      "task_inverse_target_radius": 15.560711513473343,
+      "task_object_goal_distance": 0.4272804402631191,
+      "trajectory_id": "traj_0048"
+    },
+    {
+      "task_difficulty": -0.48452286908961445,
+      "task_ee_object_distance": 0.3404345321893815,
+      "task_inverse_target_radius": 17.847378828648313,
+      "task_object_goal_distance": 0.27163196170610954,
+      "trajectory_id": "traj_0049"
+    },
+    {
+      "task_difficulty": -0.4469181119329903,
+      "task_ee_object_distance": 0.3899755812998066,
+      "task_inverse_target_radius": 14.15939980640881,
+      "task_object_goal_distance": 0.2826328185206327,
+      "trajectory_id": "traj_0050"
+    },
+    {
+      "task_difficulty": 1.4463562774146643,
+      "task_ee_object_distance": 0.4367979699474847,
+      "task_inverse_target_radius": 19.670567861586665,
+      "task_object_goal_distance": 0.48151048072607705,
+      "trajectory_id": "traj_0051"
+    },
+    {
+      "task_difficulty": 0.1897840864675117,
+      "task_ee_object_distance": 0.41595197980837806,
+      "task_inverse_target_radius": 14.924785299140558,
+      "task_object_goal_distance": 0.36117062218482227,
+      "trajectory_id": "traj_0052"
+    },
+    {
+      "task_difficulty": 0.4118413785749064,
+      "task_ee_object_distance": 0.4017314944977143,
+      "task_inverse_target_radius": 16.835748297880397,
+      "task_object_goal_distance": 0.3913335758995043,
+      "trajectory_id": "traj_0053"
+    },
+    {
+      "task_difficulty": -0.7046729855021688,
+      "task_ee_object_distance": 0.3451462671493875,
+      "task_inverse_target_radius": 17.956276491244534,
+      "task_object_goal_distance": 0.1956337365233867,
+      "trajectory_id": "traj_0054"
+    },
+    {
+      "task_difficulty": 0.627364910620705,
+      "task_ee_object_distance": 0.45702179679576604,
+      "task_inverse_target_radius": 19.790820468189096,
+      "task_object_goal_distance": 0.201793215445812,
+      "trajectory_id": "traj_0055"
+    },
+    {
+      "task_difficulty": -0.5753860445508557,
+      "task_ee_object_distance": 0.4187125082994949,
+      "task_inverse_target_radius": 13.888785802058056,
+      "task_object_goal_distance": 0.18232592489712954,
+      "trajectory_id": "traj_0058"
+    },
+    {
+      "task_difficulty": 0.5368273684486801,
+      "task_ee_object_distance": 0.4277280193918227,
+      "task_inverse_target_radius": 16.425953491649388,
+      "task_object_goal_distance": 0.3720129091089383,
+      "trajectory_id": "traj_0059"
+    },
+    {
+      "task_difficulty": 1.5403764126525656,
+      "task_ee_object_distance": 0.46451922125790895,
+      "task_inverse_target_radius": 17.843311444758392,
+      "task_object_goal_distance": 0.4991917939019179,
+      "trajectory_id": "traj_0060"
+    },
+    {
+      "task_difficulty": 0.45472047595707715,
+      "task_ee_object_distance": 0.3900983582385869,
+      "task_inverse_target_radius": 20.747462394298445,
+      "task_object_goal_distance": 0.2955526058198778,
+      "trajectory_id": "traj_0061"
+    },
+    {
+      "task_difficulty": -0.44390695565320337,
+      "task_ee_object_distance": 0.4008423798241541,
+      "task_inverse_target_radius": 13.674996054128222,
+      "task_object_goal_distance": 0.2721911704630016,
+      "trajectory_id": "traj_0062"
+    },
+    {
+      "task_difficulty": -0.2618207608607473,
+      "task_ee_object_distance": 0.34820434108499226,
+      "task_inverse_target_radius": 19.761933825859852,
+      "task_object_goal_distance": 0.24453405333105377,
+      "trajectory_id": "traj_0063"
+    },
+    {
+      "task_difficulty": -0.8266521309755417,
+      "task_ee_object_distance": 0.3533908516064115,
+      "task_inverse_target_radius": 16.48641815555964,
+      "task_object_goal_distance": 0.19273258314929312,
+      "trajectory_id": "traj_0064"
+    },
+    {
+      "task_difficulty": 0.2749910863756066,
+      "task_ee_object_distance": 0.4045128150294948,
+      "task_inverse_target_radius": 19.871804434036545,
+      "task_object_goal_distance": 0.2399366382856283,
+      "trajectory_id": "traj_0065"
+    },
+    {
+      "task_difficulty": -0.9821835490589849,
+      "task_ee_object_distance": 0.3531800414773064,
+      "task_inverse_target_radius": 15.572006208832802,
+      "task_object_goal_distance": 0.18317908066943406,
+      "trajectory_id": "traj_0066"
+    },
+    {
+      "task_difficulty": -0.10338093238114758,
+      "task_ee_object_distance": 0.37681631366700746,
+      "task_inverse_target_radius": 20.02088501427878,
+      "task_object_goal_distance": 0.20394523601804618,
+      "trajectory_id": "traj_0067"
+    },
+    {
+      "task_difficulty": 0.1617934630530665,
+      "task_ee_object_distance": 0.4423346757799121,
+      "task_inverse_target_radius": 16.527409848262426,
+      "task_object_goal_distance": 0.2283588410228496,
+      "trajectory_id": "traj_0068"
+    },
+    {
+      "task_difficulty": 0.7449786976979426,
+      "task_ee_object_distance": 0.4230068234979813,
+      "task_inverse_target_radius": 19.719670692839447,
+      "task_object_goal_distance": 0.3249391526413303,
+      "trajectory_id": "traj_0070"
+    },
+    {
+      "task_difficulty": -0.31298448196788103,
+      "task_ee_object_distance": 0.43222398484106744,
+      "task_inverse_target_radius": 14.391351684889514,
+      "task_object_goal_distance": 0.20079042857594204,
+      "trajectory_id": "traj_0071"
+    },
+    {
+      "task_difficulty": -0.5258507705088159,
+      "task_ee_object_distance": 0.3804504113451892,
+      "task_inverse_target_radius": 15.437980450734416,
+      "task_object_goal_distance": 0.24095716592907918,
+      "trajectory_id": "traj_0072"
+    },
+    {
+      "task_difficulty": 0.5974654693413195,
+      "task_ee_object_distance": 0.40251912648738336,
+      "task_inverse_target_radius": 18.535823243362614,
+      "task_object_goal_distance": 0.379900022792293,
+      "trajectory_id": "traj_0073"
+    },
+    {
+      "task_difficulty": 1.073917270159007,
+      "task_ee_object_distance": 0.41863401408747763,
+      "task_inverse_target_radius": 19.298240607588244,
+      "task_object_goal_distance": 0.44065266547859394,
+      "trajectory_id": "traj_0074"
+    },
+    {
+      "task_difficulty": -0.34686921093660966,
+      "task_ee_object_distance": 0.39433546531673275,
+      "task_inverse_target_radius": 16.56024280772087,
+      "task_object_goal_distance": 0.21393238340575918,
+      "trajectory_id": "traj_0075"
+    },
+    {
+      "task_difficulty": -0.3612950539124709,
+      "task_ee_object_distance": 0.35733168484923505,
+      "task_inverse_target_radius": 16.24104238892402,
+      "task_object_goal_distance": 0.3176869114460283,
+      "trajectory_id": "traj_0076"
+    },
+    {
+      "task_difficulty": -0.27038084723262007,
+      "task_ee_object_distance": 0.44292182561570315,
+      "task_inverse_target_radius": 14.158347255827023,
+      "task_object_goal_distance": 0.19270502218161067,
+      "trajectory_id": "traj_0077"
+    },
+    {
+      "task_difficulty": 0.3525260994089839,
+      "task_ee_object_distance": 0.38215985154198373,
+      "task_inverse_target_radius": 19.095097788597233,
+      "task_object_goal_distance": 0.3466360238775201,
+      "trajectory_id": "traj_0078"
+    },
+    {
+      "task_difficulty": -0.6066753920703157,
+      "task_ee_object_distance": 0.3628521271820983,
+      "task_inverse_target_radius": 14.604407322475481,
+      "task_object_goal_distance": 0.2941920672448863,
+      "trajectory_id": "traj_0080"
+    },
+    {
+      "task_difficulty": -0.2284201463041682,
+      "task_ee_object_distance": 0.35954088955460833,
+      "task_inverse_target_radius": 16.97232063812043,
+      "task_object_goal_distance": 0.32231903670772866,
+      "trajectory_id": "traj_0081"
+    },
+    {
+      "task_difficulty": 0.43552411821942544,
+      "task_ee_object_distance": 0.43954317660265585,
+      "task_inverse_target_radius": 17.789259847547637,
+      "task_object_goal_distance": 0.26565245766152107,
+      "trajectory_id": "traj_0082"
+    },
+    {
+      "task_difficulty": 0.09319676742967453,
+      "task_ee_object_distance": 0.39018907731725005,
+      "task_inverse_target_radius": 18.913644762972243,
+      "task_object_goal_distance": 0.2615602395271025,
+      "trajectory_id": "traj_0086"
+    },
+    {
+      "task_difficulty": 0.6452377349263786,
+      "task_ee_object_distance": 0.42821340492317833,
+      "task_inverse_target_radius": 20.183378452297323,
+      "task_object_goal_distance": 0.2679084663954652,
+      "trajectory_id": "traj_0087"
+    },
+    {
+      "task_difficulty": 0.0440247511394487,
+      "task_ee_object_distance": 0.41754318696800985,
+      "task_inverse_target_radius": 14.278745334125343,
+      "task_object_goal_distance": 0.34012745718880844,
+      "trajectory_id": "traj_0088"
+    },
+    {
+      "task_difficulty": 1.14038574322858,
+      "task_ee_object_distance": 0.4325462499858897,
+      "task_inverse_target_radius": 16.179830330697225,
+      "task_object_goal_distance": 0.532299460428978,
+      "trajectory_id": "traj_0089"
+    },
+    {
+      "task_difficulty": -0.27578390170619943,
+      "task_ee_object_distance": 0.3374476298593804,
+      "task_inverse_target_radius": 21.97441361582114,
+      "task_object_goal_distance": 0.1908505784258212,
+      "trajectory_id": "traj_0090"
+    },
+    {
+      "task_difficulty": 0.8424897590243456,
+      "task_ee_object_distance": 0.417105224776744,
+      "task_inverse_target_radius": 19.71487018424142,
+      "task_object_goal_distance": 0.36701285727445654,
+      "trajectory_id": "traj_0091"
+    },
+    {
+      "task_difficulty": -0.10153047641790724,
+      "task_ee_object_distance": 0.3853776189839039,
+      "task_inverse_target_radius": 18.64068854242733,
+      "task_object_goal_distance": 0.2307442005746655,
+      "trajectory_id": "traj_0092"
+    },
+    {
+      "task_difficulty": -0.19303306688753052,
+      "task_ee_object_distance": 0.4307722023770083,
+      "task_inverse_target_radius": 13.527328639451085,
+      "task_object_goal_distance": 0.26763133706077047,
+      "trajectory_id": "traj_0093"
+    },
+    {
+      "task_difficulty": -0.8461141576400911,
+      "task_ee_object_distance": 0.35518770646686265,
+      "task_inverse_target_radius": 13.814048538759177,
+      "task_object_goal_distance": 0.2768709494526084,
+      "trajectory_id": "traj_0094"
+    },
+    {
+      "task_difficulty": -0.20007947502184698,
+      "task_ee_object_distance": 0.38823039698795053,
+      "task_inverse_target_radius": 15.571870124370534,
+      "task_object_goal_distance": 0.3045800951941338,
+      "trajectory_id": "traj_0095"
+    },
+    {
+      "task_difficulty": 0.4295044139732535,
+      "task_ee_object_distance": 0.47035768753122925,
+      "task_inverse_target_radius": 13.774179340394975,
+      "task_object_goal_distance": 0.32511067414726924,
+      "trajectory_id": "traj_0096"
+    },
+    {
+      "task_difficulty": -0.9240635490308406,
+      "task_ee_object_distance": 0.3382055551480173,
+      "task_inverse_target_radius": 16.688279050760556,
+      "task_object_goal_distance": 0.19870131222806198,
+      "trajectory_id": "traj_0097"
+    },
+    {
+      "task_difficulty": -0.7659737794530957,
+      "task_ee_object_distance": 0.3345645296009722,
+      "task_inverse_target_radius": 17.890560308633166,
+      "task_object_goal_distance": 0.20885099609016763,
+      "trajectory_id": "traj_0098"
+    },
+    {
+      "task_difficulty": 0.46790658097220234,
+      "task_ee_object_distance": 0.43889383449113706,
+      "task_inverse_target_radius": 18.94177254100492,
+      "task_object_goal_distance": 0.2355641464389477,
+      "trajectory_id": "traj_0099"
+    },
+    {
+      "task_difficulty": 0.6382555495017807,
+      "task_ee_object_distance": 0.4028641465173343,
+      "task_inverse_target_radius": 15.815683884300375,
+      "task_object_goal_distance": 0.4858937639137724,
+      "trajectory_id": "traj_0100"
+    },
+    {
+      "task_difficulty": -1.0658604516231676,
+      "task_ee_object_distance": 0.36790692945337616,
+      "task_inverse_target_radius": 13.71498418989749,
+      "task_object_goal_distance": 0.1874379213575189,
+      "trajectory_id": "traj_0101"
+    },
+    {
+      "task_difficulty": 1.2768846360215544,
+      "task_ee_object_distance": 0.40828396521567883,
+      "task_inverse_target_radius": 21.98778808595888,
+      "task_object_goal_distance": 0.42811594135418407,
+      "trajectory_id": "traj_0102"
+    },
+    {
+      "task_difficulty": 1.1268308437996104,
+      "task_ee_object_distance": 0.45245452262712293,
+      "task_inverse_target_radius": 14.673145416892169,
+      "task_object_goal_distance": 0.529790852321396,
+      "trajectory_id": "traj_0103"
+    },
+    {
+      "task_difficulty": -0.04881581888634109,
+      "task_ee_object_distance": 0.40865746938459874,
+      "task_inverse_target_radius": 18.440181454852063,
+      "task_object_goal_distance": 0.19147417205505662,
+      "trajectory_id": "traj_0104"
+    },
+    {
+      "task_difficulty": -0.9878872586830428,
+      "task_ee_object_distance": 0.34423187348310613,
+      "task_inverse_target_radius": 15.851283136807675,
+      "task_object_goal_distance": 0.1951122302310308,
+      "trajectory_id": "traj_0105"
+    },
+    {
+      "task_difficulty": 0.21124495024645584,
+      "task_ee_object_distance": 0.43732417929258244,
+      "task_inverse_target_radius": 16.856100325817163,
+      "task_object_goal_distance": 0.24329255180219891,
+      "trajectory_id": "traj_0107"
+    },
+    {
+      "task_difficulty": -0.8743846483379509,
+      "task_ee_object_distance": 0.36288531011076175,
+      "task_inverse_target_radius": 15.500042410484994,
+      "task_object_goal_distance": 0.1897428947963458,
+      "trajectory_id": "traj_0108"
+    },
+    {
+      "task_difficulty": -0.5913961255548553,
+      "task_ee_object_distance": 0.3774417356111855,
+      "task_inverse_target_radius": 13.50240999870562,
+      "task_object_goal_distance": 0.2991356669989632,
+      "trajectory_id": "traj_0109"
+    },
+    {
+      "task_difficulty": -0.14334367448807844,
+      "task_ee_object_distance": 0.3755446005524311,
+      "task_inverse_target_radius": 15.176902008460178,
+      "task_object_goal_distance": 0.3669838361482349,
+      "trajectory_id": "traj_0110"
+    },
+    {
+      "task_difficulty": 0.8900394207959269,
+      "task_ee_object_distance": 0.4278542687659287,
+      "task_inverse_target_radius": 16.228456919271235,
+      "task_object_goal_distance": 0.4747174883625809,
+      "trajectory_id": "traj_0111"
+    },
+    {
+      "task_difficulty": -0.26861013434788417,
+      "task_ee_object_distance": 0.3609132929325117,
+      "task_inverse_target_radius": 19.72952574337246,
+      "task_object_goal_distance": 0.21070730835917997,
+      "trajectory_id": "traj_0112"
+    },
+    {
+      "task_difficulty": -0.09074463660504017,
+      "task_ee_object_distance": 0.4064229600650514,
+      "task_inverse_target_radius": 18.529261348570362,
+      "task_object_goal_distance": 0.1827552354271834,
+      "trajectory_id": "traj_0113"
+    },
+    {
+      "task_difficulty": 0.22204992295612555,
+      "task_ee_object_distance": 0.42756149479348204,
+      "task_inverse_target_radius": 13.711490352029134,
+      "task_object_goal_distance": 0.3824209873744433,
+      "trajectory_id": "traj_0115"
+    },
+    {
+      "task_difficulty": 0.2753755637973693,
+      "task_ee_object_distance": 0.3992741000022967,
+      "task_inverse_target_radius": 19.409374783449888,
+      "task_object_goal_distance": 0.2699798220723307,
+      "trajectory_id": "traj_0116"
+    },
+    {
+      "task_difficulty": -0.5806830554014617,
+      "task_ee_object_distance": 0.34165421659486517,
+      "task_inverse_target_radius": 19.178724047248227,
+      "task_object_goal_distance": 0.19540936452809432,
+      "trajectory_id": "traj_0117"
+    },
+    {
+      "task_difficulty": -0.7432272175785725,
+      "task_ee_object_distance": 0.40597396557187704,
+      "task_inverse_target_radius": 13.543023714311005,
+      "task_object_goal_distance": 0.18204638974680448,
+      "trajectory_id": "traj_0118"
+    },
+    {
+      "task_difficulty": 0.6361495267470355,
+      "task_ee_object_distance": 0.36563346212109743,
+      "task_inverse_target_radius": 19.896125415839784,
+      "task_object_goal_distance": 0.4386448086244853,
+      "trajectory_id": "traj_0119"
+    },
+    {
+      "task_difficulty": -0.5582231330670121,
+      "task_ee_object_distance": 0.3361269051953535,
+      "task_inverse_target_radius": 15.299780823404156,
+      "task_object_goal_distance": 0.35253177125941915,
+      "trajectory_id": "traj_0120"
+    },
+    {
+      "task_difficulty": -0.1734089133828294,
+      "task_ee_object_distance": 0.39623398443674906,
+      "task_inverse_target_radius": 15.95970893307431,
+      "task_object_goal_distance": 0.2773175167657065,
+      "trajectory_id": "traj_0121"
+    },
+    {
+      "task_difficulty": -0.04825261682048776,
+      "task_ee_object_distance": 0.33999620293928845,
+      "task_inverse_target_radius": 19.93319056134271,
+      "task_object_goal_distance": 0.3179875712398261,
+      "trajectory_id": "traj_0122"
+    },
+    {
+      "task_difficulty": 0.7678603530911444,
+      "task_ee_object_distance": 0.39864320600859415,
+      "task_inverse_target_radius": 22.198688443278627,
+      "task_object_goal_distance": 0.3073525226049148,
+      "trajectory_id": "traj_0123"
+    },
+    {
+      "task_difficulty": -0.006814425601150124,
+      "task_ee_object_distance": 0.3841181840225283,
+      "task_inverse_target_radius": 16.230682761199688,
+      "task_object_goal_distance": 0.3446656867861218,
+      "trajectory_id": "traj_0124"
+    },
+    {
+      "task_difficulty": -0.04131425411084477,
+      "task_ee_object_distance": 0.3896013470333493,
+      "task_inverse_target_radius": 14.503872877291137,
+      "task_object_goal_distance": 0.3818059576569298,
+      "trajectory_id": "traj_0125"
+    },
+    {
+      "task_difficulty": 0.19182337824028542,
+      "task_ee_object_distance": 0.3996953183884947,
+      "task_inverse_target_radius": 18.512284514747176,
+      "task_object_goal_distance": 0.27774840504430415,
+      "trajectory_id": "traj_0126"
+    },
+    {
+      "task_difficulty": 0.4505755741938829,
+      "task_ee_object_distance": 0.429792218826298,
+      "task_inverse_target_radius": 21.001863817082313,
+      "task_object_goal_distance": 0.1820179576278472,
+      "trajectory_id": "traj_0127"
+    },
+    {
+      "task_difficulty": -0.6173583036545541,
+      "task_ee_object_distance": 0.3581751169048725,
+      "task_inverse_target_radius": 17.539303814947708,
+      "task_object_goal_distance": 0.20011434199980865,
+      "trajectory_id": "traj_0128"
+    },
+    {
+      "task_difficulty": -0.3534590805888265,
+      "task_ee_object_distance": 0.3864761819131801,
+      "task_inverse_target_radius": 14.15897451428723,
+      "task_object_goal_distance": 0.31718976864169235,
+      "trajectory_id": "traj_0130"
+    },
+    {
+      "task_difficulty": -1.105031599758766,
+      "task_ee_object_distance": 0.34554463282869435,
+      "task_inverse_target_radius": 14.470568204613246,
+      "task_object_goal_distance": 0.20845206359139737,
+      "trajectory_id": "traj_0131"
+    },
+    {
+      "task_difficulty": 0.6890566447429526,
+      "task_ee_object_distance": 0.43479780334001333,
+      "task_inverse_target_radius": 13.546903521949295,
+      "task_object_goal_distance": 0.49639036077876886,
+      "trajectory_id": "traj_0133"
+    },
+    {
+      "task_difficulty": 0.3014942773962557,
+      "task_ee_object_distance": 0.3682167148613017,
+      "task_inverse_target_radius": 21.747838059825476,
+      "task_object_goal_distance": 0.2756686283392732,
+      "trajectory_id": "traj_0134"
+    },
+    {
+      "task_difficulty": -0.5488646978879662,
+      "task_ee_object_distance": 0.4100922290718227,
+      "task_inverse_target_radius": 13.954337507137186,
+      "task_object_goal_distance": 0.2096971233413003,
+      "trajectory_id": "traj_0135"
+    },
+    {
+      "task_difficulty": -0.3950073696392919,
+      "task_ee_object_distance": 0.382064471471893,
+      "task_inverse_target_radius": 17.474406270733876,
+      "task_object_goal_distance": 0.20062322003580324,
+      "trajectory_id": "traj_0136"
+    },
+    {
+      "task_difficulty": -0.35717229501835784,
+      "task_ee_object_distance": 0.38328477639207353,
+      "task_inverse_target_radius": 17.790247825016966,
+      "task_object_goal_distance": 0.19661129661786375,
+      "trajectory_id": "traj_0137"
+    },
+    {
+      "task_difficulty": 1.3456852041877916,
+      "task_ee_object_distance": 0.41306101745575446,
+      "task_inverse_target_radius": 21.908872354039428,
+      "task_object_goal_distance": 0.43716015815017356,
+      "trajectory_id": "traj_0138"
+    },
+    {
+      "task_difficulty": 0.5541789611041267,
+      "task_ee_object_distance": 0.45015097679580485,
+      "task_inverse_target_radius": 17.55526861799173,
+      "task_object_goal_distance": 0.27852336385983106,
+      "trajectory_id": "traj_0139"
+    },
+    {
+      "task_difficulty": -0.8245640516879936,
+      "task_ee_object_distance": 0.3361543294646458,
+      "task_inverse_target_radius": 16.65988347410234,
+      "task_object_goal_distance": 0.2321122583286373,
+      "trajectory_id": "traj_0140"
+    },
+    {
+      "task_difficulty": 0.40177456287913144,
+      "task_ee_object_distance": 0.42843839615991125,
+      "task_inverse_target_radius": 13.686505585683138,
+      "task_object_goal_distance": 0.4299029715631611,
+      "trajectory_id": "traj_0141"
+    },
+    {
+      "task_difficulty": 0.5199122063783409,
+      "task_ee_object_distance": 0.40580816775561274,
+      "task_inverse_target_radius": 21.24547745507272,
+      "task_object_goal_distance": 0.25480462222242706,
+      "trajectory_id": "traj_0142"
+    },
+    {
+      "task_difficulty": 0.6874664732836449,
+      "task_ee_object_distance": 0.379189176438529,
+      "task_inverse_target_radius": 21.12824373369076,
+      "task_object_goal_distance": 0.3738830314356749,
+      "trajectory_id": "traj_0143"
+    },
+    {
+      "task_difficulty": 0.18623880933193795,
+      "task_ee_object_distance": 0.3810201513774262,
+      "task_inverse_target_radius": 21.531004169637367,
+      "task_object_goal_distance": 0.21858656047345487,
+      "trajectory_id": "traj_0144"
+    },
+    {
+      "task_difficulty": 0.7548327255075082,
+      "task_ee_object_distance": 0.39617248353842044,
+      "task_inverse_target_radius": 21.284594439784254,
+      "task_object_goal_distance": 0.34244032166232363,
+      "trajectory_id": "traj_0145"
+    },
+    {
+      "task_difficulty": 1.0921654544079618,
+      "task_ee_object_distance": 0.44617980321365647,
+      "task_inverse_target_radius": 14.299285680738468,
+      "task_object_goal_distance": 0.5498807523433069,
+      "trajectory_id": "traj_0146"
+    },
+    {
+      "task_difficulty": 0.448142409016789,
+      "task_ee_object_distance": 0.39736753293654553,
+      "task_inverse_target_radius": 20.448280209609447,
+      "task_object_goal_distance": 0.28535536597985856,
+      "trajectory_id": "traj_0147"
+    },
+    {
+      "task_difficulty": 0.7660055849938289,
+      "task_ee_object_distance": 0.4522965843955911,
+      "task_inverse_target_radius": 20.27445322934551,
+      "task_object_goal_distance": 0.23478730030751904,
+      "trajectory_id": "traj_0148"
+    },
+    {
+      "task_difficulty": -0.027768298811462328,
+      "task_ee_object_distance": 0.36997040613503784,
+      "task_inverse_target_radius": 20.09494551918254,
+      "task_object_goal_distance": 0.23974597184523902,
+      "trajectory_id": "traj_0149"
+    },
+    {
+      "task_difficulty": -0.4993878836111361,
+      "task_ee_object_distance": 0.3756462201724113,
+      "task_inverse_target_radius": 16.274043465615627,
+      "task_object_goal_distance": 0.23123144803256457,
+      "trajectory_id": "traj_0150"
+    },
+    {
+      "task_difficulty": 0.2383767060168702,
+      "task_ee_object_distance": 0.38266557217559616,
+      "task_inverse_target_radius": 19.268781236187653,
+      "task_object_goal_distance": 0.3081511913427456,
+      "trajectory_id": "traj_0152"
+    },
+    {
+      "task_difficulty": -0.30970830305683555,
+      "task_ee_object_distance": 0.3553615701005193,
+      "task_inverse_target_radius": 15.63799886851666,
+      "task_object_goal_distance": 0.3580914622746202,
+      "trajectory_id": "traj_0154"
+    },
+    {
+      "task_difficulty": 1.1738154327905557,
+      "task_ee_object_distance": 0.42560497395683733,
+      "task_inverse_target_radius": 20.822019696697062,
+      "task_object_goal_distance": 0.3959947158904027,
+      "trajectory_id": "traj_0156"
+    },
+    {
+      "task_difficulty": 1.0883377166387278,
+      "task_ee_object_distance": 0.4132870432803561,
+      "task_inverse_target_radius": 21.084579097277317,
+      "task_object_goal_distance": 0.3955991399767479,
+      "trajectory_id": "traj_0157"
+    },
+    {
+      "task_difficulty": 0.23262602821874134,
+      "task_ee_object_distance": 0.4012910225747293,
+      "task_inverse_target_radius": 21.169977516179216,
+      "task_object_goal_distance": 0.1910903606376286,
+      "trajectory_id": "traj_0158"
+    },
+    {
+      "task_difficulty": -0.21071396391595731,
+      "task_ee_object_distance": 0.3963944447170882,
+      "task_inverse_target_radius": 14.696802794756524,
+      "task_object_goal_distance": 0.31122873594163086,
+      "trajectory_id": "traj_0159"
+    },
+    {
+      "task_difficulty": -0.7501291906274797,
+      "task_ee_object_distance": 0.3552437511458758,
+      "task_inverse_target_radius": 15.442890719464854,
+      "task_object_goal_distance": 0.2454696917531905,
+      "trajectory_id": "traj_0160"
+    },
+    {
+      "task_difficulty": -0.44992988682162355,
+      "task_ee_object_distance": 0.3937377650444846,
+      "task_inverse_target_radius": 16.29497153807105,
+      "task_object_goal_distance": 0.19679853770560718,
+      "trajectory_id": "traj_0161"
+    },
+    {
+      "task_difficulty": -0.12918968301670128,
+      "task_ee_object_distance": 0.38148017480060176,
+      "task_inverse_target_radius": 16.257060683073508,
+      "task_object_goal_distance": 0.31732409562722735,
+      "trajectory_id": "traj_0162"
+    },
+    {
+      "task_difficulty": 0.39848202765267277,
+      "task_ee_object_distance": 0.3774030365110958,
+      "task_inverse_target_radius": 19.316019874690767,
+      "task_object_goal_distance": 0.3637531409837125,
+      "trajectory_id": "traj_0163"
+    },
+    {
+      "task_difficulty": -0.8181828322228456,
+      "task_ee_object_distance": 0.3600501196405097,
+      "task_inverse_target_radius": 13.90910992131551,
+      "task_object_goal_distance": 0.26844864535490237,
+      "trajectory_id": "traj_0164"
+    },
+    {
+      "task_difficulty": -0.37151421893780073,
+      "task_ee_object_distance": 0.4095539694344538,
+      "task_inverse_target_radius": 13.747827565809574,
+      "task_object_goal_distance": 0.2666143395411421,
+      "trajectory_id": "traj_0165"
+    },
+    {
+      "task_difficulty": -0.043318427297726204,
+      "task_ee_object_distance": 0.4185711989731524,
+      "task_inverse_target_radius": 14.919406446913701,
+      "task_object_goal_distance": 0.29112714007448287,
+      "trajectory_id": "traj_0166"
+    },
+    {
+      "task_difficulty": -0.6434283858395807,
+      "task_ee_object_distance": 0.3593629532972853,
+      "task_inverse_target_radius": 13.46466370202543,
+      "task_object_goal_distance": 0.33342738560148094,
+      "trajectory_id": "traj_0168"
+    },
+    {
+      "task_difficulty": -0.36302965299253226,
+      "task_ee_object_distance": 0.3604885570783527,
+      "task_inverse_target_radius": 18.863283804112246,
+      "task_object_goal_distance": 0.21663809970536724,
+      "trajectory_id": "traj_0170"
+    },
+    {
+      "task_difficulty": -0.15556280912136564,
+      "task_ee_object_distance": 0.384725643471595,
+      "task_inverse_target_radius": 18.959763521030535,
+      "task_object_goal_distance": 0.20650871564059503,
+      "trajectory_id": "traj_0172"
+    },
+    {
+      "task_difficulty": -0.687882392550398,
+      "task_ee_object_distance": 0.34491766167631016,
+      "task_inverse_target_radius": 17.23145015380154,
+      "task_object_goal_distance": 0.22632360276582394,
+      "trajectory_id": "traj_0173"
+    },
+    {
+      "task_difficulty": -1.1239426861786224,
+      "task_ee_object_distance": 0.34890447820573167,
+      "task_inverse_target_radius": 14.161059564946767,
+      "task_object_goal_distance": 0.2054520149803048,
+      "trajectory_id": "traj_0174"
+    },
+    {
+      "task_difficulty": 0.06768775717020319,
+      "task_ee_object_distance": 0.37808718875772496,
+      "task_inverse_target_radius": 20.585672560404067,
+      "task_object_goal_distance": 0.2272754219548095,
+      "trajectory_id": "traj_0178"
+    },
+    {
+      "task_difficulty": 0.31673421907647076,
+      "task_ee_object_distance": 0.4087610076418561,
+      "task_inverse_target_radius": 16.781502350398114,
+      "task_object_goal_distance": 0.3490537516633194,
+      "trajectory_id": "traj_0179"
+    },
+    {
+      "task_difficulty": 0.5990195661062998,
+      "task_ee_object_distance": 0.45342099620641846,
+      "task_inverse_target_radius": 16.222208154329223,
+      "task_object_goal_distance": 0.3291459946996678,
+      "trajectory_id": "traj_0180"
+    },
+    {
+      "task_difficulty": -0.4515540848053528,
+      "task_ee_object_distance": 0.416845908156312,
+      "task_inverse_target_radius": 13.760762774692727,
+      "task_object_goal_distance": 0.22538311784988527,
+      "trajectory_id": "traj_0181"
+    },
+    {
+      "task_difficulty": 0.07082691954047685,
+      "task_ee_object_distance": 0.4489018152256118,
+      "task_inverse_target_radius": 16.67298787204036,
+      "task_object_goal_distance": 0.1813729546228233,
+      "trajectory_id": "traj_0182"
+    },
+    {
+      "task_difficulty": 0.7530558904194509,
+      "task_ee_object_distance": 0.45850863895450783,
+      "task_inverse_target_radius": 19.43191332298237,
+      "task_object_goal_distance": 0.24474779429067894,
+      "trajectory_id": "traj_0183"
+    },
+    {
+      "task_difficulty": -0.2848087858968818,
+      "task_ee_object_distance": 0.353125990563609,
+      "task_inverse_target_radius": 20.88280960384836,
+      "task_object_goal_distance": 0.18597966863423496,
+      "trajectory_id": "traj_0184"
+    },
+    {
+      "task_difficulty": -0.6612198931386075,
+      "task_ee_object_distance": 0.3615540526886614,
+      "task_inverse_target_radius": 14.2761185053691,
+      "task_object_goal_distance": 0.294299857209069,
+      "trajectory_id": "traj_0185"
+    },
+    {
+      "task_difficulty": 0.42848392990553097,
+      "task_ee_object_distance": 0.3687058688635506,
+      "task_inverse_target_radius": 19.37799141240249,
+      "task_object_goal_distance": 0.3923975627902457,
+      "trajectory_id": "traj_0186"
+    },
+    {
+      "task_difficulty": -0.9463426618738415,
+      "task_ee_object_distance": 0.3523184003096677,
+      "task_inverse_target_radius": 15.870546880135805,
+      "task_object_goal_distance": 0.18465985321236547,
+      "trajectory_id": "traj_0187"
+    },
+    {
+      "task_difficulty": 1.4110697268965628,
+      "task_ee_object_distance": 0.4227181109450719,
+      "task_inverse_target_radius": 20.38274554647843,
+      "task_object_goal_distance": 0.48352477963336443,
+      "trajectory_id": "traj_0188"
+    },
+    {
+      "task_difficulty": -0.3531079104344467,
+      "task_ee_object_distance": 0.3782945148438844,
+      "task_inverse_target_radius": 15.227757338334602,
+      "task_object_goal_distance": 0.3009676069132299,
+      "trajectory_id": "traj_0190"
+    },
+    {
+      "task_difficulty": -0.7496710371461751,
+      "task_ee_object_distance": 0.3702091383269052,
+      "task_inverse_target_radius": 14.827134116324272,
+      "task_object_goal_distance": 0.22827806990615732,
+      "trajectory_id": "traj_0191"
+    },
+    {
+      "task_difficulty": -0.20007259958799883,
+      "task_ee_object_distance": 0.34693090201662186,
+      "task_inverse_target_radius": 21.811574404803046,
+      "task_object_goal_distance": 0.1924651465168603,
+      "trajectory_id": "traj_0192"
+    },
+    {
+      "task_difficulty": -0.6043245614428775,
+      "task_ee_object_distance": 0.358439880228548,
+      "task_inverse_target_radius": 14.539254562395497,
+      "task_object_goal_distance": 0.3086249917932746,
+      "trajectory_id": "traj_0193"
+    },
+    {
+      "task_difficulty": 0.26726735478927305,
+      "task_ee_object_distance": 0.3959332896248016,
+      "task_inverse_target_radius": 18.126801192893655,
+      "task_object_goal_distance": 0.3216503982963157,
+      "trajectory_id": "traj_0194"
+    },
+    {
+      "task_difficulty": -0.13569902151590285,
+      "task_ee_object_distance": 0.3660338848609505,
+      "task_inverse_target_radius": 20.947074612641792,
+      "task_object_goal_distance": 0.1906363921349471,
+      "trajectory_id": "traj_0195"
+    },
+    {
+      "task_difficulty": -0.802104782718152,
+      "task_ee_object_distance": 0.3547931052804337,
+      "task_inverse_target_radius": 15.055271437834014,
+      "task_object_goal_distance": 0.24615723323773187,
+      "trajectory_id": "traj_0196"
+    },
+    {
+      "task_difficulty": -0.03433282797171241,
+      "task_ee_object_distance": 0.3602406977479964,
+      "task_inverse_target_radius": 21.381406220639793,
+      "task_object_goal_distance": 0.21801091285636257,
+      "trajectory_id": "traj_0197"
+    },
+    {
+      "task_difficulty": 0.9981551336722445,
+      "task_ee_object_distance": 0.3972748771575906,
+      "task_inverse_target_radius": 21.47266981401377,
+      "task_object_goal_distance": 0.3991305259122527,
+      "trajectory_id": "traj_0198"
+    },
+    {
+      "task_difficulty": -0.06865440720162902,
+      "task_ee_object_distance": 0.36481735432649076,
+      "task_inverse_target_radius": 18.129652919965505,
+      "task_object_goal_distance": 0.31126739541099757,
+      "trajectory_id": "traj_0199"
+    },
+    {
+      "task_difficulty": -1.1649655822290883,
+      "task_ee_object_distance": 0.34717493110113795,
+      "task_inverse_target_radius": 13.625910435206656,
+      "task_object_goal_distance": 0.21764750951776152,
+      "trajectory_id": "traj_0200"
+    },
+    {
+      "task_difficulty": -0.9070225380736417,
+      "task_ee_object_distance": 0.3477666879962677,
+      "task_inverse_target_radius": 15.654927982051156,
+      "task_object_goal_distance": 0.21481145984709957,
+      "trajectory_id": "traj_0201"
+    },
+    {
+      "task_difficulty": -0.10261293067561265,
+      "task_ee_object_distance": 0.4266377102908804,
+      "task_inverse_target_radius": 13.651572250061982,
+      "task_object_goal_distance": 0.2986262365428168,
+      "trajectory_id": "traj_0202"
+    },
+    {
+      "task_difficulty": 0.14495246852186452,
+      "task_ee_object_distance": 0.4223237993384202,
+      "task_inverse_target_radius": 14.607185164586426,
+      "task_object_goal_distance": 0.34355520005066364,
+      "trajectory_id": "traj_0205"
+    },
+    {
+      "task_difficulty": 0.3340007070114602,
+      "task_ee_object_distance": 0.3918417698850773,
+      "task_inverse_target_radius": 19.887854772529256,
+      "task_object_goal_distance": 0.28844525301348006,
+      "trajectory_id": "traj_0206"
+    },
+    {
+      "task_difficulty": -0.5099955834147943,
+      "task_ee_object_distance": 0.39793827328016196,
+      "task_inverse_target_radius": 14.304545815882083,
+      "task_object_goal_distance": 0.23961132750876127,
+      "trajectory_id": "traj_0207"
+    },
+    {
+      "task_difficulty": 0.1419213653908575,
+      "task_ee_object_distance": 0.3775665364573673,
+      "task_inverse_target_radius": 18.150942419394358,
+      "task_object_goal_distance": 0.3345707907280385,
+      "trajectory_id": "traj_0208"
+    },
+    {
+      "task_difficulty": 0.12654714690494004,
+      "task_ee_object_distance": 0.3951426050283277,
+      "task_inverse_target_radius": 15.409904833112472,
+      "task_object_goal_distance": 0.38111661181784356,
+      "trajectory_id": "traj_0209"
+    },
+    {
+      "task_difficulty": 0.781122395780713,
+      "task_ee_object_distance": 0.4424570914676214,
+      "task_inverse_target_radius": 16.044599123201614,
+      "task_object_goal_distance": 0.4135087605430998,
+      "trajectory_id": "traj_0210"
+    },
+    {
+      "task_difficulty": 0.06913959736114648,
+      "task_ee_object_distance": 0.4038707095016672,
+      "task_inverse_target_radius": 16.479042678923744,
+      "task_object_goal_distance": 0.30510162562135035,
+      "trajectory_id": "traj_0211"
+    },
+    {
+      "task_difficulty": 0.12191884221098818,
+      "task_ee_object_distance": 0.40907807703488713,
+      "task_inverse_target_radius": 14.222179528306718,
+      "task_object_goal_distance": 0.3853690239057465,
+      "trajectory_id": "traj_0212"
+    },
+    {
+      "task_difficulty": -0.40180460806385293,
+      "task_ee_object_distance": 0.33729107093799815,
+      "task_inverse_target_radius": 18.147540480430997,
+      "task_object_goal_distance": 0.2917536317878005,
+      "trajectory_id": "traj_0213"
+    },
+    {
+      "task_difficulty": 1.0084678153761975,
+      "task_ee_object_distance": 0.46711257783764704,
+      "task_inverse_target_radius": 14.286235569554584,
+      "task_object_goal_distance": 0.47301980592959825,
+      "trajectory_id": "traj_0214"
+    },
+    {
+      "task_difficulty": 0.03681173243493796,
+      "task_ee_object_distance": 0.3919042635177338,
+      "task_inverse_target_radius": 20.18585356520184,
+      "task_object_goal_distance": 0.1969483038640752,
+      "trajectory_id": "traj_0216"
+    },
+    {
+      "task_difficulty": 1.4189410712257642,
+      "task_ee_object_distance": 0.425883372234717,
+      "task_inverse_target_radius": 21.57519802481083,
+      "task_object_goal_distance": 0.4354211511983806,
+      "trajectory_id": "traj_0217"
+    },
+    {
+      "task_difficulty": -1.1189785018430454,
+      "task_ee_object_distance": 0.33641502705585447,
+      "task_inverse_target_radius": 14.791647465900942,
+      "task_object_goal_distance": 0.21714362266485265,
+      "trajectory_id": "traj_0219"
+    },
+    {
+      "task_difficulty": 0.07363551743027348,
+      "task_ee_object_distance": 0.4345733842677687,
+      "task_inverse_target_radius": 15.234955139591284,
+      "task_object_goal_distance": 0.27012324402746846,
+      "trajectory_id": "traj_0223"
+    },
+    {
+      "task_difficulty": 0.2988380435604682,
+      "task_ee_object_distance": 0.4150426942812502,
+      "task_inverse_target_radius": 19.22185605136153,
+      "task_object_goal_distance": 0.24187078059363346,
+      "trajectory_id": "traj_0224"
+    },
+    {
+      "task_difficulty": -0.370529440979192,
+      "task_ee_object_distance": 0.34043265416118285,
+      "task_inverse_target_radius": 16.34110146228552,
+      "task_object_goal_distance": 0.3556923922836714,
+      "trajectory_id": "traj_0225"
+    },
+    {
+      "task_difficulty": -0.91077479330289,
+      "task_ee_object_distance": 0.33877594528254956,
+      "task_inverse_target_radius": 16.057525095638287,
+      "task_object_goal_distance": 0.22304331253379656,
+      "trajectory_id": "traj_0227"
+    },
+    {
+      "task_difficulty": -0.03653346376118164,
+      "task_ee_object_distance": 0.3868818614501303,
+      "task_inverse_target_radius": 14.856369262369618,
+      "task_object_goal_distance": 0.37777958212491963,
+      "trajectory_id": "traj_0228"
+    },
+    {
+      "task_difficulty": -0.8614491946408771,
+      "task_ee_object_distance": 0.375872243669974,
+      "task_inverse_target_radius": 13.756792996168482,
+      "task_object_goal_distance": 0.22080926704139592,
+      "trajectory_id": "traj_0230"
+    },
+    {
+      "task_difficulty": -0.6488694727762451,
+      "task_ee_object_distance": 0.3626114292228277,
+      "task_inverse_target_radius": 15.847581612075913,
+      "task_object_goal_distance": 0.23956009155950098,
+      "trajectory_id": "traj_0231"
+    },
+    {
+      "task_difficulty": 0.30688796446911615,
+      "task_ee_object_distance": 0.36178811658385546,
+      "task_inverse_target_radius": 19.3594506197815,
+      "task_object_goal_distance": 0.3780034942410093,
+      "trajectory_id": "traj_0232"
+    },
+    {
+      "task_difficulty": -0.2992745222196203,
+      "task_ee_object_distance": 0.3886391128871159,
+      "task_inverse_target_radius": 17.99100002065672,
+      "task_object_goal_distance": 0.19133602478242848,
+      "trajectory_id": "traj_0233"
+    },
+    {
+      "task_difficulty": 0.2774426413001084,
+      "task_ee_object_distance": 0.40954138462191386,
+      "task_inverse_target_radius": 13.725979171616752,
+      "task_object_goal_distance": 0.4439411574073406,
+      "trajectory_id": "traj_0234"
+    },
+    {
+      "task_difficulty": -0.3059300999464716,
+      "task_ee_object_distance": 0.3838436407313452,
+      "task_inverse_target_radius": 16.384096788896017,
+      "task_object_goal_distance": 0.25861498168285507,
+      "trajectory_id": "traj_0235"
+    },
+    {
+      "task_difficulty": -1.1465176480124342,
+      "task_ee_object_distance": 0.338421480412485,
+      "task_inverse_target_radius": 14.361703865411993,
+      "task_object_goal_distance": 0.2195652204449542,
+      "trajectory_id": "traj_0236"
+    },
+    {
+      "task_difficulty": -0.4611654704576537,
+      "task_ee_object_distance": 0.3499397497836536,
+      "task_inverse_target_radius": 19.59835933362361,
+      "task_object_goal_distance": 0.1915477703663069,
+      "trajectory_id": "traj_0237"
+    },
+    {
+      "task_difficulty": -0.6873789343150261,
+      "task_ee_object_distance": 0.3601368138288333,
+      "task_inverse_target_radius": 15.766583870830644,
+      "task_object_goal_distance": 0.23838678366276098,
+      "trajectory_id": "traj_0239"
+    },
+    {
+      "task_difficulty": 0.9885304403079537,
+      "task_ee_object_distance": 0.41835902656670027,
+      "task_inverse_target_radius": 17.084073551723918,
+      "task_object_goal_distance": 0.49612123708753086,
+      "trajectory_id": "traj_0240"
+    },
+    {
+      "task_difficulty": 0.3626125626773104,
+      "task_ee_object_distance": 0.402507515186423,
+      "task_inverse_target_radius": 18.46479028669837,
+      "task_object_goal_distance": 0.31854891771424815,
+      "trajectory_id": "traj_0241"
+    },
+    {
+      "task_difficulty": 0.8614734727104562,
+      "task_ee_object_distance": 0.39829949372093804,
+      "task_inverse_target_radius": 22.0582538295392,
+      "task_object_goal_distance": 0.33865805699593526,
+      "trajectory_id": "traj_0242"
+    },
+    {
+      "task_difficulty": -0.24668399633497562,
+      "task_ee_object_distance": 0.3366228411396662,
+      "task_inverse_target_radius": 20.500165013026834,
+      "task_object_goal_distance": 0.25283551991777814,
+      "trajectory_id": "traj_0243"
+    },
+    {
+      "task_difficulty": 1.154229019292104,
+      "task_ee_object_distance": 0.4255857490299434,
+      "task_inverse_target_radius": 19.53952747188842,
+      "task_object_goal_distance": 0.4358836956052755,
+      "trajectory_id": "traj_0244"
+    },
+    {
+      "task_difficulty": 0.3335836872463571,
+      "task_ee_object_distance": 0.4160448919083053,
+      "task_inverse_target_radius": 17.47206258638512,
+      "task_object_goal_distance": 0.31033415564161304,
+      "trajectory_id": "traj_0245"
+    },
+    {
+      "task_difficulty": 0.3349065154821978,
+      "task_ee_object_distance": 0.44175270888158075,
+      "task_inverse_target_radius": 18.94385490179484,
+      "task_object_goal_distance": 0.19186246788358804,
+      "trajectory_id": "traj_0246"
+    },
+    {
+      "task_difficulty": -0.7816550311911256,
+      "task_ee_object_distance": 0.3986761791856171,
+      "task_inverse_target_radius": 13.711051063383056,
+      "task_object_goal_distance": 0.1846950131274989,
+      "trajectory_id": "traj_0250"
+    },
+    {
+      "task_difficulty": -0.061584169187459716,
+      "task_ee_object_distance": 0.45390882818702705,
+      "task_inverse_target_radius": 14.971465929253808,
+      "task_object_goal_distance": 0.19223043630825443,
+      "trajectory_id": "traj_0252"
+    },
+    {
+      "task_difficulty": -0.7245677911686076,
+      "task_ee_object_distance": 0.34757382480377047,
+      "task_inverse_target_radius": 13.76554253489982,
+      "task_object_goal_distance": 0.3314842254516728,
+      "trajectory_id": "traj_0253"
+    },
+    {
+      "task_difficulty": -0.07242230001609536,
+      "task_ee_object_distance": 0.42940859325500486,
+      "task_inverse_target_radius": 15.34920829112579,
+      "task_object_goal_distance": 0.23983006001176596,
+      "trajectory_id": "traj_0254"
+    },
+    {
+      "task_difficulty": -0.2572715852939893,
+      "task_ee_object_distance": 0.38022046749688054,
+      "task_inverse_target_radius": 17.051125090118187,
+      "task_object_goal_distance": 0.2578019027291764,
+      "trajectory_id": "traj_0255"
+    },
+    {
+      "task_difficulty": -0.04777801786583765,
+      "task_ee_object_distance": 0.35817255606217213,
+      "task_inverse_target_radius": 21.775001288721533,
+      "task_object_goal_distance": 0.20588193733843593,
+      "trajectory_id": "traj_0257"
+    },
+    {
+      "task_difficulty": 1.0135464351752896,
+      "task_ee_object_distance": 0.45119949118568964,
+      "task_inverse_target_radius": 15.055802571035924,
+      "task_object_goal_distance": 0.488770464133921,
+      "trajectory_id": "traj_0258"
+    },
+    {
+      "task_difficulty": 0.4264093076977516,
+      "task_ee_object_distance": 0.39918212114319407,
+      "task_inverse_target_radius": 19.0078317285513,
+      "task_object_goal_distance": 0.32544412903557984,
+      "trajectory_id": "traj_0259"
+    },
+    {
+      "task_difficulty": -1.0867201645099056,
+      "task_ee_object_distance": 0.349384978284187,
+      "task_inverse_target_radius": 13.891048092212458,
+      "task_object_goal_distance": 0.22383399339071247,
+      "trajectory_id": "traj_0260"
+    },
+    {
+      "task_difficulty": -0.8325932915253693,
+      "task_ee_object_distance": 0.3680938321891649,
+      "task_inverse_target_radius": 15.658740017338165,
+      "task_object_goal_distance": 0.18194755703492355,
+      "trajectory_id": "traj_0261"
+    },
+    {
+      "task_difficulty": -1.0203546988742662,
+      "task_ee_object_distance": 0.3446536471314819,
+      "task_inverse_target_radius": 14.2703107366805,
+      "task_object_goal_distance": 0.24085993554295804,
+      "trajectory_id": "traj_0263"
+    },
+    {
+      "task_difficulty": 0.9834125254742561,
+      "task_ee_object_distance": 0.4641653966287003,
+      "task_inverse_target_radius": 15.601552310607977,
+      "task_object_goal_distance": 0.42756256865460185,
+      "trajectory_id": "traj_0264"
+    },
+    {
+      "task_difficulty": -0.9138541004290538,
+      "task_ee_object_distance": 0.3505918631831153,
+      "task_inverse_target_radius": 16.043597983380362,
+      "task_object_goal_distance": 0.19190226321240209,
+      "trajectory_id": "traj_0265"
+    },
+    {
+      "task_difficulty": -0.5136111796538729,
+      "task_ee_object_distance": 0.3776676116781831,
+      "task_inverse_target_radius": 16.75952274888684,
+      "task_object_goal_distance": 0.20499696133106105,
+      "trajectory_id": "traj_0266"
+    },
+    {
+      "task_difficulty": -1.1784287963608655,
+      "task_ee_object_distance": 0.33789487628130815,
+      "task_inverse_target_radius": 13.591809652219823,
+      "task_object_goal_distance": 0.23937141013610896,
+      "trajectory_id": "traj_0268"
+    },
+    {
+      "task_difficulty": 0.236633994508354,
+      "task_ee_object_distance": 0.4059553984136489,
+      "task_inverse_target_radius": 16.125856019545246,
+      "task_object_goal_distance": 0.3576677338082219,
+      "trajectory_id": "traj_0269"
+    },
+    {
+      "task_difficulty": 1.0593261753831134,
+      "task_ee_object_distance": 0.41158391214673395,
+      "task_inverse_target_radius": 21.073856736744975,
+      "task_object_goal_distance": 0.39252384432118353,
+      "trajectory_id": "traj_0270"
+    },
+    {
+      "task_difficulty": 1.1638312836999916,
+      "task_ee_object_distance": 0.46063848821068915,
+      "task_inverse_target_radius": 19.154294863297952,
+      "task_object_goal_distance": 0.36071040067338894,
+      "trajectory_id": "traj_0273"
+    },
+    {
+      "task_difficulty": -0.3034090428528666,
+      "task_ee_object_distance": 0.33721388017728876,
+      "task_inverse_target_radius": 19.082635903257124,
+      "task_object_goal_distance": 0.28578759400449005,
+      "trajectory_id": "traj_0274"
+    },
+    {
+      "task_difficulty": 1.7750474454950498,
+      "task_ee_object_distance": 0.4588346992064815,
+      "task_inverse_target_radius": 19.63802681247464,
+      "task_object_goal_distance": 0.5146339346432878,
+      "trajectory_id": "traj_0275"
+    },
+    {
+      "task_difficulty": -0.31766803199585364,
+      "task_ee_object_distance": 0.3707948238032001,
+      "task_inverse_target_radius": 17.045489582941126,
+      "task_object_goal_distance": 0.26613630249490744,
+      "trajectory_id": "traj_0277"
+    },
+    {
+      "task_difficulty": 0.5394865931592494,
+      "task_ee_object_distance": 0.40191286451677033,
+      "task_inverse_target_radius": 21.927176117292884,
+      "task_object_goal_distance": 0.24627283831624744,
+      "trajectory_id": "traj_0278"
+    },
+    {
+      "task_difficulty": -0.60569734257473,
+      "task_ee_object_distance": 0.379394008811866,
+      "task_inverse_target_radius": 16.53013425256684,
+      "task_object_goal_distance": 0.18352768872608463,
+      "trajectory_id": "traj_0279"
+    },
+    {
+      "task_difficulty": -0.21346985134603033,
+      "task_ee_object_distance": 0.3388402122562007,
+      "task_inverse_target_radius": 21.108436531628417,
+      "task_object_goal_distance": 0.23466939408628484,
+      "trajectory_id": "traj_0280"
+    },
+    {
+      "task_difficulty": 0.4273684256073938,
+      "task_ee_object_distance": 0.390638040971189,
+      "task_inverse_target_radius": 17.555990621062435,
+      "task_object_goal_distance": 0.3991028169337499,
+      "trajectory_id": "traj_0281"
+    },
+    {
+      "task_difficulty": -0.30257745343854975,
+      "task_ee_object_distance": 0.41579958143558676,
+      "task_inverse_target_radius": 16.12384078526425,
+      "task_object_goal_distance": 0.18541098865159406,
+      "trajectory_id": "traj_0283"
+    },
+    {
+      "task_difficulty": -0.5570480506946235,
+      "task_ee_object_distance": 0.34312536641454217,
+      "task_inverse_target_radius": 16.629115778217145,
+      "task_object_goal_distance": 0.2877961151368993,
+      "trajectory_id": "traj_0285"
+    },
+    {
+      "task_difficulty": -0.482449602118487,
+      "task_ee_object_distance": 0.38340122280641104,
+      "task_inverse_target_radius": 15.868636970264133,
+      "task_object_goal_distance": 0.2299058136632076,
+      "trajectory_id": "traj_0287"
+    },
+    {
+      "task_difficulty": -0.003733820094142063,
+      "task_ee_object_distance": 0.394412812457789,
+      "task_inverse_target_radius": 13.990269437181865,
+      "task_object_goal_distance": 0.39757698404943537,
+      "trajectory_id": "traj_0288"
+    },
+    {
+      "task_difficulty": -0.5153476136552668,
+      "task_ee_object_distance": 0.4164481817051534,
+      "task_inverse_target_radius": 14.065084480782504,
+      "task_object_goal_distance": 0.19834943307311426,
+      "trajectory_id": "traj_0289"
+    },
+    {
+      "task_difficulty": -0.4005039537801969,
+      "task_ee_object_distance": 0.4253527414923523,
+      "task_inverse_target_radius": 14.021496139243682,
+      "task_object_goal_distance": 0.20791694727482155,
+      "trajectory_id": "traj_0290"
+    },
+    {
+      "task_difficulty": 0.6691409782640232,
+      "task_ee_object_distance": 0.4037006985359811,
+      "task_inverse_target_radius": 21.993520390703328,
+      "task_object_goal_distance": 0.2745446425377048,
+      "trajectory_id": "traj_0292"
+    },
+    {
+      "task_difficulty": 0.986149797761643,
+      "task_ee_object_distance": 0.4304241026137988,
+      "task_inverse_target_radius": 18.017398509421394,
+      "task_object_goal_distance": 0.4311607017963734,
+      "trajectory_id": "traj_0296"
+    },
+    {
+      "task_difficulty": -0.015861425511317712,
+      "task_ee_object_distance": 0.40804789812789727,
+      "task_inverse_target_radius": 14.912492912073182,
+      "task_object_goal_distance": 0.32626445774517543,
+      "trajectory_id": "traj_0297"
+    },
+    {
+      "task_difficulty": -0.7876714590693558,
+      "task_ee_object_distance": 0.34096988281137675,
+      "task_inverse_target_radius": 13.4228367087579,
+      "task_object_goal_distance": 0.34359937565441073,
+      "trajectory_id": "traj_0298"
+    }
+  ],
+  "trajectory_ids": [
+    "traj_0000",
+    "traj_0001",
+    "traj_0002",
+    "traj_0003",
+    "traj_0004",
+    "traj_0007",
+    "traj_0008",
+    "traj_0009",
+    "traj_0010",
+    "traj_0013",
+    "traj_0014",
+    "traj_0015",
+    "traj_0016",
+    "traj_0017",
+    "traj_0018",
+    "traj_0019",
+    "traj_0020",
+    "traj_0021",
+    "traj_0022",
+    "traj_0023",
+    "traj_0024",
+    "traj_0027",
+    "traj_0028",
+    "traj_0029",
+    "traj_0030",
+    "traj_0031",
+    "traj_0032",
+    "traj_0034",
+    "traj_0035",
+    "traj_0038",
+    "traj_0039",
+    "traj_0041",
+    "traj_0042",
+    "traj_0043",
+    "traj_0044",
+    "traj_0046",
+    "traj_0047",
+    "traj_0048",
+    "traj_0049",
+    "traj_0050",
+    "traj_0051",
+    "traj_0052",
+    "traj_0053",
+    "traj_0054",
+    "traj_0055",
+    "traj_0058",
+    "traj_0059",
+    "traj_0060",
+    "traj_0061",
+    "traj_0062",
+    "traj_0063",
+    "traj_0064",
+    "traj_0065",
+    "traj_0066",
+    "traj_0067",
+    "traj_0068",
+    "traj_0070",
+    "traj_0071",
+    "traj_0072",
+    "traj_0073",
+    "traj_0074",
+    "traj_0075",
+    "traj_0076",
+    "traj_0077",
+    "traj_0078",
+    "traj_0080",
+    "traj_0081",
+    "traj_0082",
+    "traj_0086",
+    "traj_0087",
+    "traj_0088",
+    "traj_0089",
+    "traj_0090",
+    "traj_0091",
+    "traj_0092",
+    "traj_0093",
+    "traj_0094",
+    "traj_0095",
+    "traj_0096",
+    "traj_0097",
+    "traj_0098",
+    "traj_0099",
+    "traj_0100",
+    "traj_0101",
+    "traj_0102",
+    "traj_0103",
+    "traj_0104",
+    "traj_0105",
+    "traj_0107",
+    "traj_0108",
+    "traj_0109",
+    "traj_0110",
+    "traj_0111",
+    "traj_0112",
+    "traj_0113",
+    "traj_0115",
+    "traj_0116",
+    "traj_0117",
+    "traj_0118",
+    "traj_0119",
+    "traj_0120",
+    "traj_0121",
+    "traj_0122",
+    "traj_0123",
+    "traj_0124",
+    "traj_0125",
+    "traj_0126",
+    "traj_0127",
+    "traj_0128",
+    "traj_0130",
+    "traj_0131",
+    "traj_0133",
+    "traj_0134",
+    "traj_0135",
+    "traj_0136",
+    "traj_0137",
+    "traj_0138",
+    "traj_0139",
+    "traj_0140",
+    "traj_0141",
+    "traj_0142",
+    "traj_0143",
+    "traj_0144",
+    "traj_0145",
+    "traj_0146",
+    "traj_0147",
+    "traj_0148",
+    "traj_0149",
+    "traj_0150",
+    "traj_0152",
+    "traj_0154",
+    "traj_0156",
+    "traj_0157",
+    "traj_0158",
+    "traj_0159",
+    "traj_0160",
+    "traj_0161",
+    "traj_0162",
+    "traj_0163",
+    "traj_0164",
+    "traj_0165",
+    "traj_0166",
+    "traj_0168",
+    "traj_0170",
+    "traj_0172",
+    "traj_0173",
+    "traj_0174",
+    "traj_0178",
+    "traj_0179",
+    "traj_0180",
+    "traj_0181",
+    "traj_0182",
+    "traj_0183",
+    "traj_0184",
+    "traj_0185",
+    "traj_0186",
+    "traj_0187",
+    "traj_0188",
+    "traj_0190",
+    "traj_0191",
+    "traj_0192",
+    "traj_0193",
+    "traj_0194",
+    "traj_0195",
+    "traj_0196",
+    "traj_0197",
+    "traj_0198",
+    "traj_0199",
+    "traj_0200",
+    "traj_0201",
+    "traj_0202",
+    "traj_0205",
+    "traj_0206",
+    "traj_0207",
+    "traj_0208",
+    "traj_0209",
+    "traj_0210",
+    "traj_0211",
+    "traj_0212",
+    "traj_0213",
+    "traj_0214",
+    "traj_0216",
+    "traj_0217",
+    "traj_0219",
+    "traj_0223",
+    "traj_0224",
+    "traj_0225",
+    "traj_0227",
+    "traj_0228",
+    "traj_0230",
+    "traj_0231",
+    "traj_0232",
+    "traj_0233",
+    "traj_0234",
+    "traj_0235",
+    "traj_0236",
+    "traj_0237",
+    "traj_0239",
+    "traj_0240",
+    "traj_0241",
+    "traj_0242",
+    "traj_0243",
+    "traj_0244",
+    "traj_0245",
+    "traj_0246",
+    "traj_0250",
+    "traj_0252",
+    "traj_0253",
+    "traj_0254",
+    "traj_0255",
+    "traj_0257",
+    "traj_0258",
+    "traj_0259",
+    "traj_0260",
+    "traj_0261",
+    "traj_0263",
+    "traj_0264",
+    "traj_0265",
+    "traj_0266",
+    "traj_0268",
+    "traj_0269",
+    "traj_0270",
+    "traj_0273",
+    "traj_0274",
+    "traj_0275",
+    "traj_0277",
+    "traj_0278",
+    "traj_0279",
+    "traj_0280",
+    "traj_0281",
+    "traj_0283",
+    "traj_0285",
+    "traj_0287",
+    "traj_0288",
+    "traj_0289",
+    "traj_0290",
+    "traj_0292",
+    "traj_0296",
+    "traj_0297",
+    "traj_0298"
+  ]
+}

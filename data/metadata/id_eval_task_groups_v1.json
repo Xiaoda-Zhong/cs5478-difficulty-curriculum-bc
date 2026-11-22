@@ -1,0 +1,516 @@
+{
+  "dataset_fingerprint": "1b6cec9dda067778630268c307241c62cccbd49cfe849a031877ee00ea938bc0",
+  "definition": "M5 predefined task-difficulty formula and normalization; no rollout outcomes used",
+  "groups": {
+    "easy": [
+      "id_eval_0018",
+      "id_eval_0024",
+      "id_eval_0034",
+      "id_eval_0049",
+      "id_eval_0071",
+      "id_eval_0062",
+      "id_eval_0085",
+      "id_eval_0044",
+      "id_eval_0094",
+      "id_eval_0037",
+      "id_eval_0006",
+      "id_eval_0091",
+      "id_eval_0025",
+      "id_eval_0026",
+      "id_eval_0021",
+      "id_eval_0080",
+      "id_eval_0095",
+      "id_eval_0073",
+      "id_eval_0088",
+      "id_eval_0023",
+      "id_eval_0005",
+      "id_eval_0051",
+      "id_eval_0014",
+      "id_eval_0064",
+      "id_eval_0098",
+      "id_eval_0068",
+      "id_eval_0048",
+      "id_eval_0099",
+      "id_eval_0063",
+      "id_eval_0008",
+      "id_eval_0057",
+      "id_eval_0041",
+      "id_eval_0002"
+    ],
+    "hard": [
+      "id_eval_0000",
+      "id_eval_0089",
+      "id_eval_0081",
+      "id_eval_0083",
+      "id_eval_0084",
+      "id_eval_0009",
+      "id_eval_0001",
+      "id_eval_0003",
+      "id_eval_0013",
+      "id_eval_0076",
+      "id_eval_0047",
+      "id_eval_0015",
+      "id_eval_0054",
+      "id_eval_0043",
+      "id_eval_0012",
+      "id_eval_0010",
+      "id_eval_0059",
+      "id_eval_0029",
+      "id_eval_0011",
+      "id_eval_0090",
+      "id_eval_0052",
+      "id_eval_0086",
+      "id_eval_0072",
+      "id_eval_0077",
+      "id_eval_0061",
+      "id_eval_0042",
+      "id_eval_0033",
+      "id_eval_0093",
+      "id_eval_0069",
+      "id_eval_0036",
+      "id_eval_0066",
+      "id_eval_0031",
+      "id_eval_0060",
+      "id_eval_0040"
+    ],
+    "medium": [
+      "id_eval_0079",
+      "id_eval_0096",
+      "id_eval_0055",
+      "id_eval_0087",
+      "id_eval_0020",
+      "id_eval_0004",
+      "id_eval_0027",
+      "id_eval_0078",
+      "id_eval_0019",
+      "id_eval_0092",
+      "id_eval_0032",
+      "id_eval_0022",
+      "id_eval_0082",
+      "id_eval_0074",
+      "id_eval_0053",
+      "id_eval_0067",
+      "id_eval_0070",
+      "id_eval_0038",
+      "id_eval_0075",
+      "id_eval_0065",
+      "id_eval_0017",
+      "id_eval_0097",
+      "id_eval_0058",
+      "id_eval_0045",
+      "id_eval_0007",
+      "id_eval_0056",
+      "id_eval_0028",
+      "id_eval_0050",
+      "id_eval_0016",
+      "id_eval_0035",
+      "id_eval_0030",
+      "id_eval_0046",
+      "id_eval_0039"
+    ]
+  },
+  "records": [
+    {
+      "task_difficulty": 0.3206967901834798,
+      "task_id": "id_eval_0000"
+    },
+    {
+      "task_difficulty": 0.4602525862180473,
+      "task_id": "id_eval_0001"
+    },
+    {
+      "task_difficulty": -0.4091420093428714,
+      "task_id": "id_eval_0002"
+    },
+    {
+      "task_difficulty": 0.4765286774036828,
+      "task_id": "id_eval_0003"
+    },
+    {
+      "task_difficulty": -0.35308882198092073,
+      "task_id": "id_eval_0004"
+    },
+    {
+      "task_difficulty": -0.6365659381788142,
+      "task_id": "id_eval_0005"
+    },
+    {
+      "task_difficulty": -0.996619579686287,
+      "task_id": "id_eval_0006"
+    },
+    {
+      "task_difficulty": 0.06430031757230992,
+      "task_id": "id_eval_0007"
+    },
+    {
+      "task_difficulty": -0.5117226011618606,
+      "task_id": "id_eval_0008"
+    },
+    {
+      "task_difficulty": 0.4455198560659741,
+      "task_id": "id_eval_0009"
+    },
+    {
+      "task_difficulty": 0.7064502391878493,
+      "task_id": "id_eval_0010"
+    },
+    {
+      "task_difficulty": 0.7308545011742145,
+      "task_id": "id_eval_0011"
+    },
+    {
+      "task_difficulty": 0.648178749750636,
+      "task_id": "id_eval_0012"
+    },
+    {
+      "task_difficulty": 0.4791831004080427,
+      "task_id": "id_eval_0013"
+    },
+    {
+      "task_difficulty": -0.6105793572903585,
+      "task_id": "id_eval_0014"
+    },
+    {
+      "task_difficulty": 0.5599064407776022,
+      "task_id": "id_eval_0015"
+    },
+    {
+      "task_difficulty": 0.2310969068193376,
+      "task_id": "id_eval_0016"
+    },
+    {
+      "task_difficulty": -0.08345273147127254,
+      "task_id": "id_eval_0017"
+    },
+    {
+      "task_difficulty": -1.2991954832612143,
+      "task_id": "id_eval_0018"
+    },
+    {
+      "task_difficulty": -0.296165592637234,
+      "task_id": "id_eval_0019"
+    },
+    {
+      "task_difficulty": -0.3680482924705091,
+      "task_id": "id_eval_0020"
+    },
+    {
+      "task_difficulty": -0.834975919480406,
+      "task_id": "id_eval_0021"
+    },
+    {
+      "task_difficulty": -0.25043911653861023,
+      "task_id": "id_eval_0022"
+    },
+    {
+      "task_difficulty": -0.6788370401984941,
+      "task_id": "id_eval_0023"
+    },
+    {
+      "task_difficulty": -1.2950503764144203,
+      "task_id": "id_eval_0024"
+    },
+    {
+      "task_difficulty": -0.9421067739482122,
+      "task_id": "id_eval_0025"
+    },
+    {
+      "task_difficulty": -0.8779453660748427,
+      "task_id": "id_eval_0026"
+    },
+    {
+      "task_difficulty": -0.33442594685763244,
+      "task_id": "id_eval_0027"
+    },
+    {
+      "task_difficulty": 0.17441070054204943,
+      "task_id": "id_eval_0028"
+    },
+    {
+      "task_difficulty": 0.7113060529275105,
+      "task_id": "id_eval_0029"
+    },
+    {
+      "task_difficulty": 0.2839167554224078,
+      "task_id": "id_eval_0030"
+    },
+    {
+      "task_difficulty": 1.2551317385664513,
+      "task_id": "id_eval_0031"
+    },
+    {
+      "task_difficulty": -0.2624873126693416,
+      "task_id": "id_eval_0032"
+    },
+    {
+      "task_difficulty": 0.9397932849730909,
+      "task_id": "id_eval_0033"
+    },
+    {
+      "task_difficulty": -1.286417188344432,
+      "task_id": "id_eval_0034"
+    },
+    {
+      "task_difficulty": 0.2315388782903919,
+      "task_id": "id_eval_0035"
+    },
+    {
+      "task_difficulty": 1.0714729668722047,
+      "task_id": "id_eval_0036"
+    },
+    {
+      "task_difficulty": -1.0082988842816392,
+      "task_id": "id_eval_0037"
+    },
+    {
+      "task_difficulty": -0.14877915692122148,
+      "task_id": "id_eval_0038"
+    },
+    {
+      "task_difficulty": 0.3042285710391356,
+      "task_id": "id_eval_0039"
+    },
+    {
+      "task_difficulty": 1.350102523165688,
+      "task_id": "id_eval_0040"
+    },
+    {
+      "task_difficulty": -0.4890347119187726,
+      "task_id": "id_eval_0041"
+    },
+    {
+      "task_difficulty": 0.9103223202863923,
+      "task_id": "id_eval_0042"
+    },
+    {
+      "task_difficulty": 0.6202277075678521,
+      "task_id": "id_eval_0043"
+    },
+    {
+      "task_difficulty": -1.0592547628637543,
+      "task_id": "id_eval_0044"
+    },
+    {
+      "task_difficulty": 0.06033203491386726,
+      "task_id": "id_eval_0045"
+    },
+    {
+      "task_difficulty": 0.28404709815656204,
+      "task_id": "id_eval_0046"
+    },
+    {
+      "task_difficulty": 0.5204365116560125,
+      "task_id": "id_eval_0047"
+    },
+    {
+      "task_difficulty": -0.5827624005655142,
+      "task_id": "id_eval_0048"
+    },
+    {
+      "task_difficulty": -1.2271115998802549,
+      "task_id": "id_eval_0049"
+    },
+    {
+      "task_difficulty": 0.22248552070356142,
+      "task_id": "id_eval_0050"
+    },
+    {
+      "task_difficulty": -0.6293222678722764,
+      "task_id": "id_eval_0051"
+    },
+    {
+      "task_difficulty": 0.8262603836985262,
+      "task_id": "id_eval_0052"
+    },
+    {
+      "task_difficulty": -0.19512729412037277,
+      "task_id": "id_eval_0053"
+    },
+    {
+      "task_difficulty": 0.5782512742585891,
+      "task_id": "id_eval_0054"
+    },
+    {
+      "task_difficulty": -0.3907894327221249,
+      "task_id": "id_eval_0055"
+    },
+    {
+      "task_difficulty": 0.15126733627236735,
+      "task_id": "id_eval_0056"
+    },
+    {
+      "task_difficulty": -0.5040122423220202,
+      "task_id": "id_eval_0057"
+    },
+    {
+      "task_difficulty": 0.008064930492117465,
+      "task_id": "id_eval_0058"
+    },
+    {
+      "task_difficulty": 0.709901421436188,
+      "task_id": "id_eval_0059"
+    },
+    {
+      "task_difficulty": 1.3180894968565926,
+      "task_id": "id_eval_0060"
+    },
+    {
+      "task_difficulty": 0.8768391251346307,
+      "task_id": "id_eval_0061"
+    },
+    {
+      "task_difficulty": -1.0643034620561609,
+      "task_id": "id_eval_0062"
+    },
+    {
+      "task_difficulty": -0.5616086578386797,
+      "task_id": "id_eval_0063"
+    },
+    {
+      "task_difficulty": -0.6070511699392246,
+      "task_id": "id_eval_0064"
+    },
+    {
+      "task_difficulty": -0.11142109445768189,
+      "task_id": "id_eval_0065"
+    },
+    {
+      "task_difficulty": 1.0893339246777807,
+      "task_id": "id_eval_0066"
+    },
+    {
+      "task_difficulty": -0.1638186120256653,
+      "task_id": "id_eval_0067"
+    },
+    {
+      "task_difficulty": -0.5878562033807421,
+      "task_id": "id_eval_0068"
+    },
+    {
+      "task_difficulty": 1.0304430341153332,
+      "task_id": "id_eval_0069"
+    },
+    {
+      "task_difficulty": -0.15638782224985495,
+      "task_id": "id_eval_0070"
+    },
+    {
+      "task_difficulty": -1.1505620648872084,
+      "task_id": "id_eval_0071"
+    },
+    {
+      "task_difficulty": 0.8597983683348732,
+      "task_id": "id_eval_0072"
+    },
+    {
+      "task_difficulty": -0.7104939120872746,
+      "task_id": "id_eval_0073"
+    },
+    {
+      "task_difficulty": -0.22425002022508647,
+      "task_id": "id_eval_0074"
+    },
+    {
+      "task_difficulty": -0.12304566251554112,
+      "task_id": "id_eval_0075"
+    },
+    {
+      "task_difficulty": 0.5126565641107886,
+      "task_id": "id_eval_0076"
+    },
+    {
+      "task_difficulty": 0.8746293295464912,
+      "task_id": "id_eval_0077"
+    },
+    {
+      "task_difficulty": -0.33159918755486456,
+      "task_id": "id_eval_0078"
+    },
+    {
+      "task_difficulty": -0.4079054357393557,
+      "task_id": "id_eval_0079"
+    },
+    {
+      "task_difficulty": -0.7768075583340254,
+      "task_id": "id_eval_0080"
+    },
+    {
+      "task_difficulty": 0.4193777842007495,
+      "task_id": "id_eval_0081"
+    },
+    {
+      "task_difficulty": -0.24590542459552722,
+      "task_id": "id_eval_0082"
+    },
+    {
+      "task_difficulty": 0.42348577163890955,
+      "task_id": "id_eval_0083"
+    },
+    {
+      "task_difficulty": 0.426619849101522,
+      "task_id": "id_eval_0084"
+    },
+    {
+      "task_difficulty": -1.0629822897207297,
+      "task_id": "id_eval_0085"
+    },
+    {
+      "task_difficulty": 0.8382827454537609,
+      "task_id": "id_eval_0086"
+    },
+    {
+      "task_difficulty": -0.3794732253221553,
+      "task_id": "id_eval_0087"
+    },
+    {
+      "task_difficulty": -0.687721574412015,
+      "task_id": "id_eval_0088"
+    },
+    {
+      "task_difficulty": 0.35641612667641076,
+      "task_id": "id_eval_0089"
+    },
+    {
+      "task_difficulty": 0.733948594775449,
+      "task_id": "id_eval_0090"
+    },
+    {
+      "task_difficulty": -0.9737649234888964,
+      "task_id": "id_eval_0091"
+    },
+    {
+      "task_difficulty": -0.2626830354166116,
+      "task_id": "id_eval_0092"
+    },
+    {
+      "task_difficulty": 0.9503436906115962,
+      "task_id": "id_eval_0093"
+    },
+    {
+      "task_difficulty": -1.045657826045291,
+      "task_id": "id_eval_0094"
+    },
+    {
+      "task_difficulty": -0.7290537623372595,
+      "task_id": "id_eval_0095"
+    },
+    {
+      "task_difficulty": -0.39246644425959326,
+      "task_id": "id_eval_0096"
+    },
+    {
+      "task_difficulty": -0.04431720025723753,
+      "task_id": "id_eval_0097"
+    },
+    {
+      "task_difficulty": -0.6064007811682229,
+      "task_id": "id_eval_0098"
+    },
+    {
+      "task_difficulty": -0.5667731896408582,
+      "task_id": "id_eval_0099"
+    }
+  ],
+  "tie_breaker": "task_id ascending",
+  "version": 1
+}

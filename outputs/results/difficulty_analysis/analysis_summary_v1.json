@@ -1,0 +1,377 @@
+{
+  "bootstrap": {
+    "method": "stratified percentile 95% CI",
+    "samples": 1000,
+    "seed": 65478
+  },
+  "dataset_fingerprint": "1b6cec9dda067778630268c307241c62cccbd49cfe849a031877ee00ea938bc0",
+  "date_generated_utc": "2026-10-08T05:04:43.262621+00:00",
+  "difficulty_group_outcomes": {
+    "expert": {
+      "easy": {
+        "count": 80,
+        "failure_rate": 0.16249999999999998,
+        "failures": 13,
+        "success_rate": 0.8375,
+        "successes": 67
+      },
+      "hard": {
+        "count": 80,
+        "failure_rate": 0.15000000000000002,
+        "failures": 12,
+        "success_rate": 0.85,
+        "successes": 68
+      },
+      "medium": {
+        "count": 80,
+        "failure_rate": 0.21250000000000002,
+        "failures": 17,
+        "success_rate": 0.7875,
+        "successes": 63
+      }
+    },
+    "learner": {
+      "easy": {
+        "count": 80,
+        "failure_rate": 0.13749999999999996,
+        "failures": 11,
+        "success_rate": 0.8625,
+        "successes": 69
+      },
+      "hard": {
+        "count": 80,
+        "failure_rate": 0.22499999999999998,
+        "failures": 18,
+        "success_rate": 0.775,
+        "successes": 62
+      },
+      "medium": {
+        "count": 80,
+        "failure_rate": 0.16249999999999998,
+        "failures": 13,
+        "success_rate": 0.8375,
+        "successes": 67
+      }
+    },
+    "task": {
+      "easy": {
+        "count": 80,
+        "failure_rate": 0.17500000000000004,
+        "failures": 14,
+        "success_rate": 0.825,
+        "successes": 66
+      },
+      "hard": {
+        "count": 80,
+        "failure_rate": 0.21250000000000002,
+        "failures": 17,
+        "success_rate": 0.7875,
+        "successes": 63
+      },
+      "medium": {
+        "count": 80,
+        "failure_rate": 0.13749999999999996,
+        "failures": 11,
+        "success_rate": 0.8625,
+        "successes": 69
+      }
+    }
+  },
+  "expert_simplified_sensitivity": {
+    "definition": "equal mean of M5-standardized duration and EE path length",
+    "failure_auroc": {
+      "ci_lower": 0.4229888167388168,
+      "ci_upper": 0.6066798941798942,
+      "estimate": 0.5117845117845118,
+      "valid_samples": 1000
+    },
+    "spearman_with_learner": -0.5428149794267262,
+    "spearman_with_original_expert": 0.9999982638587475,
+    "spearman_with_task": 0.8415284987586588
+  },
+  "failure_prediction": {
+    "expert_difficulty": {
+      "auprc": 0.20957961301228478,
+      "auroc": {
+        "ci_lower": 0.4229888167388168,
+        "ci_upper": 0.6066798941798942,
+        "estimate": 0.5117845117845118,
+        "valid_samples": 1000
+      },
+      "per_fold_auroc": {
+        "0": 0.4461538461538462,
+        "1": 0.5601965601965602,
+        "2": 0.5217391304347826,
+        "3": 0.6202090592334495,
+        "4": 0.5299145299145299
+      }
+    },
+    "learner_difficulty": {
+      "auprc": 0.33261920281637086,
+      "auroc": {
+        "ci_lower": 0.49372895622895624,
+        "ci_upper": 0.6918320105820105,
+        "estimate": 0.5976430976430976,
+        "valid_samples": 1000
+      },
+      "per_fold_auroc": {
+        "0": 0.5978021978021978,
+        "1": 0.6855036855036855,
+        "2": 0.9347826086956522,
+        "3": 0.6898954703832753,
+        "4": 0.5441595441595442
+      }
+    },
+    "task_difficulty": {
+      "auprc": 0.22084629987950266,
+      "auroc": {
+        "ci_lower": 0.4409511784511784,
+        "ci_upper": 0.6465848965848966,
+        "estimate": 0.5399230399230399,
+        "valid_samples": 1000
+      },
+      "per_fold_auroc": {
+        "0": 0.45274725274725275,
+        "1": 0.6093366093366094,
+        "2": 0.5869565217391305,
+        "3": 0.5644599303135889,
+        "4": 0.6068376068376068
+      }
+    }
+  },
+  "negative_correlation_diagnostics": {
+    "duration_vs_learner_spearman": -0.5422578504340034,
+    "learner_by_fold": {
+      "0": {
+        "max": 0.47402644447585063,
+        "mean": 0.0398372044561582,
+        "median": 0.017190685101972216,
+        "min": 0.013935365106523136,
+        "std": 0.06970600768894764
+      },
+      "1": {
+        "max": 0.19040249277622942,
+        "mean": 0.0274938461759134,
+        "median": 0.018311507427374696,
+        "min": 0.013025263859774169,
+        "std": 0.03355457987126436
+      },
+      "2": {
+        "max": 0.04475152842790282,
+        "mean": 0.020344650279463746,
+        "median": 0.019110665880826223,
+        "min": 0.015431965241161324,
+        "std": 0.005157828493720175
+      },
+      "3": {
+        "max": 0.06063502004358697,
+        "mean": 0.01779553949237474,
+        "median": 0.016286197641788326,
+        "min": 0.014116577184100155,
+        "std": 0.006510603361020269
+      },
+      "4": {
+        "max": 0.15858270487082687,
+        "mean": 0.025314985247998644,
+        "median": 0.018012490690538514,
+        "min": 0.012348672124947552,
+        "std": 0.027144442887633242
+      }
+    },
+    "phase_error": [
+      {
+        "error_contribution": 0.15669427714301545,
+        "mean_motion_error": 0.03643147800362123,
+        "phase": "APPROACH",
+        "steps": 5751
+      },
+      {
+        "error_contribution": 0.0929502308368956,
+        "mean_motion_error": 0.015692506386475326,
+        "phase": "DESCEND",
+        "steps": 7920
+      },
+      {
+        "error_contribution": 0.1803289013513407,
+        "mean_motion_error": 0.12558308025599604,
+        "phase": "GRASP",
+        "steps": 1920
+      },
+      {
+        "error_contribution": 0.13068926496561836,
+        "mean_motion_error": 0.022063873393875125,
+        "phase": "LIFT",
+        "steps": 7920
+      },
+      {
+        "error_contribution": 0.018888905997206367,
+        "mean_motion_error": 0.0031889568785991064,
+        "phase": "PLACE",
+        "steps": 7920
+      },
+      {
+        "error_contribution": 0.09196180867931857,
+        "mean_motion_error": 0.06404324050841091,
+        "phase": "RAISE",
+        "steps": 1920
+      },
+      {
+        "error_contribution": 0.17208578273696495,
+        "mean_motion_error": 0.09587398360406636,
+        "phase": "RELEASE",
+        "steps": 2400
+      },
+      {
+        "error_contribution": 0.023412665941131738,
+        "mean_motion_error": 0.003952689589876588,
+        "phase": "RETREAT",
+        "steps": 7920
+      },
+      {
+        "error_contribution": 0.13298816234850902,
+        "mean_motion_error": 0.020160969972052536,
+        "phase": "TRANSPORT",
+        "steps": 8820
+      }
+    ],
+    "top_10_learner_outlier_ids": [
+      "traj_0075",
+      "traj_0279",
+      "traj_0250",
+      "traj_0184",
+      "traj_0278",
+      "traj_0158",
+      "traj_0105",
+      "traj_0066",
+      "traj_0090",
+      "traj_0023"
+    ]
+  },
+  "outcomes": {
+    "failure_prevalence": 0.175,
+    "failure_reasons": {
+      "timeout": 42
+    },
+    "failures": 42,
+    "mean_final_object_goal_xy_error": 0.05645893812215354,
+    "mean_rollout_steps": 227.34166666666667,
+    "per_fold": {
+      "0": {
+        "failures": 13,
+        "success_rate": 0.7291666666666666,
+        "successes": 35,
+        "tasks": 48
+      },
+      "1": {
+        "failures": 11,
+        "success_rate": 0.7708333333333334,
+        "successes": 37,
+        "tasks": 48
+      },
+      "2": {
+        "failures": 2,
+        "success_rate": 0.9583333333333334,
+        "successes": 46,
+        "tasks": 48
+      },
+      "3": {
+        "failures": 7,
+        "success_rate": 0.8541666666666666,
+        "successes": 41,
+        "tasks": 48
+      },
+      "4": {
+        "failures": 9,
+        "success_rate": 0.8125,
+        "successes": 39,
+        "tasks": 48
+      }
+    },
+    "success_rate": 0.825,
+    "successes": 198,
+    "tasks": 240
+  },
+  "paired_auroc_differences": {
+    "expert_difficulty_minus_learner_difficulty": {
+      "ci_lower": -0.2315536315536315,
+      "ci_upper": 0.08480038480038483,
+      "estimate": -0.08585858585858586,
+      "valid_samples": 1000
+    },
+    "task_difficulty_minus_expert_difficulty": {
+      "ci_lower": -0.03139730639730642,
+      "ci_upper": 0.08516113516113508,
+      "estimate": 0.02813852813852813,
+      "valid_samples": 1000
+    },
+    "task_difficulty_minus_learner_difficulty": {
+      "ci_lower": -0.21506433381433385,
+      "ci_upper": 0.1203733766233767,
+      "estimate": -0.05772005772005773,
+      "valid_samples": 1000
+    }
+  },
+  "spearman_matrix": [
+    [
+      0.9999999999999998,
+      0.8416005486206356,
+      -0.45346794215177333,
+      0.05254894419017566
+    ],
+    [
+      0.8416005486206356,
+      0.9999999999999998,
+      -0.5428002222260802,
+      0.015511435333244622
+    ],
+    [
+      -0.45346794215177333,
+      -0.5428002222260802,
+      0.9999999999999998,
+      0.1285233213325983
+    ],
+    [
+      0.05254894419017566,
+      0.015511435333244622,
+      0.1285233213325983,
+      0.9999999999999999
+    ]
+  ],
+  "spearman_order": [
+    "task_difficulty",
+    "expert_difficulty",
+    "learner_difficulty",
+    "failure"
+  ],
+  "task_component_sensitivity": {
+    "component_correlations": {
+      "task_ee_object_distance": {
+        "with_expert": 0.8126121981284397,
+        "with_failure": 0.11032112680889289,
+        "with_learner": -0.3951622424000416
+      },
+      "task_inverse_target_radius": {
+        "with_expert": 0.012442924356325628,
+        "with_failure": 0.08040621580906396,
+        "with_learner": -0.043002482681991
+      },
+      "task_object_goal_distance": {
+        "with_expert": 0.8080365978576015,
+        "with_failure": -0.10858004733271234,
+        "with_learner": -0.4800222226080313
+      }
+    },
+    "geometry_only_definition": "equal mean of M5-standardized EE-object and object-goal distances",
+    "geometry_only_failure_auroc": {
+      "ci_lower": 0.42544492544492546,
+      "ci_upper": 0.6153589466089465,
+      "estimate": 0.5197210197210197,
+      "valid_samples": 1000
+    },
+    "geometry_only_spearman_with_expert": 0.9932733207173733,
+    "geometry_only_spearman_with_learner": -0.5206774423167069,
+    "geometry_only_spearman_with_task": 0.8454686713310994,
+    "observation_limitation": "Target radius is absent from the 10D policy observation, so inverse-radius difficulty cannot directly affect policy inputs."
+  },
+  "version": 1
+}

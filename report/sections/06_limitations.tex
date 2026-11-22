@@ -1,0 +1,28 @@
+\section{Limitations}
+\label{sec:limitations}
+
+\paragraph{Statistical and schedule scope.}
+Only three training seeds are available, with large variation for several
+methods. We test one three-stage pacing schedule, without Reverse Task or
+Reverse Expert. Moreover, staged eligibility changes cumulative sample
+exposure as well as order, so these factors are not independently controlled.
+
+\paragraph{Difficulty construction.}
+Task and Expert components are manually chosen, and Expert duration, path
+length, and cumulative action magnitude are redundant. Target radius enters
+Task difficulty but is absent from the policy observation. Learner difficulty
+depends on the MLP, its OOF training protocol, per-step averaging, trajectory
+length, and phase composition; alternative choices could change the ranking.
+
+\paragraph{Task and model coverage.}
+Only pick-and-place and stacking are studied with small state-based MLPs.
+Stacking has near-floor success and may not have converged to a useful regime.
+It also uses relative features, precision-phase balancing, and stricter
+persistent-contact success, preventing clean attribution of cross-task changes
+to task identity.
+
+\paragraph{Simulation and demonstration source.}
+All demonstrations come from deterministic scripted experts in PyBullet. We
+do not test human data, sensor or actuation noise, other policy families, real
+robots, or sim-to-real transfer. The conclusions therefore concern this
+controlled simulation study.

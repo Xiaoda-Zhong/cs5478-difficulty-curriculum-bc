@@ -1,0 +1,13 @@
+{
+  "configuration_sha256": {
+    "data/metadata/final_id_difficulty_groups_v1.json": "dc9291e02b5c511ef909e2ece3e6e2b01fdd59b58f09cd452894c050ea9eaa5b",
+    "data/metadata/final_id_eval_tasks_v1.json": "8f1b990b3b56c07903aadd49dc416e0d79e8bf9f157072e8c1330c6232090815",
+    "data/metadata/final_precision_ood_v1.json": "45e8a288ed273b0b7740e7e5ec3a13ad6154edef90e376d38615a6658e3e5cf8",
+    "data/metadata/final_spatial_ood_v1.json": "9c05e659172aa4afffbc4daa9f132b0bdf7b1756d5e325d41fc0c2e2de9aa79f"
+  },
+  "dataset_fingerprint": "1b6cec9dda067778630268c307241c62cccbd49cfe849a031877ee00ea938bc0",
+  "date_frozen_utc": "2026-10-08T11:20:48.630025+00:00",
+  "policy_results_observed_before_freeze": false,
+  "spatial_ood_included": true,
+  "version": 1
+}

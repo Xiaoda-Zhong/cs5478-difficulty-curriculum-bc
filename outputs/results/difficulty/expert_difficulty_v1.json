@@ -1,0 +1,2427 @@
+{
+  "dataset_fingerprint": "1b6cec9dda067778630268c307241c62cccbd49cfe849a031877ee00ea938bc0",
+  "definition": "equal mean of training-standardized duration, executed EE path length, and cumulative Cartesian action magnitude",
+  "ee_path_action_magnitude_pearson_correlation": 0.9999999898854465,
+  "normalization": {
+    "component_names": [
+      "expert_duration",
+      "expert_ee_path_length",
+      "expert_action_magnitude"
+    ],
+    "epsilon": 1e-08,
+    "mean": [
+      218.7125,
+      1.595597256079657,
+      1.5957878275660908
+    ],
+    "std": [
+      17.255332810950556,
+      0.13819249956545213,
+      0.13820030556897067
+    ]
+  },
+  "records": [
+    {
+      "expert_action_magnitude": 1.4880000414655514,
+      "expert_difficulty": -0.7848741313939612,
+      "expert_duration": 205.0,
+      "expert_duration_only": 205.0,
+      "expert_ee_path_length": 1.4878068569354244,
+      "expert_path_length_only": 1.4878068569354244,
+      "trajectory_id": "traj_0000"
+    },
+    {
+      "expert_action_magnitude": 1.5592649725685273,
+      "expert_difficulty": -0.2672228190782311,
+      "expert_duration": 214.0,
+      "expert_duration_only": 214.0,
+      "expert_ee_path_length": 1.5590743960136992,
+      "expert_path_length_only": 1.5590743960136992,
+      "trajectory_id": "traj_0001"
+    },
+    {
+      "expert_action_magnitude": 1.6160000181917331,
+      "expert_difficulty": 0.1416930369369148,
+      "expert_duration": 221.0,
+      "expert_duration_only": 221.0,
+      "expert_ee_path_length": 1.6158090913173728,
+      "expert_path_length_only": 1.6158090913173728,
+      "trajectory_id": "traj_0002"
+    },
+    {
+      "expert_action_magnitude": 1.8548680952236873,
+      "expert_difficulty": 1.873491452444522,
+      "expert_duration": 251.0,
+      "expert_duration_only": 251.0,
+      "expert_ee_path_length": 1.8546586906989782,
+      "expert_path_length_only": 1.8546586906989782,
+      "trajectory_id": "traj_0003"
+    },
+    {
+      "expert_action_magnitude": 1.5109912626933455,
+      "expert_difficulty": -0.6160011471875962,
+      "expert_duration": 208.0,
+      "expert_duration_only": 208.0,
+      "expert_ee_path_length": 1.5108018264890606,
+      "expert_path_length_only": 1.5108018264890606,
+      "trajectory_id": "traj_0004"
+    },
+    {
+      "expert_action_magnitude": 1.7520000333406582,
+      "expert_difficulty": 1.1261756789305448,
+      "expert_duration": 238.0,
+      "expert_duration_only": 238.0,
+      "expert_ee_path_length": 1.7518135089913596,
+      "expert_path_length_only": 1.7518135089913596,
+      "trajectory_id": "traj_0007"
+    },
+    {
+      "expert_action_magnitude": 1.9270476581491507,
+      "expert_difficulty": 2.395416776282049,
+      "expert_duration": 260.0,
+      "expert_duration_only": 260.0,
+      "expert_ee_path_length": 1.9267835587504734,
+      "expert_path_length_only": 1.9267835587504734,
+      "trajectory_id": "traj_0008"
+    },
+    {
+      "expert_action_magnitude": 1.5109699734342732,
+      "expert_difficulty": -0.6161007459737765,
+      "expert_duration": 208.0,
+      "expert_duration_only": 208.0,
+      "expert_ee_path_length": 1.5107818231270105,
+      "expert_path_length_only": 1.5107818231270105,
+      "trajectory_id": "traj_0009"
+    },
+    {
+      "expert_action_magnitude": 1.7081349768187848,
+      "expert_difficulty": 0.8180056989706502,
+      "expert_duration": 233.0,
+      "expert_duration_only": 233.0,
+      "expert_ee_path_length": 1.707959159650945,
+      "expert_path_length_only": 1.707959159650945,
+      "trajectory_id": "traj_0010"
+    },
+    {
+      "expert_action_magnitude": 1.4078790102624121,
+      "expert_difficulty": -1.3645446273757298,
+      "expert_duration": 195.0,
+      "expert_duration_only": 195.0,
+      "expert_ee_path_length": 1.4076918419377338,
+      "expert_path_length_only": 1.4076918419377338,
+      "trajectory_id": "traj_0013"
+    },
+    {
+      "expert_action_magnitude": 1.5400571121491429,
+      "expert_difficulty": -0.3984435400158326,
+      "expert_duration": 212.0,
+      "expert_duration_only": 212.0,
+      "expert_ee_path_length": 1.5398973775061677,
+      "expert_path_length_only": 1.5398973775061677,
+      "trajectory_id": "traj_0014"
+    },
+    {
+      "expert_action_magnitude": 1.5196396754086046,
+      "expert_difficulty": -0.5549884514857032,
+      "expert_duration": 209.0,
+      "expert_duration_only": 209.0,
+      "expert_ee_path_length": 1.5194397107696833,
+      "expert_path_length_only": 1.5194397107696833,
+      "trajectory_id": "traj_0015"
+    },
+    {
+      "expert_action_magnitude": 1.5919328522463088,
+      "expert_difficulty": -0.03243737414278639,
+      "expert_duration": 218.0,
+      "expert_duration_only": 218.0,
+      "expert_ee_path_length": 1.5917103946680586,
+      "expert_path_length_only": 1.5917103946680586,
+      "trajectory_id": "traj_0016"
+    },
+    {
+      "expert_action_magnitude": 1.8281308026589556,
+      "expert_difficulty": 1.686448532444869,
+      "expert_duration": 248.0,
+      "expert_duration_only": 248.0,
+      "expert_ee_path_length": 1.8278767338142283,
+      "expert_path_length_only": 1.8278767338142283,
+      "trajectory_id": "traj_0017"
+    },
+    {
+      "expert_action_magnitude": 1.7199566732609806,
+      "expert_difficulty": 0.8942940736518796,
+      "expert_duration": 234.0,
+      "expert_duration_only": 234.0,
+      "expert_ee_path_length": 1.7197568926824336,
+      "expert_path_length_only": 1.7197568926824336,
+      "trajectory_id": "traj_0018"
+    },
+    {
+      "expert_action_magnitude": 1.7435598670219743,
+      "expert_difficulty": 1.0661461880111147,
+      "expert_duration": 237.0,
+      "expert_duration_only": 237.0,
+      "expert_ee_path_length": 1.7433750046855119,
+      "expert_path_length_only": 1.7433750046855119,
+      "trajectory_id": "traj_0019"
+    },
+    {
+      "expert_action_magnitude": 1.5118887736405946,
+      "expert_difficulty": -0.6116862462585304,
+      "expert_duration": 208.0,
+      "expert_duration_only": 208.0,
+      "expert_ee_path_length": 1.511693227199892,
+      "expert_path_length_only": 1.511693227199892,
+      "trajectory_id": "traj_0020"
+    },
+    {
+      "expert_action_magnitude": 1.5360000194087848,
+      "expert_difficulty": -0.43741865272834546,
+      "expert_duration": 211.0,
+      "expert_duration_only": 211.0,
+      "expert_ee_path_length": 1.5358047192775142,
+      "expert_path_length_only": 1.5358047192775142,
+      "trajectory_id": "traj_0021"
+    },
+    {
+      "expert_action_magnitude": 1.496000019699498,
+      "expert_difficulty": -0.7269464797447315,
+      "expert_duration": 206.0,
+      "expert_duration_only": 206.0,
+      "expert_ee_path_length": 1.4958141491323975,
+      "expert_path_length_only": 1.4958141491323975,
+      "trajectory_id": "traj_0022"
+    },
+    {
+      "expert_action_magnitude": 1.3415521363785694,
+      "expert_difficulty": -1.8390084970166456,
+      "expert_duration": 187.0,
+      "expert_duration_only": 187.0,
+      "expert_ee_path_length": 1.3413823837149024,
+      "expert_path_length_only": 1.3413823837149024,
+      "trajectory_id": "traj_0023"
+    },
+    {
+      "expert_action_magnitude": 1.619372374318326,
+      "expert_difficulty": 0.17731027523712914,
+      "expert_duration": 222.0,
+      "expert_duration_only": 222.0,
+      "expert_ee_path_length": 1.6191943482081161,
+      "expert_path_length_only": 1.6191943482081161,
+      "trajectory_id": "traj_0024"
+    },
+    {
+      "expert_action_magnitude": 1.6019646484190653,
+      "expert_difficulty": 0.05474500174995794,
+      "expert_duration": 220.0,
+      "expert_duration_only": 220.0,
+      "expert_ee_path_length": 1.6018056508716767,
+      "expert_path_length_only": 1.6018056508716767,
+      "trajectory_id": "traj_0027"
+    },
+    {
+      "expert_action_magnitude": 1.5184214402317266,
+      "expert_difficulty": -0.5608459213817021,
+      "expert_duration": 209.0,
+      "expert_duration_only": 209.0,
+      "expert_ee_path_length": 1.5182295017427778,
+      "expert_path_length_only": 1.5182295017427778,
+      "trajectory_id": "traj_0028"
+    },
+    {
+      "expert_action_magnitude": 1.5279755640933692,
+      "expert_difficulty": -0.4954808745054999,
+      "expert_duration": 210.0,
+      "expert_duration_only": 210.0,
+      "expert_ee_path_length": 1.5277661130283935,
+      "expert_path_length_only": 1.5277661130283935,
+      "trajectory_id": "traj_0029"
+    },
+    {
+      "expert_action_magnitude": 1.7146720671322067,
+      "expert_difficulty": 0.8687947915129085,
+      "expert_duration": 234.0,
+      "expert_duration_only": 234.0,
+      "expert_ee_path_length": 1.7144697709467518,
+      "expert_path_length_only": 1.7144697709467518,
+      "trajectory_id": "traj_0030"
+    },
+    {
+      "expert_action_magnitude": 1.8240000223837929,
+      "expert_difficulty": 1.6473510743845166,
+      "expert_duration": 247.0,
+      "expert_duration_only": 247.0,
+      "expert_ee_path_length": 1.8238070373263127,
+      "expert_path_length_only": 1.8238070373263127,
+      "trajectory_id": "traj_0031"
+    },
+    {
+      "expert_action_magnitude": 1.5200000311126391,
+      "expert_difficulty": -0.5532624119146369,
+      "expert_duration": 209.0,
+      "expert_duration_only": 209.0,
+      "expert_ee_path_length": 1.5197949526395163,
+      "expert_path_length_only": 1.5197949526395163,
+      "trajectory_id": "traj_0032"
+    },
+    {
+      "expert_action_magnitude": 1.8080000274887205,
+      "expert_difficulty": 1.531458982549534,
+      "expert_duration": 245.0,
+      "expert_duration_only": 245.0,
+      "expert_ee_path_length": 1.807777239656819,
+      "expert_path_length_only": 1.807777239656819,
+      "trajectory_id": "traj_0034"
+    },
+    {
+      "expert_action_magnitude": 1.5917755009327181,
+      "expert_difficulty": -0.03311634095804769,
+      "expert_duration": 218.0,
+      "expert_duration_only": 218.0,
+      "expert_ee_path_length": 1.5915862527095972,
+      "expert_path_length_only": 1.5915862527095972,
+      "trajectory_id": "traj_0035"
+    },
+    {
+      "expert_action_magnitude": 1.366883129101238,
+      "expert_difficulty": -1.6589000551814246,
+      "expert_duration": 190.0,
+      "expert_duration_only": 190.0,
+      "expert_ee_path_length": 1.3666956821891154,
+      "expert_path_length_only": 1.3666956821891154,
+      "trajectory_id": "traj_0038"
+    },
+    {
+      "expert_action_magnitude": 1.4689470372740108,
+      "expert_difficulty": -0.9153827545620875,
+      "expert_duration": 203.0,
+      "expert_duration_only": 203.0,
+      "expert_ee_path_length": 1.468770210680292,
+      "expert_path_length_only": 1.468770210680292,
+      "trajectory_id": "traj_0039"
+    },
+    {
+      "expert_action_magnitude": 1.5896446674080842,
+      "expert_difficulty": -0.043386877467290884,
+      "expert_duration": 218.0,
+      "expert_duration_only": 218.0,
+      "expert_ee_path_length": 1.5894590322334323,
+      "expert_path_length_only": 1.5894590322334323,
+      "trajectory_id": "traj_0041"
+    },
+    {
+      "expert_action_magnitude": 1.6130992715380643,
+      "expert_difficulty": 0.12764788060292423,
+      "expert_duration": 221.0,
+      "expert_duration_only": 221.0,
+      "expert_ee_path_length": 1.612886867924332,
+      "expert_path_length_only": 1.612886867924332,
+      "trajectory_id": "traj_0042"
+    },
+    {
+      "expert_action_magnitude": 1.6934212757487122,
+      "expert_difficulty": 0.7084034808259515,
+      "expert_duration": 231.0,
+      "expert_duration_only": 231.0,
+      "expert_ee_path_length": 1.6932507811008424,
+      "expert_path_length_only": 1.6932507811008424,
+      "trajectory_id": "traj_0043"
+    },
+    {
+      "expert_action_magnitude": 1.4452824978943606,
+      "expert_difficulty": -1.087500689211416,
+      "expert_duration": 200.0,
+      "expert_duration_only": 200.0,
+      "expert_ee_path_length": 1.4451032377119257,
+      "expert_path_length_only": 1.4451032377119257,
+      "trajectory_id": "traj_0044"
+    },
+    {
+      "expert_action_magnitude": 1.5625301493460666,
+      "expert_difficulty": -0.23213415289734063,
+      "expert_duration": 215.0,
+      "expert_duration_only": 215.0,
+      "expert_ee_path_length": 1.5623476920766906,
+      "expert_path_length_only": 1.5623476920766906,
+      "trajectory_id": "traj_0046"
+    },
+    {
+      "expert_action_magnitude": 1.5217689863953803,
+      "expert_difficulty": -0.5253384465807995,
+      "expert_duration": 210.0,
+      "expert_duration_only": 210.0,
+      "expert_ee_path_length": 1.5215940617148271,
+      "expert_path_length_only": 1.5215940617148271,
+      "trajectory_id": "traj_0047"
+    },
+    {
+      "expert_action_magnitude": 1.7727836164528505,
+      "expert_difficulty": 1.2843767931312178,
+      "expert_duration": 241.0,
+      "expert_duration_only": 241.0,
+      "expert_ee_path_length": 1.7725916744724848,
+      "expert_path_length_only": 1.7725916744724848,
+      "trajectory_id": "traj_0048"
+    },
+    {
+      "expert_action_magnitude": 1.4475777161509664,
+      "expert_difficulty": -1.0764544509465657,
+      "expert_duration": 200.0,
+      "expert_duration_only": 200.0,
+      "expert_ee_path_length": 1.4473876712579483,
+      "expert_path_length_only": 1.4473876712579483,
+      "trajectory_id": "traj_0049"
+    },
+    {
+      "expert_action_magnitude": 1.5920000285653995,
+      "expert_difficulty": -0.032063475252986785,
+      "expert_duration": 218.0,
+      "expert_duration_only": 218.0,
+      "expert_ee_path_length": 1.5917982322210205,
+      "expert_path_length_only": 1.5917982322210205,
+      "trajectory_id": "traj_0050"
+    },
+    {
+      "expert_action_magnitude": 1.8720000225537676,
+      "expert_difficulty": 1.9947894045837502,
+      "expert_duration": 253.0,
+      "expert_duration_only": 253.0,
+      "expert_ee_path_length": 1.871797768074103,
+      "expert_path_length_only": 1.871797768074103,
+      "trajectory_id": "traj_0051"
+    },
+    {
+      "expert_action_magnitude": 1.7194288532310438,
+      "expert_difficulty": 0.891758716915532,
+      "expert_duration": 234.0,
+      "expert_duration_only": 234.0,
+      "expert_ee_path_length": 1.719233580969259,
+      "expert_path_length_only": 1.719233580969259,
+      "trajectory_id": "traj_0052"
+    },
+    {
+      "expert_action_magnitude": 1.7260752040022815,
+      "expert_difficulty": 0.9431170944122531,
+      "expert_duration": 235.0,
+      "expert_duration_only": 235.0,
+      "expert_ee_path_length": 1.7258709507281813,
+      "expert_path_length_only": 1.7258709507281813,
+      "trajectory_id": "traj_0053"
+    },
+    {
+      "expert_action_magnitude": 1.3895283148032498,
+      "expert_difficulty": -1.4916693721375447,
+      "expert_duration": 193.0,
+      "expert_duration_only": 193.0,
+      "expert_ee_path_length": 1.3893558065660032,
+      "expert_path_length_only": 1.3893558065660032,
+      "trajectory_id": "traj_0054"
+    },
+    {
+      "expert_action_magnitude": 1.6235873878882596,
+      "expert_difficulty": 0.19754259334941157,
+      "expert_duration": 222.0,
+      "expert_duration_only": 222.0,
+      "expert_ee_path_length": 1.6233674371586528,
+      "expert_path_length_only": 1.6233674371586528,
+      "trajectory_id": "traj_0055"
+    },
+    {
+      "expert_action_magnitude": 1.5464167885366824,
+      "expert_difficulty": -0.34844400465024944,
+      "expert_duration": 213.0,
+      "expert_duration_only": 213.0,
+      "expert_ee_path_length": 1.5462580600438707,
+      "expert_path_length_only": 1.5462580600438707,
+      "trajectory_id": "traj_0058"
+    },
+    {
+      "expert_action_magnitude": 1.7480526748864529,
+      "expert_difficulty": 1.107139779410468,
+      "expert_duration": 238.0,
+      "expert_duration_only": 238.0,
+      "expert_ee_path_length": 1.7478687883063695,
+      "expert_path_length_only": 1.7478687883063695,
+      "trajectory_id": "traj_0059"
+    },
+    {
+      "expert_action_magnitude": 1.9279992580607963,
+      "expert_difficulty": 2.4000633043961024,
+      "expert_duration": 260.0,
+      "expert_duration_only": 260.0,
+      "expert_ee_path_length": 1.9277583587308296,
+      "expert_path_length_only": 1.9277583587308296,
+      "trajectory_id": "traj_0060"
+    },
+    {
+      "expert_action_magnitude": 1.6075808633175388,
+      "expert_difficulty": 0.08175659830343236,
+      "expert_duration": 220.0,
+      "expert_duration_only": 220.0,
+      "expert_ee_path_length": 1.607388154140578,
+      "expert_path_length_only": 1.607388154140578,
+      "trajectory_id": "traj_0061"
+    },
+    {
+      "expert_action_magnitude": 1.6050808031989385,
+      "expert_difficulty": 0.06970499905242045,
+      "expert_duration": 220.0,
+      "expert_duration_only": 220.0,
+      "expert_ee_path_length": 1.6048917508133242,
+      "expert_path_length_only": 1.6048917508133242,
+      "trajectory_id": "traj_0062"
+    },
+    {
+      "expert_action_magnitude": 1.4525831295283043,
+      "expert_difficulty": -1.0329672656774875,
+      "expert_duration": 201.0,
+      "expert_duration_only": 201.0,
+      "expert_ee_path_length": 1.4524026663036569,
+      "expert_path_length_only": 1.4524026663036569,
+      "trajectory_id": "traj_0063"
+    },
+    {
+      "expert_action_magnitude": 1.415961790550262,
+      "expert_difficulty": -1.3062848847237725,
+      "expert_duration": 196.0,
+      "expert_duration_only": 196.0,
+      "expert_ee_path_length": 1.4157540142249463,
+      "expert_path_length_only": 1.4157540142249463,
+      "trajectory_id": "traj_0064"
+    },
+    {
+      "expert_action_magnitude": 1.5759506541321902,
+      "expert_difficulty": -0.1481787858284802,
+      "expert_duration": 216.0,
+      "expert_duration_only": 216.0,
+      "expert_ee_path_length": 1.575725269826747,
+      "expert_path_length_only": 1.575725269826747,
+      "trajectory_id": "traj_0065"
+    },
+    {
+      "expert_action_magnitude": 1.4072191769298124,
+      "expert_difficulty": -1.36772537939122,
+      "expert_duration": 195.0,
+      "expert_duration_only": 195.0,
+      "expert_ee_path_length": 1.407032969690822,
+      "expert_path_length_only": 1.407032969690822,
+      "trajectory_id": "traj_0066"
+    },
+    {
+      "expert_action_magnitude": 1.4857514565963483,
+      "expert_difficulty": -0.7956967712312603,
+      "expert_duration": 205.0,
+      "expert_duration_only": 205.0,
+      "expert_ee_path_length": 1.485568491519519,
+      "expert_path_length_only": 1.485568491519519,
+      "trajectory_id": "traj_0067"
+    },
+    {
+      "expert_action_magnitude": 1.6284085711937113,
+      "expert_difficulty": 0.24017342371983072,
+      "expert_duration": 223.0,
+      "expert_duration_only": 223.0,
+      "expert_ee_path_length": 1.6282116263727606,
+      "expert_path_length_only": 1.6282116263727606,
+      "trajectory_id": "traj_0068"
+    },
+    {
+      "expert_action_magnitude": 1.6929651366392968,
+      "expert_difficulty": 0.7061942878012596,
+      "expert_duration": 231.0,
+      "expert_duration_only": 231.0,
+      "expert_ee_path_length": 1.6927910126614465,
+      "expert_path_length_only": 1.6927910126614465,
+      "trajectory_id": "traj_0070"
+    },
+    {
+      "expert_action_magnitude": 1.5840000202480566,
+      "expert_difficulty": -0.08996364000178964,
+      "expert_duration": 217.0,
+      "expert_duration_only": 217.0,
+      "expert_ee_path_length": 1.5838023655569948,
+      "expert_path_length_only": 1.5838023655569948,
+      "trajectory_id": "traj_0071"
+    },
+    {
+      "expert_action_magnitude": 1.533503197893708,
+      "expert_difficulty": -0.44942697026572653,
+      "expert_duration": 211.0,
+      "expert_duration_only": 211.0,
+      "expert_ee_path_length": 1.5333230211555389,
+      "expert_path_length_only": 1.5333230211555389,
+      "trajectory_id": "traj_0072"
+    },
+    {
+      "expert_action_magnitude": 1.7120000113970466,
+      "expert_difficulty": 0.8365615397894001,
+      "expert_duration": 233.0,
+      "expert_duration_only": 233.0,
+      "expert_ee_path_length": 1.711787178011933,
+      "expert_path_length_only": 1.711787178011933,
+      "trajectory_id": "traj_0073"
+    },
+    {
+      "expert_action_magnitude": 1.799960823668006,
+      "expert_difficulty": 1.4734523125182406,
+      "expert_duration": 244.0,
+      "expert_duration_only": 244.0,
+      "expert_ee_path_length": 1.7997764115854675,
+      "expert_path_length_only": 1.7997764115854675,
+      "trajectory_id": "traj_0074"
+    },
+    {
+      "expert_action_magnitude": 1.5339882137528948,
+      "expert_difficulty": -0.4471777009097894,
+      "expert_duration": 211.0,
+      "expert_duration_only": 211.0,
+      "expert_ee_path_length": 1.5337705292225827,
+      "expert_path_length_only": 1.5337705292225827,
+      "trajectory_id": "traj_0075"
+    },
+    {
+      "expert_action_magnitude": 1.5557558285208657,
+      "expert_difficulty": -0.2841341461005444,
+      "expert_duration": 214.0,
+      "expert_duration_only": 214.0,
+      "expert_ee_path_length": 1.5555722856896,
+      "expert_path_length_only": 1.5555722856896,
+      "trajectory_id": "traj_0076"
+    },
+    {
+      "expert_action_magnitude": 1.5919991645289957,
+      "expert_difficulty": -0.032038765677638734,
+      "expert_duration": 218.0,
+      "expert_duration_only": 218.0,
+      "expert_ee_path_length": 1.5918093402433036,
+      "expert_path_length_only": 1.5918093402433036,
+      "trajectory_id": "traj_0077"
+    },
+    {
+      "expert_action_magnitude": 1.6400000196379847,
+      "expert_difficulty": 0.3154080129044321,
+      "expert_duration": 224.0,
+      "expert_duration_only": 224.0,
+      "expert_ee_path_length": 1.6398027186100474,
+      "expert_path_length_only": 1.6398027186100474,
+      "trajectory_id": "traj_0078"
+    },
+    {
+      "expert_action_magnitude": 1.5471695886876808,
+      "expert_difficulty": -0.34488230111275225,
+      "expert_duration": 213.0,
+      "expert_duration_only": 213.0,
+      "expert_ee_path_length": 1.546981904663999,
+      "expert_path_length_only": 1.546981904663999,
+      "trajectory_id": "traj_0080"
+    },
+    {
+      "expert_action_magnitude": 1.5641499224415534,
+      "expert_difficulty": -0.2242904254051534,
+      "expert_duration": 215.0,
+      "expert_duration_only": 215.0,
+      "expert_ee_path_length": 1.5639798436307375,
+      "expert_path_length_only": 1.5639798436307375,
+      "trajectory_id": "traj_0081"
+    },
+    {
+      "expert_action_magnitude": 1.6613341783755793,
+      "expert_difficulty": 0.4762867849115115,
+      "expert_duration": 227.0,
+      "expert_duration_only": 227.0,
+      "expert_ee_path_length": 1.6611404363201476,
+      "expert_path_length_only": 1.6611404363201476,
+      "trajectory_id": "traj_0082"
+    },
+    {
+      "expert_action_magnitude": 1.5735901955343317,
+      "expert_difficulty": -0.15942994738980798,
+      "expert_duration": 216.0,
+      "expert_duration_only": 216.0,
+      "expert_ee_path_length": 1.5734211163431644,
+      "expert_path_length_only": 1.5734211163431644,
+      "trajectory_id": "traj_0086"
+    },
+    {
+      "expert_action_magnitude": 1.6399729117774657,
+      "expert_difficulty": 0.31528786932838465,
+      "expert_duration": 224.0,
+      "expert_duration_only": 224.0,
+      "expert_ee_path_length": 1.6397800161125797,
+      "expert_path_length_only": 1.6397800161125797,
+      "trajectory_id": "traj_0087"
+    },
+    {
+      "expert_action_magnitude": 1.7001762730959347,
+      "expert_difficulty": 0.7602350864020732,
+      "expert_duration": 232.0,
+      "expert_duration_only": 232.0,
+      "expert_ee_path_length": 1.6999757001481597,
+      "expert_path_length_only": 1.6999757001481597,
+      "trajectory_id": "traj_0088"
+    },
+    {
+      "expert_action_magnitude": 1.9163536288406418,
+      "expert_difficulty": 2.3247058800114258,
+      "expert_duration": 259.0,
+      "expert_duration_only": 259.0,
+      "expert_ee_path_length": 1.9161705194954333,
+      "expert_path_length_only": 1.9161705194954333,
+      "trajectory_id": "traj_0089"
+    },
+    {
+      "expert_action_magnitude": 1.3482484285661003,
+      "expert_difficulty": -1.7874085115268838,
+      "expert_duration": 188.0,
+      "expert_duration_only": 188.0,
+      "expert_ee_path_length": 1.3480699801230536,
+      "expert_path_length_only": 1.3480699801230536,
+      "trajectory_id": "traj_0090"
+    },
+    {
+      "expert_action_magnitude": 1.7270544869743025,
+      "expert_difficulty": 0.9478603205668915,
+      "expert_duration": 235.0,
+      "expert_duration_only": 235.0,
+      "expert_ee_path_length": 1.726858158046487,
+      "expert_path_length_only": 1.726858158046487,
+      "trajectory_id": "traj_0091"
+    },
+    {
+      "expert_action_magnitude": 1.5343884518420494,
+      "expert_difficulty": -0.4451310894581519,
+      "expert_duration": 211.0,
+      "expert_duration_only": 211.0,
+      "expert_ee_path_length": 1.5342187928579993,
+      "expert_path_length_only": 1.5342187928579993,
+      "trajectory_id": "traj_0092"
+    },
+    {
+      "expert_action_magnitude": 1.6476138727244138,
+      "expert_difficulty": 0.37145176959452025,
+      "expert_duration": 225.0,
+      "expert_duration_only": 225.0,
+      "expert_ee_path_length": 1.6474150936284488,
+      "expert_path_length_only": 1.6474150936284488,
+      "trajectory_id": "traj_0093"
+    },
+    {
+      "expert_action_magnitude": 1.5087288995951236,
+      "expert_difficulty": -0.6269186914887689,
+      "expert_duration": 208.0,
+      "expert_duration_only": 208.0,
+      "expert_ee_path_length": 1.50853789326584,
+      "expert_path_length_only": 1.50853789326584,
+      "trajectory_id": "traj_0094"
+    },
+    {
+      "expert_action_magnitude": 1.6132969162052677,
+      "expert_difficulty": 0.12867570906743842,
+      "expert_duration": 221.0,
+      "expert_duration_only": 221.0,
+      "expert_ee_path_length": 1.6131153490054846,
+      "expert_path_length_only": 1.6131153490054846,
+      "trajectory_id": "traj_0095"
+    },
+    {
+      "expert_action_magnitude": 1.765159645184283,
+      "expert_difficulty": 1.2280151273003639,
+      "expert_duration": 240.0,
+      "expert_duration_only": 240.0,
+      "expert_ee_path_length": 1.7648576190787852,
+      "expert_path_length_only": 1.7648576190787852,
+      "trajectory_id": "traj_0096"
+    },
+    {
+      "expert_action_magnitude": 1.3585867921998835,
+      "expert_difficulty": -1.7182280643011196,
+      "expert_duration": 189.0,
+      "expert_duration_only": 189.0,
+      "expert_ee_path_length": 1.3584041751808513,
+      "expert_path_length_only": 1.3584041751808513,
+      "trajectory_id": "traj_0097"
+    },
+    {
+      "expert_action_magnitude": 1.327201510889922,
+      "expert_difficulty": -1.9468646646310666,
+      "expert_duration": 185.0,
+      "expert_duration_only": 185.0,
+      "expert_ee_path_length": 1.3270348234048863,
+      "expert_path_length_only": 1.3270348234048863,
+      "trajectory_id": "traj_0098"
+    },
+    {
+      "expert_action_magnitude": 1.6283151006853358,
+      "expert_difficulty": 0.23974293136777156,
+      "expert_duration": 223.0,
+      "expert_duration_only": 223.0,
+      "expert_ee_path_length": 1.6281266191461783,
+      "expert_path_length_only": 1.6281266191461783,
+      "trajectory_id": "traj_0099"
+    },
+    {
+      "expert_action_magnitude": 1.8219400780883714,
+      "expert_difficulty": 1.637452690324355,
+      "expert_duration": 247.0,
+      "expert_duration_only": 247.0,
+      "expert_ee_path_length": 1.8217632176676282,
+      "expert_path_length_only": 1.8217632176676282,
+      "trajectory_id": "traj_0100"
+    },
+    {
+      "expert_action_magnitude": 1.44800001608533,
+      "expert_difficulty": -1.074391114966003,
+      "expert_duration": 200.0,
+      "expert_duration_only": 200.0,
+      "expert_ee_path_length": 1.4478208079081512,
+      "expert_path_length_only": 1.4478208079081512,
+      "trajectory_id": "traj_0101"
+    },
+    {
+      "expert_action_magnitude": 1.7721785404009278,
+      "expert_difficulty": 1.2814719174469615,
+      "expert_duration": 241.0,
+      "expert_duration_only": 241.0,
+      "expert_ee_path_length": 1.771992420165394,
+      "expert_path_length_only": 1.771992420165394,
+      "trajectory_id": "traj_0102"
+    },
+    {
+      "expert_action_magnitude": 1.9440000269012145,
+      "expert_difficulty": 2.515934953328794,
+      "expert_duration": 262.0,
+      "expert_duration_only": 262.0,
+      "expert_ee_path_length": 1.9437789073307812,
+      "expert_path_length_only": 1.9437789073307812,
+      "trajectory_id": "traj_0103"
+    },
+    {
+      "expert_action_magnitude": 1.5355092551362652,
+      "expert_difficulty": -0.4397808146079063,
+      "expert_duration": 211.0,
+      "expert_duration_only": 211.0,
+      "expert_ee_path_length": 1.5353161565956617,
+      "expert_path_length_only": 1.5353161565956617,
+      "trajectory_id": "traj_0104"
+    },
+    {
+      "expert_action_magnitude": 1.3839637542472039,
+      "expert_difficulty": -1.5378651332473894,
+      "expert_duration": 192.0,
+      "expert_duration_only": 192.0,
+      "expert_ee_path_length": 1.383777012438199,
+      "expert_path_length_only": 1.383777012438199,
+      "trajectory_id": "traj_0105"
+    },
+    {
+      "expert_action_magnitude": 1.632000029725495,
+      "expert_difficulty": 0.2574396578488516,
+      "expert_duration": 223.0,
+      "expert_duration_only": 223.0,
+      "expert_ee_path_length": 1.6317785633733433,
+      "expert_path_length_only": 1.6317785633733433,
+      "trajectory_id": "traj_0107"
+    },
+    {
+      "expert_action_magnitude": 1.4427930483575526,
+      "expert_difficulty": -1.0995121126150986,
+      "expert_duration": 200.0,
+      "expert_duration_only": 200.0,
+      "expert_ee_path_length": 1.442612880405699,
+      "expert_path_length_only": 1.442612880405699,
+      "trajectory_id": "traj_0108"
+    },
+    {
+      "expert_action_magnitude": 1.5831034018099823,
+      "expert_difficulty": -0.09424739797840549,
+      "expert_duration": 217.0,
+      "expert_duration_only": 217.0,
+      "expert_ee_path_length": 1.5829229835556635,
+      "expert_path_length_only": 1.5829229835556635,
+      "trajectory_id": "traj_0109"
+    },
+    {
+      "expert_action_magnitude": 1.6469984365586212,
+      "expert_difficulty": 0.3684733366614876,
+      "expert_duration": 225.0,
+      "expert_duration_only": 225.0,
+      "expert_ee_path_length": 1.6467957036676397,
+      "expert_path_length_only": 1.6467957036676397,
+      "trajectory_id": "traj_0110"
+    },
+    {
+      "expert_action_magnitude": 1.847988402375337,
+      "expert_difficulty": 1.8210018306115439,
+      "expert_duration": 250.0,
+      "expert_duration_only": 250.0,
+      "expert_ee_path_length": 1.8477856613559713,
+      "expert_path_length_only": 1.8477856613559713,
+      "trajectory_id": "traj_0111"
+    },
+    {
+      "expert_action_magnitude": 1.4558391010253195,
+      "expert_difficulty": -1.0172818168425328,
+      "expert_duration": 201.0,
+      "expert_duration_only": 201.0,
+      "expert_ee_path_length": 1.4556497133289952,
+      "expert_path_length_only": 1.4556497133289952,
+      "trajectory_id": "traj_0112"
+    },
+    {
+      "expert_action_magnitude": 1.525844974245901,
+      "expert_difficulty": -0.5057160372117274,
+      "expert_duration": 210.0,
+      "expert_duration_only": 210.0,
+      "expert_ee_path_length": 1.5256533140726614,
+      "expert_path_length_only": 1.5256533140726614,
+      "trajectory_id": "traj_0113"
+    },
+    {
+      "expert_action_magnitude": 1.7584578353264289,
+      "expert_difficulty": 1.176605741435799,
+      "expert_duration": 239.0,
+      "expert_duration_only": 239.0,
+      "expert_ee_path_length": 1.7582545583508862,
+      "expert_path_length_only": 1.7582545583508862,
+      "trajectory_id": "traj_0115"
+    },
+    {
+      "expert_action_magnitude": 1.5980092991553263,
+      "expert_difficulty": 0.016310745974619303,
+      "expert_duration": 219.0,
+      "expert_duration_only": 219.0,
+      "expert_ee_path_length": 1.5978354820455987,
+      "expert_path_length_only": 1.5978354820455987,
+      "trajectory_id": "traj_0116"
+    },
+    {
+      "expert_action_magnitude": 1.3741137148465254,
+      "expert_difficulty": -1.604658956762622,
+      "expert_duration": 191.0,
+      "expert_duration_only": 191.0,
+      "expert_ee_path_length": 1.3739439612892783,
+      "expert_path_length_only": 1.3739439612892783,
+      "trajectory_id": "traj_0117"
+    },
+    {
+      "expert_action_magnitude": 1.5243697195013488,
+      "expert_difficulty": -0.5128438194184891,
+      "expert_duration": 210.0,
+      "expert_duration_only": 210.0,
+      "expert_ee_path_length": 1.5241734671576601,
+      "expert_path_length_only": 1.5241734671576601,
+      "trajectory_id": "traj_0118"
+    },
+    {
+      "expert_action_magnitude": 1.6946317745021704,
+      "expert_difficulty": 0.7141669335471299,
+      "expert_duration": 231.0,
+      "expert_duration_only": 231.0,
+      "expert_ee_path_length": 1.694429748706197,
+      "expert_path_length_only": 1.694429748706197,
+      "trajectory_id": "traj_0119"
+    },
+    {
+      "expert_action_magnitude": 1.4958352151102554,
+      "expert_difficulty": -0.7279058492254146,
+      "expert_duration": 206.0,
+      "expert_duration_only": 206.0,
+      "expert_ee_path_length": 1.4955812113845324,
+      "expert_path_length_only": 1.4955812113845324,
+      "trajectory_id": "traj_0120"
+    },
+    {
+      "expert_action_magnitude": 1.6019614425253998,
+      "expert_difficulty": 0.05472363799065944,
+      "expert_duration": 220.0,
+      "expert_duration_only": 220.0,
+      "expert_ee_path_length": 1.6017999996497292,
+      "expert_path_length_only": 1.6017999996497292,
+      "trajectory_id": "traj_0121"
+    },
+    {
+      "expert_action_magnitude": 1.4915465519187125,
+      "expert_difficulty": -0.7484040688379024,
+      "expert_duration": 206.0,
+      "expert_duration_only": 206.0,
+      "expert_ee_path_length": 1.4913715311088027,
+      "expert_path_length_only": 1.4913715311088027,
+      "trajectory_id": "traj_0122"
+    },
+    {
+      "expert_action_magnitude": 1.6320000332191449,
+      "expert_difficulty": 0.25744793809425587,
+      "expert_duration": 223.0,
+      "expert_duration_only": 223.0,
+      "expert_ee_path_length": 1.6317819926835675,
+      "expert_path_length_only": 1.6317819926835675,
+      "trajectory_id": "traj_0123"
+    },
+    {
+      "expert_action_magnitude": 1.6450605085086656,
+      "expert_difficulty": 0.35919105123447154,
+      "expert_duration": 225.0,
+      "expert_duration_only": 225.0,
+      "expert_ee_path_length": 1.6448852953041266,
+      "expert_path_length_only": 1.6448852953041266,
+      "trajectory_id": "traj_0124"
+    },
+    {
+      "expert_action_magnitude": 1.693830652882358,
+      "expert_difficulty": 0.7103428123587845,
+      "expert_duration": 231.0,
+      "expert_duration_only": 231.0,
+      "expert_ee_path_length": 1.693645430364354,
+      "expert_path_length_only": 1.693645430364354,
+      "trajectory_id": "traj_0125"
+    },
+    {
+      "expert_action_magnitude": 1.6057709010026984,
+      "expert_difficulty": 0.07304833352571061,
+      "expert_duration": 220.0,
+      "expert_duration_only": 220.0,
+      "expert_ee_path_length": 1.6055877633320759,
+      "expert_path_length_only": 1.6055877633320759,
+      "trajectory_id": "traj_0126"
+    },
+    {
+      "expert_action_magnitude": 1.5641293807830332,
+      "expert_difficulty": -0.22443824582441732,
+      "expert_duration": 215.0,
+      "expert_duration_only": 215.0,
+      "expert_ee_path_length": 1.5639391011048887,
+      "expert_path_length_only": 1.5639391011048887,
+      "trajectory_id": "traj_0127"
+    },
+    {
+      "expert_action_magnitude": 1.440000023536789,
+      "expert_difficulty": -1.1323191481504291,
+      "expert_duration": 199.0,
+      "expert_duration_only": 199.0,
+      "expert_ee_path_length": 1.4398133718490451,
+      "expert_path_length_only": 1.4398133718490451,
+      "trajectory_id": "traj_0128"
+    },
+    {
+      "expert_action_magnitude": 1.621214866750977,
+      "expert_difficulty": 0.18617571728190727,
+      "expert_duration": 222.0,
+      "expert_duration_only": 222.0,
+      "expert_ee_path_length": 1.621027372899158,
+      "expert_path_length_only": 1.621027372899158,
+      "trajectory_id": "traj_0130"
+    },
+    {
+      "expert_action_magnitude": 1.407121149756989,
+      "expert_difficulty": -1.3681720551707828,
+      "expert_duration": 195.0,
+      "expert_duration_only": 195.0,
+      "expert_ee_path_length": 1.406945809585932,
+      "expert_path_length_only": 1.406945809585932,
+      "trajectory_id": "traj_0131"
+    },
+    {
+      "expert_action_magnitude": 1.8859575249775717,
+      "expert_difficulty": 2.100801991904665,
+      "expert_duration": 255.0,
+      "expert_duration_only": 255.0,
+      "expert_ee_path_length": 1.8857741222820574,
+      "expert_path_length_only": 1.8857741222820574,
+      "trajectory_id": "traj_0133"
+    },
+    {
+      "expert_action_magnitude": 1.535984794192133,
+      "expert_difficulty": -0.43755839142760883,
+      "expert_duration": 211.0,
+      "expert_duration_only": 211.0,
+      "expert_ee_path_length": 1.5357620111095924,
+      "expert_path_length_only": 1.5357620111095924,
+      "trajectory_id": "traj_0134"
+    },
+    {
+      "expert_action_magnitude": 1.557438313530091,
+      "expert_difficulty": -0.27599002568528413,
+      "expert_duration": 214.0,
+      "expert_duration_only": 214.0,
+      "expert_ee_path_length": 1.5572662650277667,
+      "expert_path_length_only": 1.5572662650277667,
+      "trajectory_id": "traj_0135"
+    },
+    {
+      "expert_action_magnitude": 1.4960000316178417,
+      "expert_difficulty": -0.7269181627809855,
+      "expert_duration": 206.0,
+      "expert_duration_only": 206.0,
+      "expert_ee_path_length": 1.495825876791577,
+      "expert_path_length_only": 1.495825876791577,
+      "trajectory_id": "traj_0136"
+    },
+    {
+      "expert_action_magnitude": 1.4926133310016305,
+      "expert_difficulty": -0.7432537510928233,
+      "expert_duration": 206.0,
+      "expert_duration_only": 206.0,
+      "expert_ee_path_length": 1.4924400182837945,
+      "expert_path_length_only": 1.4924400182837945,
+      "trajectory_id": "traj_0137"
+    },
+    {
+      "expert_action_magnitude": 1.7892026095049882,
+      "expert_difficulty": 1.4022353172321413,
+      "expert_duration": 243.0,
+      "expert_duration_only": 243.0,
+      "expert_ee_path_length": 1.7890177362804551,
+      "expert_path_length_only": 1.7890177362804551,
+      "trajectory_id": "traj_0138"
+    },
+    {
+      "expert_action_magnitude": 1.6919946041955454,
+      "expert_difficulty": 0.701474447361031,
+      "expert_duration": 231.0,
+      "expert_duration_only": 231.0,
+      "expert_ee_path_length": 1.6918047505008165,
+      "expert_path_length_only": 1.6918047505008165,
+      "trajectory_id": "traj_0139"
+    },
+    {
+      "expert_action_magnitude": 1.3758011854361436,
+      "expert_difficulty": -1.5965537326007289,
+      "expert_duration": 191.0,
+      "expert_duration_only": 191.0,
+      "expert_ee_path_length": 1.3756168298160576,
+      "expert_path_length_only": 1.3756168298160576,
+      "trajectory_id": "traj_0140"
+    },
+    {
+      "expert_action_magnitude": 1.805908255902824,
+      "expert_difficulty": 1.5214688922711572,
+      "expert_duration": 245.0,
+      "expert_duration_only": 245.0,
+      "expert_ee_path_length": 1.805727226153587,
+      "expert_path_length_only": 1.805727226153587,
+      "trajectory_id": "traj_0141"
+    },
+    {
+      "expert_action_magnitude": 1.596806006372474,
+      "expert_difficulty": 0.010519963490702285,
+      "expert_duration": 219.0,
+      "expert_duration_only": 219.0,
+      "expert_ee_path_length": 1.5966379785711586,
+      "expert_path_length_only": 1.5966379785711586,
+      "trajectory_id": "traj_0142"
+    },
+    {
+      "expert_action_magnitude": 1.6619118734213258,
+      "expert_difficulty": 0.4790833684309587,
+      "expert_duration": 227.0,
+      "expert_duration_only": 227.0,
+      "expert_ee_path_length": 1.6617221745887825,
+      "expert_path_length_only": 1.6617221745887825,
+      "trajectory_id": "traj_0143"
+    },
+    {
+      "expert_action_magnitude": 1.5106852051299047,
+      "expert_difficulty": -0.6174411802747359,
+      "expert_duration": 208.0,
+      "expert_duration_only": 208.0,
+      "expert_ee_path_length": 1.510510861406867,
+      "expert_path_length_only": 1.510510861406867,
+      "trajectory_id": "traj_0144"
+    },
+    {
+      "expert_action_magnitude": 1.6669760269524185,
+      "expert_difficulty": 0.5228907474905933,
+      "expert_duration": 228.0,
+      "expert_duration_only": 228.0,
+      "expert_ee_path_length": 1.666811177948964,
+      "expert_path_length_only": 1.666811177948964,
+      "trajectory_id": "traj_0145"
+    },
+    {
+      "expert_action_magnitude": 1.9573696252414525,
+      "expert_difficulty": 2.619144315530425,
+      "expert_duration": 264.0,
+      "expert_duration_only": 264.0,
+      "expert_ee_path_length": 1.9571809782732337,
+      "expert_path_length_only": 1.9571809782732337,
+      "trajectory_id": "traj_0146"
+    },
+    {
+      "expert_action_magnitude": 1.612095665946869,
+      "expert_difficulty": 0.12292732639698241,
+      "expert_duration": 221.0,
+      "expert_duration_only": 221.0,
+      "expert_ee_path_length": 1.6119333811318413,
+      "expert_path_length_only": 1.6119333811318413,
+      "trajectory_id": "traj_0147"
+    },
+    {
+      "expert_action_magnitude": 1.648000016989104,
+      "expert_difficulty": 0.3731775414610714,
+      "expert_duration": 225.0,
+      "expert_duration_only": 225.0,
+      "expert_ee_path_length": 1.6477444374099717,
+      "expert_path_length_only": 1.6477444374099717,
+      "trajectory_id": "traj_0148"
+    },
+    {
+      "expert_action_magnitude": 1.5101301407038399,
+      "expert_difficulty": -0.6201138677765179,
+      "expert_duration": 208.0,
+      "expert_duration_only": 208.0,
+      "expert_ee_path_length": 1.5099578583016204,
+      "expert_path_length_only": 1.5099578583016204,
+      "trajectory_id": "traj_0149"
+    },
+    {
+      "expert_action_magnitude": 1.5112340194686056,
+      "expert_difficulty": -0.6148042308781041,
+      "expert_duration": 208.0,
+      "expert_duration_only": 208.0,
+      "expert_ee_path_length": 1.5110552980311387,
+      "expert_path_length_only": 1.5110552980311387,
+      "trajectory_id": "traj_0150"
+    },
+    {
+      "expert_action_magnitude": 1.6041832544875045,
+      "expert_difficulty": 0.06543674868853601,
+      "expert_duration": 220.0,
+      "expert_duration_only": 220.0,
+      "expert_ee_path_length": 1.60401972814057,
+      "expert_path_length_only": 1.60401972814057,
+      "trajectory_id": "traj_0152"
+    },
+    {
+      "expert_action_magnitude": 1.5901564004500948,
+      "expert_difficulty": -0.04095474357444464,
+      "expert_duration": 218.0,
+      "expert_duration_only": 218.0,
+      "expert_ee_path_length": 1.589955636154524,
+      "expert_path_length_only": 1.589955636154524,
+      "trajectory_id": "traj_0154"
+    },
+    {
+      "expert_action_magnitude": 1.7713655694724086,
+      "expert_difficulty": 1.2775881730838239,
+      "expert_duration": 241.0,
+      "expert_duration_only": 241.0,
+      "expert_ee_path_length": 1.771195232034512,
+      "expert_path_length_only": 1.771195232034512,
+      "trajectory_id": "traj_0156"
+    },
+    {
+      "expert_action_magnitude": 1.743985365208682,
+      "expert_difficulty": 1.0681846787132703,
+      "expert_duration": 237.0,
+      "expert_duration_only": 237.0,
+      "expert_ee_path_length": 1.7437946429698963,
+      "expert_path_length_only": 1.7437946429698963,
+      "trajectory_id": "traj_0157"
+    },
+    {
+      "expert_action_magnitude": 1.5250497713744897,
+      "expert_difficulty": -0.5095794262396587,
+      "expert_duration": 210.0,
+      "expert_duration_only": 210.0,
+      "expert_ee_path_length": 1.5248467977528346,
+      "expert_path_length_only": 1.5248467977528346,
+      "trajectory_id": "traj_0158"
+    },
+    {
+      "expert_action_magnitude": 1.6361812687718325,
+      "expert_difficulty": 0.29706182156854677,
+      "expert_duration": 224.0,
+      "expert_duration_only": 224.0,
+      "expert_ee_path_length": 1.636015335115703,
+      "expert_path_length_only": 1.636015335115703,
+      "trajectory_id": "traj_0159"
+    },
+    {
+      "expert_action_magnitude": 1.4774836723608975,
+      "expert_difficulty": -0.8549023377628998,
+      "expert_duration": 204.0,
+      "expert_duration_only": 204.0,
+      "expert_ee_path_length": 1.477299195403662,
+      "expert_path_length_only": 1.477299195403662,
+      "trajectory_id": "traj_0160"
+    },
+    {
+      "expert_action_magnitude": 1.5167731887517621,
+      "expert_difficulty": -0.568796857213976,
+      "expert_duration": 209.0,
+      "expert_duration_only": 209.0,
+      "expert_ee_path_length": 1.516581380795968,
+      "expert_path_length_only": 1.516581380795968,
+      "trajectory_id": "traj_0161"
+    },
+    {
+      "expert_action_magnitude": 1.6130071593280255,
+      "expert_difficulty": 0.12731091302884745,
+      "expert_duration": 221.0,
+      "expert_duration_only": 221.0,
+      "expert_ee_path_length": 1.6128392757474619,
+      "expert_path_length_only": 1.6128392757474619,
+      "trajectory_id": "traj_0162"
+    },
+    {
+      "expert_action_magnitude": 1.6470127087089517,
+      "expert_difficulty": 0.36859953353981734,
+      "expert_duration": 225.0,
+      "expert_duration_only": 225.0,
+      "expert_ee_path_length": 1.6468337507133939,
+      "expert_path_length_only": 1.6468337507133939,
+      "trajectory_id": "traj_0163"
+    },
+    {
+      "expert_action_magnitude": 1.5140480418609537,
+      "expert_difficulty": -0.5819228708063935,
+      "expert_duration": 209.0,
+      "expert_duration_only": 209.0,
+      "expert_ee_path_length": 1.5138646234848334,
+      "expert_path_length_only": 1.5138646234848334,
+      "trajectory_id": "traj_0164"
+    },
+    {
+      "expert_action_magnitude": 1.6125292756406586,
+      "expert_difficulty": 0.12495473977379228,
+      "expert_duration": 221.0,
+      "expert_duration_only": 221.0,
+      "expert_ee_path_length": 1.612340315957142,
+      "expert_path_length_only": 1.612340315957142,
+      "trajectory_id": "traj_0165"
+    },
+    {
+      "expert_action_magnitude": 1.647964231236653,
+      "expert_difficulty": 0.3731401121564398,
+      "expert_duration": 225.0,
+      "expert_duration_only": 225.0,
+      "expert_ee_path_length": 1.647764703792512,
+      "expert_path_length_only": 1.647764703792512,
+      "trajectory_id": "traj_0166"
+    },
+    {
+      "expert_action_magnitude": 1.5733921976075727,
+      "expert_difficulty": -0.16042134838402788,
+      "expert_duration": 216.0,
+      "expert_duration_only": 216.0,
+      "expert_ee_path_length": 1.5732080905122254,
+      "expert_path_length_only": 1.5732080905122254,
+      "trajectory_id": "traj_0168"
+    },
+    {
+      "expert_action_magnitude": 1.462708698132415,
+      "expert_difficulty": -0.9647926073426648,
+      "expert_duration": 202.0,
+      "expert_duration_only": 202.0,
+      "expert_ee_path_length": 1.4625326668989747,
+      "expert_path_length_only": 1.4625326668989747,
+      "trajectory_id": "traj_0170"
+    },
+    {
+      "expert_action_magnitude": 1.5088511839298464,
+      "expert_difficulty": -0.6262908347233753,
+      "expert_duration": 208.0,
+      "expert_duration_only": 208.0,
+      "expert_ee_path_length": 1.5086759111443064,
+      "expert_path_length_only": 1.5086759111443064,
+      "trajectory_id": "traj_0172"
+    },
+    {
+      "expert_action_magnitude": 1.4206011583842773,
+      "expert_difficulty": -1.2644999590781543,
+      "expert_duration": 197.0,
+      "expert_duration_only": 197.0,
+      "expert_ee_path_length": 1.4204293155506404,
+      "expert_path_length_only": 1.4204293155506404,
+      "trajectory_id": "traj_0173"
+    },
+    {
+      "expert_action_magnitude": 1.4133888033868371,
+      "expert_difficulty": -1.3186361995664642,
+      "expert_duration": 196.0,
+      "expert_duration_only": 196.0,
+      "expert_ee_path_length": 1.41320627847405,
+      "expert_path_length_only": 1.41320627847405,
+      "trajectory_id": "traj_0174"
+    },
+    {
+      "expert_action_magnitude": 1.5120000286559074,
+      "expert_difficulty": -0.6111000087027336,
+      "expert_duration": 208.0,
+      "expert_duration_only": 208.0,
+      "expert_ee_path_length": 1.5118250193857357,
+      "expert_path_length_only": 1.5118250193857357,
+      "trajectory_id": "traj_0178"
+    },
+    {
+      "expert_action_magnitude": 1.693062080992335,
+      "expert_difficulty": 0.7066167008891332,
+      "expert_duration": 231.0,
+      "expert_duration_only": 231.0,
+      "expert_ee_path_length": 1.6928691967582006,
+      "expert_path_length_only": 1.6928691967582006,
+      "trajectory_id": "traj_0179"
+    },
+    {
+      "expert_action_magnitude": 1.744000032034317,
+      "expert_difficulty": 1.068238195620155,
+      "expert_duration": 237.0,
+      "expert_duration_only": 237.0,
+      "expert_ee_path_length": 1.7438021638796912,
+      "expert_path_length_only": 1.7438021638796912,
+      "trajectory_id": "traj_0180"
+    },
+    {
+      "expert_action_magnitude": 1.5840000293867935,
+      "expert_difficulty": -0.08996023474617999,
+      "expert_duration": 217.0,
+      "expert_duration_only": 217.0,
+      "expert_ee_path_length": 1.5838037681612294,
+      "expert_path_length_only": 1.5838037681612294,
+      "trajectory_id": "traj_0181"
+    },
+    {
+      "expert_action_magnitude": 1.589404157519517,
+      "expert_difficulty": -0.044633781945694034,
+      "expert_duration": 218.0,
+      "expert_duration_only": 218.0,
+      "expert_ee_path_length": 1.5891825899600416,
+      "expert_path_length_only": 1.5891825899600416,
+      "trajectory_id": "traj_0182"
+    },
+    {
+      "expert_action_magnitude": 1.6687929180300536,
+      "expert_difficulty": 0.5315215676649258,
+      "expert_duration": 228.0,
+      "expert_duration_only": 228.0,
+      "expert_ee_path_length": 1.6685725335937465,
+      "expert_path_length_only": 1.6685725335937465,
+      "trajectory_id": "traj_0183"
+    },
+    {
+      "expert_action_magnitude": 1.4079963579233883,
+      "expert_difficulty": -1.3639925971097167,
+      "expert_duration": 195.0,
+      "expert_duration_only": 195.0,
+      "expert_ee_path_length": 1.4078033602483848,
+      "expert_path_length_only": 1.4078033602483848,
+      "trajectory_id": "traj_0184"
+    },
+    {
+      "expert_action_magnitude": 1.5423450649949322,
+      "expert_difficulty": -0.38747761520118074,
+      "expert_duration": 212.0,
+      "expert_duration_only": 212.0,
+      "expert_ee_path_length": 1.5421557799009284,
+      "expert_path_length_only": 1.5421557799009284,
+      "trajectory_id": "traj_0185"
+    },
+    {
+      "expert_action_magnitude": 1.6559470062813972,
+      "expert_difficulty": 0.43097620418579924,
+      "expert_duration": 226.0,
+      "expert_duration_only": 226.0,
+      "expert_ee_path_length": 1.6557512396460612,
+      "expert_path_length_only": 1.6557512396460612,
+      "trajectory_id": "traj_0186"
+    },
+    {
+      "expert_action_magnitude": 1.4069956419079839,
+      "expert_difficulty": -1.3687721172164284,
+      "expert_duration": 195.0,
+      "expert_duration_only": 195.0,
+      "expert_ee_path_length": 1.4068225381058972,
+      "expert_path_length_only": 1.4068225381058972,
+      "trajectory_id": "traj_0187"
+    },
+    {
+      "expert_action_magnitude": 1.8479940109833504,
+      "expert_difficulty": 1.8210781003053718,
+      "expert_duration": 250.0,
+      "expert_duration_only": 250.0,
+      "expert_ee_path_length": 1.847811672765932,
+      "expert_path_length_only": 1.847811672765932,
+      "trajectory_id": "traj_0188"
+    },
+    {
+      "expert_action_magnitude": 1.5890158521943936,
+      "expert_difficulty": -0.04642908307464427,
+      "expert_duration": 218.0,
+      "expert_duration_only": 218.0,
+      "expert_ee_path_length": 1.5888265818471108,
+      "expert_path_length_only": 1.5888265818471108,
+      "trajectory_id": "traj_0190"
+    },
+    {
+      "expert_action_magnitude": 1.4992293125728402,
+      "expert_difficulty": -0.6920373429387588,
+      "expert_duration": 207.0,
+      "expert_duration_only": 207.0,
+      "expert_ee_path_length": 1.4990488982281645,
+      "expert_path_length_only": 1.4990488982281645,
+      "trajectory_id": "traj_0191"
+    },
+    {
+      "expert_action_magnitude": 1.396471720632574,
+      "expert_difficulty": -1.4388676513180194,
+      "expert_duration": 194.0,
+      "expert_duration_only": 194.0,
+      "expert_ee_path_length": 1.3962945157533038,
+      "expert_path_length_only": 1.3962945157533038,
+      "trajectory_id": "traj_0192"
+    },
+    {
+      "expert_action_magnitude": 1.548659703728175,
+      "expert_difficulty": -0.3376674083427116,
+      "expert_duration": 213.0,
+      "expert_duration_only": 213.0,
+      "expert_ee_path_length": 1.5484830062044637,
+      "expert_path_length_only": 1.5484830062044637,
+      "trajectory_id": "traj_0193"
+    },
+    {
+      "expert_action_magnitude": 1.6440422506057413,
+      "expert_difficulty": 0.3542901581965631,
+      "expert_duration": 225.0,
+      "expert_duration_only": 225.0,
+      "expert_ee_path_length": 1.64387169556847,
+      "expert_path_length_only": 1.64387169556847,
+      "trajectory_id": "traj_0194"
+    },
+    {
+      "expert_action_magnitude": 1.4515929282597608,
+      "expert_difficulty": -1.0377410363157422,
+      "expert_duration": 201.0,
+      "expert_duration_only": 201.0,
+      "expert_ee_path_length": 1.4514137136086398,
+      "expert_path_length_only": 1.4514137136086398,
+      "trajectory_id": "traj_0195"
+    },
+    {
+      "expert_action_magnitude": 1.4768086911246416,
+      "expert_difficulty": -0.8581103811781775,
+      "expert_duration": 204.0,
+      "expert_duration_only": 204.0,
+      "expert_ee_path_length": 1.4766441558037249,
+      "expert_path_length_only": 1.4766441558037249,
+      "trajectory_id": "traj_0196"
+    },
+    {
+      "expert_action_magnitude": 1.4620423925752428,
+      "expert_difficulty": -0.9680285654753301,
+      "expert_duration": 202.0,
+      "expert_duration_only": 202.0,
+      "expert_ee_path_length": 1.4618573792954357,
+      "expert_path_length_only": 1.4618573792954357,
+      "trajectory_id": "traj_0197"
+    },
+    {
+      "expert_action_magnitude": 1.7257301404349845,
+      "expert_difficulty": 0.9414707895281715,
+      "expert_duration": 235.0,
+      "expert_duration_only": 235.0,
+      "expert_ee_path_length": 1.725533473794842,
+      "expert_path_length_only": 1.725533473794842,
+      "trajectory_id": "traj_0198"
+    },
+    {
+      "expert_action_magnitude": 1.5672996186752517,
+      "expert_difficulty": -0.20914365679921018,
+      "expert_duration": 215.0,
+      "expert_duration_only": 215.0,
+      "expert_ee_path_length": 1.5671098351985189,
+      "expert_path_length_only": 1.5671098351985189,
+      "trajectory_id": "traj_0199"
+    },
+    {
+      "expert_action_magnitude": 1.4213863923700552,
+      "expert_difficulty": -1.2607240909307507,
+      "expert_duration": 197.0,
+      "expert_duration_only": 197.0,
+      "expert_ee_path_length": 1.421209516002667,
+      "expert_path_length_only": 1.421209516002667,
+      "trajectory_id": "traj_0200"
+    },
+    {
+      "expert_action_magnitude": 1.4224085015867194,
+      "expert_difficulty": -1.2558085343489231,
+      "expert_duration": 197.0,
+      "expert_duration_only": 197.0,
+      "expert_ee_path_length": 1.4222253438179184,
+      "expert_path_length_only": 1.4222253438179184,
+      "trajectory_id": "traj_0201"
+    },
+    {
+      "expert_action_magnitude": 1.6720000192618891,
+      "expert_difficulty": 0.5469619884258522,
+      "expert_duration": 228.0,
+      "expert_duration_only": 228.0,
+      "expert_ee_path_length": 1.671766864990521,
+      "expert_path_length_only": 1.671766864990521,
+      "trajectory_id": "traj_0202"
+    },
+    {
+      "expert_action_magnitude": 1.7116007746814503,
+      "expert_difficulty": 0.8346869742688395,
+      "expert_duration": 233.0,
+      "expert_duration_only": 233.0,
+      "expert_ee_path_length": 1.711409239436447,
+      "expert_path_length_only": 1.711409239436447,
+      "trajectory_id": "traj_0205"
+    },
+    {
+      "expert_action_magnitude": 1.604300234249929,
+      "expert_difficulty": 0.06598135660575215,
+      "expert_duration": 220.0,
+      "expert_duration_only": 220.0,
+      "expert_ee_path_length": 1.604128537189971,
+      "expert_path_length_only": 1.604128537189971,
+      "trajectory_id": "traj_0206"
+    },
+    {
+      "expert_action_magnitude": 1.5674230226887629,
+      "expert_difficulty": -0.208557694665944,
+      "expert_duration": 215.0,
+      "expert_duration_only": 215.0,
+      "expert_ee_path_length": 1.567229364888387,
+      "expert_path_length_only": 1.567229364888387,
+      "trajectory_id": "traj_0207"
+    },
+    {
+      "expert_action_magnitude": 1.6219888642059115,
+      "expert_difficulty": 0.1899118677789522,
+      "expert_duration": 222.0,
+      "expert_duration_only": 222.0,
+      "expert_ee_path_length": 1.6218023432020208,
+      "expert_path_length_only": 1.6218023432020208,
+      "trajectory_id": "traj_0208"
+    },
+    {
+      "expert_action_magnitude": 1.7011535184462478,
+      "expert_difficulty": 0.7649972137680932,
+      "expert_duration": 232.0,
+      "expert_duration_only": 232.0,
+      "expert_ee_path_length": 1.7009727809905857,
+      "expert_path_length_only": 1.7009727809905857,
+      "trajectory_id": "traj_0209"
+    },
+    {
+      "expert_action_magnitude": 1.8135576279056074,
+      "expert_difficulty": 1.5776190946766342,
+      "expert_duration": 246.0,
+      "expert_duration_only": 246.0,
+      "expert_ee_path_length": 1.8133482142634842,
+      "expert_path_length_only": 1.8133482142634842,
+      "trajectory_id": "traj_0210"
+    },
+    {
+      "expert_action_magnitude": 1.6399908767964844,
+      "expert_difficulty": 0.31533425886690153,
+      "expert_duration": 224.0,
+      "expert_duration_only": 224.0,
+      "expert_ee_path_length": 1.6397812841685195,
+      "expert_path_length_only": 1.6397812841685195,
+      "trajectory_id": "traj_0211"
+    },
+    {
+      "expert_action_magnitude": 1.7279630712928518,
+      "expert_difficulty": 0.9522679160620307,
+      "expert_duration": 235.0,
+      "expert_duration_only": 235.0,
+      "expert_ee_path_length": 1.7277769150956046,
+      "expert_path_length_only": 1.7277769150956046,
+      "trajectory_id": "traj_0212"
+    },
+    {
+      "expert_action_magnitude": 1.4441743134812812,
+      "expert_difficulty": -1.0928252718972606,
+      "expert_duration": 200.0,
+      "expert_duration_only": 200.0,
+      "expert_ee_path_length": 1.4440039071999067,
+      "expert_path_length_only": 1.4440039071999067,
+      "trajectory_id": "traj_0213"
+    },
+    {
+      "expert_action_magnitude": 1.9102597044674128,
+      "expert_difficulty": 2.2757477657752845,
+      "expert_duration": 258.0,
+      "expert_duration_only": 258.0,
+      "expert_ee_path_length": 1.9099758497521344,
+      "expert_path_length_only": 1.9099758497521344,
+      "trajectory_id": "traj_0214"
+    },
+    {
+      "expert_action_magnitude": 1.513409574468445,
+      "expert_difficulty": -0.5849356414733005,
+      "expert_duration": 209.0,
+      "expert_duration_only": 209.0,
+      "expert_ee_path_length": 1.513254027797011,
+      "expert_path_length_only": 1.513254027797011,
+      "trajectory_id": "traj_0216"
+    },
+    {
+      "expert_action_magnitude": 1.8077804078694817,
+      "expert_difficulty": 1.5304808067844256,
+      "expert_duration": 245.0,
+      "expert_duration_only": 245.0,
+      "expert_ee_path_length": 1.8075913171798978,
+      "expert_path_length_only": 1.8075913171798978,
+      "trajectory_id": "traj_0217"
+    },
+    {
+      "expert_action_magnitude": 1.3648840321825535,
+      "expert_difficulty": -1.6685117056562202,
+      "expert_duration": 190.0,
+      "expert_duration_only": 190.0,
+      "expert_ee_path_length": 1.364709891891767,
+      "expert_path_length_only": 1.364709891891767,
+      "trajectory_id": "traj_0219"
+    },
+    {
+      "expert_action_magnitude": 1.6597925010686554,
+      "expert_difficulty": 0.4688384354839659,
+      "expert_duration": 227.0,
+      "expert_duration_only": 227.0,
+      "expert_ee_path_length": 1.659594108249582,
+      "expert_path_length_only": 1.659594108249582,
+      "trajectory_id": "traj_0223"
+    },
+    {
+      "expert_action_magnitude": 1.5978897724740062,
+      "expert_difficulty": 0.01570976215611332,
+      "expert_duration": 219.0,
+      "expert_duration_only": 219.0,
+      "expert_ee_path_length": 1.5977058475894002,
+      "expert_path_length_only": 1.5977058475894002,
+      "trajectory_id": "traj_0224"
+    },
+    {
+      "expert_action_magnitude": 1.527884771787705,
+      "expert_difficulty": -0.4958649861469268,
+      "expert_duration": 210.0,
+      "expert_duration_only": 210.0,
+      "expert_ee_path_length": 1.5276976561507665,
+      "expert_path_length_only": 1.5276976561507665,
+      "trajectory_id": "traj_0225"
+    },
+    {
+      "expert_action_magnitude": 1.3894517209841057,
+      "expert_difficulty": -1.492051942548912,
+      "expert_duration": 193.0,
+      "expert_duration_only": 193.0,
+      "expert_ee_path_length": 1.389273790963182,
+      "expert_path_length_only": 1.389273790963182,
+      "trajectory_id": "traj_0227"
+    },
+    {
+      "expert_action_magnitude": 1.6799838197966097,
+      "expert_difficulty": 0.6049059672984521,
+      "expert_duration": 229.0,
+      "expert_duration_only": 229.0,
+      "expert_ee_path_length": 1.6797971028728664,
+      "expert_path_length_only": 1.6797971028728664,
+      "trajectory_id": "traj_0228"
+    },
+    {
+      "expert_action_magnitude": 1.500798186654446,
+      "expert_difficulty": -0.6844657737201468,
+      "expert_duration": 207.0,
+      "expert_duration_only": 207.0,
+      "expert_ee_path_length": 1.5006191152166775,
+      "expert_path_length_only": 1.5006191152166775,
+      "trajectory_id": "traj_0230"
+    },
+    {
+      "expert_action_magnitude": 1.4918950099658976,
+      "expert_difficulty": -0.7467065932411417,
+      "expert_duration": 206.0,
+      "expert_duration_only": 206.0,
+      "expert_ee_path_length": 1.4917268279815894,
+      "expert_path_length_only": 1.4917268279815894,
+      "trajectory_id": "traj_0231"
+    },
+    {
+      "expert_action_magnitude": 1.62398586974877,
+      "expert_difficulty": 0.19954532981473483,
+      "expert_duration": 222.0,
+      "expert_duration_only": 222.0,
+      "expert_ee_path_length": 1.6237992673401185,
+      "expert_path_length_only": 1.6237992673401185,
+      "trajectory_id": "traj_0232"
+    },
+    {
+      "expert_action_magnitude": 1.5014750057986146,
+      "expert_difficulty": -0.6812177828452399,
+      "expert_duration": 207.0,
+      "expert_duration_only": 207.0,
+      "expert_ee_path_length": 1.5012888783316036,
+      "expert_path_length_only": 1.5012888783316036,
+      "trajectory_id": "traj_0233"
+    },
+    {
+      "expert_action_magnitude": 1.7885026042985461,
+      "expert_difficulty": 1.398871473378845,
+      "expert_duration": 243.0,
+      "expert_duration_only": 243.0,
+      "expert_ee_path_length": 1.7883231278767053,
+      "expert_path_length_only": 1.7883231278767053,
+      "trajectory_id": "traj_0234"
+    },
+    {
+      "expert_action_magnitude": 1.5565179411998085,
+      "expert_difficulty": -0.280433886910132,
+      "expert_duration": 214.0,
+      "expert_duration_only": 214.0,
+      "expert_ee_path_length": 1.5563442603679583,
+      "expert_path_length_only": 1.5563442603679583,
+      "trajectory_id": "traj_0235"
+    },
+    {
+      "expert_action_magnitude": 1.3801052394899551,
+      "expert_difficulty": -1.5564305012177524,
+      "expert_duration": 192.0,
+      "expert_duration_only": 192.0,
+      "expert_ee_path_length": 1.3799385248814873,
+      "expert_path_length_only": 1.3799385248814873,
+      "trajectory_id": "traj_0236"
+    },
+    {
+      "expert_action_magnitude": 1.4067770933716701,
+      "expert_difficulty": -1.3698741671526389,
+      "expert_duration": 195.0,
+      "expert_duration_only": 195.0,
+      "expert_ee_path_length": 1.4065841891588244,
+      "expert_path_length_only": 1.4065841891588244,
+      "trajectory_id": "traj_0237"
+    },
+    {
+      "expert_action_magnitude": 1.484191189415155,
+      "expert_difficulty": -0.8032086307403693,
+      "expert_duration": 205.0,
+      "expert_duration_only": 205.0,
+      "expert_ee_path_length": 1.4840144224205445,
+      "expert_path_length_only": 1.4840144224205445,
+      "trajectory_id": "traj_0239"
+    },
+    {
+      "expert_action_magnitude": 1.855973524570071,
+      "expert_difficulty": 1.878853456108794,
+      "expert_duration": 251.0,
+      "expert_duration_only": 251.0,
+      "expert_ee_path_length": 1.8557762900188357,
+      "expert_path_length_only": 1.8557762900188357,
+      "trajectory_id": "traj_0240"
+    },
+    {
+      "expert_action_magnitude": 1.6545843400375762,
+      "expert_difficulty": 0.4244537578212893,
+      "expert_duration": 226.0,
+      "expert_duration_only": 226.0,
+      "expert_ee_path_length": 1.6544097692272057,
+      "expert_path_length_only": 1.6544097692272057,
+      "trajectory_id": "traj_0241"
+    },
+    {
+      "expert_action_magnitude": 1.6640000278742413,
+      "expert_difficulty": 0.48913712355582756,
+      "expert_duration": 227.0,
+      "expert_duration_only": 227.0,
+      "expert_ee_path_length": 1.6638021990354117,
+      "expert_path_length_only": 1.6638021990354117,
+      "trajectory_id": "traj_0242"
+    },
+    {
+      "expert_action_magnitude": 1.40360120878788,
+      "expert_difficulty": -1.3851104408402277,
+      "expert_duration": 195.0,
+      "expert_duration_only": 195.0,
+      "expert_ee_path_length": 1.4034432776663772,
+      "expert_path_length_only": 1.4034432776663772,
+      "trajectory_id": "traj_0243"
+    },
+    {
+      "expert_action_magnitude": 1.807300072038347,
+      "expert_difficulty": 1.5281639449590987,
+      "expert_duration": 245.0,
+      "expert_duration_only": 245.0,
+      "expert_ee_path_length": 1.8071111070302268,
+      "expert_path_length_only": 1.8071111070302268,
+      "trajectory_id": "traj_0244"
+    },
+    {
+      "expert_action_magnitude": 1.6699593568701165,
+      "expert_difficulty": 0.5372407034739849,
+      "expert_duration": 228.0,
+      "expert_duration_only": 228.0,
+      "expert_ee_path_length": 1.6697771858279433,
+      "expert_path_length_only": 1.6697771858279433,
+      "trajectory_id": "traj_0245"
+    },
+    {
+      "expert_action_magnitude": 1.5919116980995964,
+      "expert_difficulty": -0.03259178275227948,
+      "expert_duration": 218.0,
+      "expert_duration_only": 218.0,
+      "expert_ee_path_length": 1.5916675332801828,
+      "expert_path_length_only": 1.5916675332801828,
+      "trajectory_id": "traj_0246"
+    },
+    {
+      "expert_action_magnitude": 1.5120000299110767,
+      "expert_difficulty": -0.6111741517257573,
+      "expert_duration": 208.0,
+      "expert_duration_only": 208.0,
+      "expert_ee_path_length": 1.511794280099382,
+      "expert_path_length_only": 1.511794280099382,
+      "trajectory_id": "traj_0250"
+    },
+    {
+      "expert_action_magnitude": 1.6079891207484804,
+      "expert_difficulty": 0.0836808740342981,
+      "expert_duration": 220.0,
+      "expert_duration_only": 220.0,
+      "expert_ee_path_length": 1.607777681246377,
+      "expert_path_length_only": 1.607777681246377,
+      "trajectory_id": "traj_0252"
+    },
+    {
+      "expert_action_magnitude": 1.5348497902832365,
+      "expert_difficulty": -0.4429415288443226,
+      "expert_duration": 211.0,
+      "expert_duration_only": 211.0,
+      "expert_ee_path_length": 1.5346652231029208,
+      "expert_path_length_only": 1.5346652231029208,
+      "trajectory_id": "traj_0253"
+    },
+    {
+      "expert_action_magnitude": 1.6213450811232035,
+      "expert_difficulty": 0.18676760027505732,
+      "expert_duration": 222.0,
+      "expert_duration_only": 222.0,
+      "expert_ee_path_length": 1.6211425472704404,
+      "expert_path_length_only": 1.6211425472704404,
+      "trajectory_id": "traj_0254"
+    },
+    {
+      "expert_action_magnitude": 1.549008751762753,
+      "expert_difficulty": -0.33599193592428267,
+      "expert_duration": 213.0,
+      "expert_duration_only": 213.0,
+      "expert_ee_path_length": 1.5488285910998856,
+      "expert_path_length_only": 1.5488285910998856,
+      "trajectory_id": "traj_0255"
+    },
+    {
+      "expert_action_magnitude": 1.445913016142241,
+      "expert_difficulty": -1.0844388946852026,
+      "expert_duration": 200.0,
+      "expert_duration_only": 200.0,
+      "expert_ee_path_length": 1.4457421062858211,
+      "expert_path_length_only": 1.4457421062858211,
+      "trajectory_id": "traj_0257"
+    },
+    {
+      "expert_action_magnitude": 1.902983497815642,
+      "expert_difficulty": 2.221532601371805,
+      "expert_duration": 257.0,
+      "expert_duration_only": 257.0,
+      "expert_ee_path_length": 1.9027839406416196,
+      "expert_path_length_only": 1.9027839406416196,
+      "trajectory_id": "traj_0258"
+    },
+    {
+      "expert_action_magnitude": 1.653490229012047,
+      "expert_difficulty": 0.4191318318149057,
+      "expert_duration": 226.0,
+      "expert_duration_only": 226.0,
+      "expert_ee_path_length": 1.6532974675221526,
+      "expert_path_length_only": 1.6532974675221526,
+      "trajectory_id": "traj_0259"
+    },
+    {
+      "expert_action_magnitude": 1.437162243710007,
+      "expert_difficulty": -1.1459508559186709,
+      "expert_duration": 199.0,
+      "expert_duration_only": 199.0,
+      "expert_ee_path_length": 1.43699959167032,
+      "expert_path_length_only": 1.43699959167032,
+      "trajectory_id": "traj_0260"
+    },
+    {
+      "expert_action_magnitude": 1.4459845807493275,
+      "expert_difficulty": -1.0841381161947854,
+      "expert_duration": 200.0,
+      "expert_duration_only": 200.0,
+      "expert_ee_path_length": 1.4457952417241788,
+      "expert_path_length_only": 1.4457952417241788,
+      "trajectory_id": "traj_0261"
+    },
+    {
+      "expert_action_magnitude": 1.4318769711438453,
+      "expert_difficulty": -1.190996323591949,
+      "expert_duration": 198.0,
+      "expert_duration_only": 198.0,
+      "expert_ee_path_length": 1.4316184111379333,
+      "expert_path_length_only": 1.4316184111379333,
+      "trajectory_id": "traj_0263"
+    },
+    {
+      "expert_action_magnitude": 1.856000019261156,
+      "expert_difficulty": 1.8788912537831237,
+      "expert_duration": 251.0,
+      "expert_duration_only": 251.0,
+      "expert_ee_path_length": 1.8557654668906711,
+      "expert_path_length_only": 1.8557654668906711,
+      "trajectory_id": "traj_0264"
+    },
+    {
+      "expert_action_magnitude": 1.4079430581060692,
+      "expert_difficulty": -1.364230872833291,
+      "expert_duration": 195.0,
+      "expert_duration_only": 195.0,
+      "expert_ee_path_length": 1.4077578732945288,
+      "expert_path_length_only": 1.4077578732945288,
+      "trajectory_id": "traj_0265"
+    },
+    {
+      "expert_action_magnitude": 1.4926116271388974,
+      "expert_difficulty": -0.743237404029694,
+      "expert_duration": 206.0,
+      "expert_duration_only": 206.0,
+      "expert_ee_path_length": 1.4924484991753215,
+      "expert_path_length_only": 1.4924484991753215,
+      "trajectory_id": "traj_0266"
+    },
+    {
+      "expert_action_magnitude": 1.399424925825002,
+      "expert_difficulty": -1.4246765707629738,
+      "expert_duration": 194.0,
+      "expert_duration_only": 194.0,
+      "expert_ee_path_length": 1.3992247804735565,
+      "expert_path_length_only": 1.3992247804735565,
+      "trajectory_id": "traj_0268"
+    },
+    {
+      "expert_action_magnitude": 1.6999249257922853,
+      "expert_difficulty": 0.7591076402092648,
+      "expert_duration": 232.0,
+      "expert_duration_only": 232.0,
+      "expert_ee_path_length": 1.699759619398543,
+      "expert_path_length_only": 1.699759619398543,
+      "trajectory_id": "traj_0269"
+    },
+    {
+      "expert_action_magnitude": 1.7440000244541145,
+      "expert_difficulty": 1.0682899858153865,
+      "expert_duration": 237.0,
+      "expert_duration_only": 237.0,
+      "expert_ee_path_length": 1.7438236425106153,
+      "expert_path_length_only": 1.7438236425106153,
+      "trajectory_id": "traj_0270"
+    },
+    {
+      "expert_action_magnitude": 1.7888771576804583,
+      "expert_difficulty": 1.4006348922377851,
+      "expert_duration": 243.0,
+      "expert_duration_only": 243.0,
+      "expert_ee_path_length": 1.7886796694833829,
+      "expert_path_length_only": 1.7886796694833829,
+      "trajectory_id": "traj_0273"
+    },
+    {
+      "expert_action_magnitude": 1.4375722460635387,
+      "expert_difficulty": -1.1440223545178125,
+      "expert_duration": 199.0,
+      "expert_duration_only": 199.0,
+      "expert_ee_path_length": 1.4373891258199105,
+      "expert_path_length_only": 1.4373891258199105,
+      "trajectory_id": "traj_0274"
+    },
+    {
+      "expert_action_magnitude": 1.9360000182869308,
+      "expert_difficulty": 2.4579412538774945,
+      "expert_duration": 261.0,
+      "expert_duration_only": 261.0,
+      "expert_ee_path_length": 1.9357442635778712,
+      "expert_path_length_only": 1.9357442635778712,
+      "trajectory_id": "traj_0275"
+    },
+    {
+      "expert_action_magnitude": 1.536000018214159,
+      "expert_difficulty": -0.43738872116931043,
+      "expert_duration": 211.0,
+      "expert_duration_only": 211.0,
+      "expert_ee_path_length": 1.5358171294238472,
+      "expert_path_length_only": 1.5358171294238472,
+      "trajectory_id": "traj_0277"
+    },
+    {
+      "expert_action_magnitude": 1.5813593194348607,
+      "expert_difficulty": -0.10273646249041739,
+      "expert_duration": 217.0,
+      "expert_duration_only": 217.0,
+      "expert_ee_path_length": 1.5811475920330036,
+      "expert_path_length_only": 1.5811475920330036,
+      "trajectory_id": "traj_0278"
+    },
+    {
+      "expert_action_magnitude": 1.4715203893843245,
+      "expert_difficulty": -0.9029799178540525,
+      "expert_duration": 203.0,
+      "expert_duration_only": 203.0,
+      "expert_ee_path_length": 1.4713389413125206,
+      "expert_path_length_only": 1.4713389413125206,
+      "trajectory_id": "traj_0279"
+    },
+    {
+      "expert_action_magnitude": 1.3987673116504482,
+      "expert_difficulty": -1.4277906543898535,
+      "expert_duration": 194.0,
+      "expert_duration_only": 194.0,
+      "expert_ee_path_length": 1.3985913284097362,
+      "expert_path_length_only": 1.3985913284097362,
+      "trajectory_id": "traj_0280"
+    },
+    {
+      "expert_action_magnitude": 1.7111459018432011,
+      "expert_difficulty": 0.8325046364014203,
+      "expert_duration": 233.0,
+      "expert_duration_only": 233.0,
+      "expert_ee_path_length": 1.710959338342143,
+      "expert_path_length_only": 1.710959338342143,
+      "trajectory_id": "traj_0281"
+    },
+    {
+      "expert_action_magnitude": 1.543185851563324,
+      "expert_difficulty": -0.3835022522134151,
+      "expert_duration": 212.0,
+      "expert_duration_only": 212.0,
+      "expert_ee_path_length": 1.5429631369860366,
+      "expert_path_length_only": 1.5429631369860366,
+      "trajectory_id": "traj_0283"
+    },
+    {
+      "expert_action_magnitude": 1.4768109630675696,
+      "expert_difficulty": -0.8581536969851825,
+      "expert_duration": 204.0,
+      "expert_duration_only": 204.0,
+      "expert_ee_path_length": 1.476623926228902,
+      "expert_path_length_only": 1.476623926228902,
+      "trajectory_id": "traj_0285"
+    },
+    {
+      "expert_action_magnitude": 1.5258922119878426,
+      "expert_difficulty": -0.5054372059077766,
+      "expert_duration": 210.0,
+      "expert_duration_only": 210.0,
+      "expert_ee_path_length": 1.5257216761917762,
+      "expert_path_length_only": 1.5257216761917762,
+      "trajectory_id": "traj_0287"
+    },
+    {
+      "expert_action_magnitude": 1.7176193122578343,
+      "expert_difficulty": 0.8830254356411479,
+      "expert_duration": 234.0,
+      "expert_duration_only": 234.0,
+      "expert_ee_path_length": 1.7174223975655618,
+      "expert_path_length_only": 1.7174223975655618,
+      "trajectory_id": "traj_0288"
+    },
+    {
+      "expert_action_magnitude": 1.5583775457266458,
+      "expert_difficulty": -0.2715200895108356,
+      "expert_duration": 214.0,
+      "expert_duration_only": 214.0,
+      "expert_ee_path_length": 1.558180220974736,
+      "expert_path_length_only": 1.558180220974736,
+      "trajectory_id": "traj_0289"
+    },
+    {
+      "expert_action_magnitude": 1.582916398923634,
+      "expert_difficulty": -0.09525169555752683,
+      "expert_duration": 217.0,
+      "expert_duration_only": 217.0,
+      "expert_ee_path_length": 1.5826936166710526,
+      "expert_path_length_only": 1.5826936166710526,
+      "trajectory_id": "traj_0290"
+    },
+    {
+      "expert_action_magnitude": 1.6079995876200859,
+      "expert_difficulty": 0.08380555812558972,
+      "expert_duration": 220.0,
+      "expert_duration_only": 220.0,
+      "expert_ee_path_length": 1.60781890618841,
+      "expert_path_length_only": 1.60781890618841,
+      "trajectory_id": "traj_0292"
+    },
+    {
+      "expert_action_magnitude": 1.8142567108487224,
+      "expert_difficulty": 1.5810662243533795,
+      "expert_duration": 246.0,
+      "expert_duration_only": 246.0,
+      "expert_ee_path_length": 1.8140782733093297,
+      "expert_path_length_only": 1.8140782733093297,
+      "trajectory_id": "traj_0296"
+    },
+    {
+      "expert_action_magnitude": 1.670305278741317,
+      "expert_difficulty": 0.5389258563557787,
+      "expert_duration": 228.0,
+      "expert_duration_only": 228.0,
+      "expert_ee_path_length": 1.6701299100127454,
+      "expert_path_length_only": 1.6701299100127454,
+      "trajectory_id": "traj_0297"
+    },
+    {
+      "expert_action_magnitude": 1.5195371604985821,
+      "expert_difficulty": -0.5554694951132982,
+      "expert_duration": 209.0,
+      "expert_duration_only": 209.0,
+      "expert_ee_path_length": 1.5193427900110066,
+      "expert_path_length_only": 1.5193427900110066,
+      "trajectory_id": "traj_0298"
+    }
+  ],
+  "trajectory_ids": [
+    "traj_0000",
+    "traj_0001",
+    "traj_0002",
+    "traj_0003",
+    "traj_0004",
+    "traj_0007",
+    "traj_0008",
+    "traj_0009",
+    "traj_0010",
+    "traj_0013",
+    "traj_0014",
+    "traj_0015",
+    "traj_0016",
+    "traj_0017",
+    "traj_0018",
+    "traj_0019",
+    "traj_0020",
+    "traj_0021",
+    "traj_0022",
+    "traj_0023",
+    "traj_0024",
+    "traj_0027",
+    "traj_0028",
+    "traj_0029",
+    "traj_0030",
+    "traj_0031",
+    "traj_0032",
+    "traj_0034",
+    "traj_0035",
+    "traj_0038",
+    "traj_0039",
+    "traj_0041",
+    "traj_0042",
+    "traj_0043",
+    "traj_0044",
+    "traj_0046",
+    "traj_0047",
+    "traj_0048",
+    "traj_0049",
+    "traj_0050",
+    "traj_0051",
+    "traj_0052",
+    "traj_0053",
+    "traj_0054",
+    "traj_0055",
+    "traj_0058",
+    "traj_0059",
+    "traj_0060",
+    "traj_0061",
+    "traj_0062",
+    "traj_0063",
+    "traj_0064",
+    "traj_0065",
+    "traj_0066",
+    "traj_0067",
+    "traj_0068",
+    "traj_0070",
+    "traj_0071",
+    "traj_0072",
+    "traj_0073",
+    "traj_0074",
+    "traj_0075",
+    "traj_0076",
+    "traj_0077",
+    "traj_0078",
+    "traj_0080",
+    "traj_0081",
+    "traj_0082",
+    "traj_0086",
+    "traj_0087",
+    "traj_0088",
+    "traj_0089",
+    "traj_0090",
+    "traj_0091",
+    "traj_0092",
+    "traj_0093",
+    "traj_0094",
+    "traj_0095",
+    "traj_0096",
+    "traj_0097",
+    "traj_0098",
+    "traj_0099",
+    "traj_0100",
+    "traj_0101",
+    "traj_0102",
+    "traj_0103",
+    "traj_0104",
+    "traj_0105",
+    "traj_0107",
+    "traj_0108",
+    "traj_0109",
+    "traj_0110",
+    "traj_0111",
+    "traj_0112",
+    "traj_0113",
+    "traj_0115",
+    "traj_0116",
+    "traj_0117",
+    "traj_0118",
+    "traj_0119",
+    "traj_0120",
+    "traj_0121",
+    "traj_0122",
+    "traj_0123",
+    "traj_0124",
+    "traj_0125",
+    "traj_0126",
+    "traj_0127",
+    "traj_0128",
+    "traj_0130",
+    "traj_0131",
+    "traj_0133",
+    "traj_0134",
+    "traj_0135",
+    "traj_0136",
+    "traj_0137",
+    "traj_0138",
+    "traj_0139",
+    "traj_0140",
+    "traj_0141",
+    "traj_0142",
+    "traj_0143",
+    "traj_0144",
+    "traj_0145",
+    "traj_0146",
+    "traj_0147",
+    "traj_0148",
+    "traj_0149",
+    "traj_0150",
+    "traj_0152",
+    "traj_0154",
+    "traj_0156",
+    "traj_0157",
+    "traj_0158",
+    "traj_0159",
+    "traj_0160",
+    "traj_0161",
+    "traj_0162",
+    "traj_0163",
+    "traj_0164",
+    "traj_0165",
+    "traj_0166",
+    "traj_0168",
+    "traj_0170",
+    "traj_0172",
+    "traj_0173",
+    "traj_0174",
+    "traj_0178",
+    "traj_0179",
+    "traj_0180",
+    "traj_0181",
+    "traj_0182",
+    "traj_0183",
+    "traj_0184",
+    "traj_0185",
+    "traj_0186",
+    "traj_0187",
+    "traj_0188",
+    "traj_0190",
+    "traj_0191",
+    "traj_0192",
+    "traj_0193",
+    "traj_0194",
+    "traj_0195",
+    "traj_0196",
+    "traj_0197",
+    "traj_0198",
+    "traj_0199",
+    "traj_0200",
+    "traj_0201",
+    "traj_0202",
+    "traj_0205",
+    "traj_0206",
+    "traj_0207",
+    "traj_0208",
+    "traj_0209",
+    "traj_0210",
+    "traj_0211",
+    "traj_0212",
+    "traj_0213",
+    "traj_0214",
+    "traj_0216",
+    "traj_0217",
+    "traj_0219",
+    "traj_0223",
+    "traj_0224",
+    "traj_0225",
+    "traj_0227",
+    "traj_0228",
+    "traj_0230",
+    "traj_0231",
+    "traj_0232",
+    "traj_0233",
+    "traj_0234",
+    "traj_0235",
+    "traj_0236",
+    "traj_0237",
+    "traj_0239",
+    "traj_0240",
+    "traj_0241",
+    "traj_0242",
+    "traj_0243",
+    "traj_0244",
+    "traj_0245",
+    "traj_0246",
+    "traj_0250",
+    "traj_0252",
+    "traj_0253",
+    "traj_0254",
+    "traj_0255",
+    "traj_0257",
+    "traj_0258",
+    "traj_0259",
+    "traj_0260",
+    "traj_0261",
+    "traj_0263",
+    "traj_0264",
+    "traj_0265",
+    "traj_0266",
+    "traj_0268",
+    "traj_0269",
+    "traj_0270",
+    "traj_0273",
+    "traj_0274",
+    "traj_0275",
+    "traj_0277",
+    "traj_0278",
+    "traj_0279",
+    "traj_0280",
+    "traj_0281",
+    "traj_0283",
+    "traj_0285",
+    "traj_0287",
+    "traj_0288",
+    "traj_0289",
+    "traj_0290",
+    "traj_0292",
+    "traj_0296",
+    "traj_0297",
+    "traj_0298"
+  ]
+}

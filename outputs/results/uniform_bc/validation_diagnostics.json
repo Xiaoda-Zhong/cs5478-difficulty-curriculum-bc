@@ -1,0 +1,154 @@
+{
+  "gripper": {
+    "accuracy": 0.9999245112100853,
+    "close_fraction": 0.50313278478146,
+    "close_targets": 6665,
+    "f1": 0.9999249756170756,
+    "open_fraction": 0.49686721521854005,
+    "open_targets": 6582,
+    "precision": 1.0,
+    "recall": 0.9998499624906226
+  },
+  "motion": {
+    "mean_cosine_similarity": 0.7080110016047089,
+    "mean_expert_action_magnitude": 0.007301449968841403,
+    "mean_l2_error": 0.005085392913087393,
+    "mean_predicted_action_magnitude": 0.006978841994765335,
+    "median_l2_error": 0.004471577462028945,
+    "motion_mse": 1.1456810822459563e-05,
+    "relative_motion_error": 0.6356740099408343,
+    "rmse_per_component": [
+      0.002341957348489752,
+      0.0033164709453070676,
+      0.004229265741729606
+    ]
+  },
+  "per_phase": {
+    "APPROACH": {
+      "mean_cosine_similarity": 0.8681267104303078,
+      "mean_expert_action_magnitude": 0.007958334809899735,
+      "mean_l2_error": 0.003255971550842921,
+      "mean_predicted_action_magnitude": 0.007974365662245166,
+      "median_l2_error": 0.002627552424960218,
+      "motion_mse": 5.5562055546836995e-06,
+      "rmse_per_component": [
+        0.001672471560756774,
+        0.002745788120350365,
+        0.002516367052052167
+      ],
+      "transitions": 1542
+    },
+    "DESCEND": {
+      "mean_cosine_similarity": 0.45710722641048346,
+      "mean_expert_action_magnitude": 0.007757575765157907,
+      "mean_l2_error": 0.007554737054247669,
+      "mean_predicted_action_magnitude": 0.007168015391893038,
+      "median_l2_error": 0.00734984007766696,
+      "motion_mse": 2.1912083905526894e-05,
+      "rmse_per_component": [
+        0.0033260142997044374,
+        0.004900653720630825,
+        0.005536919152851095
+      ],
+      "transitions": 1980
+    },
+    "GRASP": {
+      "mean_cosine_similarity": 0.6689589745403922,
+      "mean_expert_action_magnitude": 0.0010000000477057261,
+      "mean_l2_error": 0.005458881345328215,
+      "mean_predicted_action_magnitude": 0.005405035144564123,
+      "median_l2_error": 0.005358514903085122,
+      "motion_mse": 1.1357908399501943e-05,
+      "rmse_per_component": [
+        0.0026749336591525476,
+        0.0027359674471272508,
+        0.004408280531669752
+      ],
+      "transitions": 480
+    },
+    "LIFT": {
+      "mean_cosine_similarity": 0.8656097527157778,
+      "mean_expert_action_magnitude": 0.00799982799872318,
+      "mean_l2_error": 0.003086280403116598,
+      "mean_predicted_action_magnitude": 0.007425320594034215,
+      "median_l2_error": 0.002501989370900677,
+      "motion_mse": 4.875717575368384e-06,
+      "rmse_per_component": [
+        0.0018594122904583203,
+        0.0021276751217098465,
+        0.002577350817536221
+      ],
+      "transitions": 1980
+    },
+    "PLACE": {
+      "mean_cosine_similarity": 0.6933064584840823,
+      "mean_expert_action_magnitude": 0.007757575719129605,
+      "mean_l2_error": 0.005011300361522028,
+      "mean_predicted_action_magnitude": 0.005161032093767989,
+      "median_l2_error": 0.00462490466271347,
+      "motion_mse": 1.0204715171770411e-05,
+      "rmse_per_component": [
+        0.0019888427393210065,
+        0.0020725798494693293,
+        0.004728960016867839
+      ],
+      "transitions": 1980
+    },
+    "RAISE": {
+      "mean_cosine_similarity": 0.0555124291432315,
+      "mean_expert_action_magnitude": 0.007999999934206529,
+      "mean_l2_error": 0.01050085823861168,
+      "mean_predicted_action_magnitude": 0.007917306254305126,
+      "median_l2_error": 0.011631667059335857,
+      "motion_mse": 4.009905615645093e-05,
+      "rmse_per_component": [
+        0.00431150018757521,
+        0.006055540343271895,
+        0.008064649140098922
+      ],
+      "transitions": 480
+    },
+    "RELEASE": {
+      "mean_cosine_similarity": 0.522285355620082,
+      "mean_expert_action_magnitude": 0.0008000000382239287,
+      "mean_l2_error": 0.00564094645039209,
+      "mean_predicted_action_magnitude": 0.00549609449806448,
+      "median_l2_error": 0.005538498835169008,
+      "motion_mse": 1.1621927942192325e-05,
+      "rmse_per_component": [
+        0.0029456402536908325,
+        0.0035021149542010833,
+        0.003731511512775259
+      ],
+      "transitions": 600
+    },
+    "RETREAT": {
+      "mean_cosine_similarity": 0.8721305819642705,
+      "mean_expert_action_magnitude": 0.007757576101844171,
+      "mean_l2_error": 0.00390713085027244,
+      "mean_predicted_action_magnitude": 0.007878502737949591,
+      "median_l2_error": 0.003787473819899428,
+      "motion_mse": 5.898314877774914e-06,
+      "rmse_per_component": [
+        0.0020114560803572287,
+        0.003234195326682048,
+        0.001785768646545984
+      ],
+      "transitions": 1980
+    },
+    "TRANSPORT": {
+      "mean_cosine_similarity": 0.6912021934382431,
+      "mean_expert_action_magnitude": 0.007968941747465976,
+      "mean_l2_error": 0.005650580023734036,
+      "mean_predicted_action_magnitude": 0.0070772059614569215,
+      "median_l2_error": 0.005428123038869674,
+      "motion_mse": 1.1957014749372773e-05,
+      "rmse_per_component": [
+        0.0016676778906640254,
+        0.00298252767490973,
+        0.0049187827121663094
+      ],
+      "transitions": 2225
+    }
+  }
+}

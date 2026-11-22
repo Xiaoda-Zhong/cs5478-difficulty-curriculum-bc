@@ -1,0 +1,17 @@
+{
+  "best_metrics": {
+    "epoch": 100,
+    "gripper_accuracy": 0.9999294632150667,
+    "max_motion_norm": 0.008000001311302185,
+    "motion_mse": 0.0051542625479321855,
+    "parameter_count": 20868,
+    "total_loss": 0.005267726152795275
+  },
+  "gripper_accuracy": 0.9999294632150667,
+  "gripper_transition_accuracy": 0.9916666666666667,
+  "mean_motion_l2_error": 0.0004401662049481124,
+  "metric_motion_mse": 3.1324525782650503e-07,
+  "motion_scale": 0.008000001311302185,
+  "parameter_count": 20868,
+  "relative_motion_error": 0.055020766599907615
+}

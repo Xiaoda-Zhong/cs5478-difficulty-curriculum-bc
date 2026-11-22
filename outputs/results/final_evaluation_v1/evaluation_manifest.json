@@ -1,0 +1,119 @@
+{
+  "benchmark_manifest": "data/metadata/final_benchmark_manifest_v1.json",
+  "checkpoint_records": [
+    {
+      "method": "uniform",
+      "path": "outputs/checkpoints/curriculum_v1/uniform/seed_5478/final.pt",
+      "seed": 5478,
+      "sha256": "bf33dceb41c2ca3ea958369208bcf7c0ddee0138742fa5647655c1f8818a5643"
+    },
+    {
+      "method": "uniform",
+      "path": "outputs/checkpoints/curriculum_v1/uniform/seed_5479/final.pt",
+      "seed": 5479,
+      "sha256": "ca02810e08b1e799327ca255f8436f16c4f302fba1e768eb11fe8c13302cd910"
+    },
+    {
+      "method": "uniform",
+      "path": "outputs/checkpoints/curriculum_v1/uniform/seed_5480/final.pt",
+      "seed": 5480,
+      "sha256": "bec153714a62c492d8590e2b092ac7ac33c9d796847f68fa1174b189aaafd4f1"
+    },
+    {
+      "method": "task",
+      "path": "outputs/checkpoints/curriculum_v1/task/seed_5478/final.pt",
+      "seed": 5478,
+      "sha256": "90a0809d5dbfcce77b74b1e915428a07b81d3ca7c86cc26aaa43bfcfceac47b4"
+    },
+    {
+      "method": "task",
+      "path": "outputs/checkpoints/curriculum_v1/task/seed_5479/final.pt",
+      "seed": 5479,
+      "sha256": "fb1af3631ebb2df377280993e5a8145e7136b295814a75daf8a14363b417d0dd"
+    },
+    {
+      "method": "task",
+      "path": "outputs/checkpoints/curriculum_v1/task/seed_5480/final.pt",
+      "seed": 5480,
+      "sha256": "53e04593de2a6b73727e64d2463339a656c81302c57b9eb116db044c056d9535"
+    },
+    {
+      "method": "expert",
+      "path": "outputs/checkpoints/curriculum_v1/expert/seed_5478/final.pt",
+      "seed": 5478,
+      "sha256": "de1c0f206a90bdd1d4a335d8fec29f9b8cacf6663af5d91689b5aa1b9f80e6a5"
+    },
+    {
+      "method": "expert",
+      "path": "outputs/checkpoints/curriculum_v1/expert/seed_5479/final.pt",
+      "seed": 5479,
+      "sha256": "632be71ccd0fdbcc0b3a6f90fe343fe91eb781e81e1b82d921430da1e4b682b9"
+    },
+    {
+      "method": "expert",
+      "path": "outputs/checkpoints/curriculum_v1/expert/seed_5480/final.pt",
+      "seed": 5480,
+      "sha256": "e52e2372e51ea92bfee1bac6d91d46d819be7b1d61d5152cb0a9d56301f58f9c"
+    },
+    {
+      "method": "learner",
+      "path": "outputs/checkpoints/curriculum_v1/learner/seed_5478/final.pt",
+      "seed": 5478,
+      "sha256": "a93d4a50d93174f5ad43bf75365f02273b2bf89fd2ffa90a8805cd74c1c60705"
+    },
+    {
+      "method": "learner",
+      "path": "outputs/checkpoints/curriculum_v1/learner/seed_5479/final.pt",
+      "seed": 5479,
+      "sha256": "87e8eb37c813f694adc3d2a9f4f8abcef23dced84c890084cdb617b3a52b53fa"
+    },
+    {
+      "method": "learner",
+      "path": "outputs/checkpoints/curriculum_v1/learner/seed_5480/final.pt",
+      "seed": 5480,
+      "sha256": "5a6b026f5b8faabb20df07b57d0c978744069939b8aafe6810cc100957ba31ec"
+    },
+    {
+      "method": "reverse_learner",
+      "path": "outputs/checkpoints/curriculum_v1/reverse_learner/seed_5478/final.pt",
+      "seed": 5478,
+      "sha256": "8d7c44ec0e5881326b9da6c3a12ea91a2ab6adaa0adfb31ef51cc70a458458ca"
+    },
+    {
+      "method": "reverse_learner",
+      "path": "outputs/checkpoints/curriculum_v1/reverse_learner/seed_5479/final.pt",
+      "seed": 5479,
+      "sha256": "3857b3a19b3b910f3a1bcd0ee58793d7e4d1228bb43eb99cf170cbc3e0c84210"
+    },
+    {
+      "method": "reverse_learner",
+      "path": "outputs/checkpoints/curriculum_v1/reverse_learner/seed_5480/final.pt",
+      "seed": 5480,
+      "sha256": "78ad1ed23f34d82d556b8ab3e38e51d6e83189b27a0f09e2536f35a354137448"
+    }
+  ],
+  "checkpoint_selection": "final.pt at optimizer update 20,600",
+  "dataset_fingerprint": "1b6cec9dda067778630268c307241c62cccbd49cfe849a031877ee00ea938bc0",
+  "date_completed_utc": "2026-10-08T12:40:51.807698+00:00",
+  "methods": [
+    "uniform",
+    "task",
+    "expert",
+    "learner",
+    "reverse_learner"
+  ],
+  "rollout_horizon": 400,
+  "seeds": [
+    5478,
+    5479,
+    5480
+  ],
+  "smoke": false,
+  "splits": [
+    "final_id",
+    "precision_ood",
+    "spatial_ood"
+  ],
+  "version": 1,
+  "workers": 4
+}
